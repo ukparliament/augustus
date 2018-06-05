@@ -1,0 +1,28 @@
+{
+  "name": "augustus",
+  "version": "0.1.0",
+  "description": "A proposed front-end prototype for beta.parliament.uk",
+  "main": "app.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/mocha/bin/mocha ./tests/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ukparliament/augustus.git"
+  },
+  "author": "Allan Wazacz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ukparliament/augustus/issues"
+  },
+  "homepage": "https://github.com/ukparliament/augustus#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nock": "^9.3.0"
+  },
+  "dependencies": {
+    "i18n": "^0.8.3",
+    "shunter": "^4.11.3"
+  }
+}
