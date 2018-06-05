@@ -39,7 +39,6 @@ If you wish to submit a bug fix or feature, you can create a pull request and it
 1. Ensure your changes are tested using [Mocha][mocha]
 1. Create a new Pull Request
 
-
 ## License
 [Augustus][augustus] is licensed under the [MIT][info-license].
 
