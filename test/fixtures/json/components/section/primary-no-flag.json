@@ -1,0 +1,14 @@
+{
+    "name": "section__primary",
+    "data": {
+        "components": [
+          {
+              "name": "heading",
+              "data": {
+                  "content": ["search.results-heading"],
+                  "size": 1
+              }
+          }
+        ]
+    }
+}

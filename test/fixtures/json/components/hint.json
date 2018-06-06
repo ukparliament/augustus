@@ -1,0 +1,14 @@
+{
+  "name": "hint",
+  "data": {
+    "display": {
+      "data": [
+        {
+        "component": "theme",
+        "variant": "grey-4",
+        "content": "pdf"
+      }
+    ]
+    }
+  }
+}
