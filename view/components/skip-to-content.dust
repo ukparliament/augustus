@@ -1,1 +1,1 @@
-<h1>{@t key="{data}" /}</h1>
+<a class="skip-to-content" href="#content" id="skiplink">{@t key="{data}" /}</a>

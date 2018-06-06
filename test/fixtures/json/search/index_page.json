@@ -6,7 +6,7 @@
     "headerComponents": [
         {
             "name": "skip-to-content",
-            "data": "farewell.formal.informal"
+            "data": "skip-to-content.skip-to-content"
         }
       ]
 }

@@ -3,5 +3,11 @@
 		"formal": {
 			"informal": "Poop"
 		}
+	},
+	"cookieBanner": {
+		"parliamentUsesCookies": "Parliament.uk uses cookies to make the site simpler."
+	},
+	"skip-to-content": {
+		"skip-to-content": "Skip to main content"
 	}
 }

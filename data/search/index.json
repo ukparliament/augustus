@@ -1,0 +1,58 @@
+{
+    "layout": {
+        "template": "layout"
+    },
+    "title": "Search - UK Parliament",
+    "headerComponents": [
+        {
+            "name": "skip-to-content",
+            "data": "skip-to-content.skip-to-content"
+        },
+        {
+            "name": "cookie-banner",
+            "data": "cookie-banner"
+        },
+        {
+            "name": "status-banner",
+            "data": "status-banner"
+        },
+        {
+            "name": "header",
+            "data": {
+                "components": [
+                    {
+                        "name": "header-component",
+                        "data": "header-component"
+                    }
+                ]
+            }
+        }
+    ],
+    "mainComponents": [
+        {
+            "name": "section__primary",
+            "data": {
+                "content-flag": "true",
+                "components": [
+                  {
+                      "name": "heading",
+                      "data": {
+                          "heading": ["search.heading"],
+                          "size": 2
+                      }
+                  },
+                  {
+                      "name": "form__search",
+                      "data": "form__search"
+                  }
+                ]
+            }
+        }
+    ],
+    "footerComponents": [
+        {
+            "name": "footer",
+            "data": "footer"
+        }
+    ]
+}
