@@ -1,0 +1,7 @@
+<div class="section--primary" {?data.content-flag} id="content" {/data.content-flag}>
+  <div class="container">
+    {#data.components}
+      {>"components__{name}" name=name data=data/}
+    {/data.components}
+  </div>
+</div>

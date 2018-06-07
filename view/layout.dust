@@ -12,6 +12,11 @@
       {#headerComponents}
         {>"components__{name}" name=name data=data/}
       {/headerComponents}
+    <main>
+        {#mainComponents}
+          {>"components__{name}" name=name data=data/}
+        {/mainComponents}
+    </main>
       <script src="https://static.parliament.uk/pugin/1.9.3/javascripts/main.js"></script>
   </body>
 </html>

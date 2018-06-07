@@ -37,5 +37,26 @@
                 ]
             }
         }
+      ],
+      "mainComponents": [
+          {
+              "name": "section__primary",
+              "data": {
+                  "content-flag": "true",
+                  "components": [
+                    {
+                        "name": "heading",
+                        "data": {
+                            "heading": ["search.heading"],
+                            "size": 1
+                        }
+                    },
+                    {
+                        "name": "form__search",
+                        "data": "form__search"
+                    }
+                  ]
+              }
+          }
       ]
 }

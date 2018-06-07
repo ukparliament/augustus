@@ -17,6 +17,11 @@
 	"header-component": {
 		"uk-parliament": "UK Parliament"
 	},
+	"search": {
+		"heading": "Search",
+		"key-word": "Enter a keyword",
+		"search-icon": "Search icon"
+	},
 	"beta": "beta",
 	"These pages are being tested.": "These pages are being tested.",
 	"Give feedback": "Give feedback",
