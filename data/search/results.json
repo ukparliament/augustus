@@ -3,18 +3,28 @@
         "template": "layout"
     },
     "title": "Search - UK Parliament",
-    "header-components": [
+    "headerComponents": [
         {
             "name": "skip-to-content",
-            "data": "skip-to-content"
+            "data": "skip-to-content.skip-to-content"
         },
         {
             "name": "cookie-banner",
-            "data": "cookie-banner"
+            "data": {
+              "parliament-uses-cookies": "cookie-banner.parliament-uses-cookies",
+              "find-out-more": "cookie-banner.find-out-more"
+            }
         },
         {
             "name": "status-banner",
-            "data": "status-banner"
+            "data": {
+          		"beta": "status-banner.beta",
+          		"pages-tested": "status-banner.pages-tested",
+          		"give-feedback": "status-banner.give-feedback",
+          		"improve-them": "status-banner.improve-them",
+          		"go-to": "status-banner.go-to",
+          		"current-website": "status-banner.current-website"
+          	}
         },
         {
             "name": "header",
@@ -22,13 +32,13 @@
                 "components": [
                     {
                         "name": "header-component",
-                        "data": "header-component"
+                        "data": "header-component.uk-parliament"
                     }
                 ]
             }
         }
     ],
-    "main-components": [
+    "mainComponents": [
         {
             "name": "section__primary",
             "data": {
@@ -48,7 +58,7 @@
             }
         },
         {
-            "name": "section",
+            "name": "section__section",
             "data": {
                 "content-flag": "true",
                 "components": [
@@ -74,7 +84,32 @@
                         "name": "list__block",
                         "data": {
                             "type": "ol",
+                            "css-class": "--block",
                             "components": [
+                                {
+                                    "name": "card__search-result",
+                                    "data": {
+                                        "heading-text": "Result 1",
+                                        "url": "some-url",
+                                        "list-hint": {
+                                            "type": "theme--grey-4",
+                                            "text": "pdf"
+                                        },
+                                        "paragraph-text": "Some text"
+                                    }
+                                },
+                                {
+                                    "name": "card__search-result",
+                                    "data": {
+                                        "heading-text": "Result 1",
+                                        "url": "some-url",
+                                        "list-hint": {
+                                            "type": "theme--grey-4",
+                                            "text": "pdf"
+                                        },
+                                        "paragraph-text": "Some text"
+                                    }
+                                },
                                 {
                                     "name": "card__search-result",
                                     "data": {
@@ -94,7 +129,7 @@
             }
         },
         {
-            "name": "section",
+            "name": "section__section",
             "data": {
                 "components": [
                     {
@@ -127,7 +162,7 @@
             }
         }
     ],
-    "footer-components": [
+    "footerComponents": [
         {
             "name": "footer",
             "data": "footer"

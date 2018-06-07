@@ -27,5 +27,11 @@
 		"current-website": "Current Parliament.uk website",
 		"cookie-policy": "Cookie Policy",
 		"data-protection-privacy": "Data protection and privacy policy"
-	}
+	},
+	"status-highlight": {
+		"new-search": "You are using our new search. We ",
+		"switch-off": "switched off the old search",
+		"date": " on 19 January 2018."
+	},
+	"About 658 results": "About 658 results"
 }
