@@ -4,8 +4,9 @@
 			"informal": "Poop"
 		}
 	},
-	"cookieBanner": {
-		"parliamentUsesCookies": "Parliament.uk uses cookies to make the site simpler."
+	"cookie-banner": {
+		"parliament-uses-cookies": "Parliament.uk uses cookies to make the site simpler.",
+		"find-out-more": "Find out more about cookies"
 	},
 	"skip-to-content": {
 		"skip-to-content": "Skip to main content"

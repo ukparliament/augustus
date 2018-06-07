@@ -10,7 +10,10 @@
         },
         {
             "name": "cookie-banner",
-            "data": "cookie-banner"
+            "data": {
+              "text1": "cookie-banner.parliament-uses-cookies",
+              "text2": "cookie-banner.find-out-more"
+            }
         },
         {
             "name": "status-banner",
