@@ -1,9 +1,4 @@
 {
-	"farewell": {
-		"formal": {
-			"informal": "Poop"
-		}
-	},
 	"skip-to-content": {
 		"skip-to-content": "Skip to main content"
 	},
@@ -19,11 +14,13 @@
 		"go-to": "Go to",
 		"current-website": "current website"
 	},
+	"header-component": {
+		"uk-parliament": "UK Parliament"
+	},
 	"beta": "beta",
 	"These pages are being tested.": "These pages are being tested.",
 	"Give feedback": "Give feedback",
 	"to help improve them.": "to help improve them.",
 	"Go to": "Go to",
-	"current website": "current website",
-	"": ""
+	"current website": "current website"
 }

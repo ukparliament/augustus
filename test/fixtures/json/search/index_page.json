@@ -25,6 +25,17 @@
               "go-to": "Go to",
               "current-website": "current website"
             }
+        },
+        {
+            "name": "header",
+            "data": {
+                "components": [
+                    {
+                        "name": "header-component",
+                        "data": "header-component.uk-parliament"
+                    }
+                ]
+            }
         }
       ]
 }

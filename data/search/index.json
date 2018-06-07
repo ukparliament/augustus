@@ -18,12 +18,12 @@
         {
             "name": "status-banner",
             "data": {
-          		"beta": "beta",
-          		"pages-tested": "These pages are being tested.",
-          		"give-feedback": "Give feedback",
-          		"improve-them": "to help improve them.",
-          		"go-to": "Go to",
-          		"current-website": "current website"
+          		"beta": "status-banner.beta",
+          		"pages-tested": "status-banner.pages-tested",
+          		"give-feedback": "status-banner.give-feedback",
+          		"improve-them": "status-banner.improve-them",
+          		"go-to": "status-banner.go-to",
+          		"current-website": "status-banner.current-website"
           	}
         },
         {
@@ -32,7 +32,7 @@
                 "components": [
                     {
                         "name": "header-component",
-                        "data": "header-component"
+                        "data": "header-component.uk-parliament"
                     }
                 ]
             }
