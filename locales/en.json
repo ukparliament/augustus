@@ -22,10 +22,10 @@
 		"key-word": "Enter a keyword",
 		"search-icon": "Search icon"
 	},
-	"beta": "beta",
-	"These pages are being tested.": "These pages are being tested.",
-	"Give feedback": "Give feedback",
-	"to help improve them.": "to help improve them.",
-	"Go to": "Go to",
-	"current website": "current website"
+	"footer": {
+		"uk-parliament": "UK Parliament",
+		"current-website": "Current Parliament.uk website",
+		"cookie-policy": "Cookie Policy",
+		"data-protection-privacy": "Data protection and privacy policy"
+	}
 }
