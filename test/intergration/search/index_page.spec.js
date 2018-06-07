@@ -12,7 +12,7 @@ describe('Search index page', function(){
 
   after(shunterTestHelper.teardown);
 
-  it('should render content flag and cookie-banner', function(done){
+  it('should render content for seacrh index page', function(done){
     const jsonFixture = fixtureHelper.getJSONFixture('index_page');
 
     shunterTestHelper.render('layout', jsonFixture, function(error, dom, output){

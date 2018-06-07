@@ -1,0 +1,16 @@
+<div class="status--banner__beta">
+  <div class="container">
+    <span class="hint">{@t key="{data.beta}" /}</span>
+    <ul class="list--inline">
+      <li>
+        {@t key="{data.pages-tested}" /}
+        <a href="http://www.smartsurvey.co.uk/s/ukparliament-beta-website-feedback/"> {@t key="{data.give-feedback}" /} </a>
+        {@t key="{data.improve-them}" /}
+      </li>
+      <li>
+        {@t key="{data.go-to}" /}
+        <a href="http://www.parliament.uk"> {@t key="{data.current-website}" /}</a>
+      </li>
+    </ul>
+  </div>
+</div>

@@ -4,11 +4,26 @@
 			"informal": "Poop"
 		}
 	},
+	"skip-to-content": {
+		"skip-to-content": "Skip to main content"
+	},
 	"cookie-banner": {
 		"parliament-uses-cookies": "Parliament.uk uses cookies to make the site simpler.",
 		"find-out-more": "Find out more about cookies"
 	},
-	"skip-to-content": {
-		"skip-to-content": "Skip to main content"
-	}
+	"status-banner": {
+		"beta": "beta",
+		"pages-tested": "These pages are being tested.",
+		"give-feedback": "Give feedback",
+		"improve-them": "to help improve them.",
+		"go-to": "Go to",
+		"current-website": "current website"
+	},
+	"beta": "beta",
+	"These pages are being tested.": "These pages are being tested.",
+	"Give feedback": "Give feedback",
+	"to help improve them.": "to help improve them.",
+	"Go to": "Go to",
+	"current website": "current website",
+	"": ""
 }
