@@ -3,10 +3,134 @@
         "template": "layout"
     },
     "title": "Search - UK Parliament",
-    "headerComponents": [
+    "header-components": [
         {
             "name": "skip-to-content",
-            "data": "skipToContent.skipToContent"
+            "data": "skip-to-content"
+        },
+        {
+            "name": "cookie-banner",
+            "data": "cookie-banner"
+        },
+        {
+            "name": "status-banner",
+            "data": "status-banner"
+        },
+        {
+            "name": "header",
+            "data": {
+                "components": [
+                    {
+                        "name": "header-component",
+                        "data": "header-component"
+                    }
+                ]
+            }
         }
-      ]
+    ],
+    "main-components": [
+        {
+            "name": "section__primary",
+            "data": {
+                "components": [
+                  {
+                      "name": "heading",
+                      "data": {
+                          "heading": ["search.heading"],
+                          "size": 1
+                      }
+                  },
+                  {
+                      "name": "form__search",
+                      "data": "form__search"
+                  }
+                ]
+            }
+        },
+        {
+            "name": "section",
+            "data": {
+                "content-flag": "true",
+                "components": [
+                    {
+                        "name": "heading",
+                        "data": {
+                            "heading": ["About 658 results"],
+                            "size": 2
+                        }
+                    },
+                    {
+                        "name": "status__highlight",
+                        "data": {
+                            "components": [
+                                {
+                                    "name": "paragraph",
+                                    "data": ["search.status.highlight"]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "list__block",
+                        "data": {
+                            "type": "ol",
+                            "components": [
+                                {
+                                    "name": "card__search-result",
+                                    "data": {
+                                        "heading-text": "Result 1",
+                                        "url": "some-url",
+                                        "list-hint": {
+                                            "type": "theme--grey-4",
+                                            "text": "pdf"
+                                        },
+                                        "paragraph-text": "Some text"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "section",
+            "data": {
+                "components": [
+                    {
+                        "name": "navigation__number",
+                        "data": {
+                            "active-tile": 2,
+                            "previous-url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=1",
+                            "next-url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
+                            "components": [
+                                {
+                                    "name": "list",
+                                    "data": {
+                                        "type": "ol",
+                                        "components": [
+                                            {
+                                                "name": "navigation__number-card",
+                                                "data": {
+                                                    "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
+                                                    "data-number": "1",
+                                                    "total-count": "77"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "footer-components": [
+        {
+            "name": "footer",
+            "data": "footer"
+        }
+    ]
 }
