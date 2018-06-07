@@ -1,0 +1,31 @@
+{
+	"skip-to-content": {
+		"skip-to-content": "Skip to main content"
+	},
+	"cookie-banner": {
+		"parliament-uses-cookies": "Parliament.uk uses cookies to make the site simpler.",
+		"find-out-more": "Find out more about cookies"
+	},
+	"status-banner": {
+		"beta": "beta",
+		"pages-tested": "These pages are being tested.",
+		"give-feedback": "Give feedback",
+		"improve-them": "to help improve them.",
+		"go-to": "Go to",
+		"current-website": "current website"
+	},
+	"header-component": {
+		"uk-parliament": "UK Parliament"
+	},
+	"search": {
+		"heading": "Search",
+		"key-word": "Enter a keyword",
+		"search-icon": "Search icon"
+	},
+	"footer": {
+		"uk-parliament": "UK Parliament",
+		"current-website": "Current Parliament.uk website",
+		"cookie-policy": "Cookie Policy",
+		"data-protection-privacy": "Data protection and privacy policy"
+	}
+}

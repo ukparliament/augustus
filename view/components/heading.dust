@@ -1,0 +1,3 @@
+{#data.heading}
+  <h{data.size}>{@t key="{.|s}" /}</h{data.size}>
+{/data.heading}

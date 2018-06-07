@@ -1,0 +1,12 @@
+{
+    "layout": {
+        "template": "layout"
+    },
+    "title": "Search - UK Parliament",
+    "headerComponents": [
+        {
+            "name": "skip-to-content",
+            "data": "skipToContent.skipToContent"
+        }
+      ]
+}

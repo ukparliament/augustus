@@ -1,0 +1,68 @@
+{
+    "layout": {
+        "template": "layout"
+    },
+    "title": "Search - UK Parliament",
+    "headerComponents": [
+        {
+            "name": "skip-to-content",
+            "data": "skip-to-content.skip-to-content"
+        },
+        {
+            "name": "cookie-banner",
+            "data": {
+              "parliament-uses-cookies": "cookie-banner.parliament-uses-cookies",
+              "find-out-more": "cookie-banner.find-out-more"
+            }
+        },
+        {
+            "name": "status-banner",
+            "data": {
+          		"beta": "status-banner.beta",
+          		"pages-tested": "status-banner.pages-tested",
+          		"give-feedback": "status-banner.give-feedback",
+          		"improve-them": "status-banner.improve-them",
+          		"go-to": "status-banner.go-to",
+          		"current-website": "status-banner.current-website"
+          	}
+        },
+        {
+            "name": "header",
+            "data": {
+                "components": [
+                    {
+                        "name": "header-component",
+                        "data": "header-component.uk-parliament"
+                    }
+                ]
+            }
+        }
+    ],
+    "mainComponents": [
+        {
+            "name": "section__primary",
+            "data": {
+                "content-flag": "true",
+                "components": [
+                  {
+                      "name": "heading",
+                      "data": {
+                          "heading": ["search.heading"],
+                          "size": 1
+                      }
+                  },
+                  {
+                      "name": "form__search",
+                      "data": "form__search"
+                  }
+                ]
+            }
+        }
+    ],
+    "footerComponents": [
+        {
+            "name": "footer",
+            "data": "footer"
+        }
+    ]
+}
