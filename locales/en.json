@@ -1,45 +1,39 @@
 {
-	"skip-to-content": {
-		"skip-to-content": "Skip to main content"
-	},
 	"cookie-banner": {
-		"parliament-uses-cookies": "Parliament.uk uses cookies to make the site simpler.",
-		"find-out-more": "Find out more about cookies"
+		"parliament-uses-cookies": "cookie-banner.parliament-uses-cookies",
+		"find-out-more": "cookie-banner.find-out-more"
 	},
 	"status-banner": {
-		"beta": "beta",
-		"pages-tested": "These pages are being tested.",
-		"give-feedback": "Give feedback",
-		"improve-them": "to help improve them.",
-		"go-to": "Go to",
-		"current-website": "current website"
-	},
-	"header-component": {
-		"uk-parliament": "UK Parliament"
+		"beta": "status-banner.beta",
+		"pages-tested": "status-banner.pages-tested",
+		"give-feedback": "status-banner.give-feedback",
+		"improve-them": "status-banner.improve-them",
+		"go-to": "status-banner.go-to",
+		"current-website": "status-banner.current-website"
 	},
 	"search": {
-		"heading": "Search",
-		"key-word": "Enter a keyword",
-		"search-icon": "Search icon",
-		"results-heading": "Search results for"
-	},
-	"footer": {
-		"uk-parliament": "UK Parliament",
-		"current-website": "Current Parliament.uk website",
-		"cookie-policy": "Cookie Policy",
-		"data-protection-privacy": "Data protection and privacy policy"
+		"key-word": "search.key-word",
+		"search-icon": "search.search-icon"
 	},
 	"status-highlight": {
-		"new-search": "You are using our new search. We ",
-		"switch-off": "switched off the old search",
-		"date": " on 19 January 2018."
+		"new-search": "status-highlight.new-search",
+		"switch-off": "status-highlight.switch-off",
+		"date": "status-highlight.date"
 	},
 	"number-navigation": {
-		"previous": "Previous",
-		"next": "Next",
-		"page": "Page "
+		"previous": "number-navigation.previous",
+		"page": "number-navigation.page",
+		"next": "number-navigation.next"
 	},
-	"About 658 results": "About 658 results",
 	" of 77": " of 77",
-	"of 77": "of 77"
+	"of 77": "of 77",
+	"footer": {
+		"uk-parliament": "footer.uk-parliament",
+		"current-website": "footer.current-website",
+		"cookie-policy": "footer.cookie-policy",
+		"data-protection-privacy": "footer.data-protection-privacy"
+	},
+	"skip-to-content": {
+		"skip-to-content": "skip-to-content.skip-to-content"
+	}
 }
