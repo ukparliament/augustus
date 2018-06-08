@@ -1,6 +1,7 @@
 module.exports = {
     i18n: {
         directory: __dirname + '/locales',
-        objectNotation: true
+        objectNotation: true,
+        updateFiles: false,
     }
 }

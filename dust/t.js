@@ -10,6 +10,9 @@ function initHelper(dust, renderer, config) {
 	dust.helpers.t = function (chunk, ctx, bodies, params) {
 		var key = dust.helpers.tap(params.key, chunk, ctx)
 
-		return chunk.write(i18n.__(key))
+		var data = dust.helpers.tap(params.data, chunk, ctx)
+		data = data ? data : {};
+
+		return chunk.write(i18n.__(key, data))
 	};
 }

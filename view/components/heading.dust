@@ -1,7 +1,7 @@
 <h{data.size}>
-  {?translation}
-    {@t key="{key}" data=data /}
-  {/translation}
+  {?data.translation}
+    {@t key="{data.translation.key}" data=data.translation.data /}
+  {/data.translation}
   {#data.heading}
     <span>{.|s}</span>
   {/data.heading}

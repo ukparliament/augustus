@@ -67,6 +67,12 @@
                     {
                         "name": "heading",
                         "data": {
+                            "translation": {
+                              "key": "search.about-count",
+                              "data": {
+                                "count": "850"
+                              }
+                            },
                             "heading": ["About 658 results"],
                             "size": 2
                         }
