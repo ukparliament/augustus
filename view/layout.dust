@@ -20,7 +20,7 @@
     <footer>
       {#footerComponents}
         {>"components__{name}" name=name data=data/}
-      {/footerComponents}  
+      {/footerComponents}
     </footer>
       <script src="https://static.parliament.uk/pugin/1.9.3/javascripts/main.js"></script>
   </body>

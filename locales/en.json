@@ -20,7 +20,8 @@
 	"search": {
 		"heading": "Search",
 		"key-word": "Enter a keyword",
-		"search-icon": "Search icon"
+		"search-icon": "Search icon",
+		"results-heading": "Search results for"
 	},
 	"footer": {
 		"uk-parliament": "UK Parliament",
@@ -33,5 +34,12 @@
 		"switch-off": "switched off the old search",
 		"date": " on 19 January 2018."
 	},
-	"About 658 results": "About 658 results"
+	"number-navigation": {
+		"previous": "Previous",
+		"next": "Next",
+		"page": "Page "
+	},
+	"About 658 results": "About 658 results",
+	" of 77": " of 77",
+	"of 77": "of 77"
 }

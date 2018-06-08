@@ -4,8 +4,8 @@
       <a href={data.url}>{data.heading-text}</a>
     </h2>
       <ul class="list--inline">
-      {?data.list-hint} <li class="hint {data.list-hint.type}">{data.list-hint.text}</li> {/data.list-hint}
-      <li class="url">{data.url}</li>
+      {?data.list-hint.type} <li class="hint {data.list-hint.type}">{data.list-hint.text}</li> {/data.list-hint.type}
+      <li class="url">{data.list-hint.url}</li>
       </ul>
     <p>{data.paragraph-text}</p>
   </div>

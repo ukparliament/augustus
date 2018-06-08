@@ -2,7 +2,7 @@
     "layout": {
         "template": "layout"
     },
-    "title": "Search - UK Parliament",
+    "title": "banana - Search - UK Parliament",
     "headerComponents": [
         {
             "name": "skip-to-content",
@@ -46,13 +46,15 @@
                   {
                       "name": "heading",
                       "data": {
-                          "heading": ["search.heading"],
+                          "heading": ["search.results-heading"],
                           "size": 1
                       }
                   },
                   {
                       "name": "form__search",
-                      "data": "form__search"
+                      "data": {
+                        "value": "banana"
+                      }
                   }
                 ]
             }
@@ -93,7 +95,8 @@
                                         "url": "some-url",
                                         "list-hint": {
                                             "type": "theme--grey-4",
-                                            "text": "pdf"
+                                            "text": "pdf",
+                                            "url": "some shorter url"
                                         },
                                         "paragraph-text": "Some text"
                                     }
@@ -101,11 +104,12 @@
                                 {
                                     "name": "card__search-result",
                                     "data": {
-                                        "heading-text": "Result 1",
+                                        "heading-text": "Result 2",
                                         "url": "some-url",
                                         "list-hint": {
                                             "type": "theme--grey-4",
-                                            "text": "pdf"
+                                            "text": "pdf",
+                                            "url": "some shorter url"
                                         },
                                         "paragraph-text": "Some text"
                                     }
@@ -113,11 +117,10 @@
                                 {
                                     "name": "card__search-result",
                                     "data": {
-                                        "heading-text": "Result 1",
+                                        "heading-text": "Result 3",
                                         "url": "some-url",
                                         "list-hint": {
-                                            "type": "theme--grey-4",
-                                            "text": "pdf"
+                                            "url": "some shorter url"
                                         },
                                         "paragraph-text": "Some text"
                                     }
@@ -135,26 +138,83 @@
                     {
                         "name": "navigation__number",
                         "data": {
-                            "active-tile": 2,
+                            "active-tile": "2",
                             "previous-url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=1",
                             "next-url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
                             "components": [
-                                {
-                                    "name": "list",
-                                    "data": {
-                                        "type": "ol",
-                                        "components": [
-                                            {
-                                                "name": "navigation__number-card",
-                                                "data": {
-                                                    "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
-                                                    "data-number": "1",
-                                                    "total-count": "77"
-                                                }
-                                            }
-                                        ]
-                                    }
-                                }
+                              {
+                                  "name": "navigation__number-card",
+                                  "data": {
+                                      "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
+                                      "data-number": "1",
+                                      "total-count": " of 77"
+                                  }
+                              },
+                              {
+                                  "name": "navigation__number-card",
+                                  "data": {
+                                    "active": "true",
+                                      "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
+                                      "data-number": "2",
+                                      "total-count": "of 77"
+                                  }
+                              },
+                              {
+                                  "name": "navigation__number-card",
+                                  "data": {
+                                      "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
+                                      "data-number": "3",
+                                      "total-count": "of 77"
+                                  }
+                              },
+                              {
+                                  "name": "navigation__number-card",
+                                  "data": {
+                                      "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
+                                      "data-number": "4",
+                                      "total-count": "of 77"
+                                  }
+                              },
+                              {
+                                  "name": "navigation__number-card",
+                                  "data": {
+                                      "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
+                                      "data-number": "4",
+                                      "total-count": "of 77"
+                                  }
+                              },
+                              {
+                                  "name": "navigation__number-card",
+                                  "data": {
+                                      "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
+                                      "data-number": "4",
+                                      "total-count": "of 77"
+                                  }
+                              },
+                              {
+                                  "name": "navigation__number-card",
+                                  "data": {
+                                      "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
+                                      "data-number": "4",
+                                      "total-count": "of 77"
+                                  }
+                              },
+                              {
+                                  "name": "navigation__number-card",
+                                  "data": {
+                                      "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
+                                      "data-number": "4",
+                                      "total-count": "of 77"
+                                  }
+                              },
+                              {
+                                  "name": "navigation__number-card",
+                                  "data": {
+                                      "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
+                                      "data-number": "4",
+                                      "total-count": "of 77"
+                                  }
+                              }
                             ]
                         }
                     }

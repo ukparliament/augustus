@@ -1,7 +1,7 @@
 <form>
   <div class="input-group">
     <label class="sr-only" for="search_box">{@t key="search.key-word" /}</label>
-    <input id="search_box" maxlength="1000" name="q" pattern="^(?!.*<script|<Script).*$" required="" type="search">
+    <input id="search_box" maxlength="1000" name="q" pattern="^(?!.*<script|<Script).*$" required="" type="search" {?data.value}value="{data.value}"{/data.value}>
     <button aria-label="submit search" class="btn--white" data-tracking="search" type="submit">
     <svg aria-hidden="true" data-icon="search" height="20" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
       <title>{@t key="search.search-icon" /}</title>
