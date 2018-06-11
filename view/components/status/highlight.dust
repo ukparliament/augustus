@@ -1,5 +1,5 @@
 <div class="status--highlight">
   <p>
-    {@t key="status-highlight.new-search" /}<a data-tracking="appInsights" data-type="switchingOffOldSearchBlog" href="https://pds.blog.parliament.uk/2018/01/15/switching-off-our-old-search-service/">{@t key="status-highlight.switch-off" /}</a>{@t key="status-highlight.date" /}
+    {@t key="status-highlight.new-search" /}<a href="https://pds.blog.parliament.uk/2018/01/15/switching-off-our-old-search-service/">{@t key="status-highlight.switch-off" /}</a>{@t key="status-highlight.date" /}
   </p>
 </div>

@@ -3,6 +3,6 @@
     {@t key="{data.translation.key}" data=data.translation.data /}
   {/data.translation}
   {#data.heading}
-    <span>{.|s}</span>
+    {@t key="{.|s}" /}
   {/data.heading}
 </h{data.size}>

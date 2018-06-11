@@ -9,18 +9,18 @@
       <link href="http://beta.parliament.uk/search/opensearch" rel="search" title="UK Parliament" type="application/opensearchdescription+xml">
   </head>
   <body>
-      {#headerComponents}
+      {#header-components}
         {>"components__{name}" name=name data=data/}
-      {/headerComponents}
+      {/header-components}
     <main>
-        {#mainComponents}
+        {#main-components}
           {>"components__{name}" name=name data=data/}
-        {/mainComponents}
+        {/main-components}
     </main>
     <footer>
-      {#footerComponents}
+      {#footer-components}
         {>"components__{name}" name=name data=data/}
-      {/footerComponents}
+      {/footer-components}
     </footer>
       <script src="https://static.parliament.uk/pugin/1.9.3/javascripts/main.js"></script>
   </body>

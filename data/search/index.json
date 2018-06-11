@@ -3,7 +3,7 @@
         "template": "layout"
     },
     "title": "Search - UK Parliament",
-    "headerComponents": [
+    "header-components": [
         {
             "name": "skip-to-content",
             "data": "skip-to-content.skip-to-content"
@@ -38,7 +38,7 @@
             }
         }
     ],
-    "mainComponents": [
+    "main-components": [
         {
             "name": "section__primary",
             "data": {
@@ -59,7 +59,7 @@
             }
         }
     ],
-    "footerComponents": [
+    "footer-components": [
         {
             "name": "footer",
             "data": "footer"
