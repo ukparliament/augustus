@@ -1,5 +1,5 @@
 <div class="status--banner theme--caution cookie" id="cookie">
   <div class="container">
-    <p>{@t key="{data.text-link}" /}</p>
+    <p>{@t key="{data.text|s}" data=data /}</p>
   </div>
 </div>

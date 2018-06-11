@@ -17,7 +17,8 @@ describe('Search results page', function(){
 
     shunterTestHelper.render('layout', jsonFixture, function(error, dom, output){
       const expectedHTML = fixtureHelper.getHTMLFixture('results_page');
-
+      console.log(b(expectedHTML))
+console.log(b(output))
       assert.strictEqual(b(expectedHTML), b(output));
 
       done();
