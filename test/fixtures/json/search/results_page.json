@@ -100,7 +100,7 @@
                         }
                     },
                     {
-                        "name": "list__block",
+                        "name": "list__generic",
                         "data": {
                             "type": "ol",
                             "css-class": "--block",
@@ -246,7 +246,7 @@
               "uk-parliament": "footer.uk-parliament",
               "components": [
                 {
-                  "name": "list__block",
+                  "name": "list__generic",
                   "data": {
                     "type": "ul",
                     "css-class": " ",

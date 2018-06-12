@@ -11,8 +11,8 @@
         {
             "name": "cookie-banner",
             "data": {
-              "parliament-uses-cookies": "cookie-banner.parliament-uses-cookies",
-              "find-out-more": "cookie-banner.find-out-more"
+              "text": "cookie-banner.text",
+              "link": "/meta/cookie-policy"
             }
         },
         {
@@ -20,9 +20,6 @@
             "data": {
           		"beta": "status-banner.beta",
           		"pages-tested": "status-banner.pages-tested",
-          		"give-feedback": "status-banner.give-feedback",
-          		"improve-them": "status-banner.improve-them",
-          		"go-to": "status-banner.go-to",
           		"current-website": "status-banner.current-website"
           	}
         },
@@ -31,8 +28,16 @@
             "data": {
                 "components": [
                     {
-                        "name": "header-component",
-                        "data": "header-component.uk-parliament"
+                      "name": "header-component",
+                      "data": {
+                        "uk-parliament": "header-component.uk-parliament",
+                        "components": [
+                            {
+                              "name": "icon__uk-parliament",
+                              "data": "header-component.uk-parliament"
+                            }
+                        ]
+                      }
                     }
                 ]
             }
@@ -53,7 +58,15 @@
                   },
                   {
                       "name": "form__search",
-                      "data": "form__search"
+                      "data": {
+                        "key-word": "search.key-word",
+                        "components": [
+                          {
+                            "name": "icon__search",
+                            "data": "search.search-icon"
+                          }
+                        ]
+                      }
                   }
                 ]
             }
@@ -62,7 +75,32 @@
     "footer-components": [
         {
             "name": "footer",
-            "data": "footer"
+            "data": {
+              "uk-parliament": "footer.uk-parliament",
+              "components": [
+                {
+                  "name": "list__generic",
+                  "data": {
+                    "type": "ul",
+                    "css-class": " ",
+                    "contents": [
+                      {
+                        "text": "footer.current-website"
+                        },
+                      {
+                        "text": "footer.cookie-policy",
+                        "data": {
+                          "link": "/meta/cookie-policy"
+                        }
+                      },
+                      {
+                        "text":"footer.data-protection-privacy"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
         }
     ]
 }
