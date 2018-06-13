@@ -1,0 +1,21 @@
+{
+  "name": "list__generic",
+  "data": {
+    "type": "ul",
+    "css-class": " ",
+    "contents": [
+      {
+        "text": "footer.current-website"
+        },
+      {
+        "text": "footer.cookie-policy",
+        "data": {
+          "link": "/meta/cookie-policy"
+        }
+      },
+      {
+        "text":"footer.data-protection-privacy"
+      }
+    ]
+  }
+}

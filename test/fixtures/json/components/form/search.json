@@ -1,0 +1,13 @@
+{
+    "name": "form__search",
+    "data": {
+      "value": "banana",
+      "key-word": "search.key-word",
+      "components": [
+        {
+          "name": "icon__search",
+          "data": "search.search-icon"
+        }
+      ]
+    }
+}

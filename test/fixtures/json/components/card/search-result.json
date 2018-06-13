@@ -1,0 +1,13 @@
+{
+    "name": "card__search-result",
+    "data": {
+        "heading-text": "Result 1",
+        "url": "some-url",
+        "list-hint": {
+            "type": "theme--grey-4",
+            "text": "pdf",
+            "url": "some shorter url"
+        },
+        "paragraph-text": "Some text"
+    }
+}
