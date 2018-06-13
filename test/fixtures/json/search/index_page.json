@@ -13,36 +13,52 @@
             "text": "skip-to-content.skip-to-content"
           }
       },
-        {
-            "name": "cookie-banner",
-            "data": {
-              "text": "cookie-banner.text",
-              "link": "/meta/cookie-policy"
-            }
-        },
-        {
-            "name": "status-banner",
-            "data": {
-              "beta": "status-banner.beta",
-              "components": [
-                {
-                  "name": "list__generic",
-                  "data": {
-                    "type": "ul",
-                    "css-class": "--inline",
-                    "contents": [
-                      {
-                        "text": "status-banner.pages-tested"
-                        },
-                        {
-                          "text": "status-banner.current-website"
-                        }
-                    ]
+      {
+          "name": "status__banner",
+          "data": {
+            "display": " theme--caution cookie",
+            "id": "cookie",
+            "components": [
+              {
+                "name": "paragraph",
+                "data": [
+                  {
+                    "text": "cookie-banner.text",
+                    "data": {
+                      "link": "/meta/cookie-policy"
+                      }
                   }
+                ]
+              }
+            ]
+          }
+      },
+      {
+          "name": "status__banner",
+          "data": {
+            "display": "__beta",
+            "span": "true",
+            "span-display": "hint",
+            "span-text": "status-banner.beta",
+            "components": [
+              {
+                "name": "list__generic",
+                "data": {
+                  "type": "ul",
+                  "css-class": "--inline",
+                  "contents": [
+                    {
+                      "text": "status-banner.pages-tested"
+                      },
+                      {
+                        "text": "status-banner.current-website"
+                      }
+                  ]
                 }
-              ]
-          	}
-        },
+              }
+            ]
+          }
+      },
         {
             "name": "header",
             "data": {

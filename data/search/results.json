@@ -14,16 +14,32 @@
             }
         },
         {
-            "name": "cookie-banner",
+            "name": "status__banner",
             "data": {
-              "text": "cookie-banner.text",
-              "link": "/meta/cookie-policy"
+              "display": " theme--caution cookie",
+              "id": "cookie",
+              "components": [
+                {
+                  "name": "paragraph",
+                  "data": [
+                    {
+                      "text": "cookie-banner.text",
+                      "data": {
+                        "link": "/meta/cookie-policy"
+                        }
+                    }
+                  ]
+                }
+              ]
             }
         },
         {
-            "name": "status-banner",
+            "name": "status__banner",
             "data": {
-              "beta": "status-banner.beta",
+              "display": "__beta",
+              "span": "true",
+              "span-display": "hint",
+              "span-text": "status-banner.beta",
               "components": [
                 {
                   "name": "list__generic",
@@ -116,7 +132,11 @@
                             "components": [
                                 {
                                     "name": "paragraph",
-                                    "data": ["status-highlight.new-search"]
+                                    "data": [
+                                      {
+                                        "text":"status-highlight.new-search"
+                                        }
+                                    ]
                                 }
                             ]
                         }

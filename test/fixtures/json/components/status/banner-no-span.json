@@ -1,7 +1,7 @@
 {
-    "name": "status-banner",
+    "name": "status__banner",
     "data": {
-      "beta": "status-banner.beta",
+      "display": "__beta",
       "components": [
         {
           "name": "list__generic",

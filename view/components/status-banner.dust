@@ -1,8 +1,0 @@
-<div class="status--banner__beta">
-  <div class="container">
-    <span class="hint">{@t key="{data.beta}" /}</span>
-    {#data.components}
-        {>"components__{.name}" name=name data=data/}
-    {/data.components}
-  </div>
-</div>
