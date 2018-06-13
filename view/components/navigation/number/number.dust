@@ -1,0 +1,13 @@
+<nav aria-label="Pagination" class="navigation--number" data-active-tile="{data.active-tile}">
+  {?data.previous-url}
+    <a class="navigation-control" href="{data.previous-url}">{@t key="number-navigation.previous" /}</a>
+  {/data.previous-url}
+  <ol>
+    {#data.components}
+        {>"components__{.name}" name=name data=data/}
+    {/data.components}
+  </ol>
+  {?data.next-url}
+    <a class="navigation-control" href="{data.next-url}">{@t key="number-navigation.next" /}</a>
+  {/data.next-url}
+</nav>

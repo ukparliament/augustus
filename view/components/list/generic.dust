@@ -1,0 +1,18 @@
+<{data.type}{?data.css-class} class="list{data.css-class}"{/data.css-class}>
+  {?data.components}
+    {#data.components}
+      <li>
+        {>"components__{.name}" name=name data=data/}
+      </li>
+    {/data.components}
+  {/data.components}
+  
+  {?data.contents}
+    {#data.contents}
+      <li>
+        {@t key="{text|s}" data=data /}
+      </li>
+    {/data.contents}
+  {/data.contents}
+
+</{data.type}>

@@ -2,26 +2,26 @@
 <html lang="en">
   <head>
       <title>{title}</title>
-      <link href="https://static.parliament.uk/pugin/1.9.3/stylesheets/main.css" rel="stylesheet">
+      <link href="https://static.parliament.uk/pugin/1.9.4/stylesheets/main.css" rel="stylesheet">
       <meta content="width=device-width, initial-scale=1.0" name="viewport">
       <meta content="IE=edge" http-equiv="X-UA-Compatible">
       <link href="https://s3-eu-west-1.amazonaws.com/web1live.static-assets/favicon.ico" rel="shortcut icon" type="image/x-icon">
       <link href="http://beta.parliament.uk/search/opensearch" rel="search" title="UK Parliament" type="application/opensearchdescription+xml">
   </head>
   <body>
-      {#headerComponents}
+      {#header-components}
         {>"components__{name}" name=name data=data/}
-      {/headerComponents}
+      {/header-components}
     <main>
-        {#mainComponents}
+        {#main-components}
           {>"components__{name}" name=name data=data/}
-        {/mainComponents}
+        {/main-components}
     </main>
     <footer>
-      {#footerComponents}
+      {#footer-components}
         {>"components__{name}" name=name data=data/}
-      {/footerComponents}  
+      {/footer-components}
     </footer>
-      <script src="https://static.parliament.uk/pugin/1.9.3/javascripts/main.js"></script>
+      <script src="https://static.parliament.uk/pugin/1.9.4/javascripts/main.js"></script>
   </body>
 </html>

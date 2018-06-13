@@ -1,0 +1,12 @@
+{
+  "name": "header-component",
+  "data": {
+    "uk-parliament": "header-component.uk-parliament",
+    "components": [
+        {
+          "name": "icon__uk-parliament",
+          "data": "header-component.uk-parliament"
+        }
+    ]
+  }
+}

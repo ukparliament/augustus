@@ -3,16 +3,12 @@
 		"skip-to-content": "Skip to main content"
 	},
 	"cookie-banner": {
-		"parliament-uses-cookies": "Parliament.uk uses cookies to make the site simpler.",
-		"find-out-more": "Find out more about cookies"
+		"text": "Parliament.uk uses cookies to make the site simpler. <a href='{{link}}'>Find out more about cookies</a>"
 	},
 	"status-banner": {
 		"beta": "beta",
-		"pages-tested": "These pages are being tested.",
-		"give-feedback": "Give feedback",
-		"improve-them": "to help improve them.",
-		"go-to": "Go to",
-		"current-website": "current website"
+		"pages-tested": "These pages are being tested. <a href='http://www.smartsurvey.co.uk/s/ukparliament-beta-website-feedback/'>Give feedback</a> to help improve them.",
+		"current-website": "Go to <a href='http://www.parliament.uk'>current website</a>"
 	},
 	"header-component": {
 		"uk-parliament": "UK Parliament"
@@ -20,12 +16,22 @@
 	"search": {
 		"heading": "Search",
 		"key-word": "Enter a keyword",
-		"search-icon": "Search icon"
+		"search-icon": "Search icon",
+		"results-heading": "Search results for",
+		"about-count": "<span>About {{count}} results</span>"
 	},
 	"footer": {
 		"uk-parliament": "UK Parliament",
-		"current-website": "Current Parliament.uk website",
-		"cookie-policy": "Cookie Policy",
-		"data-protection-privacy": "Data protection and privacy policy"
+		"current-website": "<a href='http://www.parliament.uk'>Current Parliament.uk website</a>",
+		"cookie-policy": "<a href='{{link}}'>Cookie Policy</a>",
+		"data-protection-privacy": "<a href='https://www.parliament.uk/site-information/data-protection/data-protection-and-privacy-policy/'>Data protection and privacy policy</a>"
+	},
+	"status-highlight": {
+		"new-search": "You are using our new search. We <a href='https://pds.blog.parliament.uk/2018/01/15/switching-off-our-old-search-service/'>switched off the old search</a> on 19 January 2018."
+	},
+	"number-navigation": {
+		"previous": "Previous",
+		"next": "Next",
+		"page": "Page "
 	}
 }

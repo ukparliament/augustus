@@ -1,0 +1,5 @@
+<div class="status--highlight">
+  {#data.components}
+      {>"components__{.name}" name=name data=data/}
+  {/data.components}
+</div>

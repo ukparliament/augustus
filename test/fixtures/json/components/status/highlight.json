@@ -1,0 +1,11 @@
+{
+    "name": "status__highlight",
+    "data": {
+        "components": [
+            {
+                "name": "paragraph",
+                "data": ["status-highlight.new-search"]
+            }
+        ]
+    }
+}

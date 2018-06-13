@@ -4,14 +4,30 @@ const callsites = require('callsites');
 function jsonFixturePath(path) {
     var split_path = path.split('/');
     split_path.splice(-1, 1);
-    split_path[split_path.length - 2] = 'fixtures/json';
+    if (split_path.indexOf('intergration') > -1) {
+      var index = split_path.indexOf('intergration');
+        split_path[index] = 'fixtures/json';
+    } else {
+      var index = split_path.indexOf('unit');
+      if (index !== -1) {
+        split_path[index] = 'fixtures/json';
+      }
+    }
     return split_path.join('/');
 }
 
 function htmlFixturePath(path) {
     var split_path = path.split('/');
     split_path.splice(-1, 1);
-    split_path[split_path.length - 2] = 'fixtures/html';
+    if (split_path.indexOf('intergration') > -1) {
+      var index = split_path.indexOf('intergration');
+      split_path[index] = 'fixtures/html';
+    } else {
+      var index = split_path.indexOf('unit');
+      if (index !== -1) {
+        split_path[index] = 'fixtures/html';
+      }
+    }
     return split_path.join('/');
 }
 

@@ -1,0 +1,19 @@
+{
+    "name": "section__section",
+    "data": {
+        "components": [
+            {
+                "name": "heading",
+                "data": {
+                    "translation": {
+                      "key": "search.about-count",
+                      "data": {
+                        "count": "850"
+                      }
+                    },
+                    "size": 2
+                }
+            }
+        ]
+    }
+}

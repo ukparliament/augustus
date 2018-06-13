@@ -1,5 +1,5 @@
 <div class="status--banner theme--caution cookie" id="cookie">
   <div class="container">
-    <p>{@t key="{data.parliament-uses-cookies}" /}<a href="/meta/cookie-policy">{@t key="{data.find-out-more}" /}</a></p>
+    <p>{@t key="{data.text|s}" data=data /}</p>
   </div>
 </div>
