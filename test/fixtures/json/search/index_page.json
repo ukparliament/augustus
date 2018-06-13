@@ -18,10 +18,25 @@
         {
             "name": "status-banner",
             "data": {
-          		"beta": "status-banner.beta",
-          		"pages-tested": "status-banner.pages-tested",
-          		"current-website": "status-banner.current-website"
-          	}
+              "beta": "status-banner.beta",
+              "components": [
+                {
+                  "name": "list__generic",
+                  "data": {
+                    "type": "ul",
+                    "css-class": "--inline",
+                    "contents": [
+                      {
+                        "text": "status-banner.pages-tested"
+                        },
+                        {
+                          "text": "status-banner.current-website"
+                        }
+                    ]
+                  }
+                }
+              ]
+            }
         },
         {
             "name": "header",
