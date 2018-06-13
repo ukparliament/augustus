@@ -1,0 +1,8 @@
+<a href="{data.link}" {?data.lable}aria-label="{@t key="{data.lable}" /}"{/data.lable} {?data.css-class}class="{data.css-class}"{/data.css-class} {?data.id}id="{data.id}"{/data.id}>
+  {?data.components}
+    {#data.components}
+        {>"components__{.name}" name=name data=data/}
+    {/data.components}
+  {/data.components}
+  {@t key="{data.text}" /}
+</a>
