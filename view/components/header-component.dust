@@ -1,5 +1,0 @@
-<a aria-label="{@t key="{data.uk-parliament}" /}" class="uk_parliament" href="/">
-  {#data.components}
-      {>"components__{.name}" name=name data=data/}
-  {/data.components}
-</a>

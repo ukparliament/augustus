@@ -1,8 +1,0 @@
-{
-    "name": "status-banner",
-    "data": {
-      "beta": "status-banner.beta",
-      "pages-tested": "status-banner.pages-tested",
-      "current-website": "status-banner.current-website"
-    }
-}

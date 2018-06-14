@@ -1,0 +1,23 @@
+{
+    "name": "status__banner",
+    "data": {
+      "display": "__beta",
+      "components": [
+        {
+          "name": "list__generic",
+          "data": {
+            "type": "ul",
+            "css-class": "--inline",
+            "contents": [
+              {
+                "text": "status-banner.pages-tested"
+                },
+                {
+                  "text": "status-banner.current-website"
+                }
+            ]
+          }
+        }
+      ]
+    }
+}

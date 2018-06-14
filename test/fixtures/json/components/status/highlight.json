@@ -4,7 +4,11 @@
         "components": [
             {
                 "name": "paragraph",
-                "data": ["status-highlight.new-search"]
+                "data": [
+                  {
+                    "text":"status-highlight.new-search"
+                    }
+                ]
             }
         ]
     }

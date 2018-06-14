@@ -1,0 +1,10 @@
+<div class="status--banner{data.display}" {?data.id}id="{data.id}"{/data.id}>
+  <div class="container">
+    {?data.span}
+      <span class="{data.span-display}">{@t key="{data.span-text}" /}</span>
+    {/data.span}
+    {#data.components}
+        {>"components__{.name}" name=name data=data/}
+    {/data.components}
+  </div>
+</div>

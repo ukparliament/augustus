@@ -5,22 +5,58 @@
     "title": "banana - Search - UK Parliament",
     "header-components": [
         {
-            "name": "skip-to-content",
-            "data": "skip-to-content.skip-to-content"
-        },
-        {
-            "name": "cookie-banner",
+            "name": "link",
             "data": {
-              "text": "cookie-banner.text",
-              "link": "/meta/cookie-policy"
+              "link": "#content",
+              "css-class": "skip-to-content",
+              "id": "skiplink",
+              "text": "skip-to-content.skip-to-content"
             }
         },
         {
-            "name": "status-banner",
+            "name": "status__banner",
             "data": {
-          		"beta": "status-banner.beta",
-          		"pages-tested": "status-banner.pages-tested",
-          		"current-website": "status-banner.current-website"
+              "display": " theme--caution cookie",
+              "id": "cookie",
+              "components": [
+                {
+                  "name": "paragraph",
+                  "data": [
+                    {
+                      "text": "cookie-banner.text",
+                      "data": {
+                        "link": "/meta/cookie-policy"
+                        }
+                    }
+                  ]
+                }
+              ]
+            }
+        },
+        {
+            "name": "status__banner",
+            "data": {
+              "display": "__beta",
+              "span": "true",
+              "span-display": "hint",
+              "span-text": "status-banner.beta",
+              "components": [
+                {
+                  "name": "list__generic",
+                  "data": {
+                    "type": "ul",
+                    "css-class": "--inline",
+                    "contents": [
+                      {
+                        "text": "status-banner.pages-tested"
+                        },
+                        {
+                          "text": "status-banner.current-website"
+                        }
+                    ]
+                  }
+                }
+              ]
           	}
         },
         {
@@ -28,13 +64,15 @@
             "data": {
                 "components": [
                     {
-                      "name": "header-component",
+                      "name": "link",
                       "data": {
-                        "uk-parliament": "header-component.uk-parliament",
+                        "link": "/",
+                        "css-class": "uk_parliament",
+                        "lable": "header-component.lable",
                         "components": [
                             {
                               "name": "icon__uk-parliament",
-                              "data": "header-component.uk-parliament"
+                              "data": "header-component.lable"
                             }
                         ]
                       }
@@ -94,7 +132,11 @@
                             "components": [
                                 {
                                     "name": "paragraph",
-                                    "data": ["status-highlight.new-search"]
+                                    "data": [
+                                      {
+                                        "text":"status-highlight.new-search"
+                                        }
+                                    ]
                                 }
                             ]
                         }
