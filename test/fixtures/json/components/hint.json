@@ -1,0 +1,16 @@
+{
+    "name": "card__search-result",
+    "data": {
+        "heading-text": "Result 1",
+        "url": "some-url",
+        "hints": {
+            "name": "hint",
+            "data": {
+              "component": "hint",
+              "variant": "theme",
+              "modifier": "grey-4",
+              "content": "pdf"
+            }
+        }
+    }
+}

@@ -2,7 +2,7 @@
     "name": "form__search",
     "data": {
       "value": "banana",
-      "key-word": "search.key-word",
+      "lable": "search.key-word",
       "components": [
         {
           "name": "icon__search",

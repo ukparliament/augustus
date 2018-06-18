@@ -1,0 +1,13 @@
+{?data.hints.data.component}
+  "{data.hints.data.component}
+{/data.hints.data.component}
+{?data.hints.data.variant}
+  {~s}{data.hints.data.variant}
+{/data.hints.data.variant}
+{?data.hints.data.modifier}
+  --{data.hints.data.modifier}
+{/data.hints.data.modifier}
+">
+{?data.hints.data.content}
+  {data.hints.data.content}
+{/data.hints.data.content}

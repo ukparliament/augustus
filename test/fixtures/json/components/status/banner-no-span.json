@@ -1,19 +1,34 @@
 {
     "name": "status__banner",
     "data": {
-      "display": "__beta",
+      "display": {
+          "data": [
+          {
+            "component": "status",
+            "variant": "banner",
+            "modifier": "beta"
+          }
+          ]
+        },
       "components": [
         {
           "name": "list__generic",
           "data": {
             "type": "ul",
-            "css-class": "--inline",
+            "display": {
+                "data": [
+                {
+                  "component": "list",
+                  "variant": "inline"
+                }
+                ]
+              },
             "contents": [
               {
-                "text": "status-banner.pages-tested"
+                "content": "status-banner.pages-tested"
                 },
                 {
-                  "text": "status-banner.current-website"
+                  "content": "status-banner.current-website"
                 }
             ]
           }

@@ -3,11 +3,16 @@
     "data": {
         "heading-text": "Result 1",
         "url": "some-url",
-        "list-hint": {
-            "type": "theme--grey-4",
-            "text": "pdf",
-            "url": "some shorter url"
+        "hints": {
+            "name": "hint",
+            "data": {
+              "component": "hint",
+              "variant": "theme",
+              "modifier": "grey-4",
+              "content": "pdf"
+            }
         },
-        "paragraph-text": "Some text"
+        "short-url": "some shorter url",
+        "paragraph-content": "Some text"
     }
 }

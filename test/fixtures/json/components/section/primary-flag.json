@@ -6,14 +6,14 @@
           {
               "name": "heading",
               "data": {
-                  "heading": ["search.heading"],
+                  "content": ["search.heading"],
                   "size": 1
               }
           },
           {
               "name": "form__search",
               "data": {
-                "key-word": "search.key-word",
+                "lable": "search.key-word",
                 "components": [
                   {
                     "name": "icon__search",
