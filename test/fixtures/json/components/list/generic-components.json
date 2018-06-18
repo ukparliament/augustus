@@ -2,21 +2,33 @@
     "name": "list__generic",
     "data": {
         "type": "ol",
-        "css-class": "--block",
+        "display": {
+            "data": [
+              {
+                "component": "list",
+                "variant": "block"
+              }
+            ]
+          },
         "components": [
-            {
-                "name": "card__search-result",
-                "data": {
-                    "heading-text": "Result 1",
-                    "url": "some-url",
-                    "list-hint": {
-                        "type": "theme--grey-4",
-                        "text": "pdf",
-                        "url": "some shorter url"
-                    },
-                    "paragraph-text": "Some text"
-                }
-            }
+          {
+              "name": "card__search-result",
+              "data": {
+                  "heading-text": "Result 1",
+                  "url": "some-url",
+                  "hints": {
+                      "name": "hint",
+                      "data": {
+                        "component": "hint",
+                        "variant": "theme",
+                        "modifier": "grey-4",
+                        "content": "pdf"
+                      }
+                  },
+                  "short-url": "some shorter url",
+                  "paragraph-content": "Some text"
+              }
+          }
         ]
     }
 }

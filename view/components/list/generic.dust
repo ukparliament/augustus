@@ -1,4 +1,8 @@
-<{data.type}{?data.css-class} class="list{data.css-class}"{/data.css-class}>
+<{data.type}
+{?data.display}{~s}
+  {>"components__display" data=.data /}
+{/data.display}
+>
   {?data.components}
     {#data.components}
       <li>
@@ -6,11 +10,11 @@
       </li>
     {/data.components}
   {/data.components}
-  
+
   {?data.contents}
     {#data.contents}
       <li>
-        {@t key="{text|s}" data=data /}
+        {@t key="{content|s}" data=data /}
       </li>
     {/data.contents}
   {/data.contents}

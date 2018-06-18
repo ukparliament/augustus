@@ -7,19 +7,25 @@
           "name": "list__generic",
           "data": {
             "type": "ul",
-            "css-class": " ",
+            "display": {
+              "data": [
+                {
+                  "component": "list"
+                }
+              ]
+              },
             "contents": [
               {
-                "text": "footer.current-website"
+                "content": "footer.current-website"
                 },
               {
-                "text": "footer.cookie-policy",
+                "content": "footer.cookie-policy",
                 "data": {
                   "link": "/meta/cookie-policy"
                 }
               },
               {
-                "text":"footer.data-protection-privacy"
+                "content":"footer.data-protection-privacy"
               }
             ]
           }

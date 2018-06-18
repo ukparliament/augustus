@@ -2,7 +2,7 @@
   {?data.translation}
     {@t key="{data.translation.key}" data=data.translation.data /}
   {/data.translation}
-  {#data.heading}
+  {#data.content}
     {@t key="{.|s}" /}
-  {/data.heading}
+  {/data.content}
 </h{data.size}>

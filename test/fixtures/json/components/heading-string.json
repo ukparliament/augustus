@@ -1,7 +1,7 @@
 {
     "name": "heading",
     "data": {
-        "heading": ["search.results-heading"],
+        "content": ["search.results-heading"],
         "size": 1
     }
 }

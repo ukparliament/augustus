@@ -8,22 +8,42 @@
             "name": "link",
             "data": {
               "link": "#content",
-              "css-class": "skip-to-content",
-              "id": "skiplink",
-              "text": "skip-to-content.skip-to-content"
+              "display": {
+                  "data": [
+                  {
+                    "component": "skip-to-content"
+                  }
+                  ]
+                },
+              "selector": "skiplink",
+              "content": "skip-to-content.skip-to-content"
             }
         },
         {
             "name": "status__banner",
             "data": {
-              "display": " theme--caution cookie",
-              "id": "cookie",
+              "display": {
+                  "data": [
+                  {
+                    "component": "status",
+                    "variant": "banner"
+                  },
+                  {
+                    "component": "theme",
+                    "variant": "caution"
+                  },
+                  {
+                    "component": "cookie"
+                  }
+                  ]
+                },
+              "selector": "cookie",
               "components": [
                 {
                   "name": "paragraph",
                   "data": [
                     {
-                      "text": "cookie-banner.text",
+                      "content": "cookie-banner.text",
                       "data": {
                         "link": "/meta/cookie-policy"
                         }
@@ -36,22 +56,47 @@
         {
             "name": "status__banner",
             "data": {
-              "display": "__beta",
-              "span": "true",
-              "span-display": "hint",
-              "span-text": "status-banner.beta",
+              "display": {
+                  "data": [
+                  {
+                    "component": "status",
+                    "variant": "banner",
+                    "modifier": "beta"
+                  }
+                  ]
+                },
               "components": [
+                {
+                  "name": "span",
+                  "data": {
+                    "display": {
+                      "data": [
+                      {
+                        "component": "hint"
+                      }
+                    ]
+                  },
+                  "content": "status-banner.beta"
+                  }
+                },
                 {
                   "name": "list__generic",
                   "data": {
                     "type": "ul",
-                    "css-class": "--inline",
+                    "display": {
+                        "data": [
+                        {
+                          "component": "list",
+                          "variant": "inline"
+                        }
+                        ]
+                      },
                     "contents": [
                       {
-                        "text": "status-banner.pages-tested"
+                        "content": "status-banner.pages-tested"
                         },
                         {
-                          "text": "status-banner.current-website"
+                          "content": "status-banner.current-website"
                         }
                     ]
                   }
@@ -67,7 +112,13 @@
                       "name": "link",
                       "data": {
                         "link": "/",
-                        "css-class": "uk_parliament",
+                        "display": {
+                            "data": [
+                            {
+                              "component": "uk_parliament"
+                            }
+                            ]
+                          },
                         "lable": "header-component.lable",
                         "components": [
                             {
@@ -89,7 +140,7 @@
                   {
                       "name": "heading",
                       "data": {
-                          "heading": ["search.results-heading"],
+                          "content": ["search.results-heading"],
                           "size": 1
                       }
                   },
@@ -97,7 +148,7 @@
                       "name": "form__search",
                       "data": {
                         "value": "banana",
-                        "key-word": "search.key-word",
+                        "lable": "search.key-word",
                         "components": [
                           {
                             "name": "icon__search",
@@ -112,7 +163,7 @@
         {
             "name": "section__section",
             "data": {
-                "content-flag": "true",
+                "content-flag": true,
                 "components": [
                     {
                         "name": "heading",
@@ -134,7 +185,7 @@
                                     "name": "paragraph",
                                     "data": [
                                       {
-                                        "text":"status-highlight.new-search"
+                                        "content":"status-highlight.new-search"
                                         }
                                     ]
                                 }
@@ -145,19 +196,31 @@
                         "name": "list__generic",
                         "data": {
                             "type": "ol",
-                            "css-class": "--block",
+                            "display": {
+                                "data": [
+                                  {
+                                    "component": "list",
+                                    "variant": "block"
+                                  }
+                                ]
+                              },
                             "components": [
                                 {
                                     "name": "card__search-result",
                                     "data": {
                                         "heading-text": "Result 1",
                                         "url": "some-url",
-                                        "list-hint": {
-                                            "type": "theme--grey-4",
-                                            "text": "pdf",
-                                            "url": "some shorter url"
+                                        "hints": {
+                                            "name": "hint",
+                                            "data": {
+                                              "component": "hint",
+                                              "variant": "theme",
+                                              "modifier": "grey-4",
+                                              "content": "pdf"
+                                            }
                                         },
-                                        "paragraph-text": "Some text"
+                                        "short-url": "some shorter url",
+                                        "paragraph-content": "Some text"
                                     }
                                 },
                                 {
@@ -165,12 +228,17 @@
                                     "data": {
                                         "heading-text": "Result 2",
                                         "url": "some-url",
-                                        "list-hint": {
-                                            "type": "theme--grey-4",
-                                            "text": "pdf",
-                                            "url": "some shorter url"
+                                        "hints": {
+                                            "name": "hint",
+                                            "data": {
+                                              "component": "hint",
+                                              "variant": "theme",
+                                              "modifier": "grey-4",
+                                              "content": "pdf"
+                                            }
                                         },
-                                        "paragraph-text": "Some text"
+                                        "short-url": "some shorter url",
+                                        "paragraph-content": "Some text"
                                     }
                                 },
                                 {
@@ -178,10 +246,17 @@
                                     "data": {
                                         "heading-text": "Result 3",
                                         "url": "some-url",
-                                        "list-hint": {
-                                            "url": "some shorter url"
+                                        "hints": {
+                                            "name": "hint",
+                                            "data": {
+                                              "component": "hint",
+                                              "variant": "theme",
+                                              "modifier": "grey-4",
+                                              "content": "pdf"
+                                            }
                                         },
-                                        "paragraph-text": "Some text"
+                                        "short-url": "some shorter url",
+                                        "paragraph-content": "Some text"
                                     }
                                 }
                             ]
@@ -205,16 +280,16 @@
                                   "name": "navigation__number__card",
                                   "data": {
                                       "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
-                                      "data-number": "1",
+                                      "number": "1",
                                       "total-count": " of 77"
                                   }
                               },
                               {
                                   "name": "navigation__number__card",
                                   "data": {
-                                    "active": "true",
+                                    "active": true,
                                       "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
-                                      "data-number": "2",
+                                      "number": "2",
                                       "total-count": "of 77"
                                   }
                               },
@@ -222,7 +297,7 @@
                                   "name": "navigation__number__card",
                                   "data": {
                                       "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
-                                      "data-number": "3",
+                                      "number": "3",
                                       "total-count": "of 77"
                                   }
                               },
@@ -230,7 +305,7 @@
                                   "name": "navigation__number__card",
                                   "data": {
                                       "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
-                                      "data-number": "4",
+                                      "number": "4",
                                       "total-count": "of 77"
                                   }
                               },
@@ -238,7 +313,7 @@
                                   "name": "navigation__number__card",
                                   "data": {
                                       "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
-                                      "data-number": "4",
+                                      "number": "4",
                                       "total-count": "of 77"
                                   }
                               },
@@ -246,7 +321,7 @@
                                   "name": "navigation__number__card",
                                   "data": {
                                       "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
-                                      "data-number": "4",
+                                      "number": "4",
                                       "total-count": "of 77"
                                   }
                               },
@@ -254,7 +329,7 @@
                                   "name": "navigation__number__card",
                                   "data": {
                                       "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
-                                      "data-number": "4",
+                                      "number": "4",
                                       "total-count": "of 77"
                                   }
                               },
@@ -262,7 +337,7 @@
                                   "name": "navigation__number__card",
                                   "data": {
                                       "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
-                                      "data-number": "4",
+                                      "number": "4",
                                       "total-count": "of 77"
                                   }
                               },
@@ -270,7 +345,7 @@
                                   "name": "navigation__number__card",
                                   "data": {
                                       "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
-                                      "data-number": "4",
+                                      "number": "4",
                                       "total-count": "of 77"
                                   }
                               }
@@ -291,19 +366,25 @@
                   "name": "list__generic",
                   "data": {
                     "type": "ul",
-                    "css-class": " ",
+                    "display": {
+                      "data": [
+                        {
+                          "component": "list"
+                        }
+                      ]
+                      },
                     "contents": [
                       {
-                        "text": "footer.current-website"
+                        "content": "footer.current-website"
                         },
                       {
-                        "text": "footer.cookie-policy",
+                        "content": "footer.cookie-policy",
                         "data": {
                           "link": "/meta/cookie-policy"
                         }
                       },
                       {
-                        "text":"footer.data-protection-privacy"
+                        "content":"footer.data-protection-privacy"
                       }
                     ]
                   }

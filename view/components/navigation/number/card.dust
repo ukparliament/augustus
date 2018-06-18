@@ -1,8 +1,8 @@
-<li {?data.active}class="active"{/data.active} data-number="{data.data-number}">
+<li {?data.active}class="active"{/data.active} data-number="{data.number}">
   {^data.active}<a href="{data.url}">{/data.active}
     <span>
       <span>{@t key="number-navigation.page" /}</span>
-      <span class="count">{data.data-number}</span>
+      <span class="count">{data.number}</span>
       <span>{@t key="{data.total-count}" /}</span>
     </span>
   {^data.active}</a>{/data.active}

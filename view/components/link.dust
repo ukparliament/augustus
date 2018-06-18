@@ -1,8 +1,14 @@
-<a href="{data.link}" {?data.lable}aria-label="{@t key="{data.lable}" /}"{/data.lable} {?data.css-class}class="{data.css-class}"{/data.css-class} {?data.id}id="{data.id}"{/data.id}>
+<a href="{data.link}"
+  {?data.lable}aria-label="{@t key="{data.lable}" /}"{/data.lable}
+  {?data.display}
+    {>"components__display" data=data /}
+  {/data.display}
+  {?data.selector}id="{data.selector}"{/data.selector}
+  >
   {?data.components}
     {#data.components}
         {>"components__{.name}" name=name data=data/}
     {/data.components}
   {/data.components}
-  {@t key="{data.text}" /}
+  {@t key="{data.content}" /}
 </a>
