@@ -1,5 +1,5 @@
 <a href="{data.link}"
-  {?data.lable}aria-label="{@t key="{data.lable}" /}"{/data.lable}
+  {?data.label}aria-label="{@t key="{data.label}" /}"{/data.label}
   {?data.display}
     {>"components__display" data=data /}
   {/data.display}

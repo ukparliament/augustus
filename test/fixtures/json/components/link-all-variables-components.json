@@ -9,12 +9,12 @@
         }
         ]
       },
-    "lable": "header-component.lable",
+    "label": "header-component.label",
     "selector": "bob",
     "components": [
         {
           "name": "icon__uk-parliament",
-          "data": "header-component.lable"
+          "data": "header-component.label"
         }
     ]
   }
