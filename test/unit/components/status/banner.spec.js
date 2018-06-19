@@ -13,10 +13,10 @@ describe('Status Banner dust component', function() {
   after(shunterTestHelper.teardown);
 
   it('when given a span, should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('banner-span');
+    const jsonFixture = fixtureHelper.getFixture('banner-span', 'json');
 
     shunterTestHelper.render('components__status__banner', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('banner-span');
+      const expectedHTML = fixtureHelper.getFixture('banner-span', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 
@@ -25,10 +25,10 @@ describe('Status Banner dust component', function() {
   });
 
   it('when not given span, should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('banner-no-span');
+    const jsonFixture = fixtureHelper.getFixture('banner-no-span', 'json');
 
     shunterTestHelper.render('components__status__banner', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('banner-no-span');
+      const expectedHTML = fixtureHelper.getFixture('banner-no-span', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 

@@ -13,10 +13,10 @@ describe('Link dust component', function() {
   after(shunterTestHelper.teardown);
 
   it('when given all variables and components, should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('link-all-variables-components');
+    const jsonFixture = fixtureHelper.getFixture('link-all-variables-components', 'json');
 
     shunterTestHelper.render('components__link', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('link-all-variables-components');
+      const expectedHTML = fixtureHelper.getFixture('link-all-variables-components', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 
@@ -25,10 +25,10 @@ describe('Link dust component', function() {
   });
 
   it('when given all variables and text, should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('link-all-variables-text');
+    const jsonFixture = fixtureHelper.getFixture('link-all-variables-text', 'json');
 
     shunterTestHelper.render('components__link', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('link-all-variables-text');
+      const expectedHTML = fixtureHelper.getFixture('link-all-variables-text', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 
@@ -37,10 +37,10 @@ describe('Link dust component', function() {
   });
 
   it('when given only an href, should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('link-href');
+    const jsonFixture = fixtureHelper.getFixture('link-href', 'json');
 
     shunterTestHelper.render('components__link', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('link-href');
+      const expectedHTML = fixtureHelper.getFixture('link-href', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 
@@ -49,10 +49,10 @@ describe('Link dust component', function() {
   });
 
   it('when given an href and css class, should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('link-href-css-class');
+    const jsonFixture = fixtureHelper.getFixture('link-href-css-class', 'json');
 
     shunterTestHelper.render('components__link', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('link-href-css-class');
+      const expectedHTML = fixtureHelper.getFixture('link-href-css-class', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 
@@ -61,10 +61,10 @@ describe('Link dust component', function() {
   });
 
   it('when given an href, css class and a lable, should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('link-href-css-lable');
+    const jsonFixture = fixtureHelper.getFixture('link-href-css-lable', 'json');
 
     shunterTestHelper.render('components__link', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('link-href-css-lable');
+      const expectedHTML = fixtureHelper.getFixture('link-href-css-lable', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 

@@ -13,10 +13,10 @@ describe('Hint dust component', function() {
   after(shunterTestHelper.teardown);
 
   it('should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('hint');
+    const jsonFixture = fixtureHelper.getFixture('hint', 'json');
 
     shunterTestHelper.render('components__hint', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('hint');
+      const expectedHTML = fixtureHelper.getFixture('hint', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 

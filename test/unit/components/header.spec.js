@@ -13,10 +13,10 @@ describe('Header dust component', function() {
   after(shunterTestHelper.teardown);
 
   it('should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('header');
+    const jsonFixture = fixtureHelper.getFixture('header', 'json');
 
     shunterTestHelper.render('components__header', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('header');
+      const expectedHTML = fixtureHelper.getFixture('header', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 

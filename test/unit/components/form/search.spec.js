@@ -13,10 +13,10 @@ describe('Search form dust component', function() {
   after(shunterTestHelper.teardown);
 
   it('should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('search');
+    const jsonFixture = fixtureHelper.getFixture('search', 'json');
 
     shunterTestHelper.render('components__form__search', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('search');
+      const expectedHTML = fixtureHelper.getFixture('search', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 

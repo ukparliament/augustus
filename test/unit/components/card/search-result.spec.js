@@ -13,10 +13,10 @@ describe('Search result card dust component', function() {
   after(shunterTestHelper.teardown);
 
   it('should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('search-result');
+    const jsonFixture = fixtureHelper.getFixture('search-result', 'json');
 
     shunterTestHelper.render('components__card__search-result', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('search-result');
+      const expectedHTML = fixtureHelper.getFixture('search-result', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 

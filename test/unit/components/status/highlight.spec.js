@@ -13,10 +13,10 @@ describe('Status highlight dust component', function() {
   after(shunterTestHelper.teardown);
 
   it('should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('highlight');
+    const jsonFixture = fixtureHelper.getFixture('highlight', 'json');
 
     shunterTestHelper.render('components__status__highlight', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('highlight');
+      const expectedHTML = fixtureHelper.getFixture('highlight', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 

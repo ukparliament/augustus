@@ -13,10 +13,10 @@ describe('Number navigation dust component', function() {
   after(shunterTestHelper.teardown);
 
   it('should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('number');
+    const jsonFixture = fixtureHelper.getFixture('number', 'json');
 
     shunterTestHelper.render('components__navigation__number__number', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('number');
+      const expectedHTML = fixtureHelper.getFixture('number', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 

@@ -13,10 +13,10 @@ describe('Heading dust component', function() {
   after(shunterTestHelper.teardown);
 
   it('when given a translation, should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('heading-translation');
+    const jsonFixture = fixtureHelper.getFixture('heading-translation', 'json');
 
     shunterTestHelper.render('components__heading', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('heading-translation');
+      const expectedHTML = fixtureHelper.getFixture('heading-translation', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 
@@ -25,10 +25,10 @@ describe('Heading dust component', function() {
   });
 
   it('when given a string, should return html from the dust component', function(done){
-    const jsonFixture = fixtureHelper.getJSONFixture('heading-string');
+    const jsonFixture = fixtureHelper.getFixture('heading-string', 'json');
 
     shunterTestHelper.render('components__heading', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('heading-string');
+      const expectedHTML = fixtureHelper.getFixture('heading-string', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 

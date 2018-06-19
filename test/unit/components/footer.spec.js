@@ -13,10 +13,10 @@ describe('Footer dust component', function() {
   after(shunterTestHelper.teardown);
 
   it('should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('footer');
+    const jsonFixture = fixtureHelper.getFixture('footer', 'json');
 
     shunterTestHelper.render('components__footer', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('footer');
+      const expectedHTML = fixtureHelper.getFixture('footer', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 

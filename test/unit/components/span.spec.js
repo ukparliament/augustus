@@ -13,10 +13,10 @@ describe('Span dust component', function() {
   after(shunterTestHelper.teardown);
 
   it('should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('span');
+    const jsonFixture = fixtureHelper.getFixture('span', 'json');
 
     shunterTestHelper.render('components__span', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('span');
+      const expectedHTML = fixtureHelper.getFixture('span', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 

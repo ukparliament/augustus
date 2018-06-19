@@ -13,10 +13,10 @@ describe('Display dust component', function() {
   after(shunterTestHelper.teardown);
 
   it('should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('display');
+    const jsonFixture = fixtureHelper.getFixture('display', 'json');
 
     shunterTestHelper.render('components__display', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('display');
+      const expectedHTML = fixtureHelper.getFixture('display', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 

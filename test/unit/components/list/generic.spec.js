@@ -13,10 +13,10 @@ describe('Generic list dust component', function() {
   after(shunterTestHelper.teardown);
 
   it('when given components and a css class, should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('generic-components');
+    const jsonFixture = fixtureHelper.getFixture('generic-components', 'json');
 
     shunterTestHelper.render('components__list__generic', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('generic-components');
+      const expectedHTML = fixtureHelper.getFixture('generic-components', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 
@@ -25,10 +25,10 @@ describe('Generic list dust component', function() {
   });
 
   it('when given contents and a css class, should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('generic-contents');
+    const jsonFixture = fixtureHelper.getFixture('generic-contents', 'json');
 
     shunterTestHelper.render('components__list__generic', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('generic-contents');
+      const expectedHTML = fixtureHelper.getFixture('generic-contents', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 
@@ -37,10 +37,10 @@ describe('Generic list dust component', function() {
   });
 
   it('when not given a css class, should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('generic-no-css-class');
+    const jsonFixture = fixtureHelper.getFixture('generic-no-css-class', 'json');
 
     shunterTestHelper.render('components__list__generic', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('generic-no-css-class');
+      const expectedHTML = fixtureHelper.getFixture('generic-no-css-class', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 

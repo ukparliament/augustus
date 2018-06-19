@@ -13,10 +13,10 @@ describe('Number navigation card dust component', function() {
   after(shunterTestHelper.teardown);
 
   it('when give active class, should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('card-active');
+    const jsonFixture = fixtureHelper.getFixture('card-active', 'json');
 
     shunterTestHelper.render('components__navigation__number__card', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('card-active');
+      const expectedHTML = fixtureHelper.getFixture('card-active', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 
@@ -25,10 +25,10 @@ describe('Number navigation card dust component', function() {
   });
 
   it('when not given active class, should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('card-not-active');
+    const jsonFixture = fixtureHelper.getFixture('card-not-active', 'json');
 
     shunterTestHelper.render('components__navigation__number__card', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('card-not-active');
+      const expectedHTML = fixtureHelper.getFixture('card-not-active', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 

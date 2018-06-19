@@ -13,10 +13,10 @@ describe('UK Parliament icon dust component', function() {
   after(shunterTestHelper.teardown);
 
   it('should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('uk-parliament');
+    const jsonFixture = fixtureHelper.getFixture('uk-parliament', 'json');
 
     shunterTestHelper.render('components__icon__uk-parliament', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('uk-parliament');
+      const expectedHTML = fixtureHelper.getFixture('uk-parliament', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 

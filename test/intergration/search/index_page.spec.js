@@ -13,10 +13,10 @@ describe('Search index page', function(){
   after(shunterTestHelper.teardown);
 
   it('should render content for search index page', function(done){
-    const jsonFixture = fixtureHelper.getJSONFixture('index_page');
+    const jsonFixture = fixtureHelper.getFixture('index_page', 'json');
 
     shunterTestHelper.render('layout', jsonFixture, function(error, dom, output){
-      const expectedHTML = fixtureHelper.getHTMLFixture('index_page');
+      const expectedHTML = fixtureHelper.getFixture('index_page', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 

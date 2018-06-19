@@ -13,10 +13,10 @@ describe('Section Primary dust component', function() {
   after(shunterTestHelper.teardown);
 
   it('when given a content flag, should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('primary-flag');
+    const jsonFixture = fixtureHelper.getFixture('primary-flag', 'json');
 
     shunterTestHelper.render('components__section__primary', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('primary-flag');
+      const expectedHTML = fixtureHelper.getFixture('primary-flag', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 
@@ -25,10 +25,10 @@ describe('Section Primary dust component', function() {
   });
 
   it('when not given a content flag, should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('primary-no-flag');
+    const jsonFixture = fixtureHelper.getFixture('primary-no-flag', 'json');
 
     shunterTestHelper.render('components__section__primary', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('primary-no-flag');
+      const expectedHTML = fixtureHelper.getFixture('primary-no-flag', 'html');
 
       assert.strictEqual(b(expectedHTML), b(output));
 
