@@ -13,7 +13,7 @@
           {
               "name": "form__search",
               "data": {
-                "lable": "search.key-word",
+                "label": "search.key-word",
                 "components": [
                   {
                     "name": "icon__search",

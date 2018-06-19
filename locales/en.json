@@ -11,7 +11,7 @@
 		"current-website": "Go to <a href='http://www.parliament.uk'>current website</a>"
 	},
 	"header-component": {
-		"lable": "UK Parliament"
+		"label": "UK Parliament"
 	},
 	"search": {
 		"heading": "Search",

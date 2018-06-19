@@ -13,11 +13,11 @@
                     }
                     ]
                   },
-                "lable": "header-component.lable",
+                "label": "header-component.label",
                 "components": [
                     {
                       "name": "icon__uk-parliament",
-                      "data": "header-component.lable"
+                      "data": "header-component.label"
                     }
                 ]
               }
