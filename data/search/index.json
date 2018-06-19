@@ -16,7 +16,7 @@
                 ]
               },
             "selector": "skiplink",
-            "content": "skip-to-content.skip-to-content"
+            "content": "common.header.skip-to-content"
           }
       },
       {
@@ -43,7 +43,7 @@
                 "name": "paragraph",
                 "data": [
                   {
-                    "content": "cookie-banner.text",
+                    "content": "common.header.cookie-banner-text",
                     "data": {
                       "link": "/meta/cookie-policy"
                       }
@@ -76,7 +76,7 @@
                     }
                   ]
                 },
-                "content": "status-banner.beta"
+                "content": "common.header.beta"
                 }
               },
               {
@@ -93,10 +93,10 @@
                     },
                   "contents": [
                     {
-                      "content": "status-banner.pages-tested"
+                      "content": "common.header.pages-being-tested"
                       },
                       {
-                        "content": "status-banner.current-website"
+                        "content": "common.header.current-website"
                       }
                   ]
                 }
@@ -119,11 +119,11 @@
                           }
                           ]
                         },
-                      "label": "header-component.label",
+                      "label": "common.header.label",
                       "components": [
                           {
                             "name": "icon__uk-parliament",
-                            "data": "header-component.label"
+                            "data": "common.header.label"
                           }
                       ]
                     }
@@ -141,14 +141,14 @@
                   {
                       "name": "heading",
                       "data": {
-                          "content": ["search.heading"],
+                          "content": ["search.search-heading"],
                           "size": 1
                       }
                   },
                   {
                       "name": "form__search",
                       "data": {
-                        "label": "search.key-word",
+                        "label": "search.label",
                         "components": [
                           {
                             "name": "icon__search",
@@ -165,7 +165,7 @@
         {
             "name": "footer",
             "data": {
-              "uk-parliament": "footer.uk-parliament",
+              "uk-parliament": "common.footer.uk-parliament",
               "components": [
                 {
                   "name": "list__generic",
@@ -180,16 +180,16 @@
                       },
                     "contents": [
                       {
-                        "content": "footer.current-website"
+                        "content": "common.footer.current-website"
                         },
                       {
-                        "content": "footer.cookie-policy",
+                        "content": "common.footer.cookie-policy",
                         "data": {
                           "link": "/meta/cookie-policy"
                         }
                       },
                       {
-                        "content":"footer.data-protection-privacy"
+                        "content":"common.footer.data-protection-privacy"
                       }
                     ]
                   }
