@@ -9,7 +9,7 @@
         }
         ]
       },
-    "label": "header-component.label",
+    "label": "common.header.label",
     "selector": "Bob",
     "content": "Barb"
   }

@@ -6,7 +6,7 @@
                 "name": "heading",
                 "data": {
                     "translation": {
-                      "key": "search.about-count",
+                      "key": "search.count",
                       "data": {
                         "count": "850"
                       }
