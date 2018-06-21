@@ -2,7 +2,7 @@ const fs = require('fs');
 const callsites = require('callsites');
 /**
 * This funcation takes in the path of the test file and the suffix of the file type.
-* It then replaces either the intergration or unit part of the file path with fixtures/suffix.
+* It then replaces either the integration or unit part of the file path with fixtures/suffix.
 */
 function fixturePath(path, extension, fixtureLocation) {
   var split_path = path.split('/');
