@@ -1,7 +1,7 @@
-const assert = require('assert');
 const shunterTestHelper = require('shunter').testhelper();
 const fixtureHelper = require('./fixture-helper');
 const paths = require('./walk-helper');
+const expect = require('chai').expect
 
 const b = require('js-beautify').html;
 
@@ -22,7 +22,7 @@ const b = require('js-beautify').html;
       shunterTestHelper.render(fileRendered, jsonFixture, function(error, dom, output){
         const expectedHTML = fixtureHelper.getFixture(fixture, 'html', fixtureLocation);
 
-        assert.strictEqual(b(expectedHTML), b(output));
+        expect(b(expectedHTML)).to.equal(b(output))
 
         done();
       });
