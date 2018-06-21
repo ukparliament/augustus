@@ -2,11 +2,12 @@
 <html lang="en">
   <head>
       <title>{title}</title>
-      <link href="https://static.parliament.uk/pugin/1.9.4/stylesheets/main.css" rel="stylesheet">
+      <link href="https://static.parliament.uk/pugin/{pugin-version}/stylesheets/main.css" rel="stylesheet">
       <meta content="width=device-width, initial-scale=1.0" name="viewport">
       <meta content="IE=edge" http-equiv="X-UA-Compatible">
-      <link href="https://s3-eu-west-1.amazonaws.com/web1live.static-assets/favicon.ico" rel="shortcut icon" type="image/x-icon">
-      <link href="http://beta.parliament.uk/search/opensearch" rel="search" title="UK Parliament" type="application/opensearchdescription+xml">
+      <link href="{amazon-web-services}" rel="shortcut icon" type="image/x-icon">
+      <link href="{open-search}" rel="search" title="UK Parliament" type="application/opensearchdescription+xml">
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','#{ENV['GTM_KEY']}');</script>
   </head>
   <body>
       {#header-components}
@@ -22,6 +23,6 @@
         {>"components__{name}" name=name data=data/}
       {/footer-components}
     </footer>
-      <script src="https://static.parliament.uk/pugin/1.9.4/javascripts/main.js"></script>
+      <script src="https://static.parliament.uk/pugin/{pugin-version}/javascripts/main.js"></script>
   </body>
 </html>
