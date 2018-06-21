@@ -1,5 +1,6 @@
 // Require in Shunter
 const shunter = require('shunter');
+const config = require('./config')
 
 // Create a Shunter application, passing in options
 const app = shunter({
@@ -8,17 +9,7 @@ const app = shunter({
     path: {
         themes: __dirname
     },
-
-    // Configure the proxy route, this should point to
-    // where your back end application runs
-    routes: {
-      "localhost": {
-        "default": {
-          "host": "localhost",
-          "port": 5401
-        }
-      }
-    },
+    routes: config.routes,
     jsonViewParameter: 'json'
 });
 

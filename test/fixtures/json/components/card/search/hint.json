@@ -11,8 +11,6 @@
               "modifier": "grey-4",
               "content": "pdf"
             }
-        },
-        "short-url": "some shorter url",
-        "paragraph-content": "Some text"
+        }
     }
 }

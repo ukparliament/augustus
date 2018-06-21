@@ -1,39 +1,14 @@
-const assert = require('assert');
-const shunterTestHelper = require('shunter').testhelper();
-const fixtureHelper = require('../../../helpers/fixture-helper');
-const paths = require('../../../helpers/walk-helper');
-
-const b = require('js-beautify').html;
+const testHelper = require('../../../helpers/test-helper');
 
 describe('Section Primary dust component', function() {
-  before(function() {
-      shunterTestHelper.setup(paths);
-  });
-
-  after(shunterTestHelper.teardown);
+  testHelper.setupBefore()
 
   it('when given a content flag, should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('primary-flag');
-
-    shunterTestHelper.render('components__section__primary', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('primary-flag');
-
-      assert.strictEqual(b(expectedHTML), b(output));
-
-      done();
-    });
+    testHelper.shunterTest('primary-flag', 'components__section__primary', 'components/section', done)
   });
 
   it('when not given a content flag, should return html from the dust component', function(done) {
-    const jsonFixture = fixtureHelper.getJSONFixture('primary-no-flag');
-
-    shunterTestHelper.render('components__section__primary', jsonFixture, function(error, dom, output) {
-      const expectedHTML = fixtureHelper.getHTMLFixture('primary-no-flag');
-
-      assert.strictEqual(b(expectedHTML), b(output));
-
-      done();
-    });
+    testHelper.shunterTest('primary-no-flag', 'components__section__primary', 'components/section', done)
   });
 
 });

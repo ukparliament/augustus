@@ -6,7 +6,9 @@
       <ul class="list--inline">
       {! If Hints have been provided, insert them before our UL !}
       {?data.hints}
-       <li class={>"components__hint" data=data /}</li>
+        {#data.hints}
+          <li>{>"components__hint" data=data /}</li>
+        {/data.hints}
       {/data.hints}
       <li class="url">{data.short-url}</li>
       </ul>

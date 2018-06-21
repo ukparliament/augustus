@@ -1,7 +1,9 @@
+'use strict';
+
+const routes = require('./config/routes')
+const i18n = require('./config/i18n');
+
 module.exports = {
-    i18n: {
-        directory: __dirname + '/locales',
-        objectNotation: true,
-        updateFiles: false,
-    }
-}
+  i18n: i18n,
+  routes: routes
+};
