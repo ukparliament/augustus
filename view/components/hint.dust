@@ -1,13 +1,15 @@
-{?data.hints.data.component}
-  "{data.hints.data.component}
-{/data.hints.data.component}
-{?data.hints.data.variant}
-  {~s}{data.hints.data.variant}
-{/data.hints.data.variant}
-{?data.hints.data.modifier}
-  --{data.hints.data.modifier}
-{/data.hints.data.modifier}
+<span class="hint{~s}
+{#data.display.data}
+  {?component}
+    {component}
+  {/component}
+  {?variant}
+    --{variant}
+  {/variant}
+  {~s}
 ">
-{?data.hints.data.content}
-  {data.hints.data.content}
-{/data.hints.data.content}
+{?content}
+  {@t key="{content|s}" data=data /}
+{/content}
+{/data.display.data}
+</span>

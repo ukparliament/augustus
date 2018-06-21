@@ -4,7 +4,7 @@
     },
     "title": "Search - UK Parliament",
     "pugin-version": "1.9.4",
-    "amazon-web-services": "https://s3-eu-west-1.amazonaws.com/web1live.static-assets/favicon.ico",
+    "favicon": "https://s3-eu-west-1.amazonaws.com/web1live.static-assets/favicon.ico",
     "open-search": "http://beta.parliament.uk/search/opensearch",
     "header-components": [
       {
@@ -63,25 +63,11 @@
                 "data": [
                 {
                   "component": "status",
-                  "variant": "banner",
-                  "modifier": "beta"
+                  "variant": "banner"
                 }
                 ]
               },
             "components": [
-              {
-                "name": "span",
-                "data": {
-                  "display": {
-                    "data": [
-                    {
-                      "component": "hint"
-                    }
-                  ]
-                },
-                "content": "common.header.beta"
-                }
-              },
               {
                 "name": "list__generic",
                 "data": {

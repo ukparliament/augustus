@@ -1,0 +1,15 @@
+{#data.hints.data}
+  {?component}
+    "{component}
+  {/component}
+  {?variant}
+    {~s}{variant}
+  {/variant}
+  {?modifier}
+    --{modifier}
+  {/modifier}
+  ">
+  {?content}
+    {content}
+  {/content}
+{/data.hints.data}

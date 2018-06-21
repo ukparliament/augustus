@@ -4,7 +4,7 @@
     },
     "title": "banana - Search - UK Parliament",
     "pugin-version": "1.9.4",
-    "amazon-web-services": "https://s3-eu-west-1.amazonaws.com/web1live.static-assets/favicon.ico",
+    "favicon": "https://s3-eu-west-1.amazonaws.com/web1live.static-assets/favicon.ico",
     "open-search": "http://beta.parliament.uk/search/opensearch",
     "header-components": [
         {
@@ -63,25 +63,11 @@
                   "data": [
                   {
                     "component": "status",
-                    "variant": "banner",
-                    "modifier": "beta"
+                    "variant": "banner"
                   }
                   ]
                 },
               "components": [
-                {
-                  "name": "span",
-                  "data": {
-                    "display": {
-                      "data": [
-                      {
-                        "component": "hint"
-                      }
-                    ]
-                  },
-                  "content": "common.header.beta"
-                  }
-                },
                 {
                   "name": "list__generic",
                   "data": {
@@ -209,55 +195,90 @@
                               },
                             "components": [
                                 {
-                                    "name": "card__search-result",
+                                    "name": "card__search__search-result",
                                     "data": {
                                         "heading-text": "Result 1",
                                         "url": "some-url",
-                                        "hints": {
+                                        "hints": [
+                                          {
                                             "name": "hint",
                                             "data": {
-                                              "component": "hint",
-                                              "variant": "theme",
-                                              "modifier": "grey-4",
-                                              "content": "pdf"
+                                              "display": {
+                                                "data": [
+                                                  {
+                                                  "component": "theme",
+                                                  "variant": "grey-4",
+                                                  "content": "pdf"
+                                                }
+                                              ]
+                                              }
                                             }
-                                        },
+                                          }
+                                        ],
                                         "short-url": "some shorter url",
                                         "paragraph-content": "Some text"
                                     }
                                 },
                                 {
-                                    "name": "card__search-result",
+                                    "name": "card__search__search-result",
                                     "data": {
                                         "heading-text": "Result 2",
                                         "url": "some-url",
-                                        "hints": {
+                                        "hints": [
+                                          {
                                             "name": "hint",
                                             "data": {
-                                              "component": "hint",
-                                              "variant": "theme",
-                                              "modifier": "grey-4",
-                                              "content": "pdf"
+                                              "display": {
+                                                "data": [
+                                                  {
+                                                  "component": "theme",
+                                                  "variant": "grey-4",
+                                                  "content": "pdf"
+                                                }
+                                              ]
+                                              }
                                             }
-                                        },
+                                          }
+                                        ],
                                         "short-url": "some shorter url",
                                         "paragraph-content": "Some text"
                                     }
                                 },
                                 {
-                                    "name": "card__search-result",
+                                    "name": "card__search__search-result",
                                     "data": {
                                         "heading-text": "Result 3",
                                         "url": "some-url",
-                                        "hints": {
+                                        "hints": [
+                                          {
                                             "name": "hint",
                                             "data": {
-                                              "component": "hint",
-                                              "variant": "theme",
-                                              "modifier": "grey-4",
-                                              "content": "pdf"
+                                              "display": {
+                                                "data": [
+                                                  {
+                                                  "component": "theme",
+                                                  "variant": "grey-4",
+                                                  "content": "beta"
+                                                }
+                                              ]
+                                              }
                                             }
-                                        },
+                                          },
+                                          {
+                                            "name": "hint",
+                                            "data": {
+                                              "display": {
+                                                "data": [
+                                                  {
+                                                  "component": "theme",
+                                                  "variant": "grey-4",
+                                                  "content": "pdf"
+                                                }
+                                              ]
+                                              }
+                                            }
+                                          }
+                                        ],
                                         "short-url": "some shorter url",
                                         "paragraph-content": "Some text"
                                     }

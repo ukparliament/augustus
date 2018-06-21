@@ -6,9 +6,6 @@ class="
     {?variant}
       --{variant}
     {/variant}
-    {?modifier}
-      __{modifier}
-    {/modifier}
     {~s}
   {/data.display.data}
 "
