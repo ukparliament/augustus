@@ -1,4 +1,8 @@
-<div class="status--highlight">
+<div{~s}
+  {?data.display}
+    {>"components__display" data=data /}
+  {/data.display}
+>
   {#data.components}
       {>"components__{.name}" name=name data=data/}
   {/data.components}
