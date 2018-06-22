@@ -1,3 +1,4 @@
+{! This will loop over an array of stings, wrapping a p tag around each element. !}
 {#data}
   <p>{@t key="{content|s}" data=data /}</p>
 {/data}
