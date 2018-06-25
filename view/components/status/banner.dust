@@ -1,3 +1,5 @@
+{! The status banner css class is not hard-coded it must be passed through using a display partial. !}
+{! An optional selector can be added. !}
 <div{~s}
   {?data.display}
     {>"components__display" data=data /}

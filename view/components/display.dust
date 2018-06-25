@@ -1,3 +1,4 @@
+{! This is a partial not a component, it must be used in conjunction with a component that can take it as an option.  !}
 class="
   {#data.display.data}
     {?component}

@@ -1,5 +1,8 @@
+{! Though this does not use <section> tags it is considerd a section component. !}
+{! This component can accept an optional content flag. !}
 <div class="section--primary" {?data.content-flag} id="content" {/data.content-flag}>
   <div class="container">
+    {! This components should be only those wanted at the top of the main section. !}
     {#data.components}
       {>"components__{name}" name=name data=data/}
     {/data.components}

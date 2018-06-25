@@ -1,4 +1,5 @@
 {! This will loop over an array of stings, wrapping a p tag around each element. !}
+{! The t helper will pull a translation from the locales file when it finds a valid translation key, otherwise it will simply render the string. !}
 {#data}
   <p>{@t key="{content|s}" data=data /}</p>
 {/data}

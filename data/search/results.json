@@ -3,7 +3,7 @@
         "template": "layout"
     },
     "title": "banana - Search - UK Parliament",
-    "pugin-version": "1.9.4",
+    "pugin-version": "1.10.0",
     "favicon": "https://s3-eu-west-1.amazonaws.com/web1live.static-assets/favicon.ico",
     "open-search": "http://beta.parliament.uk/search/opensearch",
     "header-components": [

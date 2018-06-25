@@ -1,8 +1,10 @@
+{! The type of the list can be either OL or UL. !}
 <{data.type}
 {?data.display}{~s}
   {>"components__display" data=.data /}
 {/data.display}
 >
+{! This list can loop over an array of components or an array of contents. !}
   {?data.components}
     {#data.components}
       <li>

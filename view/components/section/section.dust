@@ -1,3 +1,4 @@
+{! This component can accept an option content flag !}
 <section {?data.content-flag} id="content" {/data.content-flag}>
   <div class="container">
     {#data.components}

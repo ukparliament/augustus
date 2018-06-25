@@ -1,10 +1,11 @@
+{! This card should only be used for search results on the search results page.  !}
 <div class="card">
   <div class="card__details">
     <h2>
       <a href={data.url}>{data.heading-text}</a>
     </h2>
       <ul class="list--inline">
-      {! If Hints have been provided, insert them before our UL !}
+      {! This takes an array of objects, so can render multiple hints. !}
       {?data.hints}
         {#data.hints}
           <li>{>"components__hint" data=data /}</li>
