@@ -1,0 +1,428 @@
+{
+    "layout": {
+        "template": "layout"
+    },
+    "title": "banana - Search - UK Parliament",
+    "pugin-version": "1.9.4",
+    "favicon": "https://s3-eu-west-1.amazonaws.com/web1live.static-assets/favicon.ico",
+    "open-search": "http://beta.parliament.uk/search/opensearch",
+    "header-components": [
+        {
+            "name": "link",
+            "data": {
+              "link": "#content",
+              "display": {
+                  "data": [
+                  {
+                    "component": "skip-to-content"
+                  }
+                  ]
+                },
+              "selector": "skiplink",
+              "content": "common.header.skip-to-content"
+            }
+        },
+        {
+            "name": "status__banner",
+            "data": {
+              "display": {
+                  "data": [
+                  {
+                    "component": "status",
+                    "variant": "banner"
+                  },
+                  {
+                    "component": "theme",
+                    "variant": "caution"
+                  },
+                  {
+                    "component": "cookie"
+                  }
+                  ]
+                },
+              "selector": "cookie",
+              "components": [
+                {
+                  "name": "paragraph",
+                  "data": [
+                    {
+                      "content": "common.header.cookie-banner-text",
+                      "data": {
+                        "link": "/meta/cookie-policy"
+                        }
+                    }
+                  ]
+                }
+              ]
+            }
+        },
+        {
+            "name": "status__banner",
+            "data": {
+              "display": {
+                  "data": [
+                  {
+                    "component": "status",
+                    "variant": "banner"
+                  }
+                  ]
+                },
+              "components": [
+                {
+                  "name": "list__generic",
+                  "data": {
+                    "type": "ul",
+                    "display": {
+                        "data": [
+                        {
+                          "component": "list",
+                          "variant": "inline"
+                        }
+                        ]
+                      },
+                    "contents": [
+                      {
+                        "content": "common.header.pages-being-tested"
+                        },
+                        {
+                          "content": "common.header.current-website"
+                        }
+                    ]
+                  }
+                }
+              ]
+          	}
+        },
+        {
+            "name": "header",
+            "data": {
+                "components": [
+                    {
+                      "name": "link",
+                      "data": {
+                        "link": "/",
+                        "display": {
+                            "data": [
+                            {
+                              "component": "uk_parliament"
+                            }
+                            ]
+                          },
+                        "label": "common.header.label",
+                        "components": [
+                            {
+                              "name": "icon__uk-parliament",
+                              "data": "common.header.label"
+                            }
+                        ]
+                      }
+                    }
+                ]
+            }
+        }
+    ],
+    "main-components": [
+        {
+            "name": "section__primary",
+            "data": {
+                "components": [
+                  {
+                      "name": "heading",
+                      "data": {
+                          "content": ["search.results-heading"],
+                          "size": 1
+                      }
+                  },
+                  {
+                      "name": "form__search",
+                      "data": {
+                        "value": "banana",
+                        "label": "search.label",
+                        "components": [
+                          {
+                            "name": "icon__search",
+                            "data": "search.search-icon"
+                          }
+                        ]
+                      }
+                  }
+                ]
+            }
+        },
+        {
+            "name": "section__section",
+            "data": {
+                "content-flag": true,
+                "components": [
+                    {
+                        "name": "heading",
+                        "data": {
+                            "translation": {
+                              "key": "search.count",
+                              "data": {
+                                "count": "850"
+                              }
+                            },
+                            "size": 2
+                        }
+                    },
+                    {
+                        "name": "status__highlight",
+                        "data": {
+                          "display": {
+                              "data": [
+                              {
+                                "component": "status",
+                                "variant": "highlight"
+                              }
+                              ]
+                            },
+                            "components": [
+                                {
+                                    "name": "paragraph",
+                                    "data": [
+                                      {
+                                        "content":"search.new-search"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "list__generic",
+                        "data": {
+                            "type": "ol",
+                            "display": {
+                                "data": [
+                                  {
+                                    "component": "list",
+                                    "variant": "block"
+                                  }
+                                ]
+                              },
+                            "components": [
+                                {
+                                    "name": "card__search__search-result",
+                                    "data": {
+                                        "heading-text": "Result 1",
+                                        "url": "some-url",
+                                        "hints": [
+                                          {
+                                            "name": "hint",
+                                            "data": {
+                                              "display": {
+                                                "data": [
+                                                  {
+                                                  "component": "theme",
+                                                  "variant": "grey-4",
+                                                  "content": "pdf"
+                                                }
+                                              ]
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "short-url": "some shorter url",
+                                        "paragraph-content": "Some text"
+                                    }
+                                },
+                                {
+                                    "name": "card__search__search-result",
+                                    "data": {
+                                        "heading-text": "Result 2",
+                                        "url": "some-url",
+                                        "hints": [
+                                          {
+                                            "name": "hint",
+                                            "data": {
+                                              "display": {
+                                                "data": [
+                                                  {
+                                                  "component": "theme",
+                                                  "variant": "grey-4",
+                                                  "content": "pdf"
+                                                }
+                                              ]
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "short-url": "some shorter url",
+                                        "paragraph-content": "Some text"
+                                    }
+                                },
+                                {
+                                    "name": "card__search__search-result",
+                                    "data": {
+                                        "heading-text": "Result 3",
+                                        "url": "some-url",
+                                        "hints": [
+                                          {
+                                            "name": "hint",
+                                            "data": {
+                                              "display": {
+                                                "data": [
+                                                  {
+                                                  "component": "theme",
+                                                  "variant": "grey-4",
+                                                  "content": "beta"
+                                                }
+                                              ]
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "name": "hint",
+                                            "data": {
+                                              "display": {
+                                                "data": [
+                                                  {
+                                                  "component": "theme",
+                                                  "variant": "grey-4",
+                                                  "content": "pdf"
+                                                }
+                                              ]
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "short-url": "some shorter url",
+                                        "paragraph-content": "Some text"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "name": "section__section",
+            "data": {
+                "components": [
+                    {
+                        "name": "navigation__number__number",
+                        "data": {
+                            "active-tile": "2",
+                            "previous-url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=1",
+                            "next-url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
+                            "components": [
+                              {
+                                  "name": "navigation__number__card",
+                                  "data": {
+                                      "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
+                                      "number": "1",
+                                      "total-count": " of 77"
+                                  }
+                              },
+                              {
+                                  "name": "navigation__number__card",
+                                  "data": {
+                                    "active": true,
+                                      "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
+                                      "number": "2",
+                                      "total-count": "of 77"
+                                  }
+                              },
+                              {
+                                  "name": "navigation__number__card",
+                                  "data": {
+                                      "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
+                                      "number": "3",
+                                      "total-count": "of 77"
+                                  }
+                              },
+                              {
+                                  "name": "navigation__number__card",
+                                  "data": {
+                                      "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
+                                      "number": "4",
+                                      "total-count": "of 77"
+                                  }
+                              },
+                              {
+                                  "name": "navigation__number__card",
+                                  "data": {
+                                      "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
+                                      "number": "4",
+                                      "total-count": "of 77"
+                                  }
+                              },
+                              {
+                                  "name": "navigation__number__card",
+                                  "data": {
+                                      "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
+                                      "number": "4",
+                                      "total-count": "of 77"
+                                  }
+                              },
+                              {
+                                  "name": "navigation__number__card",
+                                  "data": {
+                                      "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
+                                      "number": "4",
+                                      "total-count": "of 77"
+                                  }
+                              },
+                              {
+                                  "name": "navigation__number__card",
+                                  "data": {
+                                      "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
+                                      "number": "4",
+                                      "total-count": "of 77"
+                                  }
+                              },
+                              {
+                                  "name": "navigation__number__card",
+                                  "data": {
+                                      "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
+                                      "number": "4",
+                                      "total-count": "of 77"
+                                  }
+                              }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "footer-components": [
+        {
+            "name": "footer",
+            "data": {
+              "uk-parliament": "common.footer.uk-parliament",
+              "components": [
+                {
+                  "name": "list__generic",
+                  "data": {
+                    "type": "ul",
+                    "display": {
+                      "data": [
+                        {
+                          "component": "list"
+                        }
+                      ]
+                      },
+                    "contents": [
+                      {
+                        "content": "common.footer.current-website"
+                        },
+                      {
+                        "content": "common.footer.cookie-policy",
+                        "data": {
+                          "link": "/meta/cookie-policy"
+                        }
+                      },
+                      {
+                        "content":"common.footer.data-protection-privacy"
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+        }
+    ]
+}
