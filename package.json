@@ -4,7 +4,9 @@
   "description": "A proposed front-end prototype for beta.parliament.uk",
   "main": "app.js",
   "scripts": {
-    "test": "NODE_ENV=test node ./node_modules/nyc/bin/nyc.js --reporter=lcov ./node_modules/mocha/bin/mocha ./test/**/*.spec.js"
+    "test": "NODE_ENV=test node ./node_modules/nyc/bin/nyc.js --reporter=lcov ./node_modules/mocha/bin/mocha ./test/**/*.spec.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -26,6 +28,8 @@
   },
   "dependencies": {
     "i18n": "^0.8.3",
-    "shunter": "^4.11.3"
-  }
+    "shunter": "^4.11.3",
+    "snyk": "^1.88.0"
+  },
+  "snyk": true
 }
