@@ -1,0 +1,8 @@
+<header>
+  <div class="container">
+    {! Only pass in components which need to be surrounded by header tags. !}
+    {#data.components}
+      {>"components__{name}" name=name data=data/}
+    {/data.components}
+  </div>
+</header>

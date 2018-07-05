@@ -1,0 +1,17 @@
+{! This link component always needs to recieve a url for the href. However, the aria-lable, display and selector are all optional. !}
+<a href="{data.link}"
+  {?data.label}aria-label="{@t key="{data.label}" /}"{/data.label}
+  {?data.display}
+    {>"components__display" data=data /}
+  {/data.display}
+  {?data.selector}id="{data.selector}"{/data.selector}
+  >
+  {! Either an array of components or a content string can be passed in between the <a> tags. !}
+  {?data.components}
+    {#data.components}
+        {>"components__{.name}" name=name data=data/}
+    {/data.components}
+  {/data.components}
+  {! The t helper will pull a translation from the locales file when it finds a valid translation key, otherwise it will simply render the string. !}
+  {@t key="{data.content}" /}
+</a>

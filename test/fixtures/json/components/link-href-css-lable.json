@@ -1,0 +1,15 @@
+{
+  "name": "link",
+  "data": {
+    "link": "/",
+    "display": {
+        "data": [
+        {
+          "component": "uk_parliament"
+        }
+        ]
+      },
+    "label": "common.header.label",
+    "content": "Barb"
+  }
+}
