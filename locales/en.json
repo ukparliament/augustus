@@ -26,6 +26,7 @@
 		"search-icon": "Search icon",
 		"new-search": "You are using our new search. We <a href='https://pds.blog.parliament.uk/2018/01/15/switching-off-our-old-search-service/'>switched off the old search</a> on 19 January 2018.",
 		"results-heading": "Search results for",
-		"count": "<span>About {{count}} results</span>"
+		"count": "<span>About {{count}} results</span>",
+		"no-results": "There are no results for your search."
 	}
 }
