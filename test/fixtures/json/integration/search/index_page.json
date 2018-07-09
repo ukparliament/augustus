@@ -124,13 +124,12 @@
         {
             "name": "section__primary",
             "data": {
-                "content-flag": "true",
+                "content-flag": true,
                 "components": [
                   {
-                      "name": "heading",
+                      "name": "heading1",
                       "data": {
-                          "content": ["search.search-heading"],
-                          "size": 1
+                          "heading": {"content": "search.search-heading"}
                       }
                   },
                   {

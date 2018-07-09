@@ -1,0 +1,19 @@
+<h1>
+  {?data.subheading}
+    {#data.subheading}
+    <small>{@t key="{content|s}" data=data /}</small>
+    {/data.subheading}
+  {/data.subheading}
+
+  {?data.heading}
+    {#data.heading}
+      <span>{@t key="{content|s}" data=data /}</span>
+    {/data.heading}
+  {/data.heading}
+
+  {?data.context}
+    {#data.context}
+      <span class="{?hiden}sr-only{:else}context{/hiden}">{@t key="{content|s}" data=data /}</span>
+    {/data.context}
+  {/data.context}
+</h1>
