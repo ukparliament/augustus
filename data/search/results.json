@@ -129,7 +129,7 @@
                     "name": "heading1",
                     "data": {
                       "heading": {"content": "search.results-heading"},
-                      "context": {"content": "banana", "hiden": true}
+                      "context": {"content": "banana", "hidden": true}
                     }
                   },
                   {

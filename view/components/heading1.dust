@@ -1,3 +1,5 @@
+{! This will check if each possible element is present in the heading data, wrapping an h1 tag around everything rendered. !}
+{! The t helper will pull a translation from the locales file when it finds a valid translation key and if it is given data (such as a link) that will be passed through too, otherwise it will simply render the string. !}
 <h1>
   {?data.subheading}
     {#data.subheading}
@@ -13,7 +15,8 @@
 
   {?data.context}
     {#data.context}
-      <span class="{?hiden}sr-only{:else}context{/hiden}">{@t key="{content|s}" data=data /}</span>
+    {! The hiden option should only be use when the context needs to be hidden from view but avalible to screen readers. !}
+      <span class="{?hidden}sr-only{:else}context{/hidden}">{@t key="{content|s}" data=data /}</span>
     {/data.context}
   {/data.context}
 </h1>
