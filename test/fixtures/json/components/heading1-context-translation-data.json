@@ -1,0 +1,7 @@
+{
+  "name": "heading1",
+  "data": {
+    "heading": {"content": "Header"},
+    "context": {"content": "common.footer.cookie-policy", "data": {"link": "google.com"}}
+  }
+}
