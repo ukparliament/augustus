@@ -15,8 +15,8 @@
 
   {?data.context}
     {#data.context}
-    {! The hiden option should only be use when the context needs to be hiden from view but avalible to screen readers. !}
-      <span class="{?hiden}sr-only{:else}context{/hiden}">{@t key="{content|s}" data=data /}</span>
+    {! The hidden option should only be use when the context needs to be hidden from view but avalible to screen readers. !}
+      <span class="{?hidden}sr-only{:else}context{/hidden}">{@t key="{content|s}" data=data /}</span>
     {/data.context}
   {/data.context}
 </h1>
