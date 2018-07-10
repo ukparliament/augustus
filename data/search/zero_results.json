@@ -136,7 +136,7 @@
           {
             "name": "heading",
             "data": {
-              "content": ["There are no results for your search"],
+              "content": ["search.no-results"],
               "size": 2
             }
           },
