@@ -17,15 +17,23 @@
 git clone https://github.com/ukparliament/augustus.git
 cd augustus
 npm install
-npm test
+npm cache clean --force && npm test
 ```
 
 ## Running the application
-To run the application locally, run:
+To run the application locally, open 2 terminal shells. In one run:
 
 ```bash
 npm cache clean --force && node app.js
 ```
+To run the app.
+
+In the other shell run:
+
+```bash
+node_modules/.bin/shunter-serve
+```
+To run the shunter serve.
 
 The application should now be available at [http://localhost:5400][local].
 

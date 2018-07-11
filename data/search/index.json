@@ -2,9 +2,11 @@
     "layout": {
         "template": "layout"
     },
+    "meta": {
+      "title": "Search - UK Parliament",
+      "request-id": "G4K2N8ExN07N7Q=="
+    },
     "title": "Search - UK Parliament",
-    "pugin-version": "1.10.0",
-    "open-search": "http://beta.parliament.uk/search/opensearch",
     "header-components": [
       {
           "name": "link",
@@ -18,7 +20,7 @@
                 ]
               },
             "selector": "skiplink",
-            "content": "common.header.skip-to-content"
+            "content": "shared.header.skip-to-content"
           }
       },
       {
@@ -45,7 +47,7 @@
                 "name": "paragraph",
                 "data": [
                   {
-                    "content": "common.header.cookie-banner-text",
+                    "content": "shared.header.cookie-banner-text",
                     "data": {
                       "link": "/meta/cookie-policy"
                       }
@@ -81,10 +83,10 @@
                     },
                   "contents": [
                     {
-                      "content": "common.header.pages-being-tested"
+                      "content": "shared.header.pages-being-tested"
                       },
                       {
-                        "content": "common.header.current-website"
+                        "content": "shared.header.current-website"
                       }
                   ]
                 }
@@ -107,11 +109,11 @@
                           }
                           ]
                         },
-                      "label": "common.header.label",
+                      "label": "shared.header.label",
                       "components": [
                           {
                             "name": "icon__uk-parliament",
-                            "data": "common.header.label"
+                            "data": "shared.header.label"
                           }
                       ]
                     }
@@ -152,7 +154,7 @@
         {
             "name": "footer",
             "data": {
-              "uk-parliament": "common.footer.uk-parliament",
+              "uk-parliament": "shared.footer.uk-parliament",
               "components": [
                 {
                   "name": "list__generic",
@@ -167,16 +169,16 @@
                       },
                     "contents": [
                       {
-                        "content": "common.footer.current-website"
+                        "content": "shared.footer.current-website"
                         },
                       {
-                        "content": "common.footer.cookie-policy",
+                        "content": "shared.footer.cookie-policy",
                         "data": {
                           "link": "/meta/cookie-policy"
                         }
                       },
                       {
-                        "content":"common.footer.data-protection-privacy"
+                        "content":"shared.footer.data-protection-privacy"
                       }
                     ]
                   }
