@@ -15,7 +15,7 @@
           }]
         },
         "selector": "skiplink",
-        "content": "common.header.skip-to-content"
+        "content": "shared.header.skip-to-content"
       }
     },
     {
@@ -40,7 +40,7 @@
         "components": [{
           "name": "paragraph",
           "data": [{
-            "content": "common.header.cookie-banner-text",
+            "content": "shared.header.cookie-banner-text",
             "data": {
               "link": "/meta/cookie-policy"
             }
@@ -68,10 +68,10 @@
               }]
             },
             "contents": [{
-                "content": "common.header.pages-being-tested"
+                "content": "shared.header.pages-being-tested"
               },
               {
-                "content": "common.header.current-website"
+                "content": "shared.header.current-website"
               }
             ]
           }
@@ -91,10 +91,10 @@
                 "component": "uk_parliament"
               }]
             },
-            "label": "common.header.label",
+            "label": "shared.header.label",
             "components": [{
               "name": "icon__uk-parliament",
-              "data": "common.header.label"
+              "data": "shared.header.label"
             }]
           }
         }]
@@ -164,7 +164,7 @@
   "footer-components": [{
     "name": "footer",
     "data": {
-      "uk-parliament": "common.footer.uk-parliament",
+      "uk-parliament": "shared.footer.uk-parliament",
       "components": [{
         "name": "list__generic",
         "data": {
@@ -175,16 +175,16 @@
             }]
           },
           "contents": [{
-              "content": "common.footer.current-website"
+              "content": "shared.footer.current-website"
             },
             {
-              "content": "common.footer.cookie-policy",
+              "content": "shared.footer.cookie-policy",
               "data": {
                 "link": "/meta/cookie-policy"
               }
             },
             {
-              "content": "common.footer.data-protection-privacy"
+              "content": "shared.footer.data-protection-privacy"
             }
           ]
         }

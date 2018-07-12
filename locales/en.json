@@ -1,5 +1,5 @@
 {
-	"common": {
+	"shared": {
 		"header": {
 			"skip-to-content": "Skip to main content",
 			"cookie-banner-text": "Parliament.uk uses cookies to make the site simpler. <a href='{{{link}}}'>Find out more about cookies</a>",
