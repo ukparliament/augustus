@@ -3,8 +3,6 @@
     "template": "layout"
   },
   "title": "fhuierlahgrui - Search - UK Parliament",
-  "pugin-version": "1.10.0",
-  "open-search": "http://beta.parliament.uk/search/opensearch",
   "header-components": [{
       "name": "link",
       "data": {
