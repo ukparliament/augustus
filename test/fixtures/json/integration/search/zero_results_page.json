@@ -2,7 +2,10 @@
   "layout": {
     "template": "layout"
   },
-  "title": "fhuierlahgrui - Search - UK Parliament",
+  "meta": {
+    "title": "fhuierlahgrui - Search - UK Parliament",
+    "request-id": "G4K2N8ExN07N7Q=="
+  },
   "pugin-version": "1.10.0",
   "open-search": "http://beta.parliament.uk/search/opensearch",
   "header-components": [{

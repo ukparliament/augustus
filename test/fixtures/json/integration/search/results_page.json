@@ -2,7 +2,15 @@
     "layout": {
         "template": "layout"
     },
-    "title": "banana - Search - UK Parliament",
+    "meta": {
+      "title": "banana - Search - UK Parliament",
+      "request-id": "G4K2N8ExN07N7Q==",
+      "components": [
+        {
+          "name": "head__search-result-tracking"
+        }
+      ]
+    },
     "pugin-version": "1.10.0",
     "open-search": "http://beta.parliament.uk/search/opensearch",
     "header-components": [

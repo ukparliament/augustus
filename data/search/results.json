@@ -24,7 +24,7 @@
                   ]
                 },
               "selector": "skiplink",
-              "content": ".header.skip-to-content"
+              "content": "shared.header.skip-to-content"
             }
         },
         {
@@ -271,7 +271,7 @@
                                                   {
                                                   "component": "theme",
                                                   "variant": "grey-4",
-                                                  "content": "beta,page"
+                                                  "content": "beta"
                                                 }
                                               ]
                                               }
