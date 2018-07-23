@@ -3,7 +3,7 @@
 <script type="text/javascript">
 var UK_Parliament = UK_Parliament || {};
 
-if(typeof UK_Parliament == 'undefind') {
+if(typeof UK_Parliament == 'undefined') {
   UK_Parliament = {};
   window.UK_Parliament = UK_Parliament;
 }
