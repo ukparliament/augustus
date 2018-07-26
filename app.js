@@ -10,7 +10,8 @@ const app = shunter({
         themes: __dirname
     },
     routes: config.routes,
-    jsonViewParameter: 'json'
+    jsonViewParameter: 'json',
+    modules: [config.moduleName]
 });
 
 // Start the application

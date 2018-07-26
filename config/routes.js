@@ -8,5 +8,11 @@ module.exports = {
       "host": "localhost",
       "port": 5401
     }
+  },
+  "beta.parliament.uk": {
+    "default": {
+      "host": "localhost",
+      "port": 5401
+    }
   }
 }

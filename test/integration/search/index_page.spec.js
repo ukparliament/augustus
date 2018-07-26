@@ -6,4 +6,9 @@ describe('Search index page', function(){
   it('should render content for search index page', function(done){
     testHelper.shunterTest('index_page', 'layout', 'integration/search', done)
   });
+
+  it('when not given a title should render defalt content for search index page', function(done){
+    testHelper.shunterTest('index_page_no_title', 'layout', 'integration/search', done)
+  });
+
 });

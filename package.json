@@ -4,7 +4,10 @@
   "description": "A proposed front-end prototype for beta.parliament.uk",
   "main": "app.js",
   "scripts": {
-    "test": "NODE_ENV=test node ./node_modules/nyc/bin/nyc.js --reporter=lcov ./node_modules/mocha/bin/mocha ./test/**/*.spec.js"
+    "test": "NODE_ENV=test node ./node_modules/nyc/bin/nyc.js --reporter=lcov ./node_modules/mocha/bin/mocha ./test/**/*.spec.js",
+    "start": "node app.js -s --compile-on-demand",
+    "serve": "./node_modules/.bin/shunter-serve",
+    "concurrently": "./node_modules/.bin/concurrently -k \"./node_modules/.bin/shunter-serve\" \"node app.js -s --compile-on-demand\""
   },
   "repository": {
     "type": "git",
@@ -20,17 +23,20 @@
     "callsites": "^2.0.0",
     "chai": "^4.1.2",
     "codeclimate-test-reporter": "^0.5.0",
-    "coveralls": "^3.0.1",
+    "concurrently": "^3.6.1",
+    "coveralls": "^3.0.2",
+    "eslint": "^5.2.0",
     "js-beautify": "^1.7.5",
     "jsdoc": "^3.5.5",
     "mocha": "^5.2.0",
-    "nock": "^9.3.0",
+    "nock": "^9.4.2",
     "nyc": "^12.0.2",
-    "sinon": "^5.1.0",
+    "sinon": "^5.1.1",
     "walk-sync": "^0.3.2"
   },
   "dependencies": {
     "i18n": "^0.8.3",
-    "shunter": "^4.11.3"
+    "pugin-components": "^0.2.0",
+    "shunter": "^4.11.5"
   }
 }
