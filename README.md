@@ -37,6 +37,14 @@ To run the shunter serve.
 
 The application should now be available at [http://localhost:5400][local].
 
+## Adding Pugin Components
+You can add your own view files containing components; however, to access the Pugin Components view files you need to add the [pugin components npm][pugin-components] package to your dependencies.   
+
+```bash
+npm install --save-dev pugin-components
+```   
+Once installed it should appear in your node_modules file.
+
 ## i18n Note
 Please note, that while normally data would be passed into a string in a translation file using double moustaches which sanitises input, when passing in a URL or other form of content which you do not wish to be sanitised you must use triple moustaches or it will not be rendered correctly in the output.  
 Example:  
@@ -65,6 +73,7 @@ If you wish to submit a bug fix or feature, you can create a pull request and it
 [node-version]: https://github.com/ukparliament/augustus/blob/master/.node-version
 [npm]: https://www.npmjs.com/
 [local]: http://localhost:5400
+[pugin-components]: https://www.npmjs.com/package/pugin-components
 [mocha]: https://mochajs.org/
 
 [info-travis]:   https://travis-ci.org/ukparliament/augustus
