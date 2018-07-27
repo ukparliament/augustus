@@ -93,9 +93,6 @@ serve:
 concurrently:
 	npm run concurrently
 
-makepoop:
-	echo "POOP"
-
 test: # Build the docker image in development mode, using a test PARLIAMENT_BASE_URL. Then run rake within a Docker container using our image.
 	NODE_ENV=development SPAWN_WRAP_SHIM_ROOT=/app/ make build
 	docker run --rm $(IMAGE):latest npm test

@@ -26,6 +26,7 @@
     "concurrently": "^3.6.1",
     "coveralls": "^3.0.2",
     "eslint": "^5.2.0",
+    "foreman": "^3.0.1",
     "js-beautify": "^1.7.5",
     "jsdoc": "^3.5.5",
     "mocha": "^5.2.0",
