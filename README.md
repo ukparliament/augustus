@@ -45,6 +45,20 @@ npm install --save-dev pugin-components
 ```   
 Once installed it should appear in your node_modules file.
 
+## Starting Augustus and Shunter serve in a Docker Image   
+If you wish to run Augustus with shunter serve in a docker image in a development environment, use the following commands:  
+
+To build the Docker image  
+
+```bash
+docker-compose build --no-cache
+```
+
+To run Augustus and Shunter serve  
+```bash
+docker-compose up
+```
+
 ## i18n Note
 Please note, that while normally data would be passed into a string in a translation file using double moustaches which sanitises input, when passing in a URL or other form of content which you do not wish to be sanitised you must use triple moustaches or it will not be rendered correctly in the output.  
 Example:  
