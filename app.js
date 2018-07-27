@@ -7,8 +7,8 @@ const app = shunter({
 
     // Configure the themes path to the current directory
   path: {
-      themes: __dirname
-    },
+    themes: __dirname
+  },
   routes: config.routes,
   jsonViewParameter: 'json',
   modules: [config.moduleName]
