@@ -4,27 +4,9 @@ const middlewares = require('./middlewares');
 
 middlewares.initialiseAppInsights();
 
-let logger;
-
-if (process.env.LOG_TO_JSON === 'true') {
-  logger = middlewares.winston;
-}
-
 // For Shunter configuration documentation, refer to: https://shunter.readthedocs.io/en/latest/usage/configuration-reference/
-const app = shunter({
-  path: {
-    themes: __dirname
-  },
-  routes: config.routes,
-  jsonViewParameter: 'json',
-  modules: [config.moduleName],
-  log: logger
-});
+const app = shunter(config.shunter(__dirname, process.env.LOG_TO_JSON));
 
-if (process.env.LOG_TO_JSON === 'true') {
-  app.use(middlewares.morgan);
-}
-
-app.use('/health-check', middlewares.healthCheck);
+middlewares.add(app, process.env.LOG_TO_JSON);
 
 app.start();

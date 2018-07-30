@@ -9,5 +9,9 @@ module.exports = {
   initialiseAppInsights,
   healthCheck,
   winston,
-  morgan
+  add: (app, log_to_json, logger_library = morgan, healthCheckMiddleware = healthCheck) => {
+    if (log_to_json === 'true') { app.use(logger_library); }
+
+    app.use('/health-check', healthCheckMiddleware);
+  }
 };
