@@ -12,4 +12,6 @@ const app = shunter({
   modules: [config.moduleName]
 });
 
+app.use('/health-check', middlewares.healthCheck);
+
 app.start();
