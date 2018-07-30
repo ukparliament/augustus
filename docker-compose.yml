@@ -1,0 +1,20 @@
+version: "3"
+services:
+  augustus:
+    build:
+      context: .
+      args:
+        NODE_ENV: development
+    volumes:
+      - .:/app
+      - /app/node_modules
+    command: /bin/sh -c "node /app/node_modules/foreman/nf.js start"
+    ports:
+      - '80:5400'
+    environment:
+      - AIRBRAKE_PROJECT_ID
+      - AIRBRAKE_PROJECT_KEY
+      - BANDIERA_URL
+      - APPLICATION_INSIGHTS_INSTRUMENTATION_KEY
+      - NODE_ENV=development
+      - SPAWN_WRAP_SHIM_ROOT=/app

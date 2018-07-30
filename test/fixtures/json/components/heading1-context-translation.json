@@ -1,7 +1,0 @@
-{
-  "name": "heading1",
-  "data": {
-    "heading": {"content": "Heading"},
-    "context": {"content": "search.search-heading" }
-  }
-}

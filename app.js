@@ -1,17 +1,17 @@
-// Require in Shunter
 const shunter = require('shunter');
-const config = require('./config')
+const config = require('./config');
+const middlewares = require('./middlewares');
 
-// Create a Shunter application, passing in options
+// For Shunter configuration documentation, refer to: https://shunter.readthedocs.io/en/latest/usage/configuration-reference/
 const app = shunter({
-
-    // Configure the themes path to the current directory
-    path: {
-        themes: __dirname
-    },
-    routes: config.routes,
-    jsonViewParameter: 'json'
+  path: {
+    themes: __dirname
+  },
+  routes: config.routes,
+  jsonViewParameter: 'json',
+  modules: [config.moduleName]
 });
 
-// Start the application
+app.use('/health-check', middlewares.healthCheck);
+
 app.start();
