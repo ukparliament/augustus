@@ -1,8 +1,0 @@
-{
-    "name": "navigation__number__card",
-    "data": {
-        "url": "https://beta.parliament.uk/search?count=10&q=hello&start_index=21",
-        "number": "4",
-        "total-count": "of 77"
-    }
-}
