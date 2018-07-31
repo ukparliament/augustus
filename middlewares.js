@@ -1,9 +1,9 @@
 'use strict';
 
-const appInsights = require('./middlewares/appInsights');
+const initialiseAppInsights = require('./middlewares/initialiseAppInsights');
 const healthCheck = require('./middlewares/healthCheck');
 
 module.exports = {
-  appInsights: appInsights,
-  healthCheck: healthCheck
+  initialiseAppInsights,
+  healthCheck
 };
