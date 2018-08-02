@@ -4,8 +4,20 @@
 [![Build Status][shield-travis]][info-travis] [![Test Coverage][shield-coveralls]][info-coveralls] [![License][shield-license]][info-license]
 
 ### Contents
-<!-- START doctoc -->
-<!-- END doctoc -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Requirements](#requirements)
+- [Quick start](#quick-start)
+- [Running the application](#running-the-application)
+- [Adding Pugin Components](#adding-pugin-components)
+- [Starting Augustus and Shunter serve in a Docker Image](#starting-augustus-and-shunter-serve-in-a-docker-image)
+- [i18n Note](#i18n-note)
+- [Contributing](#contributing)
+- [License](#license)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Requirements
 [Augustus][augustus] requires the following:
@@ -58,13 +70,20 @@ To run Augustus and Shunter serve
 ```bash
 docker-compose up
 ```
+The application will then be available from http://localhost/.
 
 ## i18n Note
-Please note, that while normally data would be passed into a string in a translation file using double moustaches which sanitises input, when passing in a URL or other form of content which you do not wish to be sanitised you must use triple moustaches or it will not be rendered correctly in the output.  
-Example:  
-`"cookie-policy": "<a href='{{{link}}}'>Cookie Policy</a>"`  
+Please note, that while normally data would be passed into a string in a translation file using double moustaches which sanitises input, when passing in a URL or other form of content which you do not wish to be sanitised you must use triple moustaches or it will not be rendered correctly in the output. For example:
+
+```
+"cookie-policy": "<a href='{{{link}}}'>Cookie Policy</a>"
+```  
+
 Will be rendered correctly as:  
-`<a href='/meta/cookie'>Cookie Policy</a>`
+
+```
+<a href='/meta/cookie'>Cookie Policy</a>
+```
 
 ## Contributing
 If you wish to submit a bug fix or feature, you can create a pull request and it will be merged pending a code review.
