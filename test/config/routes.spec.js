@@ -4,7 +4,7 @@ const proxyquire = require('proxyquire').noPreserveCache()
 describe('routes', () => {
   describe('when THORNEY_HOST is not defined', () => {
     it('routes.localhost.default.host is "localhost"', () => {
-      process.env['THORNEY_HOST'] = undefined;
+      delete process.env['THORNEY_HOST'];
 
       const routes = proxyquire('../../config/routes', {});
 
