@@ -2,8 +2,12 @@
 
 const appInsights = require('./middlewares/appInsights');
 const healthCheck = require('./middlewares/healthCheck');
+const winston = require('./middlewares/winston');
+const morgan = require('./middlewares/morgan');
 
 module.exports = {
-  appInsights: appInsights,
-  healthCheck: healthCheck
+  appInsights,
+  healthCheck,
+  winston,
+  morgan
 };

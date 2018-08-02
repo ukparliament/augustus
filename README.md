@@ -53,9 +53,8 @@ The application should now be available at [http://localhost:5400][local].
 You can add your own view files containing components; however, to access the Pugin Components view files you need to add the [pugin components npm][pugin-components] package to your dependencies.   
 
 ```bash
-npm install --save-dev pugin-components
+npm install --save pugin-components
 ```   
-Once installed it should appear in your node_modules file.
 
 ## Starting Augustus and Shunter serve in a Docker Image   
 If you wish to run Augustus with shunter serve in a docker image in a development environment, use the following commands:  
@@ -101,7 +100,7 @@ If you wish to submit a bug fix or feature, you can create a pull request and it
 [augustus]: https://github.com/ukparliament/augustus
 [beta]: https://beta.parliament.uk
 [shunter]: https://github.com/springernature/shunter
-[pugin]: https://github.com/ukparliament/parliament.uk-pugin
+[pugin]: https://github.com/ukparliament/pugin-components
 [node]: https://nodejs.org/
 [node-version]: https://github.com/ukparliament/augustus/blob/master/.node-version
 [npm]: https://www.npmjs.com/
