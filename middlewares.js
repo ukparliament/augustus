@@ -1,17 +1,19 @@
 'use strict';
 
+const winston = require('winston');
 const initialiseAppInsights = require('./middlewares/initialiseAppInsights');
 const healthCheck = require('./middlewares/healthCheck');
-const winston = require('./middlewares/winston');
 const morgan = require('./middlewares/morgan');
+
+let bootstrap = (app, logToJson, loggerLibrary = morgan, healthCheckMiddleware = healthCheck) => {
+  if (logToJson === 'true') { app.use(loggerLibrary); }
+
+  app.use('/health-check', healthCheckMiddleware);
+};
 
 module.exports = {
   initialiseAppInsights,
   healthCheck,
-  winston,
-  add: (app, log_to_json, logger_library = morgan, healthCheckMiddleware = healthCheck) => {
-    if (log_to_json === 'true') { app.use(logger_library); }
-
-    app.use('/health-check', healthCheckMiddleware);
-  }
+  winstonSilencer: winston.createLogger({ silent: true }),
+  bootstrap: bootstrap
 };

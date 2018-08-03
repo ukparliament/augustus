@@ -28,6 +28,7 @@
     "js-beautify": "^1.7.5",
     "jsdoc": "^3.5.5",
     "mocha": "^5.2.0",
+    "mock-require": "^3.0.2",
     "nock": "^9.4.2",
     "nyc": "^12.0.2",
     "proxyquire": "^2.0.1",

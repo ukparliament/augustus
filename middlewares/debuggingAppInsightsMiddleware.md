@@ -29,7 +29,7 @@ In `app.js`, add the following line:
 ```javascript
 // Clipped for brevity
 
-app.use(middlewares.appInsights);
+app.use(middlewares.initialiseAppInsights);
 
 app.start();
 ```
