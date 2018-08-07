@@ -24,7 +24,7 @@ function generateProxyTargets (hostname) {
   return {
     "/^\\/search/": {
       host: `thorney.${hostname}.org`,
-      port: 5401
+      port: 3000
     },
     default: {
       host: `parliamentuk-green.${hostname}.org`,
