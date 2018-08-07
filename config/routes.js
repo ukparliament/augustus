@@ -18,7 +18,7 @@ module.exports = {
   'beta.parliament.uk':     generateProxyTargets('web1live'),
   'devci.parliament.uk':    generateProxyTargets('web1devci'),
   'augustus.pdswebops.org': generateProxyTargets('pdswebops')
-}
+};
 
 function generateProxyTargets (hostname) {
   return {
@@ -27,7 +27,7 @@ function generateProxyTargets (hostname) {
       port: 5401
     },
     default: {
-      host: `routing.${hostname}.org`,
+      host: `parliamentuk-green.${hostname}.org`,
       port: 80
     }
   }
