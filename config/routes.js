@@ -8,7 +8,6 @@ if (typeof process.env.THORNEY_HOST != 'undefined' && process.env.THORNEY_HOST !
 
 // Configure the proxy route, this should point to
 // where your back end application runs
-
 module.exports = {
   localhost: {
     default: {
