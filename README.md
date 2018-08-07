@@ -11,7 +11,7 @@
 - [Requirements](#requirements)
 - [Quick start](#quick-start)
 - [Running the application](#running-the-application)
-- [Adding Pugin Components](#adding-pugin-components)
+- [Using components](#using-components)
 - [Starting Augustus and Shunter serve in a Docker Image](#starting-augustus-and-shunter-serve-in-a-docker-image)
 - [i18n Note](#i18n-note)
 - [Contributing](#contributing)
@@ -49,12 +49,8 @@ To run the shunter serve.
 
 The application should now be available at [http://localhost:5400][local].
 
-## Adding Pugin Components
-You can add your own view files containing components; however, to access the Pugin Components view files you need to add the [pugin components npm][pugin-components] package to your dependencies.   
-
-```bash
-npm install --save pugin-components
-```   
+## Using components
+[Augustus][augustus] uses [Pugin][pugin] as its components library which uses the [Dust][dust] templating language. However, you can use your own [Dust][dust] components by placing them in the `view` directory in the project's root. You can refer to the [Shunter templating documentation][shunter-templating-docs] for more information on how to do this.
 
 ## Starting Augustus and Shunter serve in a Docker Image   
 If you wish to run Augustus with shunter serve in a docker image in a development environment, use the following commands:  
@@ -101,12 +97,14 @@ If you wish to submit a bug fix or feature, you can create a pull request and it
 [beta]: https://beta.parliament.uk
 [shunter]: https://github.com/springernature/shunter
 [pugin]: https://github.com/ukparliament/pugin-components
+[dust]: http://www.dustjs.com/
 [node]: https://nodejs.org/
 [node-version]: https://github.com/ukparliament/augustus/blob/master/.node-version
 [npm]: https://www.npmjs.com/
 [local]: http://localhost:5400
 [pugin-components]: https://www.npmjs.com/package/pugin-components
 [mocha]: https://mochajs.org/
+[shunter-templating-docs]: https://shunter.readthedocs.io/en/latest/usage/templates/
 
 [info-travis]:   https://travis-ci.org/ukparliament/augustus
 [shield-travis]: https://img.shields.io/travis/ukparliament/augustus.svg
