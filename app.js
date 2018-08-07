@@ -2,6 +2,8 @@ const shunter = require('shunter');
 const config = require('./config');
 const middlewares = require('./middlewares');
 
+middlewares.initialiseAppInsights();
+
 let logger;
 
 if (process.env.LOG_TO_JSON === 'true') {

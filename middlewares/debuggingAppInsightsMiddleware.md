@@ -12,10 +12,10 @@ In order to get insight into the [Microsoft Application Insights][appinsights] o
 
 The [Application Insights Node.js SDK][sdk] exposes `getCorrelationContext()`, which lets you inspect the correlation information. You can `console.log` this in your request.
 
-At the bottom of `middlewares/appInsights.js`, export the following function:
+Remove the current `module.exports` in `middlewares/initialiseAppInsights.js` and replace it with the following. Note: You will still need to setup the middleware with your instrumentation key and call `start()` on it.
 
 ```javascript
-// snip
+// Clipped for brevity
 
 module.exports = (req, res, next) => {
     console.log(appInsights.getCorrelationContext());
@@ -27,7 +27,7 @@ module.exports = (req, res, next) => {
 In `app.js`, add the following line:
 
 ```javascript
-// snip
+// Clipped for brevity
 
 app.use(middlewares.appInsights);
 
