@@ -28,8 +28,8 @@
     "js-beautify": "^1.7.5",
     "jsdoc": "^3.5.5",
     "mocha": "^5.2.0",
-    "nock": "^9.4.4",
     "mock-require": "^3.0.2",
+    "nock": "^9.5.0",
     "nyc": "^12.0.2",
     "proxyquire": "^2.0.1",
     "sinon": "^5.1.1",
@@ -40,7 +40,7 @@
     "applicationinsights": "^1.0.3",
     "i18n": "^0.8.3",
     "morgan": "^1.9.0",
-    "pugin-components": "^0.x",
+    "pugin-components": "^0.3.1",
     "shunter": "^4.11.5",
     "winston": "^3.0.0"
   }
