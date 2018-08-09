@@ -5,8 +5,6 @@
     "meta": {
       "request-id": "G4K2N8ExN07N7Q=="
     },
-    "pugin-version": "1.10.0",
-    "open-search": "http://beta.parliament.uk/search/opensearch",
     "header-components": [
       {
           "name": "link",
