@@ -1,34 +1,17 @@
 'use strict';
 
+const ProxyTarget = require('../lib/proxy-target');
+
 let host = 'localhost';
 
 if (typeof process.env.THORNEY_HOST != 'undefined' && process.env.THORNEY_HOST != '') {
   host = process.env.THORNEY_HOST;
 }
 
-// Configure the proxy route, this should point to
-// where your back end application runs
+// Configure the proxy routes - these should point to where your back end applications run
 module.exports = {
-  localhost: {
-    default: {
-      host: host,
-      port: 5401
-    }
-  },
-  'beta.parliament.uk':     generateProxyTargets('web1live'),
-  'devci.parliament.uk':    generateProxyTargets('web1devci'),
-  'augustus.pdswebops.org': generateProxyTargets('pdswebops')
+  localhost:                new ProxyTarget(host, 5401, 'imaginaryHost').generate(),
+  'beta.parliament.uk':     new ProxyTarget('thorney.web1live.org', 3000, 'parliamentuk-green.web1live.org').generate(),
+  'devci.parliament.uk':    new ProxyTarget('thorney.web1devci.org', 3000, 'parliamentuk-green.web1devci.org').generate(),
+  'augustus.pdswebops.org': new ProxyTarget('thorney.pdswebops.org', 3000, 'parliamentuk-green.pdswebops.org').generate()
 };
-
-function generateProxyTargets (hostname) {
-  return {
-    "/^\\/search/": {
-      host: `thorney.${hostname}.org`,
-      port: 3000
-    },
-    default: {
-      host: `parliamentuk-green.${hostname}.org`,
-      port: 80
-    }
-  }
-}
