@@ -62,7 +62,7 @@ describe('routes', () => {
   };
 
   describe('when THORNEY_HOST is not defined', () => {
-    it('routes.localhost.default.host is "localhost"', () => {
+    it('the default host is "localhost" and the rest of the routes are correct', () => {
       delete process.env['THORNEY_HOST'];
 
       const routes = proxyquire('../../config/routes', {});
@@ -72,7 +72,7 @@ describe('routes', () => {
   })
 
   describe('when THORNEY_HOST is "thorney"', () => {
-    it('routes.localhost.default.host is "thorney"', () => {
+    it('the defaut host is "thorney" and the rest of the routes are correct', () => {
       process.env['THORNEY_HOST'] = 'thorney';
 
       routesExpectation.localhost['/^\\/search/'].host = 'thorney';
