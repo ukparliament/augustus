@@ -132,13 +132,7 @@
                       "name": "form__search",
                       "data": {
                         "value": "banana",
-                        "label": "search.label",
-                        "components": [
-                          {
-                            "name": "icon__search",
-                            "data": "search.search-icon"
-                          }
-                        ]
+                        "label": "search.label"
                       }
                   }
                 ]

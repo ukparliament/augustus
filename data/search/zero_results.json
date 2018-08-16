@@ -107,15 +107,11 @@
             }
           },
           {
-            "name": "form__search",
-            "data": {
-              "value": "fhuierlahgrui",
-              "label": "search.label",
-              "components": [{
-                "name": "icon__search",
-                "data": "search.search-icon"
-              }]
-            }
+              "name": "form__search",
+              "data": {
+                "value": "fhuierlahgrui",
+                "label": "search.label"
+              }
           }
         ]
       }
