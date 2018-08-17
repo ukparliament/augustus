@@ -27,21 +27,21 @@ describe('routes', () => {
         port: 3000
       },
       default: {
-        host: 'parliamentuk-green.web1live.org',
+        host: 'varnish.web1live.org',
         port: 80
       }
     },
     'devci.parliament.uk': {
       '/^\\/search/': {
-        host: 'internal-thorney-1551737291.eu-west-1.elb.amazonaws.com',
+        host: 'thorney.web1devci.org',
         port: 3000
       },
       '/^\\/statutory-instruments\\/[a-zA-z0-9]{8}$/': {
-        host: 'internal-thorney-1551737291.eu-west-1.elb.amazonaws.com',
+        host: 'thorney.web1devci.org',
         port: 3000
       },
       default: {
-        host: 'parliamentukrouting-green-193934969.eu-west-1.elb.amazonaws.com',
+        host: 'varnish.web1devci.org',
         port: 80
       }
     },
@@ -55,7 +55,7 @@ describe('routes', () => {
         port: 3000
       },
       default: {
-        host: 'parliamentuk-green.pdswebops.org',
+        host: 'varnish.pdswebops.org',
         port: 80
       }
     }
