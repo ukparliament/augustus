@@ -4,8 +4,20 @@
 [![Build Status][shield-travis]][info-travis] [![Test Coverage][shield-coveralls]][info-coveralls] [![License][shield-license]][info-license]
 
 ### Contents
-<!-- START doctoc -->
-<!-- END doctoc -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Requirements](#requirements)
+- [Quick start](#quick-start)
+- [Running the application](#running-the-application)
+- [Using components](#using-components)
+- [Starting Augustus and Shunter serve in a Docker Image](#starting-augustus-and-shunter-serve-in-a-docker-image)
+- [i18n Note](#i18n-note)
+- [Contributing](#contributing)
+- [License](#license)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Requirements
 [Augustus][augustus] requires the following:
@@ -37,13 +49,8 @@ To run the shunter serve.
 
 The application should now be available at [http://localhost:5400][local].
 
-## Adding Pugin Components
-You can add your own view files containing components; however, to access the Pugin Components view files you need to add the [pugin components npm][pugin-components] package to your dependencies.   
-
-```bash
-npm install --save-dev pugin-components
-```   
-Once installed it should appear in your node_modules file.
+## Using components
+[Augustus][augustus] uses [Pugin][pugin] as its components library which uses the [Dust][dust] templating language. However, you can use your own [Dust][dust] components by placing them in the `view` directory in the project's root. You can refer to the [Shunter templating documentation][shunter-templating-docs] for more information on how to do this.
 
 ## Starting Augustus and Shunter serve in a Docker Image   
 If you wish to run Augustus with shunter serve in a docker image in a development environment, use the following commands:  
@@ -58,13 +65,20 @@ To run Augustus and Shunter serve
 ```bash
 docker-compose up
 ```
+The application will then be available from http://localhost/.
 
 ## i18n Note
-Please note, that while normally data would be passed into a string in a translation file using double moustaches which sanitises input, when passing in a URL or other form of content which you do not wish to be sanitised you must use triple moustaches or it will not be rendered correctly in the output.  
-Example:  
-`"cookie-policy": "<a href='{{{link}}}'>Cookie Policy</a>"`  
+Please note, that while normally data would be passed into a string in a translation file using double moustaches which sanitises input, when passing in a URL or other form of content which you do not wish to be sanitised you must use triple moustaches or it will not be rendered correctly in the output. For example:
+
+```
+"cookie-policy": "<a href='{{{link}}}'>Cookie Policy</a>"
+```  
+
 Will be rendered correctly as:  
-`<a href='/meta/cookie'>Cookie Policy</a>`
+
+```
+<a href='/meta/cookie'>Cookie Policy</a>
+```
 
 ## Contributing
 If you wish to submit a bug fix or feature, you can create a pull request and it will be merged pending a code review.
@@ -82,13 +96,15 @@ If you wish to submit a bug fix or feature, you can create a pull request and it
 [augustus]: https://github.com/ukparliament/augustus
 [beta]: https://beta.parliament.uk
 [shunter]: https://github.com/springernature/shunter
-[pugin]: https://github.com/ukparliament/parliament.uk-pugin
+[pugin]: https://github.com/ukparliament/pugin-components
+[dust]: http://www.dustjs.com/
 [node]: https://nodejs.org/
 [node-version]: https://github.com/ukparliament/augustus/blob/master/.node-version
 [npm]: https://www.npmjs.com/
 [local]: http://localhost:5400
 [pugin-components]: https://www.npmjs.com/package/pugin-components
 [mocha]: https://mochajs.org/
+[shunter-templating-docs]: https://shunter.readthedocs.io/en/latest/usage/templates/
 
 [info-travis]:   https://travis-ci.org/ukparliament/augustus
 [shield-travis]: https://img.shields.io/travis/ukparliament/augustus.svg
