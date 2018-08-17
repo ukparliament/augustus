@@ -33,15 +33,15 @@ describe('routes', () => {
     },
     'devci.parliament.uk': {
       '/^\\/search/': {
-        host: 'thorney.web1devci.org',
+        host: 'internal-thorney-1551737291.eu-west-1.elb.amazonaws.com',
         port: 3000
       },
       '/^\\/statutory-instruments\\/[a-zA-z0-9]{8}$/': {
-        host: 'thorney.web1devci.org',
+        host: 'internal-thorney-1551737291.eu-west-1.elb.amazonaws.com',
         port: 3000
       },
       default: {
-        host: 'parliamentuk-green.web1devci.org',
+        host: 'parliamentukrouting-green-193934969.eu-west-1.elb.amazonaws.com',
         port: 80
       }
     },
