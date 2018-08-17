@@ -6,9 +6,7 @@
 		"header": {
 			"skip-to-content": "Skip to main content",
 			"cookie-banner-text": "Parliament.uk uses cookies to make the site simpler. <a href='{{{link}}}'>Find out more about cookies</a>",
-			"beta": "beta",
-			"pages-being-tested": "These pages are being tested. <a href='http://www.smartsurvey.co.uk/s/ukparliament-beta-website-feedback/'>Give feedback</a> to help improve them.",
-			"current-website": "Go to <a href='http://www.parliament.uk'>current website</a>",
+			"beta-status": "These pages are being tested. <a href='http://www.smartsurvey.co.uk/s/ukparliament-beta-website-feedback/'>Give feedback</a> to help improve them. Go to <a href='http://www.parliament.uk'>current website</a>",
 			"label": "UK Parliament"
 		},
 		"footer": {
