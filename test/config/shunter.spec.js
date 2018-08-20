@@ -23,4 +23,19 @@ describe('shunter config', () => {
     expect(object.path.themes).to.eq('some_dir');
     expect(object.log).to.eq(winstonSilencer);
   })
+
+  it('errorPages', () => {
+    let object = shunterConfig('some_dir', 'moduleName', 'true');
+
+    let expectation = {
+      errorLayouts: {
+        default: 'layout',
+        404: 'layout-error-404',
+        500: 'layout-error-500',
+        502: 'layout-error-502'
+      }
+    }
+
+    expect(object.errorPages).to.deep.equal(expectation);
+  })
 })
