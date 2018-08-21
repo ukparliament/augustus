@@ -99,7 +99,7 @@ If you wish to submit a bug fix or feature, you can create a pull request and it
 [pugin]: https://github.com/ukparliament/pugin-components
 [dust]: http://www.dustjs.com/
 [node]: https://nodejs.org/
-[node-version]: https://github.com/ukparliament/augustus/blob/master/.node-version
+[node-version]: https://github.com/ukparliament/augustus/blob/master/.nvmrc
 [npm]: https://www.npmjs.com/
 [local]: http://localhost:5400
 [pugin-components]: https://www.npmjs.com/package/pugin-components

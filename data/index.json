@@ -85,6 +85,7 @@
     {
       "name": "header",
       "data": {
+        "search-action": "/search",
         "components": [
           {
             "name": "link",
@@ -106,19 +107,6 @@
                 }
               ]
             }
-          },
-          {
-            "name": "form__search",
-            "data": {
-              "global": true,
-              "label": "search.label",
-              "components": [
-                {
-                  "name": "icon__search",
-                  "data": "search.search-icon"
-                }
-              ]
-            }
           }
         ]
       }
@@ -134,7 +122,7 @@
             "name": "heading1",
             "data": {
               "heading": {
-                "content": "home.beta-website-heading"
+                "content": "home.hero.heading"
               }
             }
           },
@@ -142,10 +130,10 @@
             "name": "paragraph",
             "data": [
               {
-                "content": "home.building-new-website"
+                "content": "home.hero.building-new-website"
               },
               {
-                "content": "home.follow-beta-progress"
+                "content": "home.hero.follow-beta-progress"
               }
             ]
           }
@@ -174,7 +162,7 @@
             "data": {
               "size": 2,
               "translation": {
-                "key": "home.mps-and-lords"
+                "key": "home.mps-and-lords.heading"
               }
             }
           },
@@ -200,10 +188,10 @@
                   "name": "card__general__card-1",
                   "data": {
                     "heading-size": 3,
-                    "heading-text": "home.mps-heading",
+                    "heading-text": "home.mps-and-lords.mps.heading",
                     "url": "/mps",
                     "paragraphs": [
-                      "home.find-all-mps"
+                      "home.mps-and-lords.mps.find"
                     ]
                   }
                 },
@@ -211,10 +199,10 @@
                   "name": "card__general__card-1",
                   "data": {
                     "heading-size": 3,
-                    "heading-text": "home.lords-heading",
+                    "heading-text": "home.mps-and-lords.lords.heading",
                     "url": "/houses/WkUWUBMx/members/current/a-z/a",
                     "paragraphs": [
-                      "home.find-all-lords"
+                      "home.mps-and-lords.lords.find"
                     ]
                   }
                 },
@@ -222,10 +210,10 @@
                   "name": "card__general__card-1",
                   "data": {
                     "heading-size": 3,
-                    "heading-text": "home.constituencies-heading",
+                    "heading-text": "home.mps-and-lords.constituencies.heading",
                     "url": "/find-your-constituency",
                     "paragraphs": [
-                      "home.find-mps-by-area"
+                      "home.mps-and-lords.constituencies.find"
                     ]
                   }
                 },
@@ -233,10 +221,10 @@
                   "name": "card__general__card-1",
                   "data": {
                     "heading-size": 3,
-                    "heading-text": "home.parties-and-groups-heading",
+                    "heading-text": "home.mps-and-lords.parties-and-groups.heading",
                     "url": "/houses/1AFu55Hs/parties/current",
                     "paragraphs": [
-                      "home.find-members-by-party-or-group"
+                      "home.mps-and-lords.parties-and-groups.find"
                     ]
                   }
                 }
@@ -248,7 +236,7 @@
             "data": {
               "size": 2,
               "translation": {
-                "key": "home.parliament-activity"
+                "key": "home.parliament-activity.heading"
               }
             }
           },
@@ -274,10 +262,10 @@
                   "name": "card__general__card-1",
                   "data": {
                     "heading-size": 3,
-                    "heading-text": "home.statutory-instruments",
+                    "heading-text": "home.parliament-activity.statutory-instruments.heading",
                     "url": "/statutory-instruments",
                     "paragraphs": [
-                      "home.find-all-statutory-instruments"
+                      "home.parliament-activity.statutory-instruments.find"
                     ]
                   }
                 }
@@ -289,7 +277,7 @@
             "data": {
               "size": 2,
               "translation": {
-                "key": "home.guides"
+                "key": "home.guides.heading"
               }
             }
           },
@@ -315,10 +303,10 @@
                   "name": "card__general__card-1",
                   "data": {
                     "heading-size": 3,
-                    "heading-text": "home.guide-to-procedure",
+                    "heading-text": "home.guides.guide-to-procedure.heading",
                     "url": "/collections/6i8XQAfD",
                     "paragraphs": [
-                      "home.find-guidance"
+                      "home.guides.guide-to-procedure.find"
                     ]
                   }
                 }

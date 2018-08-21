@@ -126,13 +126,7 @@
                   {
                       "name": "form__search",
                       "data": {
-                        "label": "search.label",
-                        "components": [
-                          {
-                            "name": "icon__search",
-                            "data": "search.search-icon"
-                          }
-                        ]
+                        "label": "search.label"
                       }
                   }
                 ]
