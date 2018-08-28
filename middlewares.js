@@ -5,15 +5,19 @@ const initialiseAppInsights = require('./middlewares/initialiseAppInsights');
 const healthCheck = require('./middlewares/healthCheck');
 const morgan = require('./middlewares/morgan');
 
-let bootstrap = (app, logToJson, loggerLibrary = morgan, healthCheckMiddleware = healthCheck) => {
-  if (logToJson === 'true') { app.use(loggerLibrary); }
+let bootstrap = (app, logToJson) => {
+  // If logToJson is a true string, the default Shunter logging is silenced and JSON logging is used in its place
+  if (logToJson === 'true') {
+    app.use(morgan);
 
-  app.use('/health-check', healthCheckMiddleware);
+    app.getConfig().log = winston.createLogger({ silent: true });
+  }
+
+  app.use('/health-check', healthCheck);
 };
 
 module.exports = {
   initialiseAppInsights,
   healthCheck,
-  winstonSilencer: winston.createLogger({ silent: true }),
   bootstrap: bootstrap
 };
