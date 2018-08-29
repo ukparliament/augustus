@@ -17,6 +17,7 @@
             "data": {
               "link": "#content",
               "display": {
+                "name": "partials__display",
                   "data": [
                   {
                     "component": "skip-to-content"
@@ -31,6 +32,7 @@
             "name": "status__banner",
             "data": {
               "display": {
+                "name": "partials__display",
                   "data": [
                   {
                     "component": "status",
@@ -65,6 +67,7 @@
             "name": "status__banner",
             "data": {
               "display": {
+                "name": "partials__display",
                   "data": [
                   {
                     "component": "status",
@@ -74,26 +77,12 @@
                 },
               "components": [
                 {
-                  "name": "list__generic",
-                  "data": {
-                    "type": "ul",
-                    "display": {
-                        "data": [
-                        {
-                          "component": "list",
-                          "variant": "inline"
-                        }
-                        ]
-                      },
-                    "contents": [
-                      {
-                        "content": "shared.header.pages-being-tested"
-                        },
-                        {
-                          "content": "shared.header.current-website"
-                        }
-                    ]
-                  }
+                  "name": "paragraph",
+                  "data": [
+                    {
+                      "content": "shared.header.beta-status"
+                    }
+                  ]
                 }
               ]
           	}
@@ -107,6 +96,7 @@
                       "data": {
                         "link": "/",
                         "display": {
+                          "name": "partials__display",
                             "data": [
                             {
                               "component": "uk_parliament"
@@ -142,13 +132,7 @@
                       "name": "form__search",
                       "data": {
                         "value": "banana",
-                        "label": "search.label",
-                        "components": [
-                          {
-                            "name": "icon__search",
-                            "data": "search.search-icon"
-                          }
-                        ]
+                        "label": "search.label"
                       }
                   }
                 ]
@@ -175,6 +159,7 @@
                         "name": "status__highlight",
                         "data": {
                           "display": {
+                            "name": "partials__display",
                               "data": [
                               {
                                 "component": "status",
@@ -199,6 +184,7 @@
                         "data": {
                             "type": "ol",
                             "display": {
+                              "name": "partials__display",
                                 "data": [
                                   {
                                     "component": "list",
@@ -214,7 +200,7 @@
                                         "url": "some-url",
                                         "hints": [
                                           {
-                                            "name": "hint",
+                                            "name": "partials__hint",
                                             "data": {
                                               "display": {
                                                 "data": [
@@ -239,7 +225,7 @@
                                         "url": "some-url",
                                         "hints": [
                                           {
-                                            "name": "hint",
+                                            "name": "partials__hint",
                                             "data": {
                                               "display": {
                                                 "data": [
@@ -264,7 +250,7 @@
                                         "url": "some-url",
                                         "hints": [
                                           {
-                                            "name": "hint",
+                                            "name": "partials__hint",
                                             "data": {
                                               "display": {
                                                 "data": [
@@ -278,7 +264,7 @@
                                             }
                                           },
                                           {
-                                            "name": "hint",
+                                            "name": "partials__hint",
                                             "data": {
                                               "display": {
                                                 "data": [
@@ -404,6 +390,7 @@
                   "data": {
                     "type": "ul",
                     "display": {
+                      "name": "partials__display",
                       "data": [
                         {
                           "component": "list"

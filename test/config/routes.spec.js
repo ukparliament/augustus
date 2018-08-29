@@ -27,7 +27,7 @@ describe('routes', () => {
         port: 3000
       },
       default: {
-        host: 'parliamentuk-green.web1live.org',
+        host: 'varnish.web1live.org',
         port: 80
       }
     },
@@ -41,7 +41,7 @@ describe('routes', () => {
         port: 3000
       },
       default: {
-        host: 'parliamentuk-green.web1devci.org',
+        host: 'varnish.web1devci.org',
         port: 80
       }
     },
@@ -55,7 +55,7 @@ describe('routes', () => {
         port: 3000
       },
       default: {
-        host: 'parliamentuk-green.pdswebops.org',
+        host: 'varnish.pdswebops.org',
         port: 80
       }
     }

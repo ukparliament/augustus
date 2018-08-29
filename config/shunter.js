@@ -17,7 +17,8 @@ module.exports = (dirname, moduleName, logToJson, loggerLibrary = winstonSilence
       errorLayouts: {
           default: 'layout',
           404: 'layout-error-404',
-          500: 'layout-error-500'
+          500: 'layout-error-500',
+          502: 'layout-error-502'
       }
     }
   }

@@ -11,6 +11,7 @@
       "data": {
         "link": "#content",
         "display": {
+          "name": "partials__display",
           "data": [{
             "component": "skip-to-content"
           }]
@@ -23,8 +24,8 @@
       "name": "status__banner",
       "data": {
         "display": {
-          "data": [
-            {
+          "name": "partials__display",
+          "data": [{
               "component": "status",
               "variant": "banner"
             },
@@ -53,41 +54,29 @@
       "name": "status__banner",
       "data": {
         "display": {
+          "name": "partials__display",
           "data": [{
             "component": "status",
             "variant": "banner"
           }]
         },
         "components": [{
-          "name": "list__generic",
-          "data": {
-            "type": "ul",
-            "display": {
-              "data": [{
-                "component": "list",
-                "variant": "inline"
-              }]
-            },
-            "contents": [{
-                "content": "shared.header.pages-being-tested"
-              },
-              {
-                "content": "shared.header.current-website"
-              }
-            ]
-          }
+          "name": "paragraph",
+          "data": [{
+            "content": "shared.header.beta-status"
+          }]
         }]
       }
     },
     {
       "name": "header",
       "data": {
-        "components": [
-          {
+        "components": [{
           "name": "link",
           "data": {
             "link": "/",
             "display": {
+              "name": "partials__display",
               "data": [{
                 "component": "uk_parliament"
               }]
@@ -105,26 +94,28 @@
   "main-components": [{
       "name": "section__primary",
       "data": {
-        "components": [
-          {
+        "components": [{
             "name": "heading1",
             "data": {
-              "heading": {"content": "search.results-heading"},
-              "context": {"content": "fhuierlahgrui", "hidden": true}
+              "heading": {
+                "content": "search.results-heading"
+              },
+              "context": {
+                "content": "fhuierlahgrui",
+                "hidden": true
+              }
             }
           },
           {
-              "name": "form__search",
-              "data": {
-                "value": "fhuierlahgrui",
-                "label": "search.label",
-                "components": [
-                  {
-                    "name": "icon__search",
-                    "data": "search.search-icon"
-                  }
-                ]
-              }
+            "name": "form__search",
+            "data": {
+              "value": "fhuierlahgrui",
+              "label": "search.label",
+              "components": [{
+                "name": "icon__search",
+                "data": "search.search-icon"
+              }]
+            }
           }
         ]
       }
@@ -133,8 +124,7 @@
       "name": "section__section",
       "data": {
         "content-flag": true,
-        "components": [
-          {
+        "components": [{
             "name": "heading",
             "data": {
               "content": ["search.no-results"],
@@ -145,6 +135,7 @@
             "name": "status__highlight",
             "data": {
               "display": {
+                "name": "partials__display",
                 "data": [{
                   "component": "status",
                   "variant": "highlight"
@@ -171,6 +162,7 @@
         "data": {
           "type": "ul",
           "display": {
+            "name": "partials__display",
             "data": [{
               "component": "list"
             }]

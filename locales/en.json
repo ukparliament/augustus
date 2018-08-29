@@ -6,9 +6,7 @@
 		"header": {
 			"skip-to-content": "Skip to main content",
 			"cookie-banner-text": "Parliament.uk uses cookies to make the site simpler. <a href='{{{link}}}'>Find out more about cookies</a>",
-			"beta": "beta",
-			"pages-being-tested": "These pages are being tested. <a href='http://www.smartsurvey.co.uk/s/ukparliament-beta-website-feedback/'>Give feedback</a> to help improve them.",
-			"current-website": "Go to <a href='http://www.parliament.uk'>current website</a>",
+			"beta-status": "These pages are being tested. <a href='http://www.smartsurvey.co.uk/s/ukparliament-beta-website-feedback/'>Give feedback</a> to help improve them. Go to <a href='http://www.parliament.uk'>current website</a>",
 			"label": "UK Parliament"
 		},
 		"footer": {
@@ -33,23 +31,43 @@
 		"no-results": "There are no results for your search"
 	},
 	"home": {
-		"beta-website-heading": "UK Parliament beta website",
-		"building-new-website": "We're building a new website for Parliament. Pages with a beta label are being tested and improved. They may not work for everyone.",
-		"follow-beta-progress": "Follow <a href='https://pds.blog.parliament.uk/category/parliament-uk/'>beta progress on our blog</a>.",
-		"mps-and-lords": "MPs and Lords",
-		"mps-heading": "MPs",
-		"find-all-mps": "Find all members of the House of Commons.",
-		"lords-heading": "Lords",
-		"find-all-lords": "View all members of the House of Lords.",
-		"constituencies-heading": "Constituencies",
-		"find-mps-by-area": "Find MPs by the area they represent.",
-		"parties-and-groups-heading": "Parties and groups",
-		"find-members-by-party-or-group": "Find MPs and Lords by their party or group.",
-		"parliament-activity": "Activity in Parliament",
-		"statutory-instruments": "Statutory instruments",
-		"find-all-statutory-instruments": "Find all statutory instruments and follow their progress.",
-		"guides": "Guides",
-		"guide-to-procedure": "MPs Guide to Procedure",
-		"find-guidance": "Guidance on House of Commons procedure for MPs and their staff."
+    "hero": {
+      "heading": "UK Parliament beta website",
+      "building-new-website": "We're building a new website for Parliament. Pages with a beta label are being tested and improved. They may not work for everyone.",
+		  "follow-beta-progress": "Follow <a href='https://pds.blog.parliament.uk/category/parliament-uk/'>beta progress on our blog</a>."
+    },
+    "mps-and-lords": {
+      "heading": "MPs and Lords",
+      "mps": {
+        "heading": "MPs",
+        "find": "Find all members of the House of Commons."
+      },
+      "lords": {
+        "heading": "Lords",
+        "find": "View all members of the House of Lords."
+      },
+      "constituencies": {
+        "heading": "Constituencies",
+        "find": "Find MPs by the area they represent."
+      },
+      "parties-and-groups": {
+        "heading": "Parties and groups",
+        "find": "Find MPs and Lords by their party or group."
+      }
+    },
+    "parliament-activity": {
+      "heading": "Activity in Parliament",
+      "statutory-instruments": {
+        "heading": "Statutory instruments",
+        "find": "Find all statutory instruments and follow their progress."
+      }
+    },
+    "guides": {
+      "heading": "Guides",
+      "guide-to-procedure": {
+        "heading": "MPs Guide to Procedure",
+        "find": "Guidance on House of Commons procedure for MPs and their staff."
+      }
+    }
 	}
 }
