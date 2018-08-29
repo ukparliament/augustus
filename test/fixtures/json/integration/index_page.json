@@ -3,8 +3,7 @@
     "template": "layout"
   },
   "meta": {
-    "title": "beta.parliament.uk Home page - UK Parliament",
-    "request-id": "|G4K2N8ExN07N7Q==.1234abcd_"
+    "title": "beta.parliament.uk Home page - UK Parliament"
   },
   "header-components": [
     {
@@ -86,7 +85,6 @@
     {
       "name": "header",
       "data": {
-        "search-action": "/search",
         "components": [
           {
             "name": "link",
@@ -108,6 +106,19 @@
                 }
               ]
             }
+          },
+          {
+            "name": "form__search",
+            "data": {
+              "global": true,
+              "label": "search.label",
+              "components": [
+                {
+                  "name": "icon__search",
+                  "data": "search.search-icon"
+                }
+              ]
+            }
           }
         ]
       }
@@ -123,7 +134,7 @@
             "name": "heading1",
             "data": {
               "heading": {
-                "content": "home.hero.heading"
+                "content": "home.beta-website-heading"
               }
             }
           },
@@ -131,10 +142,10 @@
             "name": "paragraph",
             "data": [
               {
-                "content": "home.hero.building-new-website"
+                "content": "home.building-new-website"
               },
               {
-                "content": "home.hero.follow-beta-progress"
+                "content": "home.follow-beta-progress"
               }
             ]
           }
@@ -163,7 +174,7 @@
             "data": {
               "size": 2,
               "translation": {
-                "key": "home.mps-and-lords.heading"
+                "key": "home.mps-and-lords"
               }
             }
           },
@@ -277,7 +288,7 @@
             "data": {
               "size": 2,
               "translation": {
-                "key": "home.parliament-activity.heading"
+                "key": "home.parliament-activity"
               }
             }
           },
@@ -328,7 +339,7 @@
             "data": {
               "size": 2,
               "translation": {
-                "key": "home.guides.heading"
+                "key": "home.guides"
               }
             }
           },
