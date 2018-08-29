@@ -1,0 +1,374 @@
+{
+  "layout": {
+    "template": "layout"
+  },
+  "meta": {
+    "title": "beta.parliament.uk Home page - UK Parliament"
+  },
+  "header-components": [
+    {
+      "name": "link",
+      "data": {
+        "link": "#content",
+        "display": {
+          "data": [
+            {
+              "component": "skip-to-content"
+            }
+          ]
+        },
+        "selector": "skiplink",
+        "content": "shared.header.skip-to-content"
+      }
+    },
+    {
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "data": [
+            {
+              "component": "status",
+              "variant": "banner"
+            },
+            {
+              "component": "theme",
+              "variant": "caution"
+            },
+            {
+              "component": "cookie"
+            }
+          ]
+        },
+        "selector": "cookie",
+        "components": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.cookie-banner-text",
+                "data": {
+                  "link": "/meta/cookie-policy"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "data": [
+            {
+              "component": "status",
+              "variant": "banner"
+            }
+          ]
+        },
+        "components": [
+          {
+            "name": "list__generic",
+            "data": {
+              "type": "ul",
+              "display": {
+                "data": [
+                  {
+                    "component": "list",
+                    "variant": "inline"
+                  }
+                ]
+              },
+              "contents": [
+                {
+                  "content": "shared.header.pages-being-tested"
+                },
+                {
+                  "content": "shared.header.current-website"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "header",
+      "data": {
+        "components": [
+          {
+            "name": "link",
+            "data": {
+              "link": "/",
+              "display": {
+                "data": [
+                  {
+                    "component": "uk_parliament"
+                  }
+                ]
+              },
+              "label": "shared.header.label",
+              "components": [
+                {
+                  "name": "icon__uk-parliament",
+                  "data": "shared.header.label"
+                }
+              ]
+            }
+          },
+          {
+            "name": "form__search",
+            "data": {
+              "global": true,
+              "label": "search.label",
+              "components": [
+                {
+                  "name": "icon__search",
+                  "data": "search.search-icon"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "main-components": [
+    {
+      "name": "hero",
+      "data": {
+        "content-flag": true,
+        "components": [
+          {
+            "name": "heading1",
+            "data": {
+              "heading": {
+                "content": "home.beta-website-heading"
+              }
+            }
+          },
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "home.building-new-website"
+              },
+              {
+                "content": "home.follow-beta-progress"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "section__section",
+      "data": {
+        "display": {
+          "data": [
+            {
+              "component": "section",
+              "variant": "major"
+            },
+            {
+              "component": "section",
+              "variant": "wide"
+            }
+          ]
+        },
+        "components": [
+          {
+            "name": "heading",
+            "data": {
+              "size": 2,
+              "translation": {
+                "key": "home.mps-and-lords"
+              }
+            }
+          },
+          {
+            "name": "list__generic",
+            "data": {
+              "type": "ol",
+              "display": {
+                "data": [
+                  {
+                    "component": "list",
+                    "variant": "block"
+                  },
+                  {
+                    "component": "list",
+                    "variant": 3
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "name": "card__general__card-1",
+                  "data": {
+                    "heading-size": 3,
+                    "heading-text": "home.mps-heading",
+                    "url": "/mps",
+                    "paragraphs": [
+                      "home.find-all-mps"
+                    ]
+                  }
+                },
+                {
+                  "name": "card__general__card-1",
+                  "data": {
+                    "heading-size": 3,
+                    "heading-text": "home.lords-heading",
+                    "url": "/houses/WkUWUBMx/members/current/a-z/a",
+                    "paragraphs": [
+                      "home.find-all-lords"
+                    ]
+                  }
+                },
+                {
+                  "name": "card__general__card-1",
+                  "data": {
+                    "heading-size": 3,
+                    "heading-text": "home.constituencies-heading",
+                    "url": "/find-your-constituency",
+                    "paragraphs": [
+                      "home.find-mps-by-area"
+                    ]
+                  }
+                },
+                {
+                  "name": "card__general__card-1",
+                  "data": {
+                    "heading-size": 3,
+                    "heading-text": "home.parties-and-groups-heading",
+                    "url": "/houses/1AFu55Hs/parties/current",
+                    "paragraphs": [
+                      "home.find-members-by-party-or-group"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "heading",
+            "data": {
+              "size": 2,
+              "translation": {
+                "key": "home.parliament-activity"
+              }
+            }
+          },
+          {
+            "name": "list__generic",
+            "data": {
+              "type": "ol",
+              "display": {
+                "data": [
+                  {
+                    "component": "list",
+                    "variant": "block"
+                  },
+                  {
+                    "component": "list",
+                    "variant": 3
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "name": "card__general__card-1",
+                  "data": {
+                    "heading-size": 3,
+                    "heading-text": "home.statutory-instruments",
+                    "url": "/statutory-instruments",
+                    "paragraphs": [
+                      "home.find-all-statutory-instruments"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "heading",
+            "data": {
+              "size": 2,
+              "translation": {
+                "key": "home.guides"
+              }
+            }
+          },
+          {
+            "name": "list__generic",
+            "data": {
+              "type": "ol",
+              "display": {
+                "data": [
+                  {
+                    "component": "list",
+                    "variant": "block"
+                  },
+                  {
+                    "component": "list",
+                    "variant": 3
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "name": "card__general__card-1",
+                  "data": {
+                    "heading-size": 3,
+                    "heading-text": "home.guide-to-procedure",
+                    "url": "/collections/6i8XQAfD",
+                    "paragraphs": [
+                      "home.find-guidance"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "footer-components": [
+    {
+      "name": "footer",
+      "data": {
+        "uk-parliament": "shared.footer.uk-parliament",
+        "components": [
+          {
+            "name": "list__generic",
+            "data": {
+              "type": "ul",
+              "display": {
+                "data": [
+                  {
+                    "component": "list"
+                  }
+                ]
+              },
+              "contents": [
+                {
+                  "content": "shared.footer.current-website"
+                },
+                {
+                  "content": "shared.footer.cookie-policy",
+                  "data": {
+                    "link": "/meta/cookie-policy"
+                  }
+                },
+                {
+                  "content": "shared.footer.data-protection-privacy"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

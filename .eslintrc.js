@@ -38,5 +38,6 @@ module.exports = {
     "require": true,
     "describe": true,
     "process": true,
+    "module": true
   }
 };
