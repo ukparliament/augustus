@@ -197,7 +197,7 @@
                                 {
                                     "name": "card__search__search-result",
                                     "data": {
-                                        "heading-text": "Result 2",
+                                        "heading-text": "Page 1 - Result 2",
                                         "url": "some-url",
                                         "hints": [
                                           {
@@ -222,7 +222,7 @@
                                 {
                                     "name": "card__search__search-result",
                                     "data": {
-                                        "heading-text": "Result 3",
+                                        "heading-text": "Page 1 - Result 3",
                                         "url": "some-url",
                                         "hints": [
                                           {
@@ -311,7 +311,7 @@
                                   "name": "navigation__number__card",
                                   "data": {
                                       "url": "/search?count=10&q=hello&start_index=21",
-                                      "number": "4",
+                                      "number": "5",
                                       "total-count": "of 77"
                                   }
                               },
@@ -319,7 +319,7 @@
                                   "name": "navigation__number__card",
                                   "data": {
                                       "url": "/search?count=10&q=hello&start_index=21",
-                                      "number": "4",
+                                      "number": "6",
                                       "total-count": "of 77"
                                   }
                               },
@@ -327,7 +327,7 @@
                                   "name": "navigation__number__card",
                                   "data": {
                                       "url": "/search?count=10&q=hello&start_index=21",
-                                      "number": "4",
+                                      "number": "7",
                                       "total-count": "of 77"
                                   }
                               },
@@ -335,15 +335,7 @@
                                   "name": "navigation__number__card",
                                   "data": {
                                       "url": "/search?count=10&q=hello&start_index=21",
-                                      "number": "4",
-                                      "total-count": "of 77"
-                                  }
-                              },
-                              {
-                                  "name": "navigation__number__card",
-                                  "data": {
-                                      "url": "/search?count=10&q=hello&start_index=21",
-                                      "number": "4",
+                                      "number": "8",
                                       "total-count": "of 77"
                                   }
                               }
