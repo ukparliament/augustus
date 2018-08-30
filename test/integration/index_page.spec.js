@@ -4,6 +4,6 @@ describe('Home page', function(){
   testHelper.setupBefore();
 
   it('should render content for home page', function(done){
-    testHelper.shunterTest('index_page', 'layout', 'integration', done);
+    testHelper.shunterTest('index', 'layout', null, done, true);
   });
 });

@@ -3,7 +3,8 @@
     "template": "layout"
   },
   "meta": {
-    "title": "beta.parliament.uk Home page - UK Parliament"
+    "title": "beta.parliament.uk Home page - UK Parliament",
+    "request-id": "|G4K2N8ExN07N7Q==.1234abcd_"
   },
   "header-components": [
     {
