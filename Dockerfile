@@ -49,5 +49,8 @@ LABEL git-sha=$GIT_SHA \
 # Expose port 5400
 EXPOSE 5400
 
+# Setup a health check
+HEALTHCHECK --interval=5s --timeout=3s CMD curl --fail http://localhost:5400/health-check || exit 1
+
 # Launch puma
 CMD ["npm", "start"]
