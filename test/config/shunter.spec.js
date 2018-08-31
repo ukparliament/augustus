@@ -15,14 +15,13 @@ describe('shunter config', () => {
       modules: ['moduleName'],
       errorPages: {
         errorLayouts: {
-          404: 'layout-error-404',
           500: 'layout-error-500',
           502: 'layout-error-502',
-          default: 'layout'
+          default: 'layout-error-404'
         }
       }
-    }
+    };
 
     expect(object).to.deep.equal(expectation);
   })
-})
+});

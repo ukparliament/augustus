@@ -10,8 +10,7 @@ module.exports = (dirname, moduleName) => {
     modules: [moduleName],
     errorPages: {
       errorLayouts: {
-        default: 'layout',
-        404: 'layout-error-404',
+        default: 'layout-error-404',
         500: 'layout-error-500',
         502: 'layout-error-502'
       }

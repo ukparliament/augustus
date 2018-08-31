@@ -2,7 +2,7 @@
 
 let host = 'localhost';
 
-if (typeof process.env.THORNEY_HOST != 'undefined' && process.env.THORNEY_HOST != '') {
+if (typeof process.env.THORNEY_HOST !== 'undefined' && process.env.THORNEY_HOST !== '') {
   host = process.env.THORNEY_HOST;
 }
 
