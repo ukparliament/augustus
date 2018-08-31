@@ -3,7 +3,7 @@ pipelines:
     group: Main
     label_template: "${COUNT}"
     environment_variables:
-      NODE_ENV: development
+      NODE_ENV: production
     materials:
       parliament.uk-augustus-git:
         git: https://github.com/ukparliament/augustus.git

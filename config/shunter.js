@@ -1,10 +1,6 @@
 const routes = require('../config/routes');
-const winstonSilencer = require('../middlewares').winstonSilencer;
 
-module.exports = (dirname, moduleName, logToJson, loggerLibrary = winstonSilencer) => {
-  // Setting loggerLibrary to null tells Shunter to defer to its default logging behaviour
-  if (logToJson !== 'true') { loggerLibrary = null; }
-
+module.exports = (dirname, moduleName) => {
   return {
     path: {
       themes: dirname
@@ -12,12 +8,12 @@ module.exports = (dirname, moduleName, logToJson, loggerLibrary = winstonSilence
     routes: routes,
     jsonViewParameter: 'json',
     modules: [moduleName],
-    log: loggerLibrary,
     errorPages: {
       errorLayouts: {
-          default: 'layout',
-          404: 'layout-error-404',
-          500: 'layout-error-500'
+        default: 'layout',
+        404: 'layout-error-404',
+        500: 'layout-error-500',
+        502: 'layout-error-502'
       }
     }
   }
