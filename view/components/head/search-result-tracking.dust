@@ -1,14 +1,10 @@
 {! appInsights search results click custom tracking !}
 
-<script type="text/javascript">
-var UK_Parliament = UK_Parliament || {};
+<script>
+UK_Parliament_Search = {};
+window.UK_Parliament_Search = UK_Parliament_Search;
 
-if(typeof UK_Parliament == 'undefined') {
-  UK_Parliament = {};
-  window.UK_Parliament = UK_Parliament;
-}
-
-UK_Parliament.getResultObjectArray = function() {
+UK_Parliament_Search.getResultObjectArray = function() {
 
   cardArray = document.querySelectorAll('.card__details');
   resultObjectArray = [];
@@ -20,12 +16,12 @@ UK_Parliament.getResultObjectArray = function() {
       resultHintCount: 0
     };
 
-    startIndex = UK_Parliament.getParameterByName('start_index');
+    startIndex = UK_Parliament_Search.getParameterByName('start_index');
     (startIndex) ? resultObject.resultPosition = i + parseInt(startIndex) : resultObject.resultPosition = i+1;
 
     hintNodes = cardArray[i].querySelectorAll('ul>li>span');
-    if (hintNodes != []) {
-      resultObject.resultHints = UK_Parliament.resultHintArray(hintNodes);
+    if (hintNodes !== []) {
+      resultObject.resultHints = UK_Parliament_Search.resultHintArray(hintNodes);
       resultObject.resultHintCount = resultObject.resultHints.length
     }
 
@@ -50,7 +46,7 @@ UK_Parliament.getResultObjectArray = function() {
   }
 };
 
-UK_Parliament.resultHintArray = function(hintNodes){
+UK_Parliament_Search.resultHintArray = function(hintNodes){
   resultHints = [];
   for (var i = 0; i < hintNodes.length; i++) {
      resultHints.push(hintNodes[i].innerHTML);
@@ -58,7 +54,7 @@ UK_Parliament.resultHintArray = function(hintNodes){
   return resultHints;
 };
 
-UK_Parliament.getParameterByName = function(name, url) {
+UK_Parliament_Search.getParameterByName = function(name, url) {
     if (!url) url = window.location.href;
     name = name.replace(/[\[\]]/g, '\\$&');
     var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
@@ -68,5 +64,7 @@ UK_Parliament.getParameterByName = function(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, ' '));
 };
 
-UK_Parliament.getResultObjectArray();
+window.addEventListener("load", function(){
+  UK_Parliament_Search.getResultObjectArray();
+});
 </script>
