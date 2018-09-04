@@ -14,11 +14,6 @@ let bootstrap = (app, logToJson) => {
   }
 
   app.use('/health-check', healthCheck);
-
-  app.use('/', (req, res, next) => {
-    console.log(Date.now() + " - !!!!!!!!! GOT REQUEST FOR / !!!!!!!!!");
-    res.end('GOT /');
-  });
 };
 
 module.exports = {
