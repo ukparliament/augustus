@@ -14,17 +14,6 @@ let bootstrap = (app, logToJson) => {
   }
 
   app.use('/health-check', healthCheck);
-
-  app.use('/', (req, _, next) => {
-    let S4 = function() {
-      return (((1+Math.random())*0x10000)|0).toString(16).substring(1);
-    };
-    let id = (S4()+S4()+"-"+S4()+"-"+S4()+"-"+S4()+"-"+S4()+S4()+S4());
-    console.log(`BEGIN ${id}`);
-    console.log(req);
-    next();
-    console.log(`END ${id}`);
-  });
 };
 
 module.exports = {
