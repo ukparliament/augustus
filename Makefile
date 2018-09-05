@@ -88,6 +88,9 @@ build: # Using the variables defined above, run `docker build`, tagging the imag
 run: # Run the Docker image we have created, mapping the HOST_PORT and CONTAINER_PORT
 	docker run --rm -p $(HOST_PORT):$(CONTAINER_PORT) $(IMAGE)
 
+develop:
+	env PORT=$(CONTAINER_PORT) ./node_modules/foreman/nf.js --procfile ProcfileForeman start
+
 serve:
 	npm run serve
 
