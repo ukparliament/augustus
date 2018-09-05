@@ -1,4 +1,4 @@
-.PHONY: build run test push scan-image rmi deploy-ecs airbrake
+.PHONY: build run test push scan-image rmi deploy-ecs airbrake lighthouse
 
 ##
 # Makefile used to build, test and (locally) run the parliament.uk-prototype project.
@@ -87,6 +87,12 @@ build: # Using the variables defined above, run `docker build`, tagging the imag
 
 run: # Run the Docker image we have created, mapping the HOST_PORT and CONTAINER_PORT
 	docker run --rm -p $(HOST_PORT):$(CONTAINER_PORT) $(IMAGE)
+
+develop:
+	./node_modules/foreman/nf.js start
+
+lighthouse:
+	./lighthouse.sh
 
 serve:
 	npm run serve
