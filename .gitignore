@@ -2,8 +2,11 @@
 /.idea
 /.nyc_output
 /coverage
+/lighthouse
 /out
-/public/resources
+/public/resources/*.css
+/public/resources/*.js
+/public/resources/*.json
 
 shunter.pid
 
