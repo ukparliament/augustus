@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "applicationinsights": "^1.0.4",
-    "i18n": "^0.8.3",
+    "i18next": "^11.8.0",
     "morgan": "^1.9.0",
     "pugin-components": "^0.6.7",
     "shunter": "^4.12.0",

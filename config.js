@@ -1,12 +1,12 @@
 'use strict';
 
-const i18n = require('./config/i18n');
+const i18next = require('./config/i18next');
 const shunter = require('./config/shunter');
 
 const moduleName = 'pugin-components';
 
 module.exports = {
-  i18n,
+  i18next,
   moduleName,
   shunter
 };

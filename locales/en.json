@@ -5,14 +5,14 @@
 		},
 		"header": {
 			"skip-to-content": "Skip to main content",
-			"cookie-banner-text": "Parliament.uk uses cookies to make the site simpler. <a href='{{{link}}}'>Find out more about cookies</a>",
+			"cookie-banner-text": "Parliament.uk uses cookies to make the site simpler. <a href='{{-link}}'>Find out more about cookies</a>",
 			"beta-status": "These pages are being tested. <a href='http://www.smartsurvey.co.uk/s/ukparliament-beta-website-feedback/'>Give feedback</a> to help improve them. Go to <a href='http://www.parliament.uk'>current website</a>",
 			"label": "UK Parliament"
 		},
 		"footer": {
 			"uk-parliament": "UK Parliament",
 			"current-website": "<a href='http://www.parliament.uk'>Current Parliament.uk website</a>",
-			"cookie-policy": "<a href='{{{link}}}'>Cookie Policy</a>",
+			"cookie-policy": "<a href='{{-link}}'>Cookie Policy</a>",
 			"data-protection-privacy": "<a href='https://www.parliament.uk/site-information/data-protection/data-protection-and-privacy-policy/'>Data protection and privacy policy</a>"
 		},
 		"number-navigation": {
