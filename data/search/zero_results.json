@@ -3,18 +3,31 @@
     "template": "layout"
   },
   "meta": {
-    "title": "fhuierlahgrui - Search - UK Parliament",
-    "request-id": "|G4K2N8ExN07N7Q==.1234abcd_"
+    "title": "jfksdjfklsdl - Search - UK Parliament",
+    "request-id": "|NDxrYuDPs/b6YQ==.",
+    "data-alternates": null,
+    "open-graph": {
+      "title": "jfksdjfklsdl - Search - UK Parliament",
+      "original-url": "http://localhost:5400/search?q=jfksdjfklsdl",
+      "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
+      "image-width": "1200",
+      "image-height": "630",
+      "twitter-card": "summary_large_image"
+    },
+    "opensearch-description-url": "http://localhost:5400/search/opensearch"
   },
-  "header-components": [{
+  "header-components": [
+    {
       "name": "link",
       "data": {
         "link": "#content",
         "display": {
           "name": "partials__display",
-          "data": [{
-            "component": "skip-to-content"
-          }]
+          "data": [
+            {
+              "component": "skip-to-content"
+            }
+          ]
         },
         "selector": "skiplink",
         "content": "shared.header.skip-to-content"
@@ -25,7 +38,8 @@
       "data": {
         "display": {
           "name": "partials__display",
-          "data": [{
+          "data": [
+            {
               "component": "status",
               "variant": "banner"
             },
@@ -39,15 +53,19 @@
           ]
         },
         "selector": "cookie",
-        "components": [{
-          "name": "paragraph",
-          "data": [{
-            "content": "shared.header.cookie-banner-text",
-            "data": {
-              "link": "/meta/cookie-policy"
-            }
-          }]
-        }]
+        "components": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.cookie-banner-text",
+                "data": {
+                  "link": "/meta/cookie-policy"
+                }
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -55,63 +73,83 @@
       "data": {
         "display": {
           "name": "partials__display",
-          "data": [{
-            "component": "status",
-            "variant": "banner"
-          }]
+          "data": [
+            {
+              "component": "status",
+              "variant": "banner"
+            }
+          ]
         },
-        "components": [{
-          "name": "paragraph",
-          "data": [{
-            "content": "shared.header.beta-status"
-          }]
-        }]
+        "components": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.beta-status"
+              }
+            ]
+          }
+        ]
       }
     },
     {
       "name": "header",
       "data": {
-        "components": [{
-          "name": "link",
-          "data": {
-            "link": "/",
-            "display": {
-              "name": "partials__display",
-              "data": [{
-                "component": "uk_parliament"
-              }]
-            },
-            "label": "shared.header.label",
-            "components": [{
-              "name": "icon__uk-parliament",
-              "data": "shared.header.label"
-            }]
+        "components": [
+          {
+            "name": "link",
+            "data": {
+              "link": "/",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "uk_parliament"
+                  }
+                ]
+              },
+              "label": "shared.header.label",
+              "components": [
+                {
+                  "name": "icon__uk-parliament",
+                  "data": "shared.header.label"
+                }
+              ]
+            }
           }
-        }]
+        ]
       }
     }
   ],
-  "main-components": [{
+  "main-components": [
+    {
       "name": "section__primary",
       "data": {
-        "components": [{
+        "components": [
+          {
             "name": "heading1",
             "data": {
               "heading": {
                 "content": "search.results-heading"
               },
               "context": {
-                "content": "fhuierlahgrui",
+                "content": "jfksdjfklsdl",
                 "hidden": true
               }
             }
           },
           {
-              "name": "form__search",
-              "data": {
-                "value": "fhuierlahgrui",
-                "label": "search.label"
-              }
+            "name": "form__search",
+            "data": {
+              "value": "jfksdjfklsdl",
+              "label": "search.label",
+              "components": [
+                {
+                  "name": "icon__search",
+                  "data": "search.search-icon"
+                }
+              ]
+            }
           }
         ]
       }
@@ -124,7 +162,9 @@
           {
             "name": "heading",
             "data": {
-              "content": ["search.no-results"],
+              "content": [
+                "search.no-results"
+              ],
               "size": 2
             }
           }
@@ -132,35 +172,42 @@
       }
     }
   ],
-  "footer-components": [{
-    "name": "footer",
-    "data": {
-      "uk-parliament": "shared.footer.uk-parliament",
-      "components": [{
-        "name": "list__generic",
-        "data": {
-          "type": "ul",
-          "display": {
-            "name": "partials__display",
-            "data": [{
-              "component": "list"
-            }]
-          },
-          "contents": [{
-              "content": "shared.footer.current-website"
-            },
-            {
-              "content": "shared.footer.cookie-policy",
-              "data": {
-                "link": "/meta/cookie-policy"
-              }
-            },
-            {
-              "content": "shared.footer.data-protection-privacy"
+  "footer-components": [
+    {
+      "name": "footer",
+      "data": {
+        "uk-parliament": "shared.footer.uk-parliament",
+        "components": [
+          {
+            "name": "list__generic",
+            "data": {
+              "type": "ul",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "list"
+                  }
+                ]
+              },
+              "contents": [
+                {
+                  "content": "shared.footer.current-website"
+                },
+                {
+                  "content": "shared.footer.cookie-policy",
+                  "data": {
+                    "link": "/meta/cookie-policy"
+                  }
+                },
+                {
+                  "content": "shared.footer.data-protection-privacy"
+                }
+              ]
             }
-          ]
-        }
-      }]
+          }
+        ]
+      }
     }
-  }]
+  ]
 }

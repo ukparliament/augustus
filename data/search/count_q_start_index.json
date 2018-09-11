@@ -5,6 +5,14 @@
     "meta": {
       "title": "banana - Search - UK Parliament",
       "request-id": "|G4K2N8ExN07N7Q==.1234abcd_",
+      "open-graph": {
+        "title": "banana - Search - UK Parliament",
+        "original-url": "http://localhost:5400/search?q=banana",
+        "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
+        "image-width": "1200",
+        "image-height": "630",
+        "twitter-card": "summary_large_image"
+      },
       "components": [
         {
           "name": "head__search-result-tracking"

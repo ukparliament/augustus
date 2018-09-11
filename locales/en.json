@@ -21,14 +21,6 @@
 			"page": "Page "
 		}
 	},
-	"search": {
-		"search-heading": "Search",
-		"label": "Enter a keyword",
-		"search-icon": "Search icon",
-		"results-heading": "Search results for",
-		"count": "<span>About {{count}} results</span>",
-		"no-results": "There are no results for your search"
-	},
 	"home": {
     "hero": {
       "heading": "UK Parliament beta website",
@@ -68,5 +60,46 @@
         "find": "Guidance on House of Commons procedure for MPs and their staff."
       }
     }
-	}
+	},
+  "laid-thing": {
+    "laid-date": "Laying date ",
+    "work-package": "Work packaged thing has work package ",
+    "procedure": "Work package has procedure ",
+    "laying": "Laid thing has laying",
+    "laying-body": "Laying has laying body ",
+    "laying-person": "Laying has laying person ",
+    "web-link": "Work packaged thing has work packaged thing web link ",
+    "objects": "Objects"
+  },
+  "search": {
+    "search-heading": "Search",
+    "label": "Enter a keyword",
+    "search-icon": "Search icon",
+    "results-heading": "Search results for",
+    "count": "<span>About {{count}} results</span>",
+    "no-results": "There are no results for your search"
+  },
+  "statutory-instruments": {
+    "index": {
+      "title": "Statutory Instruments"
+    },
+    "show": {
+      "subheading": "<a href='/statutory-instruments'>Statutory Instruments</a>",
+      "coming-into-force-date": "Statutory instrument paper coming into force date ",
+      "coming-into-force-note": "Statutory instrument paper coming into force note ",
+      "made-date": "Statutory instrument paper made date ",
+      "further-details": "Further details",
+      "following-title": "Statutory instrument paper follows proposed negative statutory instrument paper",
+      "literals": "Literals"
+    }
+  },
+  "proposed-negative-statutory-instruments": {
+    "index": {
+      "title": "Proposed Negative Statutory Instruments"
+    },
+    "show": {
+      "subheading": "<a href='/proposed-negative-statutory-instruments'>Proposed Negative Statutory Instruments</a>",
+      "preceding-title": "Proposed negative statutory instrument paper precedes statutory instrument paper"
+    }
+  }
 }

@@ -4,7 +4,15 @@
   },
   "meta": {
     "title": "beta.parliament.uk Home page - UK Parliament",
-    "request-id": "|G4K2N8ExN07N7Q==.1234abcd_"
+    "request-id": "|G4K2N8ExN07N7Q==.1234abcd_",
+    "open-graph": {
+      "title": "beta.parliament.uk Home page - UK Parliament",
+      "original-url": "http://localhost:5400/",
+      "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
+      "image-width": "1200",
+      "image-height": "630",
+      "twitter-card": "summary_large_image"
+    }
   },
   "header-components": [
     {

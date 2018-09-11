@@ -26,10 +26,23 @@ function generateProxyTargets (host, port, defaultHost, defaultPort) {
       host: host,
       port: port
     },
+
+    // Match requests to /statutory-instruments/<8_character_alphanumeric_id>
+    '/^\\/statutory-instruments\\/[a-zA-z0-9]{8}$/': {
+      host: host,
+      port: port
+    },
+
+    // Match requests to /proposed-negative-statutory-instruments
+    '/^\\/proposed-negative-statutory-instruments/': {
+      host: host,
+      port: port
+    },
+
     // All other requests go here
     default: {
       host: defaultHost,
       port: defaultPort
     }
-  }
+  };
 }
