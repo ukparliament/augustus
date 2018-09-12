@@ -18,12 +18,12 @@
               "link": "#content",
               "display": {
                 "name": "partials__display",
-                  "data": [
+                "data": [
                   {
                     "component": "skip-to-content"
                   }
-                  ]
-                },
+                ]
+              },
               "selector": "skiplink",
               "content": "shared.header.skip-to-content"
             }
