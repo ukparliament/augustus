@@ -3,5 +3,6 @@
 /.nyc_output
 /coverage
 /out
+/public/resources
 
 shunter.pid

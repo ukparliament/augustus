@@ -3,20 +3,23 @@
     "template": "layout"
   },
   "meta": {
-    "title": "beta.parliament.uk Home page - UK Parliament"
+    "title": "beta.parliament.uk Home page - UK Parliament",
+    "request-id": "|G4K2N8ExN07N7Q==.1234abcd_"
   },
   "header-components": [
     {
       "name": "link",
       "data": {
         "link": "#content",
-        "display": {
-          "data": [
-            {
-              "component": "skip-to-content"
-            }
-          ]
-        },
+        "display":
+          {
+            "name": "partials__display",
+            "data": [
+              {
+                "component": "skip-to-content"
+              }
+            ]
+          },
         "selector": "skiplink",
         "content": "shared.header.skip-to-content"
       }
@@ -25,6 +28,7 @@
       "name": "status__banner",
       "data": {
         "display": {
+          "name": "partials__display",
           "data": [
             {
               "component": "status",
@@ -59,6 +63,7 @@
       "name": "status__banner",
       "data": {
         "display": {
+          "name": "partials__display",
           "data": [
             {
               "component": "status",
@@ -68,26 +73,12 @@
         },
         "components": [
           {
-            "name": "list__generic",
-            "data": {
-              "type": "ul",
-              "display": {
-                "data": [
-                  {
-                    "component": "list",
-                    "variant": "inline"
-                  }
-                ]
-              },
-              "contents": [
-                {
-                  "content": "shared.header.pages-being-tested"
-                },
-                {
-                  "content": "shared.header.current-website"
-                }
-              ]
-            }
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.beta-status"
+              }
+            ]
           }
         ]
       }
@@ -95,12 +86,14 @@
     {
       "name": "header",
       "data": {
+        "search-action": "/search",
         "components": [
           {
             "name": "link",
             "data": {
               "link": "/",
               "display": {
+                "name": "partials__display",
                 "data": [
                   {
                     "component": "uk_parliament"
@@ -112,19 +105,6 @@
                 {
                   "name": "icon__uk-parliament",
                   "data": "shared.header.label"
-                }
-              ]
-            }
-          },
-          {
-            "name": "form__search",
-            "data": {
-              "global": true,
-              "label": "search.label",
-              "components": [
-                {
-                  "name": "icon__search",
-                  "data": "search.search-icon"
                 }
               ]
             }
@@ -143,7 +123,7 @@
             "name": "heading1",
             "data": {
               "heading": {
-                "content": "home.beta-website-heading"
+                "content": "home.hero.heading"
               }
             }
           },
@@ -151,10 +131,10 @@
             "name": "paragraph",
             "data": [
               {
-                "content": "home.building-new-website"
+                "content": "home.hero.building-new-website"
               },
               {
-                "content": "home.follow-beta-progress"
+                "content": "home.hero.follow-beta-progress"
               }
             ]
           }
@@ -165,6 +145,7 @@
       "name": "section__section",
       "data": {
         "display": {
+          "name": "partials__display",
           "data": [
             {
               "component": "section",
@@ -182,7 +163,7 @@
             "data": {
               "size": 2,
               "translation": {
-                "key": "home.mps-and-lords"
+                "key": "home.mps-and-lords.heading"
               }
             }
           },
@@ -191,6 +172,7 @@
             "data": {
               "type": "ol",
               "display": {
+                "name": "partials__display",
                 "data": [
                   {
                     "component": "list",
@@ -198,53 +180,93 @@
                   },
                   {
                     "component": "list",
-                    "variant": 3
+                    "variant": "3"
                   }
                 ]
               },
               "components": [
                 {
-                  "name": "card__general__card-1",
+                  "name": "card__generic",
                   "data": {
-                    "heading-size": 3,
-                    "heading-text": "home.mps-heading",
-                    "url": "/mps",
-                    "paragraphs": [
-                      "home.find-all-mps"
-                    ]
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                          "content": ["home.mps-and-lords.mps.heading"],
+                          "size": 3,
+                          "link": "/mps"
+                      }
+                    },
+                    "paragraph": {
+                      "name": "paragraph",
+                      "data": [
+                        {
+                          "content":"home.mps-and-lords.mps.find"
+                        }
+                      ]
+                    }
                   }
                 },
                 {
-                  "name": "card__general__card-1",
+                  "name": "card__generic",
                   "data": {
-                    "heading-size": 3,
-                    "heading-text": "home.lords-heading",
-                    "url": "/houses/WkUWUBMx/members/current/a-z/a",
-                    "paragraphs": [
-                      "home.find-all-lords"
-                    ]
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                          "content": ["home.mps-and-lords.lords.heading"],
+                          "size": 3,
+                          "link": "/houses/WkUWUBMx/members/current/a-z/a"
+                      }
+                    },
+                    "paragraph": {
+                      "name": "paragraph",
+                      "data": [
+                        {
+                          "content":"home.mps-and-lords.lords.find"
+                        }
+                      ]
+                    }
                   }
                 },
                 {
-                  "name": "card__general__card-1",
+                  "name": "card__generic",
                   "data": {
-                    "heading-size": 3,
-                    "heading-text": "home.constituencies-heading",
-                    "url": "/find-your-constituency",
-                    "paragraphs": [
-                      "home.find-mps-by-area"
-                    ]
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                          "content": ["home.mps-and-lords.constituencies.heading"],
+                          "size": 3,
+                          "link": "/find-your-constituency"
+                      }
+                    },
+                    "paragraph": {
+                      "name": "paragraph",
+                      "data": [
+                        {
+                          "content":"home.mps-and-lords.constituencies.find"
+                        }
+                      ]
+                    }
                   }
                 },
                 {
-                  "name": "card__general__card-1",
+                  "name": "card__generic",
                   "data": {
-                    "heading-size": 3,
-                    "heading-text": "home.parties-and-groups-heading",
-                    "url": "/houses/1AFu55Hs/parties/current",
-                    "paragraphs": [
-                      "home.find-members-by-party-or-group"
-                    ]
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                          "content": ["home.mps-and-lords.parties-and-groups.heading"],
+                          "size": 3,
+                          "link": "/houses/1AFu55Hs/parties/current"
+                      }
+                    },
+                    "paragraph": {
+                      "name": "paragraph",
+                      "data": [
+                        {
+                          "content":"home.mps-and-lords.parties-and-groups.find"
+                        }
+                      ]
+                    }
                   }
                 }
               ]
@@ -255,7 +277,7 @@
             "data": {
               "size": 2,
               "translation": {
-                "key": "home.parliament-activity"
+                "key": "home.parliament-activity.heading"
               }
             }
           },
@@ -264,6 +286,7 @@
             "data": {
               "type": "ol",
               "display": {
+                "name": "partials__display",
                 "data": [
                   {
                     "component": "list",
@@ -271,20 +294,30 @@
                   },
                   {
                     "component": "list",
-                    "variant": 3
+                    "variant": "3"
                   }
                 ]
               },
               "components": [
                 {
-                  "name": "card__general__card-1",
+                  "name": "card__generic",
                   "data": {
-                    "heading-size": 3,
-                    "heading-text": "home.statutory-instruments",
-                    "url": "/statutory-instruments",
-                    "paragraphs": [
-                      "home.find-all-statutory-instruments"
-                    ]
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                          "content": ["home.parliament-activity.statutory-instruments.heading"],
+                          "size": 3,
+                          "link": "/statutory-instruments"
+                      }
+                    },
+                    "paragraph": {
+                      "name": "paragraph",
+                      "data": [
+                        {
+                          "content":"home.parliament-activity.statutory-instruments.find"
+                        }
+                      ]
+                    }
                   }
                 }
               ]
@@ -295,7 +328,7 @@
             "data": {
               "size": 2,
               "translation": {
-                "key": "home.guides"
+                "key": "home.guides.heading"
               }
             }
           },
@@ -304,6 +337,7 @@
             "data": {
               "type": "ol",
               "display": {
+                "name": "partials__display",
                 "data": [
                   {
                     "component": "list",
@@ -311,20 +345,30 @@
                   },
                   {
                     "component": "list",
-                    "variant": 3
+                    "variant": "3"
                   }
                 ]
               },
               "components": [
                 {
-                  "name": "card__general__card-1",
+                  "name": "card__generic",
                   "data": {
-                    "heading-size": 3,
-                    "heading-text": "home.guide-to-procedure",
-                    "url": "/collections/6i8XQAfD",
-                    "paragraphs": [
-                      "home.find-guidance"
-                    ]
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                          "content": ["home.guides.guide-to-procedure.heading"],
+                          "size": 3,
+                          "link": "/collections/6i8XQAfD"
+                      }
+                    },
+                    "paragraph": {
+                      "name": "paragraph",
+                      "data": [
+                        {
+                          "content":"home.guides.guide-to-procedure.find"
+                        }
+                      ]
+                    }
                   }
                 }
               ]
@@ -345,6 +389,7 @@
             "data": {
               "type": "ul",
               "display": {
+                "name": "partials__display",
                 "data": [
                   {
                     "component": "list"

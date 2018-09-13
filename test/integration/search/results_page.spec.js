@@ -1,9 +1,19 @@
 const testHelper = require('../../helpers/test-helper');
 
-describe('Search results page', function(){
-  testHelper.setupBefore()
+describe('Search results pages', function(){
+  testHelper.setupBefore();
 
-  it('should render content for search results page', function(done){
-    testHelper.shunterTest('results_page', 'layout', 'integration/search', done)
+  context('first page', function(){
+    it('should render the expected HTML', function(done){
+      testHelper.shunterTest('q', 'layout', 'search', done, true)
+    });
   });
+
+  context('nth page', function(){
+    it('should render the expected HTML', function(done){
+      testHelper.shunterTest('count_q_start_index', 'layout', 'search', done, true)
+    });
+  });
+
+
 });

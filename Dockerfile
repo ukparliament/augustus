@@ -23,6 +23,9 @@ RUN echo "Environment (NODE_ENV): $NODE_ENV" && npm install
 # Copy the application onto our image.
 ADD . /app
 
+# Compile static assets
+RUN ./node_modules/.bin/shunter-build -r pugin-components
+
 # Make sure our user owns the application directory.
 RUN chown -R nobody:nogroup /app
 
@@ -46,6 +49,9 @@ LABEL git-sha=$GIT_SHA \
 
 # Expose port 5400
 EXPOSE 5400
+
+# Setup a health check
+HEALTHCHECK --interval=5s --timeout=3s CMD curl --fail http://localhost:5400/health-check || exit 1
 
 # Launch puma
 CMD ["npm", "start"]
