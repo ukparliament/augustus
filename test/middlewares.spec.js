@@ -8,6 +8,10 @@ const setCloudflareID = require('../middlewares/setCloudflareID');
 const proxyquire = require('proxyquire').noPreserveCache();
 const mockRequire = require('mock-require');
 
+const winstonErrorTransport = require('../logging/transports/winston-error');
+const winstonProductionTransport = require('../logging/transports/winston-production');
+const winstonCloudflareIDFilter = require('../logging/filters/cloudflareID');
+
 chai.use(sinonChai);
 
 describe('#bootstrap', () => {
@@ -56,7 +60,7 @@ describe('#bootstrap', () => {
 
   describe('logging', () => {
     context('if NODE_ENV is production', () => {
-      it('uses morgan and silences winston', () => {
+      it('uses morgan and custom winston transports without the console transport', () => {
         process.env['NODE_ENV'] = 'production';
 
         middlewares = proxyquire('../middlewares', {});
@@ -65,12 +69,15 @@ describe('#bootstrap', () => {
 
         expect(app.use).to.have.been.calledWith(setCloudflareID);
         expect(app.use).to.have.been.calledWith(morgan);
-        expect(winston.Logger).to.have.been.calledWith({ silent: true });
+        expect(winston.Logger).to.have.been.calledWith({
+          transports: [winstonErrorTransport(), winstonProductionTransport()],
+          filters: [winstonCloudflareIDFilter]
+        });
       })
     })
 
-    context('if NODE_ENV is production', () => {
-      it('uses morgan and silences winston', () => {
+    context('if PRODUCTION_LOGGING is "true"', () => {
+      it('uses morgan and custom winston transports without the console transport', () => {
         process.env['PRODUCTION_LOGGING'] = 'true';
 
         middlewares = proxyquire('../middlewares', {});
@@ -79,7 +86,10 @@ describe('#bootstrap', () => {
 
         expect(app.use).to.have.been.calledWith(setCloudflareID);
         expect(app.use).to.have.been.calledWith(morgan);
-        expect(winston.Logger).to.have.been.calledWith({ silent: true });
+        expect(winston.Logger).to.have.been.calledWith({
+          transports: [winstonErrorTransport(), winstonProductionTransport()],
+          filters: [winstonCloudflareIDFilter]
+        });
       })
     })
   })
