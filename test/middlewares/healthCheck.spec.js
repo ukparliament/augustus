@@ -10,7 +10,7 @@ describe('healthCheck', () => {
   let response = { end: sinon.spy() };
 
   it('calls end with OK on response', () => {
-    let healthCheckMiddleware = healthCheck('request', response);
+    healthCheck('request', response);
 
     expect(response.end).to.have.been.calledWith('OK');
   })
