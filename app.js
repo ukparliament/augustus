@@ -8,6 +8,6 @@ middlewares.initialiseAppInsights();
 const app = shunter(config.shunter(__dirname, config.moduleName));
 
 // Sets up the middlewares for the application
-middlewares.bootstrap(app, process.env.LOG_TO_JSON);
+middlewares.bootstrap(app);
 
 app.start();
