@@ -82,6 +82,7 @@ build: # Using the variables defined above, run `docker build`, tagging the imag
 		--build-arg GIT_SHA="$(GIT_SHA)" \
 		--build-arg GIT_TAG="$(GIT_TAG)" \
 		--build-arg SPAWN_WRAP_SHIM_ROOT=$(SPAWN_WRAP_SHIM_ROOT) \
+		--build-arg PRODUCTION_LOGGING=$(PRODUCTION_LOGGING) \
 		.
 
 run: # Run the Docker image we have created, mapping the HOST_PORT and CONTAINER_PORT
