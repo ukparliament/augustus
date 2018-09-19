@@ -13,7 +13,9 @@
 - [Running the application](#running-the-application)
 - [Using components](#using-components)
 - [Starting Augustus and Shunter serve in a Docker Image](#starting-augustus-and-shunter-serve-in-a-docker-image)
-- [i18n Note](#i18n-note)
+- [i18next Note](#i18next-note)
+  - [Double moustaches](#double-moustaches)
+  - [Prefixing the variable name with a hyphen](#prefixing-the-variable-name-with-a-hyphen)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -67,16 +69,26 @@ docker-compose up
 ```
 The application will then be available from http://localhost/.
 
-## i18n Note
-Please note, that while normally data would be passed into a string in a translation file using double moustaches which sanitises input, when passing in a URL or other form of content which you do not wish to be sanitised you must use triple moustaches or it will not be rendered correctly in the output. For example:
+## i18next Note
+Passing in data to the translation with double moustaches sanitises input. If you wish to pass in a URL or other data that you do not wish to be sanitised, for it be rendered correctly you must prefix the variable name with a hyphen. For example:
 
-```
-"cookie-policy": "<a href='{{{link}}}'>Cookie Policy</a>"
+### Double moustaches
+The following translation:
+```json
+"cookie-policy": "<a href='{{link}}'>Cookie Policy</a>"
+```  
+Will be rendered incorrectly as:  
+```html
+<a href='*&meta*&cookie'>Cookie Policy</a>
 ```  
 
-Will be rendered correctly as:  
-
+### Prefixing the variable name with a hyphen
+The following translation:
+```json
+"cookie-policy": "<a href='{{-link}}'>Cookie Policy</a>"
 ```
+Will be rendered correctly as:  
+```html
 <a href='/meta/cookie'>Cookie Policy</a>
 ```
 
