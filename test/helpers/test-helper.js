@@ -49,9 +49,6 @@ module.exports = {
 
       expect(b(expectedHTML)).to.equal(b(output));
 
-      var proc = require('child_process').spawn('pbcopy');
-      proc.stdin.write(b(output)); proc.stdin.end();
-
       done();
     });
   }
