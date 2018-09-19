@@ -34,14 +34,24 @@ describe('translation helper', () => {
       tHelper = createTHelper(dust);
 
       chunk = { write: (param) => { return param } };
-
-      params = { key: 'shared.header.cookie-banner-text', data: { link: '/some-link' } };
     });
 
-    it('calls the right methods and returns the right translation', () => {
+    it('returns the right translation when data is provided', () => {
+      params = { key: 'shared.header.cookie-banner-text', data: { link: '/some-link' } };
+
       const expected = 'Parliament.uk uses cookies to make the site simpler. <a href=\'/some-link\'>Find out more about cookies</a>';
 
       expect(tHelper(chunk, 'ctx', 'bodies', params)).to.eq(expected);
+    });
+
+    context('if it is not a translation block', () => {
+      it('returns the string without stripping the colon', () => {
+        params = { key: 'Some text: with a colon' };
+
+        const expected = 'Some text: with a colon';
+
+        expect(tHelper(chunk, 'ctx', 'bodies', params)).to.eq(expected);
+      });
     });
   });
 });
