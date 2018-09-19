@@ -1,387 +1,400 @@
 {
-    "layout": {
-        "template": "layout"
-    },
-    "meta": {
+  "layout": {
+    "template": "layout"
+  },
+  "meta": {
+    "title": "banana - Search - UK Parliament",
+    "request-id": "|G4K2N8ExN07N7Q==.1234abcd_",
+    "open-graph": {
       "title": "banana - Search - UK Parliament",
-      "request-id": "|G4K2N8ExN07N7Q==.1234abcd_",
-      "components": [
-        {
-          "name": "head__search-result-tracking"
-        }
-      ]
+      "original-url": "http://localhost:5400/search?q=banana",
+      "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
+      "image-width": "1200",
+      "image-height": "630",
+      "twitter-card": "summary_large_image"
     },
-    "header-components": [
-        {
+    "components": [
+      {
+        "name": "head__search-result-tracking"
+      }
+    ]
+  },
+  "header-components": [
+    {
+      "name": "link",
+      "data": {
+        "link": "#content",
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "skip-to-content"
+            }
+          ]
+        },
+        "selector": "skiplink",
+        "content": "shared.header.skip-to-content"
+      }
+    },
+    {
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "status",
+              "variant": "banner"
+            },
+            {
+              "component": "theme",
+              "variant": "caution"
+            },
+            {
+              "component": "cookie"
+            }
+          ]
+        },
+        "selector": "cookie",
+        "components": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.cookie-banner-text",
+                "data": {
+                  "link": "/meta/cookie-policy"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "status",
+              "variant": "banner"
+            }
+          ]
+        },
+        "components": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.beta-status"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "header",
+      "data": {
+        "components": [
+          {
             "name": "link",
             "data": {
-              "link": "#content",
+              "link": "/",
               "display": {
                 "name": "partials__display",
                 "data": [
                   {
-                    "component": "skip-to-content"
+                    "component": "uk_parliament"
                   }
                 ]
               },
-              "selector": "skiplink",
-              "content": "shared.header.skip-to-content"
-            }
-        },
-        {
-            "name": "status__banner",
-            "data": {
-              "display": {
-                "name": "partials__display",
-                  "data": [
-                  {
-                    "component": "status",
-                    "variant": "banner"
-                  },
-                  {
-                    "component": "theme",
-                    "variant": "caution"
-                  },
-                  {
-                    "component": "cookie"
-                  }
-                  ]
-                },
-              "selector": "cookie",
+              "label": "shared.header.label",
               "components": [
                 {
-                  "name": "paragraph",
-                  "data": [
-                    {
-                      "content": "shared.header.cookie-banner-text",
-                      "data": {
-                        "link": "/meta/cookie-policy"
-                        }
-                    }
-                  ]
+                  "name": "icon__uk-parliament",
+                  "data": "shared.header.label"
                 }
               ]
             }
-        },
-        {
-            "name": "status__banner",
+          }
+        ]
+      }
+    }
+  ],
+  "main-components": [
+    {
+      "name": "section__primary",
+      "data": {
+        "components": [
+          {
+            "name": "heading1",
             "data": {
+              "heading": {
+                "content": "search.results-heading"
+              },
+              "context": {
+                "content": "banana",
+                "hidden": true
+              }
+            }
+          },
+          {
+            "name": "form__search",
+            "data": {
+              "value": "banana",
+              "label": "search.label"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "section__section",
+      "data": {
+        "content-flag": true,
+        "components": [
+          {
+            "name": "heading",
+            "data": {
+              "translation": {
+                "key": "search.count",
+                "data": {
+                  "count": "850"
+                }
+              },
+              "size": 2
+            }
+          },
+          {
+            "name": "list__generic",
+            "data": {
+              "type": "ol",
               "display": {
                 "name": "partials__display",
-                  "data": [
+                "data": [
                   {
-                    "component": "status",
-                    "variant": "banner"
-                  }
-                  ]
-                },
-              "components": [
-                {
-                  "name": "paragraph",
-                  "data": [
-                    {
-                      "content": "shared.header.beta-status"
-                    }
-                  ]
-                }
-              ]
-          	}
-        },
-        {
-            "name": "header",
-            "data": {
-                "components": [
-                    {
-                      "name": "link",
-                      "data": {
-                        "link": "/",
-                        "display": {
-                          "name": "partials__display",
-                            "data": [
-                            {
-                              "component": "uk_parliament"
-                            }
-                            ]
-                          },
-                        "label": "shared.header.label",
-                        "components": [
-                            {
-                              "name": "icon__uk-parliament",
-                              "data": "shared.header.label"
-                            }
-                        ]
-                      }
-                    }
-                ]
-            }
-        }
-    ],
-    "main-components": [
-        {
-            "name": "section__primary",
-            "data": {
-                "components": [
-                  {
-                    "name": "heading1",
-                    "data": {
-                      "heading": {"content": "search.results-heading"},
-                      "context": {"content": "banana", "hidden": true}
-                    }
-                  },
-                  {
-                      "name": "form__search",
-                      "data": {
-                        "value": "banana",
-                        "label": "search.label"
-                      }
+                    "component": "list",
+                    "variant": "block"
                   }
                 ]
-            }
-        },
-        {
-            "name": "section__section",
-            "data": {
-                "content-flag": true,
-                "components": [
-                    {
-                        "name": "heading",
-                        "data": {
-                            "translation": {
-                              "key": "search.count",
-                              "data": {
-                                "count": "850"
-                              }
-                            },
-                            "size": 2
-                        }
-                    },
-                    {
-                        "name": "list__generic",
-                        "data": {
-                            "type": "ol",
-                            "display": {
-                              "name": "partials__display",
-                                "data": [
-                                  {
-                                    "component": "list",
-                                    "variant": "block"
-                                  }
-                                ]
-                              },
-                            "components": [
-                                {
-                                    "name": "card__search__search-result",
-                                    "data": {
-                                        "heading-text": "Page 1 - Result 1",
-                                        "url": "some-url",
-                                        "hints": [
-                                          {
-                                            "name": "partials__hint",
-                                            "data": {
-                                              "display": {
-                                                "data": [
-                                                  {
-                                                  "component": "theme",
-                                                  "variant": "grey-4",
-                                                  "content": "pdf"
-                                                }
-                                              ]
-                                              }
-                                            }
-                                          }
-                                        ],
-                                        "short-url": "some shorter url",
-                                        "paragraph-content": "Some text"
-                                    }
-                                },
-                                {
-                                    "name": "card__search__search-result",
-                                    "data": {
-                                        "heading-text": "Page 1 - Result 2",
-                                        "url": "some-url",
-                                        "hints": [
-                                          {
-                                            "name": "partials__hint",
-                                            "data": {
-                                              "display": {
-                                                "data": [
-                                                  {
-                                                  "component": "theme",
-                                                  "variant": "grey-4",
-                                                  "content": "pdf"
-                                                }
-                                              ]
-                                              }
-                                            }
-                                          }
-                                        ],
-                                        "short-url": "some shorter url",
-                                        "paragraph-content": "Some text"
-                                    }
-                                },
-                                {
-                                    "name": "card__search__search-result",
-                                    "data": {
-                                        "heading-text": "Page 1 - Result 3",
-                                        "url": "some-url",
-                                        "hints": [
-                                          {
-                                            "name": "partials__hint",
-                                            "data": {
-                                              "display": {
-                                                "data": [
-                                                  {
-                                                  "component": "theme",
-                                                  "variant": "grey-4",
-                                                  "content": "beta"
-                                                }
-                                              ]
-                                              }
-                                            }
-                                          },
-                                          {
-                                            "name": "partials__hint",
-                                            "data": {
-                                              "display": {
-                                                "data": [
-                                                  {
-                                                  "component": "theme",
-                                                  "variant": "grey-4",
-                                                  "content": "pdf"
-                                                }
-                                              ]
-                                              }
-                                            }
-                                          }
-                                        ],
-                                        "short-url": "some shorter url",
-                                        "paragraph-content": "Some text"
-                                    }
-                                }
-                            ]
-                        }
-                    }
-                ]
-            }
-        },
-        {
-            "name": "section__section",
-            "data": {
-                "components": [
-                    {
-                        "name": "navigation__number__number",
-                        "data": {
-                            "active-tile": "1",
-                            "next-url": "/search?count=10&q=hello&start_index=11",
-                            "components": [
-                              {
-                                  "name": "navigation__number__card",
-                                  "data": {
-                                      "active": true,
-                                      "url": "/search?count=10&q=hello&start_index=21",
-                                      "number": "1",
-                                      "total-count": " of 77"
-                                  }
-                              },
-                              {
-                                  "name": "navigation__number__card",
-                                  "data": {
-                                      "url": "/search?count=10&q=hello&start_index=21",
-                                      "number": "2",
-                                      "total-count": "of 77"
-                                  }
-                              },
-                              {
-                                  "name": "navigation__number__card",
-                                  "data": {
-                                      "url": "/search?count=10&q=hello&start_index=21",
-                                      "number": "3",
-                                      "total-count": "of 77"
-                                  }
-                              },
-                              {
-                                  "name": "navigation__number__card",
-                                  "data": {
-                                      "url": "/search?count=10&q=hello&start_index=21",
-                                      "number": "4",
-                                      "total-count": "of 77"
-                                  }
-                              },
-                              {
-                                  "name": "navigation__number__card",
-                                  "data": {
-                                      "url": "/search?count=10&q=hello&start_index=21",
-                                      "number": "5",
-                                      "total-count": "of 77"
-                                  }
-                              },
-                              {
-                                  "name": "navigation__number__card",
-                                  "data": {
-                                      "url": "/search?count=10&q=hello&start_index=21",
-                                      "number": "6",
-                                      "total-count": "of 77"
-                                  }
-                              },
-                              {
-                                  "name": "navigation__number__card",
-                                  "data": {
-                                      "url": "/search?count=10&q=hello&start_index=21",
-                                      "number": "7",
-                                      "total-count": "of 77"
-                                  }
-                              },
-                              {
-                                  "name": "navigation__number__card",
-                                  "data": {
-                                      "url": "/search?count=10&q=hello&start_index=21",
-                                      "number": "8",
-                                      "total-count": "of 77"
-                                  }
-                              }
-                            ]
-                        }
-                    }
-                ]
-            }
-        }
-    ],
-    "footer-components": [
-        {
-            "name": "footer",
-            "data": {
-              "uk-parliament": "shared.footer.uk-parliament",
+              },
               "components": [
                 {
-                  "name": "list__generic",
+                  "name": "card__search__search-result",
                   "data": {
-                    "type": "ul",
-                    "display": {
-                      "name": "partials__display",
-                      "data": [
-                        {
-                          "component": "list"
-                        }
-                      ]
-                      },
-                    "contents": [
+                    "heading-text": "Page 1 - Result 1",
+                    "url": "some-url",
+                    "hints": [
                       {
-                        "content": "shared.footer.current-website"
-                        },
-                      {
-                        "content": "shared.footer.cookie-policy",
+                        "name": "partials__hint",
                         "data": {
-                          "link": "/meta/cookie-policy"
+                          "display": {
+                            "data": [
+                              {
+                                "component": "theme",
+                                "variant": "grey-4",
+                                "content": "pdf"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ],
+                    "short-url": "some shorter url",
+                    "paragraph-content": "Some text"
+                  }
+                },
+                {
+                  "name": "card__search__search-result",
+                  "data": {
+                    "heading-text": "Page 1 - Result 2",
+                    "url": "some-url",
+                    "hints": [
+                      {
+                        "name": "partials__hint",
+                        "data": {
+                          "display": {
+                            "data": [
+                              {
+                                "component": "theme",
+                                "variant": "grey-4",
+                                "content": "pdf"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ],
+                    "short-url": "some shorter url",
+                    "paragraph-content": "Some text"
+                  }
+                },
+                {
+                  "name": "card__search__search-result",
+                  "data": {
+                    "heading-text": "Page 1 - Result 3",
+                    "url": "some-url",
+                    "hints": [
+                      {
+                        "name": "partials__hint",
+                        "data": {
+                          "display": {
+                            "data": [
+                              {
+                                "component": "theme",
+                                "variant": "grey-4",
+                                "content": "beta"
+                              }
+                            ]
+                          }
                         }
                       },
                       {
-                        "content":"shared.footer.data-protection-privacy"
+                        "name": "partials__hint",
+                        "data": {
+                          "display": {
+                            "data": [
+                              {
+                                "component": "theme",
+                                "variant": "grey-4",
+                                "content": "pdf"
+                              }
+                            ]
+                          }
+                        }
                       }
-                    ]
+                    ],
+                    "short-url": "some shorter url",
+                    "paragraph-content": "Some text"
                   }
                 }
               ]
             }
-        }
-    ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "section__section",
+      "data": {
+        "components": [
+          {
+            "name": "navigation__number__number",
+            "data": {
+              "active-tile": "1",
+              "next-url": "/search?count=10&q=hello&start_index=11",
+              "components": [
+                {
+                  "name": "navigation__number__card",
+                  "data": {
+                    "active": true,
+                    "url": "/search?count=10&q=hello&start_index=21",
+                    "number": "1",
+                    "total-count": " of 77"
+                  }
+                },
+                {
+                  "name": "navigation__number__card",
+                  "data": {
+                    "url": "/search?count=10&q=hello&start_index=21",
+                    "number": "2",
+                    "total-count": "of 77"
+                  }
+                },
+                {
+                  "name": "navigation__number__card",
+                  "data": {
+                    "url": "/search?count=10&q=hello&start_index=21",
+                    "number": "3",
+                    "total-count": "of 77"
+                  }
+                },
+                {
+                  "name": "navigation__number__card",
+                  "data": {
+                    "url": "/search?count=10&q=hello&start_index=21",
+                    "number": "4",
+                    "total-count": "of 77"
+                  }
+                },
+                {
+                  "name": "navigation__number__card",
+                  "data": {
+                    "url": "/search?count=10&q=hello&start_index=21",
+                    "number": "5",
+                    "total-count": "of 77"
+                  }
+                },
+                {
+                  "name": "navigation__number__card",
+                  "data": {
+                    "url": "/search?count=10&q=hello&start_index=21",
+                    "number": "6",
+                    "total-count": "of 77"
+                  }
+                },
+                {
+                  "name": "navigation__number__card",
+                  "data": {
+                    "url": "/search?count=10&q=hello&start_index=21",
+                    "number": "7",
+                    "total-count": "of 77"
+                  }
+                },
+                {
+                  "name": "navigation__number__card",
+                  "data": {
+                    "url": "/search?count=10&q=hello&start_index=21",
+                    "number": "8",
+                    "total-count": "of 77"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "footer-components": [
+    {
+      "name": "footer",
+      "data": {
+        "uk-parliament": "shared.footer.uk-parliament",
+        "components": [
+          {
+            "name": "list__generic",
+            "data": {
+              "type": "ul",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "list"
+                  }
+                ]
+              },
+              "contents": [
+                {
+                  "content": "shared.footer.current-website"
+                },
+                {
+                  "content": "shared.footer.cookie-policy",
+                  "data": {
+                    "link": "/meta/cookie-policy"
+                  }
+                },
+                {
+                  "content": "shared.footer.data-protection-privacy"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
 }

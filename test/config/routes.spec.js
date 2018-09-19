@@ -10,6 +10,14 @@ describe('routes', () => {
       }
     },
     'beta.parliament.uk': {
+      '/^\\/statutory-instruments\\/[a-zA-z0-9]{8}$/': {
+        host: 'thorney.web1live.org',
+        port: 3000
+      },
+      '/^\\/proposed-negative-statutory-instruments/': {
+        host: 'thorney.web1live.org',
+        port: 3000
+      },
       '/^\\/search/': {
         host: 'thorney.web1live.org',
         port: 3000
@@ -20,6 +28,14 @@ describe('routes', () => {
       }
     },
     'devci.parliament.uk': {
+      '/^\\/statutory-instruments\\/[a-zA-z0-9]{8}$/': {
+        host: 'thorney.web1devci.org',
+        port: 3000
+      },
+      '/^\\/proposed-negative-statutory-instruments/': {
+        host: 'thorney.web1devci.org',
+        port: 3000
+      },
       '/^\\/search/': {
         host: 'thorney.web1devci.org',
         port: 3000
@@ -30,6 +46,14 @@ describe('routes', () => {
       }
     },
     'augustus.pdswebops.org': {
+      '/^\\/statutory-instruments\\/[a-zA-z0-9]{8}$/': {
+        host: 'thorney.pdswebops.org',
+        port: 3000
+      },
+      '/^\\/proposed-negative-statutory-instruments/': {
+        host: 'thorney.pdswebops.org',
+        port: 3000
+      },
       '/^\\/search/': {
         host: 'thorney.pdswebops.org',
         port: 3000

@@ -7,7 +7,7 @@ const b = require('js-beautify').html;
 
 module.exports = {
   /**
-  * This function sets up the paths before each test is ran.
+  * This function sets up the paths before each test is run.
   * It then tears down the set up for each test to ensure that the tests do not interfere with each other.
   */
   setupBefore: function(){
@@ -21,7 +21,7 @@ module.exports = {
   },
 
   /**
-  * This function gets the contents of the json and html fixture files, runs the json through the appropriate dute file and then checks the output against the expected html.
+  * This function gets the contents of the json and html fixture files, runs the json through the appropriate file and then checks the output against the expected html.
   * To do this it takes in the name of the fixture file, the name of the dust file to be rendered, the location of the fixtures and done as parameters.
   *
   * @param fileName [string] The fixture file name i.e. '404.json' would have filename '404'
