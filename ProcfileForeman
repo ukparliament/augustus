@@ -1,0 +1,3 @@
+web: node app.js -s -p $PORT
+serve: npm run serve
+log: mkdir -p log && touch log/production.log && tail -f log/production.log
