@@ -11,7 +11,7 @@ const winstonProductionTransport = require('./logging/transports/winston-product
 const winstonCloudflareIDFilter = require('./logging/filters/cloudflareID');
 
 let bootstrap = (app) => {
-  // If NODE_ENV is production or PRODUCTION_LOGGING is a true string, the default Shunter logging is silenced and JSON logging is used in its place
+  // If NODE_ENV is production or PRODUCTION_LOGGING is a true string, the default Shunter logging is replaced with JSON logging
   if (process.env.NODE_ENV === 'production'|| process.env.PRODUCTION_LOGGING === 'true') {
     app.use(morgan);
 
