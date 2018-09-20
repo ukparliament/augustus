@@ -1,2 +1,1 @@
-serve: npm run serve
-start: npm start
+web: ./node_modules/foreman/nf.js --procfile ProcfileForeman start
