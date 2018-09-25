@@ -101,5 +101,13 @@
       "subheading": "<a href='/proposed-negative-statutory-instruments'>Proposed Negative Statutory Instruments</a>",
       "preceding-title": "Proposed negative statutory instrument paper precedes statutory instrument paper"
     }
+  },
+  "groups": {
+    "index": {
+      "title": "Current and former groups"
+    },
+    "current": {
+      "title": "Current groups"
+    }
   }
 }
