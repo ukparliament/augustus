@@ -10,14 +10,14 @@ const mockRequire = require('mock-require');
 chai.use(sinonChai);
 
 describe('#bootstrap', () => {
-  let app, log, winston, middlewares, setCloudflareID, winstonErrorTransport, winstonProductionTransport, winstonCloudflareIDFilter;
+  let app, log, winston, middlewares, cloudflareID, winstonErrorTransport, winstonProductionTransport, winstonCloudflareIDFilter;
 
   beforeEach(() => {
     delete process.env['PRODUCTION_LOGGING'];
     delete process.env['NODE_ENV'];
 
-    setCloudflareID = () => {};
-    mockRequire('../middlewares/setCloudflareID', setCloudflareID);
+    cloudflareID = { setCloudflareID: () => {} };
+    mockRequire('../middlewares/cloudflareID', cloudflareID);
 
     winstonErrorTransport = () => {};
     mockRequire('../logging/transports/winston-error', winstonErrorTransport);
@@ -47,9 +47,8 @@ describe('#bootstrap', () => {
 
       middlewares.bootstrap(app);
 
-      expect(app.use).to.have.been.calledWith(setCloudflareID);
+      expect(app.use).to.have.been.calledWith(cloudflareID.setCloudflareID);
       expect(app.use).to.have.been.calledWith('/health-check', healthCheck);
-      expect(app.use).to.have.not.been.calledWith(morgan);
     })
   })
 
@@ -59,7 +58,7 @@ describe('#bootstrap', () => {
 
       middlewares.bootstrap(app);
 
-      expect(app.use).to.have.been.calledWith(setCloudflareID);
+      expect(app.use).to.have.been.calledWith(cloudflareID.setCloudflareID);
       expect(app.use).to.have.been.calledWith('/health-check', healthCheck);
       expect(app.use).to.have.not.been.calledWith(morgan);
     })
@@ -74,12 +73,8 @@ describe('#bootstrap', () => {
 
         middlewares.bootstrap(app, 'true');
 
-        expect(app.use).to.have.been.calledWith(setCloudflareID);
+        expect(app.use).to.have.been.calledWith(cloudflareID.setCloudflareID);
         expect(app.use).to.have.been.calledWith(morgan);
-        expect(winston.Logger).to.have.been.calledWith({
-          transports: [winstonErrorTransport(), winstonProductionTransport()],
-          filters: [winstonCloudflareIDFilter]
-        });
       })
     })
 
@@ -91,12 +86,8 @@ describe('#bootstrap', () => {
 
         middlewares.bootstrap(app, 'true');
 
-        expect(app.use).to.have.been.calledWith(setCloudflareID);
+        expect(app.use).to.have.been.calledWith(cloudflareID.setCloudflareID);
         expect(app.use).to.have.been.calledWith(morgan);
-        expect(winston.Logger).to.have.been.calledWith({
-          transports: [winstonErrorTransport(), winstonProductionTransport()],
-          filters: [winstonCloudflareIDFilter]
-        });
       })
     })
   })
