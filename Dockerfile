@@ -29,6 +29,9 @@ RUN ./node_modules/.bin/shunter-build -r pugin-components
 # Make sure our user owns the application directory.
 RUN chown -R nobody:nogroup /app
 
+# Mount the log directory
+VOLUME /app/log
+
 # Set up our user and environment
 USER nobody
 ENV AIRBRAKE_PROJECT_ID $AIRBRAKE_PROJECT_ID
