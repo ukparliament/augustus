@@ -1,5 +1,5 @@
 # Augustus
-[Augustus][augustus] is a proposed front-end prototype for [beta.parliament.uk][beta]. It's built on [Shunter][shunter], with our components library [Pugin][pugin].
+[Augustus][augustus] is a front-end application for [beta.parliament.uk][beta]. It's built on [Shunter][shunter], with our components library [Pugin][pugin].
 
 [![Build Status][shield-travis]][info-travis] [![Test Coverage][shield-coveralls]][info-coveralls] [![License][shield-license]][info-license]
 
@@ -13,6 +13,7 @@
 - [Running the application](#running-the-application)
 - [Using components](#using-components)
 - [Starting Augustus and Shunter serve in a Docker Image](#starting-augustus-and-shunter-serve-in-a-docker-image)
+- [Running tests on single files or directories](#running-tests-on-single-files-or-directories)
 - [i18next Note](#i18next-note)
   - [Double moustaches](#double-moustaches)
   - [Prefixing the variable name with a hyphen](#prefixing-the-variable-name-with-a-hyphen)
@@ -68,6 +69,19 @@ To run Augustus and Shunter serve
 docker-compose up
 ```
 The application will then be available from http://localhost/.
+
+## Running tests on single files or directories
+The `npm run testfocus` command will let you specify a directory or file of tests to be run.
+
+For example, to run one test:
+```bash
+npm run testfocus test/integration/index_page.spec.js
+```
+
+Or to run a directory of tests:
+```bash
+npm run testfocus test/integration/
+```
 
 ## i18next Note
 Passing in data to the translation with double moustaches sanitises input. If you wish to pass in a URL or other data that you do not wish to be sanitised, for it be rendered correctly you must prefix the variable name with a hyphen. For example:
