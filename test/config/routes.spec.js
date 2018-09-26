@@ -22,6 +22,10 @@ describe('routes', () => {
         host: 'thorney.web1live.org',
         port: 3000
       },
+      '/^\\/$/': {
+        host: 'thorney.web1live.org',
+        port: 3000
+      },
       default: {
         host: 'varnish.web1live.org',
         port: 80
@@ -40,6 +44,10 @@ describe('routes', () => {
         host: 'thorney.web1devci.org',
         port: 3000
       },
+      '/^\\/$/': {
+        host: 'thorney.web1devci.org',
+        port: 3000
+      },
       default: {
         host: 'varnish.web1devci.org',
         port: 80
@@ -55,6 +63,10 @@ describe('routes', () => {
         port: 3000
       },
       '/^\\/search/': {
+        host: 'thorney.pdswebops.org',
+        port: 3000
+      },
+      '/^\\/$/': {
         host: 'thorney.pdswebops.org',
         port: 3000
       },

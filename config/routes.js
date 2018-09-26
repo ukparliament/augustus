@@ -39,6 +39,13 @@ function generateProxyTargets (host, port, defaultHost, defaultPort) {
       port: port
     },
 
+
+    // Match requests to / for the home page. Note: this regex effectively blocks the use of ?json=true as it is strict.
+    '/^\\/$/': {
+      host: host,
+      port: port
+    },
+
     // All other requests go here
     default: {
       host: defaultHost,
