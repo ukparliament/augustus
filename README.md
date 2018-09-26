@@ -70,7 +70,25 @@ docker-compose up
 ```
 The application will then be available from http://localhost/.
 
-## Running tests on single files or directories
+## Testing
+The test suite can be run using `npm test`.
+
+[Shunter][shunter] comes with test helpers that allow us to test that given some JSON, we render some expected HTML.  The `testHelper` uses `ShunterHelper` to setup and teardown our tests.  
+
+`createFixture` is a helper which will generate HTML fixtures to be used in testing.  For example, to generate an HTML fixture for an integration test:
+```bash
+testHelper.createFixture('index', 'layout', 'statutory-instruments', true)
+```
+This would generate an HTML fixture named index.html which would be located at test/fixtures/html/integration/statutory-instruments/.
+It would be generated from the JSON file index.json located at data/statutory-instruments/.
+
+For a unit test an example could be:
+```bash
+testHelper.createFixture('index', 'layout', 'statutory-instruments', false)
+```
+This would generate an HTML fixture name index.html which would be located at test/fixtures/html/statutory-instruments/.  It would be generated from the JSON file index.json located at data/fixtures/json/statutory-instruments/.
+
+### Running tests on single files or directories
 The `npm run testfocus` command will let you specify a directory or file of tests to be run.
 
 For example, to run one test:
