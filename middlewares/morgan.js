@@ -4,9 +4,13 @@ let cloudflareIDToken = (request) => {
   return request.headers['cf-ray'];
 };
 
+let typeToken = () => { return 'access'; };
+
+morgan.token('type', typeToken);
 morgan.token('cloudflare-id', cloudflareIDToken);
 
 let logFormat = {
+  type: ':type',
   '@timestamp': ':date[iso]',
   remoteip: ':remote-addr',
   cloudflareID: ':cloudflare-id',
@@ -20,4 +24,7 @@ let logFormat = {
 };
 
 module.exports = morgan(JSON.stringify(logFormat));
+
+// Exported for testing
 module.exports.cloudflareIDToken = cloudflareIDToken;
+module.exports.typeToken = typeToken;

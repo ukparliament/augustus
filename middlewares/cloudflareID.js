@@ -8,9 +8,7 @@ let setCloudflareID = (request, response, next) => {
   next();
 };
 
-function getLabel() {
-  return `[Cloudflare ID: ${cloudflareID}]`;
-}
+let getCloudflareID = () => { return cloudflareID; };
 
-module.exports = setCloudflareID;
-module.exports.getLabel = getLabel;
+module.exports.setCloudflareID = setCloudflareID;
+module.exports.getCloudflareID = getCloudflareID;
