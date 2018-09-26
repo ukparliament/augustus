@@ -4,22 +4,29 @@ const sinon = require('sinon');
 const sinonChai = require('sinon-chai');
 const morgan = require('../middlewares/morgan');
 const healthCheck = require('../middlewares/healthCheck');
-const setCloudflareID = require('../middlewares/setCloudflareID');
 const proxyquire = require('proxyquire').noPreserveCache();
 const mockRequire = require('mock-require');
-
-const winstonErrorTransport = require('../logging/transports/winston-error');
-const winstonProductionTransport = require('../logging/transports/winston-production');
-const winstonCloudflareIDFilter = require('../logging/filters/cloudflareID');
 
 chai.use(sinonChai);
 
 describe('#bootstrap', () => {
-  let app, log, winston, middlewares;
+  let app, log, winston, middlewares, setCloudflareID, winstonErrorTransport, winstonProductionTransport, winstonCloudflareIDFilter;
 
   beforeEach(() => {
     delete process.env['PRODUCTION_LOGGING'];
     delete process.env['NODE_ENV'];
+
+    setCloudflareID = () => {};
+    mockRequire('../middlewares/setCloudflareID', setCloudflareID);
+
+    winstonErrorTransport = () => {};
+    mockRequire('../logging/transports/winston-error', winstonErrorTransport);
+
+    winstonProductionTransport = () => {};
+    mockRequire('../logging/transports/winston-production', winstonProductionTransport);
+
+    winstonCloudflareIDFilter = () => {};
+    mockRequire('../logging/filters/cloudflareID', winstonCloudflareIDFilter);
 
     winston = { Logger: sinon.spy() };
     mockRequire('winston', winston);
