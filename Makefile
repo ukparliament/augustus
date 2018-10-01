@@ -65,7 +65,7 @@ HOST_PORT = 80
 
 GITHUB_API=https://api.github.com
 ORG=ukparliament
-REPO=thorney
+REPO=augustus
 LATEST_REL=$(GITHUB_API)/repos/$(ORG)/$(REPO)/releases
 REL_TAG=$(shell curl -s $(LATEST_REL) | jq -r '.[0].tag_name')
 
