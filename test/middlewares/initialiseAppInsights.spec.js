@@ -15,7 +15,7 @@ describe('appInsights', () => {
     mockRequire('applicationinsights', applicationInsightsSpy);
 
     initialiseAppInsights = proxyquire('../../middlewares/initialiseAppInsights', {});
-  })
+  });
 
   describe('it does not call setup and start on the middleware', () => {
     it('when APPLICATION_INSIGHTS_INSTRUMENTATION_KEY is undefined', () => {
@@ -25,7 +25,7 @@ describe('appInsights', () => {
 
       expect(applicationInsightsSpy.setup).to.have.not.been.calledWith();
       expect(applicationInsightsSpy.start).to.have.not.been.calledWith();
-    })
+    });
 
     it('when APPLICATION_INSIGHTS_INSTRUMENTATION_KEY is an empty string', () => {
       process.env['APPLICATION_INSIGHTS_INSTRUMENTATION_KEY'] = '';
@@ -34,8 +34,8 @@ describe('appInsights', () => {
 
       expect(applicationInsightsSpy.setup).to.have.not.been.calledWith();
       expect(applicationInsightsSpy.start).to.have.not.been.calledWith();
-    })
-  })
+    });
+  });
 
   describe('it calls setup and start on the middleware', () => {
     it('when APPLICATION_INSIGHTS_INSTRUMENTATION_KEY is provided', () => {
@@ -45,6 +45,6 @@ describe('appInsights', () => {
 
       expect(applicationInsightsSpy.setup).to.have.been.calledWith('abcdefg');
       expect(applicationInsightsSpy.start).to.have.been.calledWith();
-    })
-  })
-})
+    });
+  });
+});

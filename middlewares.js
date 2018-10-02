@@ -2,6 +2,7 @@
 
 const initialiseAppInsights = require('./middlewares/initialiseAppInsights');
 const healthCheck = require('./middlewares/healthCheck');
+const robots = require('./middlewares/robots');
 const morgan = require('./middlewares/morgan');
 const setCloudflareID = require('./middlewares/cloudflareID').setCloudflareID;
 
@@ -14,6 +15,7 @@ let bootstrap = (app) => {
   app.use(setCloudflareID);
 
   app.use('/health-check', healthCheck);
+  app.use('/robots.txt', robots);
 };
 
 module.exports = {

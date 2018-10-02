@@ -13,6 +13,5 @@ describe('healthCheck', () => {
     healthCheck('request', response);
 
     expect(response.end).to.have.been.calledWith('OK');
-  })
-})
-
+  });
+});
