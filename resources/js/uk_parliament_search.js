@@ -18,7 +18,7 @@ UK_Parliament_Search.addResultListener = function (node, object) {
   if (node) {
     (function () {
       var resultObjectInstance = object;
-
+      
       node.addEventListener('click', function (e) {
         if (resultObjectInstance.resultHintCount > 0) {
           appInsights.trackEvent('resultLinkClicked', {
@@ -70,8 +70,11 @@ UK_Parliament_Search.getLinkNode = function (cardArray, i) {
 
 UK_Parliament_Search.resultHintArray = function (hintNodes) {
   var resultHints = [];
+
   for (var i = 0; i < hintNodes.length; i++) {
-    resultHints.push(hintNodes[i].innerHTML);
+    if (hintNodes[i].className !== 'url') {
+      resultHints.push(hintNodes[i].innerHTML);
+    }
   }
 
   return resultHints;
