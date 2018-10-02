@@ -185,8 +185,8 @@
                 {
                   "name": "card__search__search-result",
                   "data": {
-                    "heading-text": "Page 1 - Result 1",
-                    "url": "some-url",
+                    "heading-text": "EU: Trade Agreement on Banana Imports - Hansard",
+                    "url": "https://hansard.parliament.uk/Lords/2012-02-07/debates/12020792000204/EUTradeAgreementOnBananaImports",
                     "hints": [
                       {
                         "name": "partials__hint",
@@ -196,22 +196,22 @@
                               {
                                 "component": "theme",
                                 "variant": "grey-4",
-                                "content": "pdf"
+                                "content": "Hansard"
                               }
                             ]
                           }
                         }
                       }
                     ],
-                    "short-url": "some shorter url",
-                    "paragraph-content": "Some text"
+                    "short-url": "https://hansard.parliament.uk/.../EUTradeAgreementOnBananaImports",
+                    "paragraph-content": "To ask Her Majesty’s Government what is their assessment of the effects of the European Union trade agreement on banana imports and its impact on African, Caribbean ..."
                   }
                 },
                 {
                   "name": "card__search__search-result",
                   "data": {
-                    "heading-text": "Page 1 - Result 2",
-                    "url": "some-url",
+                    "heading-text": "Bananas (Hansard, 4 June 1992) - api.parliament.uk",
+                    "url": "https://api.parliament.uk/historic-hansard/commons/1992/jun/04/bananas",
                     "hints": [
                       {
                         "name": "partials__hint",
@@ -221,22 +221,22 @@
                               {
                                 "component": "theme",
                                 "variant": "grey-4",
-                                "content": "pdf"
+                                "content": "Hansard"
                               }
                             ]
                           }
                         }
                       }
                     ],
-                    "short-url": "some shorter url",
-                    "paragraph-content": "Some text"
+                    "short-url": "https://api.parliament.uk/historic-hansard/commons/1992/jun/04/bananas",
+                    "paragraph-content": "§Mr. Curry. The Commission has published a working paper on banana imports aiming to fulfil all the Community's international obligations. §"
                   }
                 },
                 {
                   "name": "card__search__search-result",
                   "data": {
-                    "heading-text": "Page 1 - Result 3",
-                    "url": "some-url",
+                    "heading-text": "BANANA TRADE, JAMAICA (SHIPS) (Hansard, 5 November 1946)",
+                    "url": "https://api.parliament.uk/historic-hansard/commons/1946/nov/05/banana-trade-jamaica-ships",
                     "hints": [
                       {
                         "name": "partials__hint",
@@ -246,7 +246,7 @@
                               {
                                 "component": "theme",
                                 "variant": "grey-4",
-                                "content": "beta"
+                                "content": "Hansard"
                               }
                             ]
                           }
@@ -260,6 +260,246 @@
                               {
                                 "component": "theme",
                                 "variant": "grey-4",
+                                "content": "Commons publication from session: 1997-98"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ],
+                    "short-url": "https://api.parliament.uk/.../1946/nov/05/banana-trade-jamaica-ships",
+                    "paragraph-content": "§Mr. Rees-Williams (Croydon, South) I beg to draw the attention of the House to the case of four motor vessels, \"Empire Wharfe,\" \"Empire Aide,\" \"Empire Mowddach ..."
+                  }
+                },
+                {
+                  "name": "card__search__search-result",
+                  "data": {
+                    "heading-text": "House of Commons - International Development - Minutes of ...",
+                    "url": "https://publications.parliament.uk/pa/cm199798/cmselect/cmintdev/...",
+                    "short-url": "https://publications.parliament.uk/pa/cm199798/cmselect/cmintdev/...",
+                    "paragraph-content": "Examination of witnesses (Questions 374 - 399) TUESDAY 3 ... If you understand the structure of our banana industries you will know that they are made up ..."
+                  }
+                },
+                {
+                  "name": "card__search__search-result",
+                  "data": {
+                    "heading-text": "Caribbean Banana Growers (Hansard, 14 January 2005)",
+                    "url": "https://api.parliament.uk/historic-hansard/lords/2005/jan/14/caribbean-banana-growers",
+                    "hints": [
+                      {
+                        "name": "partials__hint",
+                        "data": {
+                          "display": {
+                            "data": [
+                              {
+                                "component": "theme",
+                                "variant": "grey-4",
+                                "content": "Hansard"
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "name": "partials__hint",
+                        "data": {
+                          "display": {
+                            "data": [
+                              {
+                                "component": "theme",
+                                "variant": "grey-4",
+                                "content": "Commons publication from session: 1997-98"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ],
+                    "short-url": "https://api.parliament.uk/.../2005/jan/14/caribbean-banana-growers",
+                    "paragraph-content": "§Lord Newby. rose to ask Her Majesty's Government what action they plan to take to safeguard the interests of Caribbean banana growers. The noble Lord said: My Lords ..."
+                  }
+                },
+                {
+                  "name": "card__search__search-result",
+                  "data": {
+                    "heading-text": "Cameroon Bananas (Hansard, 24 March 1947)",
+                    "url": "https://api.parliament.uk/historic-hansard/commons/1947/mar/24/cameroon-bananas",
+                    "paragraph-content": "§Mr. Strachey. I am proposing to buy the whole of the exportable banana crop from the Cameroons but the final terms of the purchase have not yet been settled."
+                  }
+                },
+                {
+                  "name": "card__search__search-result",
+                  "data": {
+                    "heading-text": "Trade dispute between the EU and the US over bananas",
+                    "url": "http://researchbriefings.files.parliament.uk/documents/RP99-28/RP99-28.pdf",
+                    "hints": [
+                      {
+                        "name": "partials__hint",
+                        "data": {
+                          "display": {
+                            "data": [
+                              {
+                                "component": "theme",
+                                "variant": "grey-4",
+                                "content": "pdf"
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "name": "partials__hint",
+                        "data": {
+                          "display": {
+                            "data": [
+                              {
+                                "component": "theme",
+                                "variant": "grey-4",
+                                "content": "Hansard"
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "name": "partials__hint",
+                        "data": {
+                          "display": {
+                            "data": [
+                              {
+                                "component": "theme",
+                                "variant": "grey-4",
+                                "content": "description"
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "name": "partials__hint",
+                        "data": {
+                          "display": {
+                            "data": [
+                              {
+                                "component": "theme",
+                                "variant": "grey-4",
+                                "content": "assets"
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "name": "partials__hint",
+                        "data": {
+                          "display": {
+                            "data": [
+                              {
+                                "component": "theme",
+                                "variant": "grey-4",
+                                "content": "record"
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "name": "partials__hint",
+                        "data": {
+                          "display": {
+                            "data": [
+                              {
+                                "component": "theme",
+                                "variant": "grey-4",
+                                "content": "script"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ],
+                    "short-url": "researchbriefings.files.parliament.uk/documents/RP99-28/RP99-28.pdf",
+                    "paragraph-content": "Summary of main points • The EU banana regime is an attempt to combine obligations to former colonies with the Single European Market. • The regime has been the ..."
+                  }
+                },
+                {
+                  "name": "card__search__search-result",
+                  "data": {
+                    "heading-text": "Lords Hansard text for 28 Jan 1999 (190128-03)",
+                    "url": "https://publications.parliament.uk/pa/ld199899/ldhansrd/vo990128/text/90128-03.htm",
+                    "hints": [
+                      {
+                        "name": "partials__hint",
+                        "data": {
+                          "display": {
+                            "data": [
+                              {
+                                "component": "theme",
+                                "variant": "grey-4",
+                                "content": "Lords publication from session: 1998-99"
+                              }
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "name": "partials__hint",
+                        "data": {
+                          "display": {
+                            "data": [
+                              {
+                                "component": "theme",
+                                "variant": "grey-4",
+                                "content": "Commons publication from session: 1997-98"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ],
+                    "short-url": "https://publications.parliament.uk/pa/ld199899/ldhansrd/vo990128/...",
+                    "paragraph-content": "Indeed, it would have a terrible impact on some Caribbean islands, with disastrous effects on their populations. If the banana trade collapses, ..."
+                  }
+                },
+                {
+                  "name": "card__search__search-result",
+                  "data": {
+                    "heading-text": "IMPORT DUTIES (LIME OIL AND BANANAS) (Hansard, 30 April 1956)",
+                    "url": "https://api.parliament.uk/historic-hansard/commons/1956/apr/30/import-duties-lime-oil-and-bananas",
+                    "hints": [
+                      {
+                        "name": "partials__hint",
+                        "data": {
+                          "display": {
+                            "data": [
+                              {
+                                "component": "theme",
+                                "variant": "grey-4",
+                                "content": "Hansard"
+                              }
+                            ]
+                          }
+                        }
+                      }
+                    ],
+                    "short-url": "https://api.parliament.uk/.../30/import-duties-lime-oil-and-bananas",
+                    "paragraph-content": "160 The banana industry is important socially and economically in the West Indies."
+                  }
+                },
+                {
+                  "name": "card__search__search-result",
+                  "data": {
+                    "heading-text": "Harassment: 'Police Information Notices' or 'Early ...",
+                    "url": "http://researchbriefings.files.parliament.uk/documents/SN06411/SN06411.pdf",
+                    "hints": [
+                      {
+                        "name": "partials__hint",
+                        "data": {
+                          "display": {
+                            "data": [
+                              {
+                                "component": "theme",
+                                "variant": "grey-4",
                                 "content": "pdf"
                               }
                             ]
@@ -267,8 +507,8 @@
                         }
                       }
                     ],
-                    "short-url": "some shorter url",
-                    "paragraph-content": "Some text"
+                    "short-url": "researchbriefings.files.parliament.uk/documents/SN06411/SN06411.pdf",
+                    "paragraph-content": "BRIEFING PAPER Number 06411, 29 June 2018 Harassment: \"Police Information Notices\" or \"Early Harassment Notices\" in England and Wales By Pat Strickland"
                   }
                 }
               ]
