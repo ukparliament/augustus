@@ -177,95 +177,223 @@
                                 ]
                               },
                             "components": [
-                                {
-                                    "name": "card__search__search-result",
-                                    "data": {
-                                        "heading-text": "Page 2 - Result 1",
-                                        "url": "some-url",
-                                        "hints": [
-                                          {
-                                            "name": "partials__hint",
-                                            "data": {
-                                              "display": {
-                                                "data": [
-                                                  {
-                                                  "component": "theme",
-                                                  "variant": "grey-4",
-                                                  "content": "pdf"
-                                                }
-                                              ]
-                                              }
+                              {
+                                "name": "card__search__search-result",
+                                "data": {
+                                  "heading-text": "EU Banana Imports Policy: US Reaction (Hansard, 12 ...",
+                                  "url": "https://api.parliament.uk/historic-hansard/lords/1998/nov/12/eu-banana-imports-policy-us-reaction",
+                                  "hints": [
+                                    {
+                                      "name": "partials__hint",
+                                      "data": {
+                                        "display": {
+                                          "data": [
+                                            {
+                                              "component": "theme",
+                                              "variant": "grey-4",
+                                              "content": "Hansard"
                                             }
-                                          }
-                                        ],
-                                        "short-url": "some shorter url",
-                                        "paragraph-content": "Some text"
+                                          ]
+                                        }
+                                      }
                                     }
-                                },
-                                {
-                                    "name": "card__search__search-result",
-                                    "data": {
-                                        "heading-text": "Page 2 - Result 2",
-                                        "url": "some-url",
-                                        "hints": [
-                                          {
-                                            "name": "partials__hint",
-                                            "data": {
-                                              "display": {
-                                                "data": [
-                                                  {
-                                                  "component": "theme",
-                                                  "variant": "grey-4",
-                                                  "content": "pdf"
-                                                }
-                                              ]
-                                              }
-                                            }
-                                          }
-                                        ],
-                                        "short-url": "some shorter url",
-                                        "paragraph-content": "Some text"
-                                    }
-                                },
-                                {
-                                    "name": "card__search__search-result",
-                                    "data": {
-                                        "heading-text": "Page 2 - Result 3",
-                                        "url": "some-url",
-                                        "hints": [
-                                          {
-                                            "name": "partials__hint",
-                                            "data": {
-                                              "display": {
-                                                "data": [
-                                                  {
-                                                  "component": "theme",
-                                                  "variant": "grey-4",
-                                                  "content": "beta"
-                                                }
-                                              ]
-                                              }
-                                            }
-                                          },
-                                          {
-                                            "name": "partials__hint",
-                                            "data": {
-                                              "display": {
-                                                "data": [
-                                                  {
-                                                  "component": "theme",
-                                                  "variant": "grey-4",
-                                                  "content": "pdf"
-                                                }
-                                              ]
-                                              }
-                                            }
-                                          }
-                                        ],
-                                        "short-url": "some shorter url",
-                                        "paragraph-content": "Some text"
-                                    }
+                                  ],
+                                  "short-url": "https://api.parliament.uk/.../12/eu-banana-imports-policy-us-reaction",
+                                  "paragraph-content": "§Lord Clinton-Davis. My Lords, I thank my noble friend the Minister for that most helpful and positive reply. Is it not absolutely deplorable that, having ..."
                                 }
+                              },
+                              {
+                                "name": "card__search__search-result",
+                                "data": {
+                                  "heading-text": "Early day motion 251 - BANANA TRADE - UK Parliament",
+                                  "url": "https://www.parliament.uk/edm/1998-99/251",
+                                  "hints": [
+                                    {
+                                      "name": "partials__hint",
+                                      "data": {
+                                        "display": {
+                                          "data": [
+                                            {
+                                              "component": "theme",
+                                              "variant": "grey-4",
+                                              "content": "early day motion"
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "short-url": "https://www.parliament.uk/edm/1998-99/251",
+                                  "paragraph-content": "That this House recognises the crucial contribution made to the economies of the Windward Caribbean Islands by the production of bananas, recognised under..."
+                                }
+                              },
+                              {
+                                "name": "card__search__search-result",
+                                "data": {
+                                  "heading-text": "Allow bendy bananas and wonky carrots to be sold same as ...",
+                                  "url": "https://petition.parliament.uk/petitions/133639",
+                                  "hints": [
+                                    {
+                                      "name": "partials__hint",
+                                      "data": {
+                                        "display": {
+                                          "data": [
+                                            {
+                                              "component": "theme",
+                                              "variant": "grey-4",
+                                              "content": "petition"
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "short-url": "https://petition.parliament.uk/petitions/133639",
+                                  "paragraph-content": "Commission Regulation (EC) No. 2257/94 of 16 September 1994 laying down quality standards for bananas, also known informally as bendy banana law, is a European Union ..."
+                                }
+                              },
+                              {
+                                "name": "card__search__search-result",
+                                "data": {
+                                  "heading-text": "Environmental Permitting (England and Wales) (Amendment ...",
+                                  "url": "https://hansard.parliament.uk/Lords/2011-07-12/debates/11071292000261/EnvironmentalPermitting(EnglandAndWales)(Amendment)Regulations2011",
+                                  "short-url": "https://hansard.parliament.uk/Lords/2011-07-12/debates/...",
+                                  "paragraph-content": "That the Grand Committee do report to the House that it has considered the Environmental Permitting (England and Wales) (Amendment) Regulations 2011. Relevant ..."
+                                }
+                              },
+                              {
+                                "name": "card__search__search-result",
+                                "data": {
+                                  "heading-text": "Brexit and the UN Security Council - Commons Library ...",
+                                  "url": "https://researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-7597",
+                                  "hints": [
+                                    {
+                                      "name": "partials__hint",
+                                      "data": {
+                                        "display": {
+                                          "data": [
+                                            {
+                                              "component": "theme",
+                                              "variant": "grey-4",
+                                              "content": "research briefings"
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "short-url": "https://researchbriefings.parliament.uk/ResearchBriefing/Summary/...",
+                                  "paragraph-content": "Brexit and the UN Security Council. Published Thursday, May 19, 2016. This Commons Library briefing paper looks at the competing arguments about the possible effects ..."
+                                }
+                              },
+                              {
+                                "name": "card__search__search-result",
+                                "data": {
+                                  "heading-text": "JAMAICA (BANANA TRADE) (Hansard, 26 February 1971)",
+                                  "url": "https://api.parliament.uk/historic-hansard/commons/1947/mar/24/cameroon-bananas",
+                                  "paragraph-content": "§Mr. John Fraser (Norwood) This Adjournment debate is on the subject of negotiations at present in progress between Fyffes, the Government of Jamaica and to some ..."
+                                }
+                              },
+                              {
+                                "name": "card__search__search-result",
+                                "data": {
+                                  "heading-text": "BANANA SALES. (Hansard, 26 February 1941)",
+                                  "url": "http://researchbriefings.files.parliament.uk/documents/RP99-28/RP99-28.pdf",
+                                  "hints": [
+                                    {
+                                      "name": "partials__hint",
+                                      "data": {
+                                        "display": {
+                                          "data": [
+                                            {
+                                              "component": "theme",
+                                              "variant": "grey-4",
+                                              "content": "Hansard"
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "short-url": "researchbriefings.files.parliament.uk/documents/RP99-28/RP99-28.pdf",
+                                  "paragraph-content": "§Mr. George Hall. The position of banana producers in Jamaica has been safeguarded by the guarantee of a minimum return on a stated output given by His Majesty's ..."
+                                }
+                              },
+                              {
+                                "name": "card__search__search-result",
+                                "data": {
+                                  "heading-text": "House of Commons Hansard Debates for 25 Feb 1993",
+                                  "url": "https://publications.parliament.uk/pa/cm199293/cmhansrd/1993-02-25/Orals-2.html",
+                                  "hints": [
+                                    {
+                                      "name": "partials__hint",
+                                      "data": {
+                                        "display": {
+                                          "data": [
+                                            {
+                                              "component": "theme",
+                                              "variant": "grey-4",
+                                              "content": "Commons publication from session: 1992-93"
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "short-url": "https://publications.parliament.uk/pa/cm199293/cmhansrd/1993-02-25/...",
+                                  "paragraph-content": "Column 999. consumers of bananas? Is he aware that the bulk of the extra cost that consumers pay goes not to Caribbean farmers but to two large multinational banana ..."
+                                }
+                              },
+                              {
+                                "name": "card__search__search-result",
+                                "data": {
+                                  "heading-text": "EU/US Banana Dispute (Hansard, 28 January 1999)",
+                                  "url": "https://api.parliament.uk/historic-hansard/lords/1999/jan/28/euus-banana-dispute",
+                                  "hints": [
+                                    {
+                                      "name": "partials__hint",
+                                      "data": {
+                                        "display": {
+                                          "data": [
+                                            {
+                                              "component": "theme",
+                                              "variant": "grey-4",
+                                              "content": "Hansard"
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "short-url": "https://api.parliament.uk/.../lords/1999/jan/28/euus-banana-dispute",
+                                  "paragraph-content": "§Lord Clinton-Davis. My Lords, I thank my noble friend the Minister for that intellectually respectable reply. Is it not absolutely \"bananas\" that, at the time of a ..."
+                                }
+                              },
+                              {
+                                "name": "card__search__search-result",
+                                "data": {
+                                  "heading-text": "House of Commons - International Development - Minutes of ...",
+                                  "url": "https://publications.parliament.uk/pa/cm199798/cmselect/cmintdev/365/8020305.htm",
+                                  "hints": [
+                                    {
+                                      "name": "partials__hint",
+                                      "data": {
+                                        "display": {
+                                          "data": [
+                                            {
+                                              "component": "theme",
+                                              "variant": "grey-4",
+                                              "content": "Commons publication from session: 1997-98"
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "short-url": "https://publications.parliament.uk/pa/cm199798/cmselect/cmintdev/...",
+                                  "paragraph-content": "Since its inception, Chiquita has dominated banana production in Central America and banana marketing in the United States, European and latterly Japan."
+                                }
+                              }
                             ]
                         }
                     }
