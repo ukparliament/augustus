@@ -3,38 +3,39 @@
     "template": "layout"
   },
   "meta": {
-    "title": "groups.index.title",
+    "title": "Home Office - Layings - UK Parliament",
     "request-id": "|GeeYbAD2zawwjA==.",
     "data-alternates": [{
       "type": "application/n-triples",
-      "href": "http://localhost:3030/api/v1/group_index.nt"
+      "href": "http://localhost:3030/api/v1/group_layings_index.nt?group_id=12345678"
     }, {
       "type": "text/turtle",
-      "href": "http://localhost:3030/api/v1/group_index.ttl"
+      "href": "http://localhost:3030/api/v1/group_layings_index.ttl?group_id=12345678"
     }, {
       "type": "text/tab-separated-values",
-      "href": "http://localhost:3030/api/v1/group_index.tsv"
+      "href": "http://localhost:3030/api/v1/group_layings_index.tsv?group_id=12345678"
     }, {
       "type": "text/csv",
-      "href": "http://localhost:3030/api/v1/group_index.csv"
+      "href": "http://localhost:3030/api/v1/group_layings_index.csv?group_id=12345678"
     }, {
       "type": "application/json+rdf",
-      "href": "http://localhost:3030/api/v1/group_index.rj"
+      "href": "http://localhost:3030/api/v1/group_layings_index.rj?group_id=12345678"
     }, {
       "type": "application/json+ld",
-      "href": "http://localhost:3030/api/v1/group_index.json"
+      "href": "http://localhost:3030/api/v1/group_layings_index.json?group_id=12345678"
     }, {
       "type": "application/rdf+xml",
-      "href": "http://localhost:3030/api/v1/group_index.xml"
+      "href": "http://localhost:3030/api/v1/group_layings_index.xml?group_id=12345678"
     }],
     "open-graph": {
-      "title": "groups.index.title",
-      "original-url": "http://localhost:5401/groups",
+      "title": "Home Office - Layings",
+      "original-url": "http://localhost:5401/groups/12345678/layings",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",
       "image-height": "630",
       "twitter-card": "summary_large_image"
-    }
+    },
+    "opensearch-description-url": "https://localhost/search/opensearch"
   },
   "header-components": [{
     "name": "link",
@@ -131,8 +132,11 @@
       "components": [{
         "name": "heading1",
         "data": {
+          "subheading": {
+            "content": "<a href='/groups/NDZSYjeE'>Home Office</a>"
+          },
           "heading": {
-            "content": "groups.index.title"
+            "content": "Layings"
           }
         }
       }]
@@ -157,105 +161,164 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Culture, Media and Sport Committee",
+                  "content": "Police Pension Schemes and Additional Voluntary Contributions (Amendment)(England and Wales) Regulations 2018",
                   "size": 2,
-                  "link": "/groups/12345678"
+                  "link": "/statutory-instruments/12345678"
                 }
               },
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "28 July 1997 to 12 September 2017"
+                  "content": "groups.layings.date",
+                  "data": {
+                    "date": "27 April 2018"
+                  }
+                },
+                {
+                  "content": "groups.layings.type",
+                  "data": {
+                    "type": "Statutory Instrument"
+                  }
                 }]
               }
             }
-          }, {
+          },
+          {
             "name": "card__generic",
             "data": {
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Public Service",
+                  "content": "Fire and Rescue Authorities (National Framework) (England) Order 2018",
                   "size": 2,
-                  "link": "/groups/12345678"
+                  "link": "/statutory-instruments/12345678"
                 }
               },
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "1 January 1995 to 6 May 2010"
+                  "content": "groups.layings.date",
+                  "data": {
+                    "date": "12 August 2018"
+                  }
+                },
+                {
+                  "content": "groups.layings.type",
+                  "data": {
+                    "type": "Statutory Instrument"
+                  }
                 }]
               }
             }
-          }, {
+          },
+          {
             "name": "card__generic",
             "data": {
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Procedure Committee (Lords)",
+                  "content": "Police and Criminal Evidence Act 1984 (Codes of Practice) (Revision of Codes C, E, F, and H) Order 2018",
                   "size": 2,
-                  "link": "/groups/12345678"
+                  "link": "/statutory-instruments/12345678"
                 }
               },
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "12 November 1974"
+                  "content": "groups.layings.date",
+                  "data": {
+                    "date": "21 May 2018"
+                  }
+                },
+                {
+                  "content": "groups.layings.type",
+                  "data": {
+                    "type": "Proposed Negative Statutory Instrument"
+                  }
                 }]
               }
             }
-          }, {
+          },
+          {
             "name": "card__generic",
             "data": {
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Relations between Central and Local Government, Committee on",
+                  "content": "Police, Fire and Crime Commissioner for Staffordshire (Fire and Rescue Authority) Order 2018",
                   "size": 2,
-                  "link": "/groups/12345678"
+                  "link": "/statutory-instruments/12345678"
                 }
               },
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "27 November 1995 to 2 July 1996"
+                  "content": "groups.layings.date",
+                  "data": {
+                    "date": "06 July 2018"
+                  }
+                },
+                {
+                  "content": "groups.layings.type",
+                  "data": {
+                    "type": "Proposed Negative Statutory Instrument"
+                  }
                 }]
               }
             }
-          }, {
+          },
+          {
             "name": "card__generic",
             "data": {
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Members' Expenses Committee",
+                  "content": "Passenger Name Record Data and Miscellaneous Amendments Regulations 2018",
                   "size": 2,
-                  "link": "/groups/12345678"
+                  "link": "/statutory-instruments/12345678"
                 }
               },
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "18 July 2011 to 30 March 2015"
+                  "content": "groups.layings.date",
+                  "data": {
+                    "date": "18 May 2018"
+                  }
+                },
+                {
+                  "content": "groups.layings.type",
+                  "data": {
+                    "type": "Statutory Instrument"
+                  }
                 }]
               }
             }
-          }, {
+          },
+          {
             "name": "card__generic",
             "data": {
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "BBC Charter Review Committee",
+                  "content": "Investigatory Powers (Consequential Amendments etc) Regulations 2018",
                   "size": 2,
-                  "link": "/groups/12345678"
+                  "link": "/proposed-negative-statutory-instruments/12345678"
                 }
               },
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "1 March 2005 to 8 November 2006"
+                  "content": "groups.layings.date",
+                  "data": {
+                    "date": "06 June 2018"
+                  }
+                },
+                {
+                  "content": "groups.layings.type",
+                  "data": {
+                    "type": "Proposed Negative Statutory Instrument"
+                  }
                 }]
               }
             }

@@ -4,7 +4,7 @@ describe('Groups id page', function(){
   testHelper.setupBefore();
 
   it('should render content for proposed negative statutory instruments id page', function(done){
-    testHelper.shunterTest('tz34m7Vt', 'layout', 'groups', done, true);
+    testHelper.shunterTest('12345678', 'layout', 'groups', done, true);
   });
 
 });
