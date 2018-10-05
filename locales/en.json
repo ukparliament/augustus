@@ -104,6 +104,7 @@
     }
   },
   "groups": {
+		"group": "<a href= '{{-link}}'>Group</a>",
     "index": {
       "title": "Current and former groups"
     },
