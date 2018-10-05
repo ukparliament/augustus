@@ -71,7 +71,8 @@
     <script src="uk_parliament_search.js"></script>
 </head>
 
-<body><a href="#content" class="skip-to-content " id="skiplink">Skip to main content</a>
+<body>
+    <script src="bodyClass.js"></script><a href="#content" class="skip-to-content " id="skiplink">Skip to main content</a>
     <div class="status--banner theme--caution cookie " id="cookie">
         <div class="container">
             <p>Parliament.uk uses cookies to make the site simpler. <a href='/meta/cookie-policy'>Find out more about cookies</a></p>
@@ -110,7 +111,7 @@
             <div class="container">
                 <h1><span>Search results for</span><span class="sr-only">banana</span></h1>
                 <form>
-                    <div class="input-group"><label class="sr-only" for="search_box">Enter a keyword</label><input id="search_box" maxlength="1000" name="q" pattern="^(?!.*<script|<Script).*$" required="" type="search" value="banana"><button aria-label="submit search" class="btn--white" type="submit"><svg aria-hidden="true" data-icon="search" height="20" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <div class="input-group"><label class="sr-only" for="search_box">Enter a keyword</label><input id="search_box" maxlength="1000" name="q" pattern="^(?!.*<script|<Script).*$" aria-label="enter a search term" autocomplete="off" required="" type="search" value="banana"><button aria-label="submit search" class="btn--white" type="submit"><svg aria-hidden="true" data-icon="search" height="20" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
                                 <title>Search icon</title>
                                 <g fill="#fff">
                                     <path d="M7.5 15C3.4 15 0 11.6 0 7.5 0 3.4 3.4 0 7.5 0 11.6 0 15 3.4 15 7.5 15 11.6 11.6 15 7.5 15ZM7.5 13C10.5 13 13 10.5 13 7.5 13 4.5 10.5 2 7.5 2 4.5 2 2 4.5 2 7.5 2 10.5 4.5 13 7.5 13Z"></path>
