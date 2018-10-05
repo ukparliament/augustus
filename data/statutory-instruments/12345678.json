@@ -257,13 +257,6 @@
       "data": {
         "components": [
           {
-            "name": "heading",
-            "data": {
-              "content": "Work package",
-              "size": 2
-            }
-          },
-          {
             "name": "list__generic",
             "data": {
               "type": "ol",
@@ -273,8 +266,7 @@
                   "component": "list",
                   "variant": "block"
                 }, {
-                  "component": "list",
-                  "variant": "3"
+                  "component": "list"
                 }]
               },
               "components": [{
@@ -283,7 +275,7 @@
                   "heading": {
                     "name": "heading",
                     "data": {
-                      "content": ["zhi6ZHnQ"],
+                      "content": ["Work package"],
                       "size": 3,
                       "link": "#"
                     }

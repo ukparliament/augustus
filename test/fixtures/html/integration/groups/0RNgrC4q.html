@@ -77,7 +77,8 @@
     <meta content="summary_large_image" name="twitter:card">
 </head>
 
-<body><a href="#content" class="skip-to-content " id="skiplink">Skip to main content</a>
+<body>
+    <script src="bodyClass.js"></script><a href="#content" class="skip-to-content " id="skiplink">Skip to main content</a>
     <div class="status--banner theme--caution cookie " id="cookie">
         <div class="container">
             <p>Parliament.uk uses cookies to make the site simpler. <a href='/meta/cookie-policy'>Find out more about cookies</a></p>
@@ -110,33 +111,31 @@
                         <path d="M65.5 58C65 58.1 64.5 57.9 64.1 57.5 63.7 57.2 63.5 56.6 63.5 56.1L63.5 31.2 58.5 31.2 58.5 57.3C58.5 60.9 61 62.4 64 62.4 65 62.4 66 62.2 67 61.9L67 57.9C66.5 58 66 58 65.5 58Z"></path>
                     </g>
                 </svg></a>
-            <div class="search__global">
-                <form action="/search" method="get">
-                    <div class="input-group"><label class="sr-only" for="search_box">Enter a keyword</label><input id="search_box" maxlength="1000" name="q" pattern="^(?!.*<script|<Script).*$" required="" type="search"><button aria-label="submit search" class="btn--white" type="submit"><svg aria-hidden="true" data-icon="search" height="20" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Search icon</title>
-                                <g fill="#fff">
-                                    <path d="M7.5 15C3.4 15 0 11.6 0 7.5 0 3.4 3.4 0 7.5 0 11.6 0 15 3.4 15 7.5 15 11.6 11.6 15 7.5 15ZM7.5 13C10.5 13 13 10.5 13 7.5 13 4.5 10.5 2 7.5 2 4.5 2 2 4.5 2 7.5 2 10.5 4.5 13 7.5 13Z"></path>
-                                    <polygon points="14.8 10.8 16.8 10.8 16.8 20.8 14.8 20.8" transform="translate(15.778175 15.778175)rotate(-45)translate(-15.778175 -15.778175)"></polygon>
-                                </g>
-                            </svg></button></div>
-                </form><a aria-label="open search" class="search__global__toggle" href="/search"><svg aria-hidden="true" data-icon="search" height="20" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
-                        <title>Search icon</title>
-                        <g fill="#fff">
-                            <path d="M7.5 15C3.4 15 0 11.6 0 7.5 0 3.4 3.4 0 7.5 0 11.6 0 15 3.4 15 7.5 15 11.6 11.6 15 7.5 15ZM7.5 13C10.5 13 13 10.5 13 7.5 13 4.5 10.5 2 7.5 2 4.5 2 2 4.5 2 7.5 2 10.5 4.5 13 7.5 13Z"></path>
-                            <polygon points="14.8 10.8 16.8 10.8 16.8 20.8 14.8 20.8" transform="translate(15.778175 15.778175)rotate(-45)translate(-15.778175 -15.778175)"></polygon>
-                        </g>
-                    </svg><svg aria-hidden="true" data-icon="close" height="20" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
-                        <title>Cross</title>
-                        <g stroke="#fff">
-                            <g>
-                                <line stroke-width="2" x1="0" x2="18" y1="0" y2="18"></line>
+            <form action="/search" method="get">
+                <div class="input-group"><label class="sr-only" for="search_box">Enter a keyword</label><input id="search_box" maxlength="1000" name="q" pattern="^(?!.*<script|<Script).*$" aria-label="enter a search term" autocomplete="off" required="" type="search"><button aria-label="submit search" class="btn--white" type="submit"><svg aria-hidden="true" data-icon="search" height="20" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                            <title>Search icon</title>
+                            <g fill="#fff">
+                                <path d="M7.5 15C3.4 15 0 11.6 0 7.5 0 3.4 3.4 0 7.5 0 11.6 0 15 3.4 15 7.5 15 11.6 11.6 15 7.5 15ZM7.5 13C10.5 13 13 10.5 13 7.5 13 4.5 10.5 2 7.5 2 4.5 2 2 4.5 2 7.5 2 10.5 4.5 13 7.5 13Z"></path>
+                                <polygon points="14.8 10.8 16.8 10.8 16.8 20.8 14.8 20.8" transform="translate(15.778175 15.778175)rotate(-45)translate(-15.778175 -15.778175)"></polygon>
                             </g>
-                            <g>
-                                <line stroke-width="2" x1="0" x2="18" y1="18" y2="0"></line>
-                            </g>
+                        </svg></button></div>
+            </form><a aria-hidden="true" aria-label="open search" class="btn--toggle" href="/search"><svg aria-hidden="true" data-icon="search" height="20" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Search icon</title>
+                    <g fill="#fff">
+                        <path d="M7.5 15C3.4 15 0 11.6 0 7.5 0 3.4 3.4 0 7.5 0 11.6 0 15 3.4 15 7.5 15 11.6 11.6 15 7.5 15ZM7.5 13C10.5 13 13 10.5 13 7.5 13 4.5 10.5 2 7.5 2 4.5 2 2 4.5 2 7.5 2 10.5 4.5 13 7.5 13Z"></path>
+                        <polygon points="14.8 10.8 16.8 10.8 16.8 20.8 14.8 20.8" transform="translate(15.778175 15.778175)rotate(-45)translate(-15.778175 -15.778175)"></polygon>
+                    </g>
+                </svg><svg aria-hidden="true" data-icon="close" height="20" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Close</title>
+                    <g stroke="#fff">
+                        <g>
+                            <line stroke-width="2" x1="0" x2="18" y1="0" y2="18"></line>
                         </g>
-                    </svg></a>
-            </div>
+                        <g>
+                            <line stroke-width="2" x1="0" x2="18" y1="18" y2="0"></line>
+                        </g>
+                    </g>
+                </svg></a>
         </div>
     </header>
     <main>
