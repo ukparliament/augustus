@@ -1,0 +1,779 @@
+{
+  "layout": {
+    "template": "layout"
+  },
+  "meta": {
+    "title": "Department for Education",
+    "request-id": "|VcqidtLMG2mufg==.",
+    "data-alternates": [{
+      "type": "application/n-triples",
+      "href": "http://localhost:3030/api/v1/group_by_id.nt?group_id=tz34m7Vt"
+    }, {
+      "type": "text/turtle",
+      "href": "http://localhost:3030/api/v1/group_by_id.ttl?group_id=tz34m7Vt"
+    }, {
+      "type": "text/tab-separated-values",
+      "href": "http://localhost:3030/api/v1/group_by_id.tsv?group_id=tz34m7Vt"
+    }, {
+      "type": "text/csv",
+      "href": "http://localhost:3030/api/v1/group_by_id.csv?group_id=tz34m7Vt"
+    }, {
+      "type": "application/json+rdf",
+      "href": "http://localhost:3030/api/v1/group_by_id.rj?group_id=tz34m7Vt"
+    }, {
+      "type": "application/json+ld",
+      "href": "http://localhost:3030/api/v1/group_by_id.json?group_id=tz34m7Vt"
+    }, {
+      "type": "application/rdf+xml",
+      "href": "http://localhost:3030/api/v1/group_by_id.xml?group_id=tz34m7Vt"
+    }],
+    "open-graph": {
+      "title": "Department for Education",
+      "original-url": "https://localhost/groups/tz34m7Vt",
+      "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
+      "image-width": "1200",
+      "image-height": "630",
+      "twitter-card": "summary_large_image"
+    },
+    "opensearch-description-url": "https://localhost/search/opensearch"
+  },
+  "header-components": [{
+    "name": "link",
+    "data": {
+      "link": "#content",
+      "display": {
+        "name": "partials__display",
+        "data": [{
+          "component": "skip-to-content"
+        }]
+      },
+      "selector": "skiplink",
+      "content": "shared.header.skip-to-content"
+    }
+  }, {
+    "name": "status__banner",
+    "data": {
+      "display": {
+        "name": "partials__display",
+        "data": [{
+          "component": "status",
+          "variant": "banner"
+        }, {
+          "component": "theme",
+          "variant": "caution"
+        }, {
+          "component": "cookie"
+        }]
+      },
+      "selector": "cookie",
+      "components": [{
+        "name": "paragraph",
+        "data": [{
+          "content": "shared.header.cookie-banner-text",
+          "data": {
+            "link": "/meta/cookie-policy"
+          }
+        }]
+      }]
+    }
+  }, {
+    "name": "status__banner",
+    "data": {
+      "display": {
+        "name": "partials__display",
+        "data": [{
+          "component": "status",
+          "variant": "banner"
+        }]
+      },
+      "components": [{
+        "name": "paragraph",
+        "data": [{
+          "content": "shared.header.beta-status"
+        }]
+      }]
+    }
+  }, {
+    "name": "header",
+    "data": {
+      "components": [{
+        "name": "link",
+        "data": {
+          "link": "/",
+          "display": {
+            "name": "partials__display",
+            "data": [{
+              "component": "uk_parliament"
+            }]
+          },
+          "label": "shared.header.label",
+          "components": [{
+            "name": "icon__uk-parliament",
+            "data": "shared.header.label"
+          }]
+        }
+      }, {
+        "name": "form__search",
+        "data": {
+          "global": true,
+          "label": "search.label",
+          "components": [{
+            "name": "icon__search",
+            "data": "search.search-icon"
+          }],
+          "search-action": "/search"
+        }
+      }]
+    }
+  }],
+  "main-components": [{
+    "name": "section__primary",
+    "data": {
+      "components": [{
+        "name": "heading1",
+        "data": {
+          "subheading": {
+            "content": "groups.group",
+            "data": {
+              "link": "/groups"
+            }
+          },
+          "heading": {
+            "content": "Department for Education"
+          },
+          "context": {
+            "content": "12 May 2010 to present"
+          }
+        }
+      }]
+    }
+  }, {
+    "name": "section__section",
+    "data": {
+      "components": [{
+        "name": "heading",
+        "data": {
+          "content": "Literals",
+          "size": 2
+        }
+      }, {
+        "name": "list__description",
+        "data": {
+          "items": [{
+            "term": {
+              "content": "Name"
+            },
+            "description": [{
+              "content": "Department for Education"
+            }]
+          }, {
+            "term": {
+              "content": "Start Date"
+            },
+            "description": [{
+              "content": "12 May 2010"
+            }]
+          }]
+        }
+      }, {
+        "name": "heading",
+        "data": {
+          "content": "Objects",
+          "size": 2
+        }
+      }, {
+        "name": "list__generic",
+        "data": {
+          "type": "ol",
+          "display": {
+            "name": "partials__display",
+            "data": [{
+              "component": "list",
+              "variant": "block"
+            }]
+          },
+          "components": [{
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "Special Restrictions on Adoptions from Abroad (Ethiopia) Order 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/keUmDe6y"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 27 April 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "School Information (England) (Amendment) Regulations 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/On2R0Zeb"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 4 April 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "Education (Student Support) (Amendment) (No. 3) Regulations 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/XnLvIexa"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 13 April 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "Restriction on the Preparation of Adoption Reports (Amendment) Regulations 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/VIqyNL58"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 16 April 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "Higher Education (Basic Amount and Higher Amount) (England) (Amendment) Regulations 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/Ly5VtVqc"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 4 April 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "Higher Education and Research Act 2017 (Cooperation and Information Sharing) Regulations 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/dNxWbKuU"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 23 May 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "Education (Postgraduate Doctoral Degree Loans and the Education (Student Loans) (Repayment) (Amendment) (No. 2) etc) Regulations 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/lh2dYuHD"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 21 May 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "Professional Standards Authority for Health and Social Care (Fees) (Social Work England) Regulations 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/NRSdVnQe"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 4 June 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "Education (Designated Institutions) (England) Order 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/58xXcnw9"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 1 June 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "Social Workers Regulations 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/KUKpCZa3"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 4 June 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "Education (Pupil Information) (England) (Amendment) Regulations 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/tiA7a71r"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 7 June 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "Higher Education (Transparency Condition and Financial Support) (England) Regulations 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/D9vkxjm0"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 15 June 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "Hartpury College of Further Education (Designated Institution in Further Education) Order 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/VdxVTQ0L"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 25 June 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "Childcare (Disqualification) and Childcare (Early Years Provision Free of Charge) (Extended Entitlement) (Amendment) Regulations 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/JPx0duf2"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 2 July 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "Higher Education (Fee Limits and Fee Limit Condition) (England) Regulations 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/c0IpQmwt"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 2 July 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "Education (Student Loans) (Repayment) (Amendment) (No. 3) Regulations 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/UBL9i00X"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 6 July 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "Cambridgeshire and Peterborough Combined Authority (Adult Education Functions) Order 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/dHwDR0Xw"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 23 July 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "Liverpool City Region Combined Authority (Adult Education Functions) Order 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/zRBB7JhE"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 23 July 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "West Midlands Combined Authority (Adult Education Functions) Order 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/j0R3vR5s"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 23 July 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "West of England Combined Authority (Adult Education Functions) Order 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/xRUG9ARI"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 23 July 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "Tees Valley Combined Authority (Adult Education Functions) Order 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/DVgODdNe"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 23 July 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "Greater Manchester Combined Authority (Adult Education Functions) Order 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/2JipSGt3"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 23 July 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "Independent Educational Provision in England (Provision of Information) and Non-maintained Special Schools (England) and Independent School Standards (Amendment) Regulations 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/KKMVpl6g"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 26 July 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "Hartpury College (Transfer to the Higher Education Sector) Order 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/evNAwjHg"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 8 August 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "School Teachers' Incentive Payments (England) Order 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/Wa2pnyo2"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 13 August 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "Apprenticeships (Modification to the Specification of Apprenticeship Standards for England) Order 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/nuicNnFk"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 31 August 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "Further Education Bodies (Insolvency) Regulations 2018 ",
+                  "size": 2,
+                  "link": "/statutory-instruments/TFdnSOeu"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 5 September 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "Adoption and Children Act Register (Search and Inspection) (Amendment) Regulations 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/CoWkZnVU"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 12 September 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "School Teachers' Pay and Conditions Order 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/gVLa6U8S"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 14 September 2018"
+                }]
+              }
+            }
+          }]
+        }
+      }]
+    }
+  }],
+  "footer-components": [{
+    "name": "footer",
+    "data": {
+      "uk-parliament": "shared.footer.uk-parliament",
+      "components": [{
+        "name": "list__generic",
+        "data": {
+          "type": "ul",
+          "display": {
+            "name": "partials__display",
+            "data": [{
+              "component": "list"
+            }]
+          },
+          "contents": [{
+            "content": "shared.footer.current-website"
+          }, {
+            "content": "shared.footer.cookie-policy",
+            "data": {
+              "link": "/meta/cookie-policy"
+            }
+          }, {
+            "content": "shared.footer.data-protection-privacy"
+          }]
+        }
+      }]
+    }
+  }]
+}
