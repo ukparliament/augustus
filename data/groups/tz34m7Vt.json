@@ -161,14 +161,14 @@
         "data": {
           "items": [{
             "term": {
-              "content": "Name:"
+              "content": "Name"
             },
             "description": [{
               "content": "Department for Education"
             }]
           }, {
             "term": {
-              "content": "Start Date:"
+              "content": "Start Date"
             },
             "description": [{
               "content": "12 May 2010"
