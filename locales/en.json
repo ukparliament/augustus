@@ -63,13 +63,13 @@
     }
 	},
   "laid-thing": {
-    "laid-date": "Laying date ",
-    "work-package": "Work packaged thing has work package ",
-    "procedure": "Work package has procedure ",
-    "laying": "Laid thing has laying",
-    "laying-body": "Laying has laying body ",
-    "laying-person": "Laying has laying person ",
-    "web-link": "Work packaged thing has work packaged thing web link ",
+    "laid-date": "Laying date",
+    "work-package": "Work package",
+    "procedure": "Procedure",
+    "laying": "Laying",
+    "laying-body": "Laying body",
+    "laying-person": "Laying person",
+    "web-link": "Web link",
     "objects": "Objects"
   },
   "search": {
@@ -82,25 +82,25 @@
   },
   "statutory-instruments": {
     "index": {
-      "title": "Statutory Instruments"
+      "title": "Statutory instruments"
     },
     "show": {
       "subheading": "<a href='/statutory-instruments'>Statutory Instruments</a>",
-      "coming-into-force-date": "Statutory instrument paper coming into force date ",
-      "coming-into-force-note": "Statutory instrument paper coming into force note ",
-      "made-date": "Statutory instrument paper made date ",
+      "coming-into-force-date": "Coming into force date",
+      "coming-into-force-note": "Coming into force note",
+      "made-date": "Made date",
       "further-details": "Further details",
-      "following-title": "Statutory instrument paper follows proposed negative statutory instrument paper",
+      "following-title": "Following proposed negative statutory instrument",
       "literals": "Literals"
     }
   },
   "proposed-negative-statutory-instruments": {
     "index": {
-      "title": "Proposed Negative Statutory Instruments"
+      "title": "Proposed negative statutory instruments"
     },
     "show": {
       "subheading": "<a href='/proposed-negative-statutory-instruments'>Proposed Negative Statutory Instruments</a>",
-      "preceding-title": "Proposed negative statutory instrument paper precedes statutory instrument paper"
+      "preceding-title": "Preceding statutory instrument"
     }
   },
   "groups": {
