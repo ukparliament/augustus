@@ -4,7 +4,7 @@
   },
   "meta": {
     "title": "Department for Education - UK Parliament",
-    "request-id": "|R7NfUDk2oBMN2w==.",
+    "request-id": "|VDpGAX+XfOiIRg==.",
     "data-alternates": [{
       "type": "application/n-triples",
       "href": "http://localhost:3030/api/v1/group_by_id.nt?group_id=12345678"
@@ -208,11 +208,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 14 September 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "14 September 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -227,11 +234,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 12 September 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "12 September 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -246,11 +260,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 5 September 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "5 September 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -265,11 +286,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 31 August 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "31 August 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -284,11 +312,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 13 August 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "13 August 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -303,11 +338,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 8 August 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "8 August 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -322,11 +364,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 26 July 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "26 July 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -341,11 +390,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 23 July 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "23 July 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -360,11 +416,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 23 July 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "23 July 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -379,11 +442,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 23 July 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "23 July 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -398,11 +468,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 23 July 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "23 July 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -417,11 +494,18 @@
                   "link": "/statutory-instruments/zRBB7JhE"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 23 July 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "23 July 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -436,11 +520,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 23 July 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "23 July 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -455,11 +546,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 6 July 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "6 July 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -474,11 +572,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 2 July 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "2 July 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -493,11 +598,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 2 July 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "2 July 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -512,11 +624,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 25 June 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "25 June 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -531,11 +650,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 15 June 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "15 June 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -550,11 +676,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 7 June 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "7 June 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -569,11 +702,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 4 June 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "4 June 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -588,11 +728,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 4 June 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "4 June 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -607,11 +754,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 1 June 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "1 June 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -626,11 +780,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 23 May 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "23 May 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -645,11 +806,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 21 May 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "21 May 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -664,11 +832,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 27 April 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "27 April 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -683,11 +858,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 16 April 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "16 April 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -702,11 +884,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 13 April 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "13 April 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -721,11 +910,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 4 April 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "4 April 2018"
+                    }]
+                  }]
+                }
               }
             }
           }, {
@@ -740,11 +936,18 @@
                   "link": "/statutory-instruments/12345678"
                 }
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 4 April 2018"
-                }]
+              "list-description": {
+                "name": "list__description",
+                "data": {
+                  "items": [{
+                    "term": {
+                      "content": "laid-thing.laid-date"
+                    },
+                    "description": [{
+                      "content": "4 April 2018"
+                    }]
+                  }]
+                }
               }
             }
           }]
