@@ -307,14 +307,14 @@
                 {
                   "name": "link",
                   "data": {
-                    "link": "/statutory-instruments/C1234567",
+                    "link": "/statutory-instruments/12345678",
                     "content": "Statutory Instrument 1"
                   }
                 },
                 {
                   "name": "link",
                   "data": {
-                    "link": "/statutory-instruments/D1234567",
+                    "link": "/statutory-instruments/12345678",
                     "content": "Statutory Instrument 2"
                   }
                 }

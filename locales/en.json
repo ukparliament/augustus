@@ -19,7 +19,7 @@
 			"previous": "Previous",
 			"next": "Next",
 			"page": "Page "
-		}
+    }
 	},
 	"home": {
     "title": "beta.parliament.uk",
@@ -110,6 +110,10 @@
     },
     "current": {
       "title": "Current groups"
+    },
+    "layings": {
+      "date": "Laid Date: {{-date}}",
+      "type": "Type: {{-type}}"
     }
   }
 }

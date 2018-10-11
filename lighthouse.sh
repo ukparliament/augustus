@@ -19,19 +19,33 @@ html_end="</ul></body></html>"
 
 # Array of all paths to audit
 paths=(
-  /
-  /search
-  /search?q=banana
-  /search/zero_results
-  /statutory-instruments/12345678
+  "/"
+  "/search"
+  "/search?q=banana"
+  "/search?count=10&q=banana&start_index=11"
+  "/search/zero_results"
+  "/statutory-instruments"
+  "/statutory-instruments/12345678"
+  "/proposed-negative-statutory-instruments"
+  "/proposed-negative-statutory-instruments/12345678"
+  "/groups"
+  "/groups/12345678"
+  "/groups/12345678/layings"
 )
 
 names=(
   "Homepage"
   "Search: landing"
   "Search: results"
+  "Search: results (nth page)"
   "Search: zero results"
+  "Statutory instruments: index page"
   "Statutory instruments: show page"
+  "Proposed Negative Statutory Instruments: index page"
+  "Proposed Negative Statutory Instruments: show page"
+  "Groups: index page"
+  "Groups: show page page"
+  "Group Layings: index page"
 )
 
 echo "Running Lighthouse tests:"
@@ -46,10 +60,10 @@ fi
 echo "========================"
 echo "|      Pass rates      |"
 echo "------------------------"
-echo "Acessibility:        $accessibility_pass_rate"
-echo "Best Practice:       $best_practice_pass_rate"
 echo "Performance:         $performance_pass_rate"
 echo "Progressive Web App: $pwa_pass_rate"
+echo "Acessibility:        $accessibility_pass_rate"
+echo "Best Practice:       $best_practice_pass_rate"
 echo "SEO:                 $seo_pass_rate"
 echo "========================"
 
@@ -68,15 +82,20 @@ for path in ${paths[@]}; do
 
   echo "Exited with: $lighthouse_test_status"
 
+  html_content+="<li><a href='$lighthouse_test_number/report.html'>${names[$lighthouse_test_number]}</a>"
+
   if [[ $lighthouse_test_status != 0 ]];then
     lighthouse_exit_status=$lighthouse_test_status
+    html_content+=" &#x274C;"
+  else
+    html_content+=" &#x1F389;"
   fi
 
   echo "Saving report to $artifacts_directory/$lighthouse_test_number"
   mkdir -p $artifacts_directory/$lighthouse_test_number
   mv $artifacts_directory/$tmp_directory/report.html $artifacts_directory/$lighthouse_test_number/
 
-  html_content+="<li><a href='$lighthouse_test_number/report.html'>${names[$lighthouse_test_number]}</a></li>"
+  html_content+="</li>"
 
   lighthouse_test_number=$(($lighthouse_test_number + 1))
 done
