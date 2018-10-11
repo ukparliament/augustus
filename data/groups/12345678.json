@@ -3,8 +3,8 @@
     "template": "layout"
   },
   "meta": {
-    "title": "Department for Education",
-    "request-id": "|VcqidtLMG2mufg==.",
+    "title": "Department for Education - UK Parliament",
+    "request-id": "|R7NfUDk2oBMN2w==.",
     "data-alternates": [{
       "type": "application/n-triples",
       "href": "http://localhost:3030/api/v1/group_by_id.nt?group_id=12345678"
@@ -153,7 +153,9 @@
       "components": [{
         "name": "heading",
         "data": {
-          "content": "Literals",
+          "translation": {
+            "key": "groups.current.objects"
+          },
           "size": 2
         }
       }, {
@@ -178,7 +180,9 @@
       }, {
         "name": "heading",
         "data": {
-          "content": "Objects",
+          "translation": {
+            "key": "groups.current.literals"
+          },
           "size": 2
         }
       }, {
@@ -199,7 +203,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Special Restrictions on Adoptions from Abroad (Ethiopia) Order 2018",
+                  "content": "School Teachers' Pay and Conditions Order 2018",
                   "size": 2,
                   "link": "/statutory-instruments/12345678"
                 }
@@ -207,7 +211,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 27 April 2018"
+                  "content": "Laying date: 14 September 2018"
                 }]
               }
             }
@@ -218,7 +222,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "School Information (England) (Amendment) Regulations 2018",
+                  "content": "Adoption and Children Act Register (Search and Inspection) (Amendment) Regulations 2018",
                   "size": 2,
                   "link": "/statutory-instruments/12345678"
                 }
@@ -226,7 +230,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 4 April 2018"
+                  "content": "Laying date: 12 September 2018"
                 }]
               }
             }
@@ -237,7 +241,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Education (Student Support) (Amendment) (No. 3) Regulations 2018",
+                  "content": "Further Education Bodies (Insolvency) Regulations 2018 ",
                   "size": 2,
                   "link": "/statutory-instruments/12345678"
                 }
@@ -245,7 +249,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 13 April 2018"
+                  "content": "Laying date: 5 September 2018"
                 }]
               }
             }
@@ -256,7 +260,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Restriction on the Preparation of Adoption Reports (Amendment) Regulations 2018",
+                  "content": "Apprenticeships (Modification to the Specification of Apprenticeship Standards for England) Order 2018",
                   "size": 2,
                   "link": "/statutory-instruments/12345678"
                 }
@@ -264,7 +268,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 16 April 2018"
+                  "content": "Laying date: 31 August 2018"
                 }]
               }
             }
@@ -275,7 +279,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Higher Education (Basic Amount and Higher Amount) (England) (Amendment) Regulations 2018",
+                  "content": "School Teachers' Incentive Payments (England) Order 2018",
                   "size": 2,
                   "link": "/statutory-instruments/12345678"
                 }
@@ -283,7 +287,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 4 April 2018"
+                  "content": "Laying date: 13 August 2018"
                 }]
               }
             }
@@ -294,7 +298,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Higher Education and Research Act 2017 (Cooperation and Information Sharing) Regulations 2018",
+                  "content": "Hartpury College (Transfer to the Higher Education Sector) Order 2018",
                   "size": 2,
                   "link": "/statutory-instruments/12345678"
                 }
@@ -302,7 +306,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 23 May 2018"
+                  "content": "Laying date: 8 August 2018"
                 }]
               }
             }
@@ -313,7 +317,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Education (Postgraduate Doctoral Degree Loans and the Education (Student Loans) (Repayment) (Amendment) (No. 2) etc) Regulations 2018",
+                  "content": "Independent Educational Provision in England (Provision of Information) and Non-maintained Special Schools (England) and Independent School Standards (Amendment) Regulations 2018",
                   "size": 2,
                   "link": "/statutory-instruments/12345678"
                 }
@@ -321,7 +325,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 21 May 2018"
+                  "content": "Laying date: 26 July 2018"
                 }]
               }
             }
@@ -332,7 +336,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Professional Standards Authority for Health and Social Care (Fees) (Social Work England) Regulations 2018",
+                  "content": "Greater Manchester Combined Authority (Adult Education Functions) Order 2018",
                   "size": 2,
                   "link": "/statutory-instruments/12345678"
                 }
@@ -340,7 +344,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 4 June 2018"
+                  "content": "Laying date: 23 July 2018"
                 }]
               }
             }
@@ -351,7 +355,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Education (Designated Institutions) (England) Order 2018",
+                  "content": "Tees Valley Combined Authority (Adult Education Functions) Order 2018",
                   "size": 2,
                   "link": "/statutory-instruments/12345678"
                 }
@@ -359,7 +363,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 1 June 2018"
+                  "content": "Laying date: 23 July 2018"
                 }]
               }
             }
@@ -370,7 +374,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Social Workers Regulations 2018",
+                  "content": "West of England Combined Authority (Adult Education Functions) Order 2018",
                   "size": 2,
                   "link": "/statutory-instruments/12345678"
                 }
@@ -378,7 +382,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 4 June 2018"
+                  "content": "Laying date: 23 July 2018"
                 }]
               }
             }
@@ -389,7 +393,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Education (Pupil Information) (England) (Amendment) Regulations 2018",
+                  "content": "West Midlands Combined Authority (Adult Education Functions) Order 2018",
                   "size": 2,
                   "link": "/statutory-instruments/12345678"
                 }
@@ -397,7 +401,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 7 June 2018"
+                  "content": "Laying date: 23 July 2018"
                 }]
               }
             }
@@ -408,15 +412,15 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Higher Education (Transparency Condition and Financial Support) (England) Regulations 2018",
+                  "content": "Liverpool City Region Combined Authority (Adult Education Functions) Order 2018",
                   "size": 2,
-                  "link": "/statutory-instruments/D9vkxjm0"
+                  "link": "/statutory-instruments/zRBB7JhE"
                 }
               },
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 15 June 2018"
+                  "content": "Laying date: 23 July 2018"
                 }]
               }
             }
@@ -427,7 +431,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Hartpury College of Further Education (Designated Institution in Further Education) Order 2018",
+                  "content": "Cambridgeshire and Peterborough Combined Authority (Adult Education Functions) Order 2018",
                   "size": 2,
                   "link": "/statutory-instruments/12345678"
                 }
@@ -435,7 +439,26 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 25 June 2018"
+                  "content": "Laying date: 23 July 2018"
+                }]
+              }
+            }
+          }, {
+            "name": "card__generic",
+            "data": {
+              "card-type": "small",
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "Education (Student Loans) (Repayment) (Amendment) (No. 3) Regulations 2018",
+                  "size": 2,
+                  "link": "/statutory-instruments/12345678"
+                }
+              },
+              "paragraph": {
+                "name": "paragraph",
+                "data": [{
+                  "content": "Laying date: 6 July 2018"
                 }]
               }
             }
@@ -484,7 +507,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Education (Student Loans) (Repayment) (Amendment) (No. 3) Regulations 2018",
+                  "content": "Hartpury College of Further Education (Designated Institution in Further Education) Order 2018",
                   "size": 2,
                   "link": "/statutory-instruments/12345678"
                 }
@@ -492,7 +515,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 6 July 2018"
+                  "content": "Laying date: 25 June 2018"
                 }]
               }
             }
@@ -503,7 +526,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Cambridgeshire and Peterborough Combined Authority (Adult Education Functions) Order 2018",
+                  "content": "Higher Education (Transparency Condition and Financial Support) (England) Regulations 2018",
                   "size": 2,
                   "link": "/statutory-instruments/12345678"
                 }
@@ -511,7 +534,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 23 July 2018"
+                  "content": "Laying date: 15 June 2018"
                 }]
               }
             }
@@ -522,7 +545,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Liverpool City Region Combined Authority (Adult Education Functions) Order 2018",
+                  "content": "Education (Pupil Information) (England) (Amendment) Regulations 2018",
                   "size": 2,
                   "link": "/statutory-instruments/12345678"
                 }
@@ -530,7 +553,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 23 July 2018"
+                  "content": "Laying date: 7 June 2018"
                 }]
               }
             }
@@ -541,7 +564,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "West Midlands Combined Authority (Adult Education Functions) Order 2018",
+                  "content": "Social Workers Regulations 2018",
                   "size": 2,
                   "link": "/statutory-instruments/12345678"
                 }
@@ -549,7 +572,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 23 July 2018"
+                  "content": "Laying date: 4 June 2018"
                 }]
               }
             }
@@ -560,7 +583,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "West of England Combined Authority (Adult Education Functions) Order 2018",
+                  "content": "Professional Standards Authority for Health and Social Care (Fees) (Social Work England) Regulations 2018",
                   "size": 2,
                   "link": "/statutory-instruments/12345678"
                 }
@@ -568,7 +591,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 23 July 2018"
+                  "content": "Laying date: 4 June 2018"
                 }]
               }
             }
@@ -579,7 +602,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Tees Valley Combined Authority (Adult Education Functions) Order 2018",
+                  "content": "Education (Designated Institutions) (England) Order 2018",
                   "size": 2,
                   "link": "/statutory-instruments/12345678"
                 }
@@ -587,7 +610,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 23 July 2018"
+                  "content": "Laying date: 1 June 2018"
                 }]
               }
             }
@@ -598,7 +621,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Greater Manchester Combined Authority (Adult Education Functions) Order 2018",
+                  "content": "Higher Education and Research Act 2017 (Cooperation and Information Sharing) Regulations 2018",
                   "size": 2,
                   "link": "/statutory-instruments/12345678"
                 }
@@ -606,7 +629,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 23 July 2018"
+                  "content": "Laying date: 23 May 2018"
                 }]
               }
             }
@@ -617,7 +640,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Independent Educational Provision in England (Provision of Information) and Non-maintained Special Schools (England) and Independent School Standards (Amendment) Regulations 2018",
+                  "content": "Education (Postgraduate Doctoral Degree Loans and the Education (Student Loans) (Repayment) (Amendment) (No. 2) etc) Regulations 2018",
                   "size": 2,
                   "link": "/statutory-instruments/12345678"
                 }
@@ -625,7 +648,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 26 July 2018"
+                  "content": "Laying date: 21 May 2018"
                 }]
               }
             }
@@ -636,7 +659,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Hartpury College (Transfer to the Higher Education Sector) Order 2018",
+                  "content": "Special Restrictions on Adoptions from Abroad (Ethiopia) Order 2018",
                   "size": 2,
                   "link": "/statutory-instruments/12345678"
                 }
@@ -644,7 +667,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 8 August 2018"
+                  "content": "Laying date: 27 April 2018"
                 }]
               }
             }
@@ -655,7 +678,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "School Teachers' Incentive Payments (England) Order 2018",
+                  "content": "Restriction on the Preparation of Adoption Reports (Amendment) Regulations 2018",
                   "size": 2,
                   "link": "/statutory-instruments/12345678"
                 }
@@ -663,7 +686,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 13 August 2018"
+                  "content": "Laying date: 16 April 2018"
                 }]
               }
             }
@@ -674,7 +697,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Apprenticeships (Modification to the Specification of Apprenticeship Standards for England) Order 2018",
+                  "content": "Education (Student Support) (Amendment) (No. 3) Regulations 2018",
                   "size": 2,
                   "link": "/statutory-instruments/12345678"
                 }
@@ -682,7 +705,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 31 August 2018"
+                  "content": "Laying date: 13 April 2018"
                 }]
               }
             }
@@ -693,7 +716,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Further Education Bodies (Insolvency) Regulations 2018 ",
+                  "content": "Higher Education (Basic Amount and Higher Amount) (England) (Amendment) Regulations 2018",
                   "size": 2,
                   "link": "/statutory-instruments/12345678"
                 }
@@ -701,7 +724,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 5 September 2018"
+                  "content": "Laying date: 4 April 2018"
                 }]
               }
             }
@@ -712,7 +735,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Adoption and Children Act Register (Search and Inspection) (Amendment) Regulations 2018",
+                  "content": "School Information (England) (Amendment) Regulations 2018",
                   "size": 2,
                   "link": "/statutory-instruments/12345678"
                 }
@@ -720,26 +743,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "Laying date: 12 September 2018"
-                }]
-              }
-            }
-          }, {
-            "name": "card__generic",
-            "data": {
-              "card-type": "small",
-              "heading": {
-                "name": "heading",
-                "data": {
-                  "content": "School Teachers' Pay and Conditions Order 2018",
-                  "size": 2,
-                  "link": "/statutory-instruments/12345678"
-                }
-              },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "Laying date: 14 September 2018"
+                  "content": "Laying date: 4 April 2018"
                 }]
               }
             }
