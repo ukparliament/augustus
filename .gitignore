@@ -11,3 +11,4 @@
 shunter.pid
 
 /log/*.log
+/artifacts

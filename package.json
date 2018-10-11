@@ -24,12 +24,11 @@
   "devDependencies": {
     "callsites": "^2.0.0",
     "chai": "^4.2.0",
-    "codeclimate-test-reporter": "^0.5.0",
     "coveralls": "^3.0.2",
     "eslint": "^5.6.1",
     "js-beautify": "^1.8.1",
     "jsdoc": "^3.5.5",
-    "lighthouse-ci": "^1.2.0",
+    "lighthouse-ci": "^1.2.1",
     "mocha": "^5.2.0",
     "mock-require": "^3.0.2",
     "nock": "^9.6.1",
@@ -43,7 +42,7 @@
   "dependencies": {
     "applicationinsights": "^1.0.5",
     "foreman": "^3.0.1",
-    "i18next": "^11.8.0",
+    "i18next": "^11.9.1",
     "morgan": "^1.9.0",
     "pugin-components": "^0.7.7",
     "shunter": "^4.12.0",

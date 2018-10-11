@@ -1,3 +1,7 @@
+env:
+  global:
+  - CC_TEST_REPORTER_ID=c803bdb1d8399d7865fddc784ea2b1ffd11f3b244941c5d42833ab5e1191fb1a
+
 language: node_js
 node_js:
   - 8
@@ -8,7 +12,15 @@ matrix:
   - node_js: node
 
 before_script:
-  - make develop & sleep 20
+  - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+  - chmod +x ./cc-test-reporter
+  - ./cc-test-reporter before-build
+  - make develop & sleep 3
 
 script:
-  - npm run lighthouse && npm test && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && cat ./coverage/lcov.info | ./node_modules/codeclimate-test-reporter/bin/codeclimate.js
+  - npm test
+  - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
+  - npm run lighthouse
+
+after_script:
+  - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
