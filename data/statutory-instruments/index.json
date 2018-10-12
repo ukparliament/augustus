@@ -184,157 +184,258 @@
               },
               "components": [
                 {
-                  "name": "link",
+                  "name": "card__generic",
                   "data": {
-                    "link": "statutory-instruments/12345678",
-                    "content": "First-tier Tribunal and Upper Tribunal (Chambers) (Amendment) Order 2018"
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": ["First-tier Tribunal and Upper Tribunal (Chambers) (Amendment) Order 2018"],
+                        "size": 2,
+                        "link": "statutory-instruments/12345678"
+                      }
+                    },
+                    "paragraph": {
+                      "name": "paragraph",
+                      "data": [{
+                        "content": "SI 2018/599"
+                      }]
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "meta": false,
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "Laying Date"
+                            },
+                            "description": {
+                              "content": "<time datetime='2017-06-13'>13 June 2017</time>"
+                            }
+                          },
+                          {
+                            "term": {
+                              "content": "Laying body"
+                            },
+                            "description": {
+                              "content": "Department for Transport"
+                            }
+                          },
+                          {
+                            "term": {
+                              "content": "Procedure"
+                            },
+                            "description": {
+                              "content": "Statutory instruments"
+                            }
+                          }
+                        ]
+                      }
+                    }
                   }
                 },
                 {
-                  "name": "link",
+                  "name": "card__generic",
                   "data": {
-                    "link": "statutory-instruments/12345678",
-                    "content": "Restriction on the Preparation of Adoption Reports (Amendment) Regulations 2018"
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": ["Restriction on the Preparation of Adoption Reports (Amendment) Regulations 2018"],
+                        "size": 2,
+                        "link": "statutory-instruments/12345678"
+                      }
+                    },
+                    "paragraph": {
+                      "name": "paragraph",
+                      "data": [{
+                        "content": "SI 2018/599"
+                      }]
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "meta": false,
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "Laying Date"
+                            },
+                            "description": {
+                              "content": "<time datetime='2017-06-13'>13 June 2017</time>"
+                            }
+                          },
+                          {
+                            "term": {
+                              "content": "Laying body"
+                            },
+                            "description": {
+                              "content": "Department for Transport"
+                            }
+                          },
+                          {
+                            "term": {
+                              "content": "Procedure"
+                            },
+                            "description": {
+                              "content": "Statutory instruments"
+                            }
+                          }
+                        ]
+                      }
+                    }
                   }
                 },
                 {
-                  "name": "link",
+                  "name": "card__generic",
                   "data": {
-                    "link": "statutory-instruments/12345678",
-                    "content": "Enterprise Act 2002 (Turnover Test) (Amendment) Order 2018"
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": ["Enterprise Act 2002 (Turnover Test) (Amendment) Order 2018"],
+                        "size": 2,
+                        "link": "statutory-instruments/12345678"
+                      }
+                    },
+                    "paragraph": {
+                      "name": "paragraph",
+                      "data": [{
+                        "content": "SI 2018/599"
+                      }]
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "meta": false,
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "Laying Date"
+                            },
+                            "description": {
+                              "content": "<time datetime='2017-06-13'>13 June 2017</time>"
+                            }
+                          },
+                          {
+                            "term": {
+                              "content": "Laying body"
+                            },
+                            "description": {
+                              "content": "Department for Transport"
+                            }
+                          },
+                          {
+                            "term": {
+                              "content": "Procedure"
+                            },
+                            "description": {
+                              "content": "Statutory instruments"
+                            }
+                          }
+                        ]
+                      }
+                    }
                   }
                 },
                 {
-                  "name": "link",
+                  "name": "card__generic",
                   "data": {
-                    "link": "statutory-instruments/12345678",
-                    "content": "Client Money Protection Schemes for Property Agents (Requirement to Belong to a Scheme etc) Regulations 2018"
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": ["Client Money Protection Schemes for Property Agents (Requirement to Belong to a Scheme etc) Regulations 2018"],
+                        "size": 2,
+                        "link": "statutory-instruments/12345678"
+                      }
+                    },
+                    "paragraph": {
+                      "name": "paragraph",
+                      "data": [{
+                        "content": "SI 2018/599"
+                      }]
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "meta": false,
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "Laying Date"
+                            },
+                            "description": {
+                              "content": "<time datetime='2017-06-13'>13 June 2017</time>"
+                            }
+                          },
+                          {
+                            "term": {
+                              "content": "Laying body"
+                            },
+                            "description": {
+                              "content": "Department for Transport"
+                            }
+                          },
+                          {
+                            "term": {
+                              "content": "Procedure"
+                            },
+                            "description": {
+                              "content": "Statutory instruments"
+                            }
+                          }
+                        ]
+                      }
+                    }
                   }
                 },
                 {
-                  "name": "link",
+                  "name": "card__generic",
                   "data": {
-                    "link": "statutory-instruments/12345678",
-                    "content": "Police Pension Schemes and Additional Voluntary Contributions (Amendment)(England and Wales) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "statutory-instruments/12345678",
-                    "content": "Financial Services and Markets Act 2000 (Regulated Activities) (Amendment) Order 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "statutory-instruments/12345678",
-                    "content": "Bathing Water (Amendment) (England) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "statutory-instruments/12345678",
-                    "content": "Parole Board (Amendment) Rules 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "statutory-instruments/12345678",
-                    "content": "Civil Procedure (Amendment No. 2) Rules 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "statutory-instruments/12345678",
-                    "content": "Insurance Distribution (Regulated Activities and Miscellaneous Amendments) Order 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "statutory-instruments/12345678",
-                    "content": "Oil and Gas Authority (Offshore Petroleum) (Retention of Information and Samples) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "statutory-instruments/12345678",
-                    "content": "Plant Health etc (Fees) (England) (Amendment) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "statutory-instruments/12345678",
-                    "content": "Cash Ratio Deposits (Value Bands and Ratios) Order 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "statutory-instruments/12345678",
-                    "content": "Prison and Young Offender Institution (Amendment) Rules 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "statutory-instruments/12345678",
-                    "content": "Immigration and Nationality (Requirements for Naturalisation and Fees) (Amendment) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "statutory-instruments/12345678",
-                    "content": "Road Vehicles (Construction and Use) (Amendment) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "statutory-instruments/12345678",
-                    "content": "Rating Lists (Valuation Date) (England) Order 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "statutory-instruments/12345678",
-                    "content": "Special Restrictions on Adoptions from Abroad (Ethiopia) Order 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "statutory-instruments/12345678",
-                    "content": "Fire and Rescue Authorities (National Framework) (England) Order 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "statutory-instruments/12345678",
-                    "content": "Package Travel and Linked Travel Arrangements Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "statutory-instruments/12345678",
-                    "content": "Franchising Schemes (Service Permits) (England) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "statutory-instruments/12345678",
-                    "content": "Occupational Pension Schemes (Master Trusts) Regulations 2018"
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": ["Police Pension Schemes and Additional Voluntary Contributions (Amendment)(England and Wales) Regulations 2018"],
+                        "size": 2,
+                        "link": "statutory-instruments/12345678"
+                      }
+                    },
+                    "paragraph": {
+                      "name": "paragraph",
+                      "data": [{
+                        "content": "SI 2018/599"
+                      }]
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "meta": false,
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "Laying Date"
+                            },
+                            "description": {
+                              "content": "<time datetime='2017-06-13'>13 June 2017</time>"
+                            }
+                          },
+                          {
+                            "term": {
+                              "content": "Laying body"
+                            },
+                            "description": {
+                              "content": "Department for Transport"
+                            }
+                          },
+                          {
+                            "term": {
+                              "content": "Procedure"
+                            },
+                            "description": {
+                              "content": "Statutory instruments"
+                            }
+                          }
+                        ]
+                      }
+                    }
                   }
                 }
               ]
