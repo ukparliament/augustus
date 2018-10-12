@@ -3,6 +3,7 @@ const fixtureHelper = require('./fixture-helper');
 const paths = require('./walk-helper');
 const expect = require('chai').expect;
 const fs = require('fs');
+const mkdirp = require('mkdirp');
 const b = require('js-beautify').html;
 
 module.exports = {
@@ -66,6 +67,17 @@ module.exports = {
 
     shunterTestHelper.render(layout, jsonFixture, function(error, dom, output){
       let htmlFixture = fixtureHelper.getHtmlFixturePath(fileName, fixtureLocation, integrationTest);
+
+      // Create the directory if it doesn't exist
+      if (!(fs.existsSync(htmlFixture))) {
+        let nonExistentPath = htmlFixture;
+
+        nonExistentPath = nonExistentPath.split('/');
+        nonExistentPath.pop();
+        nonExistentPath = nonExistentPath.join('/');
+
+        mkdirp.sync(nonExistentPath);
+      }
 
       fs.writeFileSync(htmlFixture, b(output));
     });
