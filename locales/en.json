@@ -108,10 +108,10 @@
     "index": {
       "title": "Current and former groups"
     },
-    "literals": "Literals",
-    "objects": "Objects",
     "current": {
-      "title": "Current groups"
+      "title": "Current groups",
+      "literals": "Literals",
+      "objects": "Objects"
     },
     "layings": {
       "date": "Laid Date: {{-date}}",
