@@ -184,171 +184,258 @@
               },
               "components": [
                 {
-                  "name": "link",
+                  "name": "card__generic",
                   "data": {
-                    "link": "proposed-negative-statutory-instruments/12345678",
-                    "content": "Airport Charges (Amendment) (EU Exit) Regulations 2018"
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": ["Airport Charges (Amendment) (EU Exit) Regulations 2018"],
+                        "size": 2,
+                        "link": "proposed-negative-statutory-instruments/12345678"
+                      }
+                    },
+                    "paragraph": {
+                      "name": "paragraph",
+                      "data": [{
+                        "content": "SI 2018/599"
+                      }]
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "meta": false,
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "Laying Date"
+                            },
+                            "description": {
+                              "content": "<time datetime='2017-06-13'>13 June 2017</time>"
+                            }
+                          },
+                          {
+                            "term": {
+                              "content": "Laying body"
+                            },
+                            "description": {
+                              "content": "Department for Transport"
+                            }
+                          },
+                          {
+                            "term": {
+                              "content": "Procedure"
+                            },
+                            "description": {
+                              "content": "Proposed negative statutory instruments"
+                            }
+                          }
+                        ]
+                      }
+                    }
                   }
                 },
                 {
-                  "name": "link",
+                  "name": "card__generic",
                   "data": {
-                    "link": "proposed-negative-statutory-instruments/12345678",
-                    "content": "Airports (Groundhandling) (Amendment) (EU Exit) Regulations 2018"
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": ["Airports (Groundhandling) (Amendment) (EU Exit) Regulations 2018"],
+                        "size": 2,
+                        "link": "proposed-negative-statutory-instruments/12345678"
+                      }
+                    },
+                    "paragraph": {
+                      "name": "paragraph",
+                      "data": [{
+                        "content": "SI 2018/599"
+                      }]
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "meta": false,
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "Laying Date"
+                            },
+                            "description": {
+                              "content": "<time datetime='2017-06-13'>13 June 2017</time>"
+                            }
+                          },
+                          {
+                            "term": {
+                              "content": "Laying body"
+                            },
+                            "description": {
+                              "content": "Department for Transport"
+                            }
+                          },
+                          {
+                            "term": {
+                              "content": "Procedure"
+                            },
+                            "description": {
+                              "content": "Proposed negative statutory instruments"
+                            }
+                          }
+                        ]
+                      }
+                    }
                   }
                 },
                 {
-                  "name": "link",
+                  "name": "card__generic",
                   "data": {
-                    "link": "proposed-negative-statutory-instruments/12345678",
-                    "content": "Computer Reservation Systems (Amendment) (EU Exit) Regulations 2018"
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": ["Computer Reservation Systems (Amendment) (EU Exit) Regulations 2018"],
+                        "size": 2,
+                        "link": "proposed-negative-statutory-instruments/12345678"
+                      }
+                    },
+                    "paragraph": {
+                      "name": "paragraph",
+                      "data": [{
+                        "content": "SI 2018/599"
+                      }]
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "meta": false,
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "Laying Date"
+                            },
+                            "description": {
+                              "content": "<time datetime='2017-06-13'>13 June 2017</time>"
+                            }
+                          },
+                          {
+                            "term": {
+                              "content": "Laying body"
+                            },
+                            "description": {
+                              "content": "Department for Transport"
+                            }
+                          },
+                          {
+                            "term": {
+                              "content": "Procedure"
+                            },
+                            "description": {
+                              "content": "Proposed negative statutory instruments"
+                            }
+                          }
+                        ]
+                      }
+                    }
                   }
                 },
                 {
-                  "name": "link",
+                  "name": "card__generic",
                   "data": {
-                    "link": "proposed-negative-statutory-instruments/12345678",
-                    "content": "Vehicle Drivers (Certificates of Professional Competence) (Amendment) (EU Exit) Regulations 2018"
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": ["Vehicle Drivers (Certificates of Professional Competence) (Amendment) (EU Exit) Regulations 2018"],
+                        "size": 2,
+                        "link": "proposed-negative-statutory-instruments/12345678"
+                      }
+                    },
+                    "paragraph": {
+                      "name": "paragraph",
+                      "data": [{
+                        "content": "SI 2018/599"
+                      }]
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "meta": false,
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "Laying Date"
+                            },
+                            "description": {
+                              "content": "<time datetime='2017-06-13'>13 June 2017</time>"
+                            }
+                          },
+                          {
+                            "term": {
+                              "content": "Laying body"
+                            },
+                            "description": {
+                              "content": "Department for Transport"
+                            }
+                          },
+                          {
+                            "term": {
+                              "content": "Procedure"
+                            },
+                            "description": {
+                              "content": "Proposed negative statutory instruments"
+                            }
+                          }
+                        ]
+                      }
+                    }
                   }
                 },
                 {
-                  "name": "link",
+                  "name": "card__generic",
                   "data": {
-                    "link": "proposed-negative-statutory-instruments/12345678",
-                    "content": "Civil Aviation Act 1982 (Amendment) (EU Exit) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "proposed-negative-statutory-instruments/12345678",
-                    "content": "Freedom of Information Act 2000 (Amendment) (EU Exit) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "proposed-negative-statutory-instruments/12345678",
-                    "content": "Postal and Parcel Services (Amendment etc) (EU Exit) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "proposed-negative-statutory-instruments/12345678",
-                    "content": "Return of Cultural Objects (Revocation) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "proposed-negative-statutory-instruments/12345678",
-                    "content": "European Research Infrastructure Consortium (Amendment) (EU Exit) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "proposed-negative-statutory-instruments/12345678",
-                    "content": "European Parliamentary Elections etc (Repeal, Revocation, Amendment and Saving Provisions) (United Kingdom and Gibraltar) (EU Exit) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "proposed-negative-statutory-instruments/12345678",
-                    "content": "Groceries Code Adjudicator Act 2013, Small Business, Enterprise and Employment Act 2015 and Enterprise Act 2016 (Amendment) (EU Exit) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "proposed-negative-statutory-instruments/12345678",
-                    "content": "European Communities (Designation Orders) (Revocation) (EU Exit) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "proposed-negative-statutory-instruments/12345678",
-                    "content": "Consumer Credit (Amendment) (EU Exit) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "proposed-negative-statutory-instruments/12345678",
-                    "content": "Friendly Societies (Amendment) (EU Exit) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "proposed-negative-statutory-instruments/12345678",
-                    "content": "Design Right (Semiconductor Topographies) (Amendment) (EU Exit) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "proposed-negative-statutory-instruments/12345678",
-                    "content": "Feed-in Tariffs and Contracts for Difference (Amendment) (EU Exit) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "proposed-negative-statutory-instruments/12345678",
-                    "content": "European Union (Definition of Treaties Orders) (Revocation) (EU Exit) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "proposed-negative-statutory-instruments/12345678",
-                    "content": "Animal Health and Welfare (Miscellaneous Amendments) (England) (EU Exit) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "proposed-negative-statutory-instruments/12345678",
-                    "content": "Timber and Timber Products and FLEGT (EU Exit) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "proposed-negative-statutory-instruments/12345678",
-                    "content": "Seal Products (Amendments) (EU Exits) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "proposed-negative-statutory-instruments/12345678",
-                    "content": "Health and Safety (Amendment) (EU Exit) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "proposed-negative-statutory-instruments/12345678",
-                    "content": "Flags (Northern Ireland) (Amendment) (EU Exit) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "proposed-negative-statutory-instruments/12345678",
-                    "content": "Cultural Tests (Films, Television Programmes and Video Games) (Amendment) (EU Exit) Regulations 2018"
-                  }
-                },
-                {
-                  "name": "link",
-                  "data": {
-                    "link": "proposed-negative-statutory-instruments/12345678",
-                    "content": "Trade Barriers (Revocation) (EU Exit) Regulations 2018"
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": ["Civil Aviation Act 1982 (Amendment) (EU Exit) Regulations 2018"],
+                        "size": 2,
+                        "link": "proposed-negative-statutory-instruments/12345678"
+                      }
+                    },
+                    "paragraph": {
+                      "name": "paragraph",
+                      "data": [{
+                        "content": "SI 2018/599"
+                      }]
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "meta": false,
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "Laying Date"
+                            },
+                            "description": {
+                              "content": "<time datetime='2017-06-13'>13 June 2017</time>"
+                            }
+                          },
+                          {
+                            "term": {
+                              "content": "Laying body"
+                            },
+                            "description": {
+                              "content": "Department for Transport"
+                            }
+                          },
+                          {
+                            "term": {
+                              "content": "Procedure"
+                            },
+                            "description": {
+                              "content": "Proposed negative statutory instruments"
+                            }
+                          }
+                        ]
+                      }
+                    }
                   }
                 }
               ]
