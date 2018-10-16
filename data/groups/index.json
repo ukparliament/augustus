@@ -3,8 +3,8 @@
     "template": "layout"
   },
   "meta": {
-    "title": "groups.index.title",
-    "request-id": "|GeeYbAD2zawwjA==.",
+    "title": "Groups - UK Parliament",
+    "request-id": "|2Z/8SJqqvzfyPw==.",
     "data-alternates": [{
       "type": "application/n-triples",
       "href": "http://localhost:3030/api/v1/group_index.nt"
@@ -28,13 +28,14 @@
       "href": "http://localhost:3030/api/v1/group_index.xml"
     }],
     "open-graph": {
-      "title": "groups.index.title",
-      "original-url": "http://localhost:5401/groups",
+      "title": "Groups - UK Parliament",
+      "original-url": "https://localhost/groups",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",
       "image-height": "630",
       "twitter-card": "summary_large_image"
-    }
+    },
+    "opensearch-description-url": "https://localhost/search/opensearch"
   },
   "header-components": [{
     "name": "link",
@@ -132,7 +133,7 @@
         "name": "heading1",
         "data": {
           "heading": {
-            "content": "groups.index.title"
+            "content": "Groups"
           }
         }
       }]
@@ -157,7 +158,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Culture, Media and Sport Committee",
+                  "content": "Able Marine Energy Park Development Consent Order 2014",
                   "size": 2,
                   "link": "/groups/12345678"
                 }
@@ -165,7 +166,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "28 July 1997 to 12 September 2017"
+                  "content": "16 June 2014 to 30 October 2014"
                 }]
               }
             }
@@ -175,7 +176,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Public Service",
+                  "content": "Accommodation Steering Group",
                   "size": 2,
                   "link": "/groups/12345678"
                 }
@@ -183,7 +184,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "1 January 1995 to 6 May 2010"
+                  "content": "13 November 2002"
                 }]
               }
             }
@@ -193,7 +194,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Procedure Committee (Lords)",
+                  "content": "Accomodation \u0026 Works",
                   "size": 2,
                   "link": "/groups/12345678"
                 }
@@ -201,7 +202,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "12 November 1974"
+                  "content": "1 January 1900 to 6 May 2010"
                 }]
               }
             }
@@ -211,7 +212,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Relations between Central and Local Government, Committee on",
+                  "content": "Administration and Works Committee (Lords)",
                   "size": 2,
                   "link": "/groups/12345678"
                 }
@@ -219,7 +220,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "27 November 1995 to 2 July 1996"
+                  "content": "17 December 1998 to 31 August 2016"
                 }]
               }
             }
@@ -229,7 +230,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Members' Expenses Committee",
+                  "content": "Administration Committee",
                   "size": 2,
                   "link": "/groups/12345678"
                 }
@@ -237,7 +238,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "18 July 2011 to 30 March 2015"
+                  "content": "31 October 1991"
                 }]
               }
             }
@@ -247,7 +248,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "BBC Charter Review Committee",
+                  "content": "Yorkshire and the Humber Regional Select Committee",
                   "size": 2,
                   "link": "/groups/12345678"
                 }
@@ -255,7 +256,7 @@
               "paragraph": {
                 "name": "paragraph",
                 "data": [{
-                  "content": "1 March 2005 to 8 November 2006"
+                  "content": "3 March 2009 to 6 May 2010"
                 }]
               }
             }
