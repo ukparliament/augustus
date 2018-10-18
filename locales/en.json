@@ -91,7 +91,7 @@
       "coming-into-force-note": "Coming into force note",
       "made-date": "Made date",
       "further-details": "Further details",
-      "following-title": "Following proposed negative statutory instrument",
+      "following-title": "Preceded by",
       "literals": "Literals"
     }
   },
@@ -101,7 +101,7 @@
     },
     "show": {
       "subheading": "<a href='/proposed-negative-statutory-instruments'>Proposed Negative Statutory Instruments</a>",
-      "preceding-title": "Preceding statutory instrument"
+      "preceding-title": "Followed by"
     }
   },
   "groups": {
