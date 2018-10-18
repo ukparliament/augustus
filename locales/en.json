@@ -19,7 +19,8 @@
 			"previous": "Previous",
 			"next": "Next",
 			"page": "Page "
-    }
+    },
+    "time-html": "<time datetime='{{-datetime-value}}'>{{-date}}</time>"
 	},
 	"home": {
     "title": "beta.parliament.uk",
