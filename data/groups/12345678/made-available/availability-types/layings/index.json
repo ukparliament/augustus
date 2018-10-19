@@ -29,7 +29,7 @@
     }],
     "open-graph": {
       "title": "Home Office - Layings",
-      "original-url": "http://localhost:5401/groups/12345678/layings",
+      "original-url": "http://localhost:5401/groups/12345678/made-available/availability-types/layings",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",
       "image-height": "630",

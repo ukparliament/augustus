@@ -30,7 +30,7 @@ paths=(
   "/proposed-negative-statutory-instruments/12345678"
   "/groups"
   "/groups/12345678"
-  "/groups/12345678/layings"
+  "/groups/12345678/made-available/availability-types/layings"
 )
 
 names=(
