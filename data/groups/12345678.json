@@ -151,16 +151,9 @@
     "name": "section__section",
     "data": {
       "components": [{
-        "name": "heading",
-        "data": {
-          "translation": {
-            "key": "groups.current.literals"
-          },
-          "size": 2
-        }
-      }, {
         "name": "list__description",
         "data": {
+          "meta": true,
           "items": [{
             "term": {
               "content": "Name"
@@ -178,182 +171,13 @@
           }]
         }
       }, {
-        "name": "heading",
-        "data": {
-          "translation": {
-            "key": "groups.current.objects"
-          },
-          "size": 2
-        }
-      }, {
-        "name": "list__generic",
-        "data": {
-          "type": "ol",
-          "display": {
-            "name": "partials__display",
-            "data": [{
-              "component": "list",
-              "variant": "block"
-            }]
-          },
-          "components": [{
-            "name": "card__generic",
-            "data": {
-              "card-type": "small",
-              "heading": {
-                "name": "heading",
-                "data": {
-                  "content": "School Teachers' Pay and Conditions Order 2018",
-                  "size": 2,
-                  "link": "/statutory-instruments/12345678"
-                }
-              },
-              "list-description": {
-                "name": "list__description",
-                "data": {
-                  "items": [{
-                    "term": {
-                      "content": "laid-thing.laid-date"
-                    },
-                    "description": [{
-                      "content": "14 September 2018"
-                    }]
-                  }]
-                }
-              }
-            }
-          }, {
-            "name": "card__generic",
-            "data": {
-              "card-type": "small",
-              "heading": {
-                "name": "heading",
-                "data": {
-                  "content": "Adoption and Children Act Register (Search and Inspection) (Amendment) Regulations 2018",
-                  "size": 2,
-                  "link": "/statutory-instruments/12345678"
-                }
-              },
-              "list-description": {
-                "name": "list__description",
-                "data": {
-                  "items": [{
-                    "term": {
-                      "content": "laid-thing.laid-date"
-                    },
-                    "description": [{
-                      "content": "12 September 2018"
-                    }]
-                  }]
-                }
-              }
-            }
-          }, {
-            "name": "card__generic",
-            "data": {
-              "card-type": "small",
-              "heading": {
-                "name": "heading",
-                "data": {
-                  "content": "Further Education Bodies (Insolvency) Regulations 2018 ",
-                  "size": 2,
-                  "link": "/statutory-instruments/12345678"
-                }
-              },
-              "list-description": {
-                "name": "list__description",
-                "data": {
-                  "items": [{
-                    "term": {
-                      "content": "laid-thing.laid-date"
-                    },
-                    "description": [{
-                      "content": "5 September 2018"
-                    }]
-                  }]
-                }
-              }
-            }
-          }, {
-            "name": "card__generic",
-            "data": {
-              "card-type": "small",
-              "heading": {
-                "name": "heading",
-                "data": {
-                  "content": "Apprenticeships (Modification to the Specification of Apprenticeship Standards for England) Order 2018",
-                  "size": 2,
-                  "link": "/statutory-instruments/12345678"
-                }
-              },
-              "list-description": {
-                "name": "list__description",
-                "data": {
-                  "items": [{
-                    "term": {
-                      "content": "laid-thing.laid-date"
-                    },
-                    "description": [{
-                      "content": "31 August 2018"
-                    }]
-                  }]
-                }
-              }
-            }
-          }, {
-            "name": "card__generic",
-            "data": {
-              "card-type": "small",
-              "heading": {
-                "name": "heading",
-                "data": {
-                  "content": "School Teachers' Incentive Payments (England) Order 2018",
-                  "size": 2,
-                  "link": "/statutory-instruments/12345678"
-                }
-              },
-              "list-description": {
-                "name": "list__description",
-                "data": {
-                  "items": [{
-                    "term": {
-                      "content": "laid-thing.laid-date"
-                    },
-                    "description": [{
-                      "content": "13 August 2018"
-                    }]
-                  }]
-                }
-              }
-            }
-          }, {
-            "name": "card__generic",
-            "data": {
-              "card-type": "small",
-              "heading": {
-                "name": "heading",
-                "data": {
-                  "content": "Higher Education (Basic Amount and Higher Amount) (England) (Amendment) Regulations 2018",
-                  "size": 2,
-                  "link": "/statutory-instruments/12345678"
-                }
-              },
-              "list-description": {
-                "name": "list__description",
-                "data": {
-                  "items": [{
-                    "term": {
-                      "content": "laid-thing.laid-date"
-                    },
-                    "description": [{
-                      "content": "4 April 2018"
-                    }]
-                  }]
-                }
-              }
-            }
-          }]
-        }
+        "name": "paragraph",
+        "data": [{
+          "content": "groups.subsidiary-resources.layings",
+          "data": {
+            "link": "/groups/12345678/made-available/availability-types/layings"
+          }
+        }]
       }]
     }
   }],
