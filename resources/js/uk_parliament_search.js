@@ -18,7 +18,7 @@ UK_Parliament_Search.addResultListener = function (node, object) {
   if (node) {
     (function () {
       var resultObjectInstance = object;
-      
+
       node.addEventListener('click', function (e) {
         if (resultObjectInstance.resultHintCount > 0) {
           appInsights.trackEvent('resultLinkClicked', {
