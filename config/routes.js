@@ -21,14 +21,26 @@ module.exports = {
 
 function generateProxyTargets (host, port, defaultHost, defaultPort) {
   return {
-    // Match requests to /search
-    '/^\\/search/': {
+    // Match requests to / for the home page. Note: this regex effectively blocks the use of ?json=true as it is strict.
+    '/^\\/$/': {
       host: host,
       port: port
     },
 
-    // Match requests to /statutory-instruments/<8_character_alphanumeric_id>
-    '/^\\/statutory-instruments\\/[a-zA-z0-9]{8}$/': {
+    // Match requests to /groups
+    '/^\\/groups\\/?$/': {
+      host: host,
+      port: port
+    },
+
+    // Match requests to /groups/<8_character_alphanumeric_id>
+    '/^\\/groups\\/[a-zA-z0-9]{8}\\/?$/': {
+      host: host,
+      port: port
+    },
+
+    // Match requests to /groups/<8_character_alphanumeric_id>/made-available/availability-types/layings
+    '/^\\/groups\\/[a-zA-z0-9]{8}/made-available/availability-types/layings\\/?$/': {
       host: host,
       port: port
     },
@@ -39,9 +51,14 @@ function generateProxyTargets (host, port, defaultHost, defaultPort) {
       port: port
     },
 
+    // Match requests to /search
+    '/^\\/search/': {
+      host: host,
+      port: port
+    },
 
-    // Match requests to / for the home page. Note: this regex effectively blocks the use of ?json=true as it is strict.
-    '/^\\/$/': {
+    // Match requests to /statutory-instruments/<8_character_alphanumeric_id>
+    '/^\\/statutory-instruments\\/[a-zA-z0-9]{8}\\/?$/': {
       host: host,
       port: port
     },
