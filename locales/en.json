@@ -117,6 +117,9 @@
     "layings": {
       "date": "Laid Date: {{-date}}",
       "type": "Type: {{-type}}"
-    }
+    },
+		"subsidiary-resources": {
+			"layings": "<a href= '{{-link}}'>Layings</a>"
+		}
   }
 }
