@@ -121,5 +121,13 @@
 		"subsidiary-resources": {
 			"layings": "<a href= '{{-link}}'>Layings</a>"
 		}
+  },
+  "procedure-steps": {
+    "procedure-step": "<a href= '{{-link}}'>Procedure Step</a>",
+    "subsidiary-resources": {
+      "work-packages": "<a href= '{{-link}}'>Work Packages</a>",
+      "actualised-date": "Actualised date"
+    },
+    "houses": "Houses"
   }
 }
