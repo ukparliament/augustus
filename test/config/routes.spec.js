@@ -10,19 +10,11 @@ describe('routes', () => {
       }
     },
     'beta.parliament.uk': {
-      '/^\\/$/': {
+      '/^\\/?(\\?json=true)?$/': {
         host: 'thorney.web1live.org',
         port: 3000
       },
-      '/^\\/groups\\/?$/': {
-        host: 'thorney.web1live.org',
-        port: 3000
-      },
-      '/^\\/groups\\/[a-zA-z0-9]{8}\\/?$/': {
-        host: 'thorney.web1live.org',
-        port: 3000
-      },
-      '/^\\/groups\\/[a-zA-z0-9]{8}/made-available/availability-types/layings\\/?$/': {
+      '/^\\/groups/': {
         host: 'thorney.web1live.org',
         port: 3000
       },
@@ -44,19 +36,11 @@ describe('routes', () => {
       }
     },
     'devci.parliament.uk': {
-      '/^\\/$/': {
+      '/^\\/?(\\?json=true)?$/': {
         host: 'thorney.web1devci.org',
         port: 3000
       },
-      '/^\\/groups\\/?$/': {
-        host: 'thorney.web1devci.org',
-        port: 3000
-      },
-      '/^\\/groups\\/[a-zA-z0-9]{8}\\/?$/': {
-        host: 'thorney.web1devci.org',
-        port: 3000
-      },
-      '/^\\/groups\\/[a-zA-z0-9]{8}/made-available/availability-types/layings\\/?$/': {
+      '/^\\/groups/': {
         host: 'thorney.web1devci.org',
         port: 3000
       },
@@ -78,19 +62,11 @@ describe('routes', () => {
       }
     },
     'augustus.pdswebops.org': {
-      '/^\\/$/': {
+      '/^\\/?(\\?json=true)?$/': {
         host: 'thorney.pdswebops.org',
         port: 3000
       },
-      '/^\\/groups\\/?$/': {
-        host: 'thorney.pdswebops.org',
-        port: 3000
-      },
-      '/^\\/groups\\/[a-zA-z0-9]{8}\\/?$/': {
-        host: 'thorney.pdswebops.org',
-        port: 3000
-      },
-      '/^\\/groups\\/[a-zA-z0-9]{8}/made-available/availability-types/layings\\/?$/': {
+      '/^\\/groups/': {
         host: 'thorney.pdswebops.org',
         port: 3000
       },

@@ -2,6 +2,9 @@
 
 let host = 'localhost';
 
+const thorneyPort = 3000;
+const legacyPort = 80;
+
 if (typeof process.env.THORNEY_HOST !== 'undefined' && process.env.THORNEY_HOST !== '') {
   host = process.env.THORNEY_HOST;
 }
@@ -14,59 +17,47 @@ module.exports = {
       port: 5401
     }
   },
-  'beta.parliament.uk':     generateProxyTargets('thorney.web1live.org', 3000, 'varnish.web1live.org', 80),
-  'devci.parliament.uk':    generateProxyTargets('thorney.web1devci.org',  3000, 'varnish.web1devci.org', 80),
-  'augustus.pdswebops.org': generateProxyTargets('thorney.pdswebops.org', 3000, 'varnish.pdswebops.org', 80)
+  'beta.parliament.uk':     generateProxyTargets('thorney.web1live.org', 'varnish.web1live.org'),
+  'devci.parliament.uk':    generateProxyTargets('thorney.web1devci.org', 'varnish.web1devci.org'),
+  'augustus.pdswebops.org': generateProxyTargets('thorney.pdswebops.org', 'varnish.pdswebops.org')
 };
 
-function generateProxyTargets (host, port, defaultHost, defaultPort) {
+function generateProxyTargets (thorneyHost, legacyHost) {
   return {
-    // Match requests to / for the home page. Note: this regex effectively blocks the use of ?json=true as it is strict.
-    '/^\\/$/': {
-      host: host,
-      port: port
+    // Match requests to / for the home page and allow an optional json=true parameter
+    '/^\\/?(\\?json=true)?$/': {
+      host: thorneyHost,
+      port: thorneyPort
     },
 
     // Match requests to /groups
-    '/^\\/groups\\/?$/': {
-      host: host,
-      port: port
-    },
-
-    // Match requests to /groups/<8_character_alphanumeric_id>
-    '/^\\/groups\\/[a-zA-z0-9]{8}\\/?$/': {
-      host: host,
-      port: port
-    },
-
-    // Match requests to /groups/<8_character_alphanumeric_id>/made-available/availability-types/layings
-    '/^\\/groups\\/[a-zA-z0-9]{8}/made-available/availability-types/layings\\/?$/': {
-      host: host,
-      port: port
+    '/^\\/groups/': {
+      host: thorneyHost,
+      port: thorneyPort
     },
 
     // Match requests to /proposed-negative-statutory-instruments
     '/^\\/proposed-negative-statutory-instruments/': {
-      host: host,
-      port: port
+      host: thorneyHost,
+      port: thorneyPort
     },
 
     // Match requests to /search
     '/^\\/search/': {
-      host: host,
-      port: port
+      host: thorneyHost,
+      port: thorneyPort
     },
 
     // Match requests to /statutory-instruments/<8_character_alphanumeric_id>
     '/^\\/statutory-instruments\\/[a-zA-z0-9]{8}\\/?$/': {
-      host: host,
-      port: port
+      host: thorneyHost,
+      port: thorneyPort
     },
 
     // All other requests go here
     default: {
-      host: defaultHost,
-      port: defaultPort
+      host: legacyHost,
+      port: legacyPort
     }
   };
 }
