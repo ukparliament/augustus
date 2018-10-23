@@ -3,8 +3,8 @@
     "template": "layout"
   },
   "meta": {
-    "title": "Department for Education - UK Parliament",
-    "request-id": "|dLle2IGxnUCZXQ==.",
+    "title": "Culture, Media and Sport Committee - UK Parliament",
+    "request-id": "|NSzK8ZM88IxPwg==.",
     "data-alternates": [{
       "type": "application/n-triples",
       "href": "http://localhost:3030/api/v1/group_by_id.nt?group_id=tz34m7Vt"
@@ -28,7 +28,7 @@
       "href": "http://localhost:3030/api/v1/group_by_id.xml?group_id=tz34m7Vt"
     }],
     "open-graph": {
-      "title": "Department for Education - UK Parliament",
+      "title": "Culture, Media and Sport Committee - UK Parliament",
       "original-url": "https://localhost/groups/tz34m7Vt",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",
@@ -139,18 +139,13 @@
             }
           },
           "heading": {
-            "content": "Department for Education"
+            "content": "Culture, Media and Sport Committee"
           },
           "context": {
-            "content": "12 May 2010 to present"
+            "content": "28 July 1997 to 12 September 2017"
           }
         }
-      }]
-    }
-  }, {
-    "name": "section__section",
-    "data": {
-      "components": [{
+      }, {
         "name": "list__description",
         "data": {
           "meta": true,
@@ -159,23 +154,35 @@
               "content": "Name"
             },
             "description": [{
-              "content": "Department for Education"
+              "content": "Culture, Media and Sport Committee"
             }]
           }, {
             "term": {
               "content": "Start Date"
             },
             "description": [{
-              "content": "12 May 2010"
+              "content": "28 July 1997"
+            }]
+          }, {
+            "term": {
+              "content": "End Date"
+            },
+            "description": [{
+              "content": "12 September 2017"
             }]
           }]
         }
-      }, {
+      }]
+    }
+  }, {
+    "name": "section__section",
+    "data": {
+      "components": [{
         "name": "paragraph",
         "data": [{
           "content": "groups.subsidiary-resources.layings",
           "data": {
-            "link": "/groups/12345678/made-available/availability-types/layings"
+            "link": "/groups/tz34m7Vt/made-available/availability-types/layings"
           }
         }]
       }]
