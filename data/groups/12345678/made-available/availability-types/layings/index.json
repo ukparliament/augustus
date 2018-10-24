@@ -3,33 +3,41 @@
     "template": "layout"
   },
   "meta": {
-    "title": "Home Office - Layings - UK Parliament",
-    "request-id": "|GeeYbAD2zawwjA==.",
-    "data-alternates": [{
-      "type": "application/n-triples",
-      "href": "http://localhost:3030/api/v1/group_layings_index.nt?group_id=12345678"
-    }, {
-      "type": "text/turtle",
-      "href": "http://localhost:3030/api/v1/group_layings_index.ttl?group_id=12345678"
-    }, {
-      "type": "text/tab-separated-values",
-      "href": "http://localhost:3030/api/v1/group_layings_index.tsv?group_id=12345678"
-    }, {
-      "type": "text/csv",
-      "href": "http://localhost:3030/api/v1/group_layings_index.csv?group_id=12345678"
-    }, {
-      "type": "application/json+rdf",
-      "href": "http://localhost:3030/api/v1/group_layings_index.rj?group_id=12345678"
-    }, {
-      "type": "application/json+ld",
-      "href": "http://localhost:3030/api/v1/group_layings_index.json?group_id=12345678"
-    }, {
-      "type": "application/rdf+xml",
-      "href": "http://localhost:3030/api/v1/group_layings_index.xml?group_id=12345678"
-    }],
+    "title": "Department for Transport - Layings - UK Parliament",
+    "request-id": "|QnQH3rNN1Xg/Rw==.",
+    "data-alternates": [
+      {
+        "type": "application/n-triples",
+        "href": "https://api.parliament.uk/query/group_layings_index.nt?group_id=12345678"
+      },
+      {
+        "type": "text/turtle",
+        "href": "https://api.parliament.uk/query/group_layings_index.ttl?group_id=12345678"
+      },
+      {
+        "type": "text/tab-separated-values",
+        "href": "https://api.parliament.uk/query/group_layings_index.tsv?group_id=12345678"
+      },
+      {
+        "type": "text/csv",
+        "href": "https://api.parliament.uk/query/group_layings_index.csv?group_id=12345678"
+      },
+      {
+        "type": "application/json+rdf",
+        "href": "https://api.parliament.uk/query/group_layings_index.rj?group_id=12345678"
+      },
+      {
+        "type": "application/json+ld",
+        "href": "https://api.parliament.uk/query/group_layings_index.json?group_id=12345678"
+      },
+      {
+        "type": "application/rdf+xml",
+        "href": "https://api.parliament.uk/query/group_layings_index.xml?group_id=12345678"
+      }
+    ],
     "open-graph": {
-      "title": "Home Office - Layings",
-      "original-url": "http://localhost:5401/groups/12345678/made-available/availability-types/layings",
+      "title": "Department for Transport - Layings - UK Parliament",
+      "original-url": "https://localhost/groups/12345678/made-available/availability-types/layings",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",
       "image-height": "630",
@@ -37,322 +45,457 @@
     },
     "opensearch-description-url": "https://localhost/search/opensearch"
   },
-  "header-components": [{
-    "name": "link",
-    "data": {
-      "link": "#content",
-      "display": {
-        "name": "partials__display",
-        "data": [{
-          "component": "skip-to-content"
-        }]
-      },
-      "selector": "skiplink",
-      "content": "shared.header.skip-to-content"
-    }
-  }, {
-    "name": "status__banner",
-    "data": {
-      "display": {
-        "name": "partials__display",
-        "data": [{
-          "component": "status",
-          "variant": "banner"
-        }, {
-          "component": "theme",
-          "variant": "caution"
-        }, {
-          "component": "cookie"
-        }]
-      },
-      "selector": "cookie",
-      "components": [{
-        "name": "paragraph",
-        "data": [{
-          "content": "shared.header.cookie-banner-text",
-          "data": {
-            "link": "/meta/cookie-policy"
+  "header-components": [
+    {
+      "name": "link",
+      "data": {
+        "link": "#content",
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "skip-to-content"
+            }
+          ]
+        },
+        "selector": "skiplink",
+        "content": "shared.header.skip-to-content"
+      }
+    },
+    {
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "status",
+              "variant": "banner"
+            },
+            {
+              "component": "theme",
+              "variant": "caution"
+            },
+            {
+              "component": "cookie"
+            }
+          ]
+        },
+        "selector": "cookie",
+        "components": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.cookie-banner-text",
+                "data": {
+                  "link": "/meta/cookie-policy"
+                }
+              }
+            ]
           }
-        }]
-      }]
-    }
-  }, {
-    "name": "status__banner",
-    "data": {
-      "display": {
-        "name": "partials__display",
-        "data": [{
-          "component": "status",
-          "variant": "banner"
-        }]
-      },
-      "components": [{
-        "name": "paragraph",
-        "data": [{
-          "content": "shared.header.beta-status"
-        }]
-      }]
-    }
-  }, {
-    "name": "header",
-    "data": {
-      "components": [{
-        "name": "link",
-        "data": {
-          "link": "/",
-          "display": {
-            "name": "partials__display",
-            "data": [{
-              "component": "uk_parliament"
-            }]
-          },
-          "label": "shared.header.label",
-          "components": [{
-            "name": "icon__uk-parliament",
-            "data": "shared.header.label"
-          }]
-        }
-      }, {
-        "name": "form__search",
-        "data": {
-          "global": true,
-          "label": "search.label",
-          "components": [{
-            "name": "icon__search",
-            "data": "search.search-icon"
-          }],
-          "search-action": "/search"
-        }
-      }]
-    }
-  }],
-  "main-components": [{
-    "name": "section__primary",
-    "data": {
-      "components": [{
-        "name": "heading1",
-        "data": {
-          "subheading": {
-            "content": "<a href='/groups/NDZSYjeE'>Home Office</a>"
-          },
-          "heading": {
-            "content": "Layings"
+        ]
+      }
+    },
+    {
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "status",
+              "variant": "banner"
+            }
+          ]
+        },
+        "components": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.beta-status"
+              }
+            ]
           }
-        }
-      }]
+        ]
+      }
+    },
+    {
+      "name": "header",
+      "data": {
+        "components": [
+          {
+            "name": "link",
+            "data": {
+              "link": "/",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "uk_parliament"
+                  }
+                ]
+              },
+              "label": "shared.header.label",
+              "components": [
+                {
+                  "name": "icon__uk-parliament",
+                  "data": "shared.header.label"
+                }
+              ]
+            }
+          },
+          {
+            "name": "form__search",
+            "data": {
+              "global": true,
+              "label": "search.label",
+              "components": [
+                {
+                  "name": "icon__search",
+                  "data": "search.search-icon"
+                }
+              ],
+              "search-action": "/search"
+            }
+          }
+        ]
+      }
     }
-  }, {
-    "name": "section__section",
-    "data": {
-      "components": [{
-        "name": "list__generic",
-        "data": {
-          "type": "ol",
-          "display": {
-            "name": "partials__display",
-            "data": [{
-              "component": "list",
-              "variant": "block"
-            }]
-          },
-          "components": [{
-            "name": "card__generic",
-            "data": {
-              "heading": {
-                "name": "heading",
-                "data": {
-                  "content": "Police Pension Schemes and Additional Voluntary Contributions (Amendment)(England and Wales) Regulations 2018",
-                  "size": 2,
-                  "link": "/statutory-instruments/12345678"
-                }
-              },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "groups.layings.date",
-                  "data": {
-                    "date": "27 April 2018"
-                  }
-                },
-                {
-                  "content": "groups.layings.type",
-                  "data": {
-                    "type": "Statutory Instrument"
-                  }
-                }]
-              }
-            }
-          },
+  ],
+  "main-components": [
+    {
+      "name": "section__primary",
+      "data": {
+        "components": [
           {
-            "name": "card__generic",
+            "name": "heading1",
             "data": {
-              "heading": {
-                "name": "heading",
-                "data": {
-                  "content": "Fire and Rescue Authorities (National Framework) (England) Order 2018",
-                  "size": 2,
-                  "link": "/statutory-instruments/12345678"
-                }
+              "subheading": {
+                "content": "<a href=\"/groups/12345678\">Department for Transport</a>"
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "groups.layings.date",
-                  "data": {
-                    "date": "12 August 2018"
-                  }
-                },
-                {
-                  "content": "groups.layings.type",
-                  "data": {
-                    "type": "Statutory Instrument"
-                  }
-                }]
+              "heading": {
+                "content": "Layings"
               }
             }
-          },
+          }
+        ]
+      }
+    },
+    {
+      "name": "section__section",
+      "data": {
+        "components": [
           {
-            "name": "card__generic",
+            "name": "list__generic",
             "data": {
-              "heading": {
-                "name": "heading",
-                "data": {
-                  "content": "Police and Criminal Evidence Act 1984 (Codes of Practice) (Revision of Codes C, E, F, and H) Order 2018",
-                  "size": 2,
-                  "link": "/statutory-instruments/12345678"
-                }
+              "type": "ol",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "list",
+                    "variant": "block"
+                  }
+                ]
               },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "groups.layings.date",
+              "components": [
+                {
+                  "name": "card__generic",
                   "data": {
-                    "date": "21 May 2018"
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Proposed Negative Statutory Instrument"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "Merchant Shipping (Accident Reporting and Investigation) and the Railways (Accident Investigation and Reporting) (Amendment) (EU Exit) Regulations 2018",
+                        "size": 2,
+                        "link": "/proposed-negative-statutory-instruments/12345678"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "15 October 2018"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
                   }
                 },
                 {
-                  "content": "groups.layings.type",
+                  "name": "card__generic",
                   "data": {
-                    "type": "Proposed Negative Statutory Instrument"
-                  }
-                }]
-              }
-            }
-          },
-          {
-            "name": "card__generic",
-            "data": {
-              "heading": {
-                "name": "heading",
-                "data": {
-                  "content": "Police, Fire and Crime Commissioner for Staffordshire (Fire and Rescue Authority) Order 2018",
-                  "size": 2,
-                  "link": "/statutory-instruments/12345678"
-                }
-              },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "groups.layings.date",
-                  "data": {
-                    "date": "06 July 2018"
-                  }
-                },
-                {
-                  "content": "groups.layings.type",
-                  "data": {
-                    "type": "Proposed Negative Statutory Instrument"
-                  }
-                }]
-              }
-            }
-          },
-          {
-            "name": "card__generic",
-            "data": {
-              "heading": {
-                "name": "heading",
-                "data": {
-                  "content": "Passenger Name Record Data and Miscellaneous Amendments Regulations 2018",
-                  "size": 2,
-                  "link": "/statutory-instruments/12345678"
-                }
-              },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "groups.layings.date",
-                  "data": {
-                    "date": "18 May 2018"
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Proposed Negative Statutory Instrument"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "Merchant Shipping (Accident Reporting and Investigation) and the Railways (Accident Investigation and Reporting) (Amendment) (EU Exit) Regulations",
+                        "size": 2,
+                        "link": "/proposed-negative-statutory-instruments/12345678"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "12 October 2018"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
                   }
                 },
                 {
-                  "content": "groups.layings.type",
+                  "name": "card__generic",
                   "data": {
-                    "type": "Statutory Instrument"
-                  }
-                }]
-              }
-            }
-          },
-          {
-            "name": "card__generic",
-            "data": {
-              "heading": {
-                "name": "heading",
-                "data": {
-                  "content": "Investigatory Powers (Consequential Amendments etc) Regulations 2018",
-                  "size": 2,
-                  "link": "/proposed-negative-statutory-instruments/12345678"
-                }
-              },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "groups.layings.date",
-                  "data": {
-                    "date": "06 June 2018"
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Proposed Negative Statutory Instrument"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "Rail Passengers' Rights and Obligations (Amendment)(EU Exit) Regulations 2018",
+                        "size": 2,
+                        "link": "/proposed-negative-statutory-instruments/12345678"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "10 October 2018"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
                   }
                 },
                 {
-                  "content": "groups.layings.type",
+                  "name": "card__generic",
                   "data": {
-                    "type": "Proposed Negative Statutory Instrument"
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Statutory Instrument"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "M1 Motorway (Junctions 23A to 25) (Variable Speed Limits) (Amendment) Regulations 2018",
+                        "size": 2,
+                        "link": "/statutory-instruments/12345678"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "10 October 2018"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
                   }
-                }]
-              }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Proposed Negative Statutory Instrument"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "Road Vehicles (Registration, Registration Plates and Excise Exemption) (Amendment) (EU Exit) Regulations 2018",
+                        "size": 2,
+                        "link": "/proposed-negative-statutory-instruments/12345678"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "9 October 2018"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Statutory Instrument"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "Road Safety (Financial Penalty Deposit) (Appropriate Amount) (Amendment) Order 2018",
+                        "size": 2,
+                        "link": "/statutory-instruments/12345678"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "9 October 2018"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Proposed Negative Statutory Instrument"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "Driving Licences (Amendments) (EU Exit) Regulations 2018",
+                        "size": 2,
+                        "link": "/proposed-negative-statutory-instruments/12345678"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "9 October 2018"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
             }
-          }]
-        }
-      }]
+          }
+        ]
+      }
     }
-  }],
-  "footer-components": [{
-    "name": "footer",
-    "data": {
-      "uk-parliament": "shared.footer.uk-parliament",
-      "components": [{
-        "name": "list__generic",
-        "data": {
-          "type": "ul",
-          "display": {
-            "name": "partials__display",
-            "data": [{
-              "component": "list"
-            }]
-          },
-          "contents": [{
-            "content": "shared.footer.current-website"
-          }, {
-            "content": "shared.footer.cookie-policy",
+  ],
+  "footer-components": [
+    {
+      "name": "footer",
+      "data": {
+        "uk-parliament": "shared.footer.uk-parliament",
+        "components": [
+          {
+            "name": "list__generic",
             "data": {
-              "link": "/meta/cookie-policy"
+              "type": "ul",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "list"
+                  }
+                ]
+              },
+              "contents": [
+                {
+                  "content": "shared.footer.current-website"
+                },
+                {
+                  "content": "shared.footer.cookie-policy",
+                  "data": {
+                    "link": "/meta/cookie-policy"
+                  }
+                },
+                {
+                  "content": "shared.footer.data-protection-privacy"
+                }
+              ]
             }
-          }, {
-            "content": "shared.footer.data-protection-privacy"
-          }]
-        }
-      }]
+          }
+        ]
+      }
     }
-  }]
+  ]
 }
