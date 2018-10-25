@@ -1,0 +1,429 @@
+{
+  "layout": {
+    "template": "layout"
+  },
+  "meta": {
+    "title": "Considered by the Joint Committee on Statutory Instruments (JCSI) - Work Packages - UK Parliament",
+    "request-id": "|9M02TYlhXLtMjA==.",
+    "data-alternates": [
+      {
+        "type": "application/n-triples",
+        "href": "http://localhost:3030/api/v1/procedure_step_work_packages.nt?procedure_step_id=12345678"
+      },
+      {
+        "type": "text/turtle",
+        "href": "http://localhost:3030/api/v1/procedure_step_work_packages.ttl?procedure_step_id=12345678"
+      },
+      {
+        "type": "text/tab-separated-values",
+        "href": "http://localhost:3030/api/v1/procedure_step_work_packages.tsv?procedure_step_id=12345678"
+      },
+      {
+        "type": "text/csv",
+        "href": "http://localhost:3030/api/v1/procedure_step_work_packages.csv?procedure_step_id=12345678"
+      },
+      {
+        "type": "application/json+rdf",
+        "href": "http://localhost:3030/api/v1/procedure_step_work_packages.rj?procedure_step_id=12345678"
+      },
+      {
+        "type": "application/json+ld",
+        "href": "http://localhost:3030/api/v1/procedure_step_work_packages.json?procedure_step_id=12345678"
+      },
+      {
+        "type": "application/rdf+xml",
+        "href": "http://localhost:3030/api/v1/procedure_step_work_packages.xml?procedure_step_id=12345678"
+      }
+    ],
+    "open-graph": {
+      "title": "Considered by the Joint Committee on Statutory Instruments (JCSI) - Work Packages - UK Parliament",
+      "original-url": "https://localhost/procedure-steps/12345678/work-packages",
+      "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
+      "image-width": "1200",
+      "image-height": "630",
+      "twitter-card": "summary_large_image"
+    },
+    "opensearch-description-url": "https://localhost/search/opensearch"
+  },
+  "header-components": [
+    {
+      "name": "link",
+      "data": {
+        "link": "#content",
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "skip-to-content"
+            }
+          ]
+        },
+        "selector": "skiplink",
+        "content": "shared.header.skip-to-content"
+      }
+    },
+    {
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "status",
+              "variant": "banner"
+            },
+            {
+              "component": "theme",
+              "variant": "caution"
+            },
+            {
+              "component": "cookie"
+            }
+          ]
+        },
+        "selector": "cookie",
+        "components": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.cookie-banner-text",
+                "data": {
+                  "link": "/meta/cookie-policy"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "status",
+              "variant": "banner"
+            }
+          ]
+        },
+        "components": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.beta-status"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "header",
+      "data": {
+        "components": [
+          {
+            "name": "link",
+            "data": {
+              "link": "/",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "uk_parliament"
+                  }
+                ]
+              },
+              "label": "shared.header.label",
+              "components": [
+                {
+                  "name": "icon__uk-parliament",
+                  "data": "shared.header.label"
+                }
+              ]
+            }
+          },
+          {
+            "name": "form__search",
+            "data": {
+              "global": true,
+              "label": "search.label",
+              "components": [
+                {
+                  "name": "icon__search",
+                  "data": "search.search-icon"
+                }
+              ],
+              "search-action": "/search"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "main-components": [
+    {
+      "name": "section__primary",
+      "data": {
+        "components": [
+          {
+            "name": "heading1",
+            "data": {
+              "subheading": {
+                "content": "<a href=\"/procedure-steps/12345678\">Considered by the Joint Committee on Statutory Instruments (JCSI)</a>"
+              },
+              "heading": {
+                "content": "Work Packages"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "section__section",
+      "data": {
+        "components": [
+          {
+            "name": "list__generic",
+            "data": {
+              "type": "ol",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "list",
+                    "variant": "block"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "laid-thing.work-package"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "Child Support (Miscellaneous Amendments) Regulations 2018",
+                        "size": 2,
+                        "link": "/work-packages/12345678"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "procedure-steps.subsidiary-resources.actualised-date"
+                            },
+                            "description": [
+                              {
+                                "content": "17 October 2018"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "laid-thing.work-package"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "School Teachers' Pay and Conditions Order 2018",
+                        "size": 2,
+                        "link": "/work-packages/12345678"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "procedure-steps.subsidiary-resources.actualised-date"
+                            },
+                            "description": [
+                              {
+                                "content": "17 October 2018"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "laid-thing.work-package"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "Police, Fire and Crime Commissioner for North Yorkshire (Fire and Rescue Authority) Order 2018",
+                        "size": 2,
+                        "link": "/work-packages/12345678"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "procedure-steps.subsidiary-resources.actualised-date"
+                            },
+                            "description": [
+                              {
+                                "content": "17 October 2018"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "laid-thing.work-package"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "Vehicle Drivers (Certificates of Professional Competence) (Amendment) (EU Exit) Regulations 2018",
+                        "size": 2,
+                        "link": "/work-packages/12345678"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "procedure-steps.subsidiary-resources.actualised-date"
+                            },
+                            "description": [
+                              {
+                                "content": "17 October 2018"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "laid-thing.work-package"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "Cash Ratio Deposits (Value Bands and Ratios) Order 2018",
+                        "size": 2,
+                        "link": "/work-packages/12345678"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "procedure-steps.subsidiary-resources.actualised-date"
+                            },
+                            "description": [
+                              {
+                                "content": "25 April 2018"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "footer-components": [
+    {
+      "name": "footer",
+      "data": {
+        "uk-parliament": "shared.footer.uk-parliament",
+        "components": [
+          {
+            "name": "list__generic",
+            "data": {
+              "type": "ul",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "list"
+                  }
+                ]
+              },
+              "contents": [
+                {
+                  "content": "shared.footer.current-website"
+                },
+                {
+                  "content": "shared.footer.cookie-policy",
+                  "data": {
+                    "link": "/meta/cookie-policy"
+                  }
+                },
+                {
+                  "content": "shared.footer.data-protection-privacy"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
