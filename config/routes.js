@@ -48,6 +48,12 @@ function generateProxyTargets (thorneyHost, legacyHost) {
       port: thorneyPort
     },
 
+    // Match requests to /procedure-steps
+    '/^\\/procedure-steps/': {
+      host: thorneyHost,
+      port: thorneyPort
+    },
+
     // Match requests to /statutory-instruments/<8_character_alphanumeric_id>
     '/^\\/statutory-instruments\\/[a-zA-z0-9]{8}\\/?$/': {
       host: thorneyHost,
