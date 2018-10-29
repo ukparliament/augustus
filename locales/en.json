@@ -20,7 +20,8 @@
 			"next": "Next",
 			"page": "Page "
     },
-    "time-html": "<time datetime='{{-datetime-value}}'>{{-date}}</time>"
+    "time-html": "<time datetime='{{-datetime-format}}'>{{-date-default}}</time>",
+    "time-html-to": "<time datetime='{{-datetime-format-first}}'>{{-date-default-first}}</time> to <time datetime='{{-datetime-format-second}}'>{{-date-default-second}}</time>"
 	},
 	"home": {
     "title": "beta.parliament.uk",
