@@ -1,0 +1,501 @@
+{
+  "layout": {
+    "template": "layout"
+  },
+  "meta": {
+    "title": "Department for Transport - Made Available - UK Parliament",
+    "request-id": "|QnQH3rNN1Xg/Rw==.",
+    "data-alternates": [
+      {
+        "type": "application/n-triples",
+        "href": "https://api.parliament.uk/query/group_layings_index.nt?group_id=12345678"
+      },
+      {
+        "type": "text/turtle",
+        "href": "https://api.parliament.uk/query/group_layings_index.ttl?group_id=12345678"
+      },
+      {
+        "type": "text/tab-separated-values",
+        "href": "https://api.parliament.uk/query/group_layings_index.tsv?group_id=12345678"
+      },
+      {
+        "type": "text/csv",
+        "href": "https://api.parliament.uk/query/group_layings_index.csv?group_id=12345678"
+      },
+      {
+        "type": "application/json+rdf",
+        "href": "https://api.parliament.uk/query/group_layings_index.rj?group_id=12345678"
+      },
+      {
+        "type": "application/json+ld",
+        "href": "https://api.parliament.uk/query/group_layings_index.json?group_id=12345678"
+      },
+      {
+        "type": "application/rdf+xml",
+        "href": "https://api.parliament.uk/query/group_layings_index.xml?group_id=12345678"
+      }
+    ],
+    "open-graph": {
+      "title": "Department for Transport - Made Available - UK Parliament",
+      "original-url": "https://localhost/groups/12345678/made-available",
+      "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
+      "image-width": "1200",
+      "image-height": "630",
+      "twitter-card": "summary_large_image"
+    },
+    "opensearch-description-url": "https://localhost/search/opensearch"
+  },
+  "header-components": [
+    {
+      "name": "link",
+      "data": {
+        "link": "#content",
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "skip-to-content"
+            }
+          ]
+        },
+        "selector": "skiplink",
+        "content": "shared.header.skip-to-content"
+      }
+    },
+    {
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "status",
+              "variant": "banner"
+            },
+            {
+              "component": "theme",
+              "variant": "caution"
+            },
+            {
+              "component": "cookie"
+            }
+          ]
+        },
+        "selector": "cookie",
+        "components": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.cookie-banner-text",
+                "data": {
+                  "link": "/meta/cookie-policy"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "status",
+              "variant": "banner"
+            }
+          ]
+        },
+        "components": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.beta-status"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "header",
+      "data": {
+        "components": [
+          {
+            "name": "link",
+            "data": {
+              "link": "/",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "uk_parliament"
+                  }
+                ]
+              },
+              "label": "shared.header.label",
+              "components": [
+                {
+                  "name": "icon__uk-parliament",
+                  "data": "shared.header.label"
+                }
+              ]
+            }
+          },
+          {
+            "name": "form__search",
+            "data": {
+              "global": true,
+              "label": "search.label",
+              "components": [
+                {
+                  "name": "icon__search",
+                  "data": "search.search-icon"
+                }
+              ],
+              "search-action": "/search"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "main-components": [
+    {
+      "name": "section__primary",
+      "data": {
+        "components": [
+          {
+            "name": "heading1",
+            "data": {
+              "subheading": {
+                "content": "<a href=\"/groups/12345678\">Department for Transport</a>"
+              },
+              "heading": {
+                "content": "Made Available"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "section__section",
+      "data": {
+        "components": [
+          {
+            "name": "list__generic",
+            "data": {
+              "type": "ol",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "list",
+                    "variant": "block"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Proposed Negative Statutory Instrument"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "Merchant Shipping (Accident Reporting and Investigation) and the Railways (Accident Investigation and Reporting) (Amendment) (EU Exit) Regulations 2018",
+                        "size": 2,
+                        "link": "/proposed-negative-statutory-instruments/12345678"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "15 October 2018"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Proposed Negative Statutory Instrument"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "Merchant Shipping (Accident Reporting and Investigation) and the Railways (Accident Investigation and Reporting) (Amendment) (EU Exit) Regulations",
+                        "size": 2,
+                        "link": "/proposed-negative-statutory-instruments/12345678"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "12 October 2018"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Proposed Negative Statutory Instrument"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "Rail Passengers' Rights and Obligations (Amendment)(EU Exit) Regulations 2018",
+                        "size": 2,
+                        "link": "/proposed-negative-statutory-instruments/12345678"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "10 October 2018"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Statutory Instrument"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "M1 Motorway (Junctions 23A to 25) (Variable Speed Limits) (Amendment) Regulations 2018",
+                        "size": 2,
+                        "link": "/statutory-instruments/12345678"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "10 October 2018"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Proposed Negative Statutory Instrument"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "Road Vehicles (Registration, Registration Plates and Excise Exemption) (Amendment) (EU Exit) Regulations 2018",
+                        "size": 2,
+                        "link": "/proposed-negative-statutory-instruments/12345678"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "9 October 2018"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Statutory Instrument"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "Road Safety (Financial Penalty Deposit) (Appropriate Amount) (Amendment) Order 2018",
+                        "size": 2,
+                        "link": "/statutory-instruments/12345678"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "9 October 2018"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Proposed Negative Statutory Instrument"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "Driving Licences (Amendments) (EU Exit) Regulations 2018",
+                        "size": 2,
+                        "link": "/proposed-negative-statutory-instruments/12345678"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "9 October 2018"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "footer-components": [
+    {
+      "name": "footer",
+      "data": {
+        "uk-parliament": "shared.footer.uk-parliament",
+        "components": [
+          {
+            "name": "list__generic",
+            "data": {
+              "type": "ul",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "list"
+                  }
+                ]
+              },
+              "contents": [
+                {
+                  "content": "shared.footer.current-website"
+                },
+                {
+                  "content": "shared.footer.cookie-policy",
+                  "data": {
+                    "link": "/meta/cookie-policy"
+                  }
+                },
+                {
+                  "content": "shared.footer.data-protection-privacy"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
