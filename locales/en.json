@@ -129,5 +129,10 @@
       "actualised-date": "Actualised date"
     },
     "houses": "Houses"
+  },
+  "work-packages": {
+    "current": {
+      "title": "Current Work Packages"
+    }
   }
 }
