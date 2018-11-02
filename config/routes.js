@@ -54,6 +54,12 @@ function generateProxyTargets (thorneyHost, legacyHost) {
       port: thorneyPort
     },
 
+    // Match requests to /laying-bodies
+    '/^\\/laying-bodies/': {
+      host: thorneyHost,
+      port: thorneyPort
+    },
+
     // Match requests to /statutory-instruments/<8_character_alphanumeric_id>
     '/^\\/statutory-instruments\\/[a-zA-z0-9]{8}\\/?$/': {
       host: thorneyHost,
