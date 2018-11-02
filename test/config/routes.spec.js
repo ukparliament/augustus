@@ -26,6 +26,10 @@ describe('routes', () => {
         host: 'thorney.web1live.org',
         port: 3000
       },
+      '/^\\/laying-bodies/': {
+        host: 'thorney.web1live.org',
+        port: 3000
+      },
       '/^\\/search/': {
         host: 'thorney.web1live.org',
         port: 3000
@@ -56,6 +60,10 @@ describe('routes', () => {
         host: 'thorney.web1devci.org',
         port: 3000
       },
+      '/^\\/laying-bodies/': {
+        host: 'thorney.web1devci.org',
+        port: 3000
+      },
       '/^\\/search/': {
         host: 'thorney.web1devci.org',
         port: 3000
@@ -78,11 +86,15 @@ describe('routes', () => {
         host: 'thorney.pdswebops.org',
         port: 3000
       },
-        '/^\\/procedure-steps/': {
+      '/^\\/procedure-steps/': {
         host: 'thorney.pdswebops.org',
         port: 3000
       },
       '/^\\/proposed-negative-statutory-instruments/': {
+        host: 'thorney.pdswebops.org',
+        port: 3000
+      },
+      '/^\\/laying-bodies/': {
         host: 'thorney.pdswebops.org',
         port: 3000
       },
