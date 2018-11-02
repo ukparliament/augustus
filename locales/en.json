@@ -119,7 +119,8 @@
       "type": "Type: {{-type}}"
     },
 		"subsidiary-resources": {
-			"layings": "<a href= '{{-link}}'>Layings</a>"
+			"layings": "<a href= '{{-link}}'>Layings</a>",
+			"layings-title": "Layings"
 		}
   },
   "procedure-steps": {
