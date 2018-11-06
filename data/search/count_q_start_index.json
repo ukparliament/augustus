@@ -5,6 +5,7 @@
     "meta": {
       "title": "banana - Search - UK Parliament",
       "request-id": "|G4K2N8ExN07N7Q==.1234abcd_",
+      "disable-format-detection": true,
       "open-graph": {
         "title": "banana - Search - UK Parliament",
         "original-url": "http://localhost:5400/search?q=banana",
