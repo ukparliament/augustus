@@ -60,6 +60,18 @@ function generateProxyTargets (thorneyHost, legacyHost) {
       port: thorneyPort
     },
 
+    // Match requests to /work-packages/current
+    '/^\\/work-packages/current/': {
+      host: thorneyHost,
+      port: thorneyPort
+    },
+
+    // Match requests to /work-packages/paper-types/
+    '/^\\/work-packages/paper-types/': {
+      host: thorneyHost,
+      port: thorneyPort
+    },
+
     // Match requests to /statutory-instruments/<8_character_alphanumeric_id>
     '/^\\/statutory-instruments\\/[a-zA-z0-9]{8}\\/?$/': {
       host: thorneyHost,
