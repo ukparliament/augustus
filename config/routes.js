@@ -61,13 +61,13 @@ function generateProxyTargets (thorneyHost, legacyHost) {
     },
 
     // Match requests to /work-packages/current
-    '/^\\/work-packages/current': {
+    '/^\\/work-packages/current/': {
       host: thorneyHost,
       port: thorneyPort
     },
 
     // Match requests to /work-packages/paper-types/
-    '/^\\/work-packages/paper-types': {
+    '/^\\/work-packages/paper-types/': {
       host: thorneyHost,
       port: thorneyPort
     },

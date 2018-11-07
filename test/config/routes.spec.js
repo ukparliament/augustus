@@ -30,6 +30,14 @@ describe('routes', () => {
         host: 'thorney.web1live.org',
         port: 3000
       },
+      '/^\\/work-packages/current/': {
+        host: 'thorney.web1live.org',
+        port: 3000
+      },
+      '/^\\/work-packages/paper-types/': {
+        host: 'thorney.web1live.org',
+        port: 3000
+      },
       '/^\\/search/': {
         host: 'thorney.web1live.org',
         port: 3000
@@ -64,6 +72,14 @@ describe('routes', () => {
         host: 'thorney.web1devci.org',
         port: 3000
       },
+      '/^\\/work-packages/current/': {
+        host: 'thorney.web1devci.org',
+        port: 3000
+      },
+      '/^\\/work-packages/paper-types/': {
+        host: 'thorney.web1devci.org',
+        port: 3000
+      },
       '/^\\/search/': {
         host: 'thorney.web1devci.org',
         port: 3000
@@ -95,6 +111,14 @@ describe('routes', () => {
         port: 3000
       },
       '/^\\/laying-bodies/': {
+        host: 'thorney.pdswebops.org',
+        port: 3000
+      },
+      '/^\\/work-packages/current/': {
+        host: 'thorney.pdswebops.org',
+        port: 3000
+      },
+      '/^\\/work-packages/paper-types/': {
         host: 'thorney.pdswebops.org',
         port: 3000
       },
