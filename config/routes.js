@@ -61,7 +61,7 @@ function generateProxyTargets (thorneyHost, legacyHost) {
     },
 
     // Match requests to /procedures/<8_character_alphanumeric_id>/work-packages/
-    '/^\\/procedures\\/[a-zA-z0-9]{8}\\/?$/work-packages/': {
+    '/^\\/procedures\\/[a-zA-z0-9]{8}\\/work-packages/': {
       host: thorneyHost,
       port: thorneyPort
     },
