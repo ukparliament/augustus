@@ -130,5 +130,14 @@
       "actualised-date": "Actualised date"
     },
     "houses": "Houses"
+  },
+  "articles": {
+    "index": {
+			"title": "Article index title - UK Parliament"
+		},
+    "show": {
+      "title": "Article show title - UK Parliament",
+			"heading": "Article header"
+    }
   }
 }

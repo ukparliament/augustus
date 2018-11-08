@@ -3,47 +3,46 @@
     "template": "layout"
   },
   "meta": {
-    "title": "Department for Transport - UK Parliament",
-    "request-id": "|VwPVgZt6bHfmwQ==.",
+    "title": "articles.index.title",
+    "request-id": "|w/wi9pJ/ZnU+AA==.",
     "data-alternates": [
       {
         "type": "application/n-triples",
-        "href": "https://api.parliament.uk/query/group_by_id.nt?group_id=12345678"
+        "href": "http://localhost:3030/api/v1/statutory_instrument_index.nt"
       },
       {
         "type": "text/turtle",
-        "href": "https://api.parliament.uk/query/group_by_id.ttl?group_id=12345678"
+        "href": "http://localhost:3030/api/v1/statutory_instrument_index.ttl"
       },
       {
         "type": "text/tab-separated-values",
-        "href": "https://api.parliament.uk/query/group_by_id.tsv?group_id=12345678"
+        "href": "http://localhost:3030/api/v1/statutory_instrument_index.tsv"
       },
       {
         "type": "text/csv",
-        "href": "https://api.parliament.uk/query/group_by_id.csv?group_id=12345678"
+        "href": "http://localhost:3030/api/v1/statutory_instrument_index.csv"
       },
       {
         "type": "application/json+rdf",
-        "href": "https://api.parliament.uk/query/group_by_id.rj?group_id=12345678"
+        "href": "http://localhost:3030/api/v1/statutory_instrument_index.rj"
       },
       {
         "type": "application/json+ld",
-        "href": "https://api.parliament.uk/query/group_by_id.json?group_id=12345678"
+        "href": "http://localhost:3030/api/v1/statutory_instrument_index.json"
       },
       {
         "type": "application/rdf+xml",
-        "href": "https://api.parliament.uk/query/group_by_id.xml?group_id=12345678"
+        "href": "http://localhost:3030/api/v1/statutory_instrument_index.xml"
       }
     ],
     "open-graph": {
-      "title": "Department for Transport - UK Parliament",
-      "original-url": "https://localhost/groups/12345678",
+      "title": "statutory-instruments.index.title",
+      "original-url": "http://localhost:5401/statutory-instruments",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",
       "image-height": "630",
       "twitter-card": "summary_large_image"
-    },
-    "opensearch-description-url": "https://localhost/search/opensearch"
+    }
   },
   "header-components": [
     {
@@ -145,124 +144,66 @@
                 }
               ]
             }
-          },
-          {
-            "name": "form__search",
-            "data": {
-              "global": true,
-              "label": "search.label",
-              "components": [
-                {
-                  "name": "icon__search",
-                  "data": "search.search-icon"
-                }
-              ],
-              "search-action": "/search"
-            }
           }
         ]
       }
     }
   ],
-  "main-components": [
-    {
-      "name": "section__primary",
-      "data": {
-        "components": [
-          {
-            "name": "heading1",
-            "data": {
-              "subheading": {
-                "content": "groups.groups",
-                "data": {
-                  "link": "/groups"
-                }
-              },
-              "heading": {
-                "content": "Department for Transport"
-              }
-            }
+  "main-components": [{
+    "name": "section__primary",
+    "data": {
+      "components": [{
+        "name": "heading1",
+        "data": {
+          "heading": {
+            "content": "Articles heading"
           }
-        ]
-      }
-    },
-    {
-      "name": "section__section",
-      "data": {
-        "components": [
-          {
-            "name": "list__generic",
-            "data": {
-              "type": "ol",
-              "display": {
-                "name": "partials__display",
-                "data": [
-                  {
-                    "component": "list",
-                    "variant": "block"
-                  }
-                ]
-              },
-              "components": [
-                {
-                  "name": "card__generic",
-                  "data": {
-                    "heading": {
-                      "name": "heading",
-                      "data": {
-                        "content": "groups.subsidiary-resources.layings-title",
-                        "size": 2,
-                        "link": "/groups/12345678/made-available/availability-types/layings"
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
+        }
+      }]
     }
-  ],
+  }],
   "footer-components": [
     {
       "name": "footer",
       "data": {
         "uk-parliament": "shared.footer.uk-parliament",
-        "components": [{
-          "name": "heading",
-          "data": {
-            "size": 2,
-            "content": "UK Parliament"
-          }
-        }, {
-          "name": "list__generic",
-          "data": {
-            "type": "ul",
-            "display": {
-              "name": "partials__display",
-              "data": [
+        "components": [
+          {
+            "name": "heading",
+            "data": {
+              "size": 2,
+              "content": "UK Parliament"
+            }
+          },
+          {
+            "name": "list__generic",
+            "data": {
+              "type": "ul",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "list"
+                  }
+                ]
+              },
+              "contents": [
                 {
-                  "component": "list"
+                  "content": "shared.footer.current-website"
+                },
+                {
+                  "content": "shared.footer.cookie-policy",
+                  "data": {
+                    "link": "/meta/cookie-policy"
+                  }
+                },
+                {
+                  "content": "shared.footer.data-protection-privacy"
                 }
               ]
-            },
-            "contents": [
-              {
-                "content": "shared.footer.current-website"
-              },
-              {
-                "content": "shared.footer.cookie-policy",
-                "data": {
-                  "link": "/meta/cookie-policy"
-                }
-              },
-              {
-                "content": "shared.footer.data-protection-privacy"
-              }
-            ]
+            }
           }
-        }]
+        ]
       }
     }
   ]

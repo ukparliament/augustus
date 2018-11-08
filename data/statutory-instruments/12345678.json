@@ -239,6 +239,12 @@
     "data": {
       "uk-parliament": "shared.footer.uk-parliament",
       "components": [{
+        "name": "heading",
+        "data": {
+          "size": 2,
+          "content": "UK Parliament"
+        }
+      }, {
         "name": "list__generic",
         "data": {
           "type": "ul",
