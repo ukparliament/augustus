@@ -30,6 +30,10 @@ describe('routes', () => {
         host: 'thorney.web1live.org',
         port: 3000
       },
+      '/^\\/procedures\\/[a-zA-z0-9]{8}\\/?$/work-packages/': {
+        host: 'thorney.web1live.org',
+        port: 3000
+      },
       '/^\\/work-packages/current/': {
         host: 'thorney.web1live.org',
         port: 3000
@@ -72,6 +76,10 @@ describe('routes', () => {
         host: 'thorney.web1devci.org',
         port: 3000
       },
+      '/^\\/procedures\\/[a-zA-z0-9]{8}\\/?$/work-packages/': {
+        host: 'thorney.web1devci.org',
+        port: 3000
+      },
       '/^\\/work-packages/current/': {
         host: 'thorney.web1devci.org',
         port: 3000
@@ -111,6 +119,10 @@ describe('routes', () => {
         port: 3000
       },
       '/^\\/laying-bodies/': {
+        host: 'thorney.pdswebops.org',
+        port: 3000
+      },
+      '/^\\/procedures\\/[a-zA-z0-9]{8}\\/?$/work-packages/': {
         host: 'thorney.pdswebops.org',
         port: 3000
       },
