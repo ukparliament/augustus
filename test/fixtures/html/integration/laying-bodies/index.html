@@ -51,19 +51,25 @@
 <html lang="en">
 
 <head>
-    <title>banana - Search - UK Parliament</title>
+    <title>Laying Bodies - UK Parliament</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta name="applicationinsights-request-id" content="|B9YvuxEiNR/C/g==.">
-    <meta name="format-detection" content="telephone=no">
+    <meta name="applicationinsights-request-id" content="|HUM/qH1hEgwvCg==.">
     <link href="main.css" rel="stylesheet">
     <link href="https://static.parliament.uk/assets-public/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link href="https://beta.parliament.uk/search/opensearch" rel="search" title="UK Parliament" type="application/opensearchdescription+xml">
     <script src="appInsights.js"></script>
     <script src="googleAnalytics.js"></script>
-    <meta content="banana - Search - UK Parliament" property="og:title">
+    <link href="http://localhost:3030/api/v1/laying_body_index.nt" rel="alternate" type="application/n-triples">
+    <link href="http://localhost:3030/api/v1/laying_body_index.ttl" rel="alternate" type="text/turtle">
+    <link href="http://localhost:3030/api/v1/laying_body_index.tsv" rel="alternate" type="text/tab-separated-values">
+    <link href="http://localhost:3030/api/v1/laying_body_index.csv" rel="alternate" type="text/csv">
+    <link href="http://localhost:3030/api/v1/laying_body_index.rj" rel="alternate" type="application/json+rdf">
+    <link href="http://localhost:3030/api/v1/laying_body_index.json" rel="alternate" type="application/json+ld">
+    <link href="http://localhost:3030/api/v1/laying_body_index.xml" rel="alternate" type="application/rdf+xml">
+    <meta content="Laying Bodies - UK Parliament" property="og:title">
     <meta content="website" property="og:type">
-    <meta content="https://localhost/search?count=10&amp;q=banana&amp;start_index=71" property="og:url">
+    <meta content="https://localhost/laying-bodies" property="og:url">
     <meta content="https://static.parliament.uk/assets-public/opengraph-oblong.png" property="og:image">
     <meta content="1200" property="og:image:width">
     <meta content="630" property="og:image:height">
@@ -103,155 +109,200 @@
                         <path d="M49.1 45.9L48.5 39.8 44.2 39.8 44.2 62 49.2 62 49.2 51.1C49.2 46.7 52.2 44.7 55.2 44.7L55.9 44.7 55.9 39.4C51.9 39.8 49.9 42.4 49.1 45.9Z"></path>
                         <path d="M65.5 58C65 58.1 64.5 57.9 64.1 57.5 63.7 57.2 63.5 56.6 63.5 56.1L63.5 31.2 58.5 31.2 58.5 57.3C58.5 60.9 61 62.4 64 62.4 65 62.4 66 62.2 67 61.9L67 57.9C66.5 58 66 58 65.5 58Z"></path>
                     </g>
-                </svg></a></div>
+                </svg></a>
+            <form action="/search" method="get">
+                <div class="input-group"><label class="sr-only" for="search_box">Enter a keyword</label><input id="search_box" maxlength="1000" name="q" pattern="^(?!.*<script|<Script).*$" aria-label="enter a search term" autocomplete="off" required="" type="search"><button aria-label="submit search" class="btn--white" type="submit"><svg aria-hidden="true" data-icon="search" height="20" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                            <title>Search icon</title>
+                            <g fill="#fff">
+                                <path d="M7.5 15C3.4 15 0 11.6 0 7.5 0 3.4 3.4 0 7.5 0 11.6 0 15 3.4 15 7.5 15 11.6 11.6 15 7.5 15ZM7.5 13C10.5 13 13 10.5 13 7.5 13 4.5 10.5 2 7.5 2 4.5 2 2 4.5 2 7.5 2 10.5 4.5 13 7.5 13Z"></path>
+                                <polygon points="14.8 10.8 16.8 10.8 16.8 20.8 14.8 20.8" transform="translate(15.778175 15.778175)rotate(-45)translate(-15.778175 -15.778175)"></polygon>
+                            </g>
+                        </svg></button></div>
+            </form><a aria-hidden="true" aria-label="open search" class="btn--toggle" href="/search"><svg aria-hidden="true" data-icon="search" height="20" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Search icon</title>
+                    <g fill="#fff">
+                        <path d="M7.5 15C3.4 15 0 11.6 0 7.5 0 3.4 3.4 0 7.5 0 11.6 0 15 3.4 15 7.5 15 11.6 11.6 15 7.5 15ZM7.5 13C10.5 13 13 10.5 13 7.5 13 4.5 10.5 2 7.5 2 4.5 2 2 4.5 2 7.5 2 10.5 4.5 13 7.5 13Z"></path>
+                        <polygon points="14.8 10.8 16.8 10.8 16.8 20.8 14.8 20.8" transform="translate(15.778175 15.778175)rotate(-45)translate(-15.778175 -15.778175)"></polygon>
+                    </g>
+                </svg><svg aria-hidden="true" data-icon="close" height="20" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+                    <title>Close</title>
+                    <g stroke="#fff">
+                        <g>
+                            <line stroke-width="2" x1="0" x2="18" y1="0" y2="18"></line>
+                        </g>
+                        <g>
+                            <line stroke-width="2" x1="0" x2="18" y1="18" y2="0"></line>
+                        </g>
+                    </g>
+                </svg></a>
+        </div>
     </header>
     <main>
         <div class="section--primary">
             <div class="container">
-                <h1><span>Search results for</span><span class="sr-only">banana</span></h1>
-                <form>
-                    <div class="input-group"><label class="sr-only" for="search_box">Enter a keyword</label><input id="search_box" maxlength="1000" name="q" pattern="^(?!.*<script|<Script).*$" aria-label="enter a search term" autocomplete="off" required="" type="search" value="banana"><button aria-label="submit search" class="btn--white" type="submit"><svg aria-hidden="true" data-icon="search" height="20" viewBox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
-                                <title>Search icon</title>
-                                <g fill="#fff">
-                                    <path d="M7.5 15C3.4 15 0 11.6 0 7.5 0 3.4 3.4 0 7.5 0 11.6 0 15 3.4 15 7.5 15 11.6 11.6 15 7.5 15ZM7.5 13C10.5 13 13 10.5 13 7.5 13 4.5 10.5 2 7.5 2 4.5 2 2 4.5 2 7.5 2 10.5 4.5 13 7.5 13Z"></path>
-                                    <polygon points="14.8 10.8 16.8 10.8 16.8 20.8 14.8 20.8" transform="translate(15.778175 15.778175)rotate(-45)translate(-15.778175 -15.778175)"></polygon>
-                                </g>
-                            </svg></button></div>
-                </form>
+                <h1><span>Laying Bodies</span></h1>
             </div>
         </div>
-        <section id="content">
+        <section>
             <div class="container">
-                <h2><span>About 748 results</span></h2>
                 <ol class="list--block ">
                     <li>
                         <div class="card">
                             <div class="card__details">
-                                <h2><a href=https://api.parliament.uk/historic-hansard/commons/1951/may/09/south-bank-exhibition-catering-prices>SOUTH BANK EXHIBITION (CATERING PRICES) (Hansard, 9 May 1951)</a> </h2> <ul class="list--inline">
-                    <li><span class="hint theme--grey-4 ">Hansard</span></li>
-                    <li><span class="url">https://api.parliament.uk/historic-hansard/commons/1951/may/09/...</span></li>
-                    </ul>
-                    <p>Is my right hon. Friend aware that on Friday I was asked 8d. for a very small banana?</p>
-            </div>
-            </div>
-            </li>
-            <li>
-                <div class="card">
-                    <div class="card__details">
-                        <h2><a href=https://publications.parliament.uk/pa/cm199900/cmhansrd/vo001024/text/01024w01.htm>House of Commons Hansard Written Answers for 24 Oct 2000 ...</a> </h2> <ul class="list--inline">
-            <li><span class="hint theme--grey-4 ">Commons publication from session: 1999-00</span></li>
-            <li><span class="url">https://publications.parliament.uk/pa/cm199900/cmhansrd/vo001024/...</span></li>
-            </ul>
-            <p>Mr. Bercow: To ask the Secretary of State for Trade and Industry what is his policy on the provision of temporary aid to UK businesses affected by the EU-USA banana ...</p>
-            </div>
-            </div>
-            </li>
-            <li>
-                <div class="card">
-                    <div class="card__details">
-                        <h2><a href=https://api.parliament.uk/historic-hansard/commons/1883/may/07/africa-river-congo-action-of-portugal>AFRICA (RIVER CONGO)—ACTION OF PORTUGAL. (Hansard, 7 May 1883)</a> </h2> <ul class="list--inline">
-            <li><span class="hint theme--grey-4 ">Hansard</span></li>
-            <li><span class="url">https://api.parliament.uk/historic-hansard/commons/1883/may/07/...</span></li>
-            </ul>
-            <p>africa (river congo)—action of portugal. (hansard, 7 may 1883)</p>
-            </div>
-            </div>
-            </li>
-            <li>
-                <div class="card">
-                    <div class="card__details">
-                        <h2><a href=https://publications.parliament.uk/pa/cm200001/cmstand/f/st010206/am/10206s07.htm>House of Commons Standing Committee F (pt 7)</a> </h2> <ul class="list--inline">
-            <li><span class="hint theme--grey-4 ">Commons publication from session: 2000-01</span></li>
-            <li><span class="url">https://publications.parliament.uk/pa/cm200001/cmstand/f/st010206/...</span></li>
-            </ul>
-            <p>An outpost of a Banana Republic that has spent its meagre budget too soon? Not a bit of it. This is how policing is in an Inner London police station in the year 2001.</p>
-            </div>
-            </div>
-            </li>
-            <li>
-                <div class="card">
-                    <div class="card__details">
-                        <h2><a href=https://api.parliament.uk/historic-hansard/sittings/1951/mar/07>Sitting of 7 March 1951 (Hansard) - api.parliament.uk</a> </h2> <ul class="list--inline">
-            <li><span class="hint theme--grey-4 ">Hansard</span></li>
-            <li><span class="url">https://api.parliament.uk/historic-hansard/sittings/1951/mar/07</span></li>
-            </ul>
-            <p>Next sitting day March 8, 1951 Previous sitting day March 6, 1951. Sitting of 7 March 1951</p>
-            </div>
-            </div>
-            </li>
-            <li>
-                <div class="card">
-                    <div class="card__details">
-                        <h2><a href=https://api.parliament.uk/historic-hansard/commons/1971/feb/22/caribbean-ministers-visit>CARIBBEAN (MINISTER'S VISIT) (Hansard, 22 February 1971)</a> </h2> <ul class="list--inline">
-            <li><span class="hint theme--grey-4 ">Hansard</span></li>
-            <li><span class="url">https://api.parliament.uk/historic-hansard/commons/1971/feb/22/...</span></li>
-            </ul>
-            <p>Each country in the Community has made special arrangements for bananas because there are no banana regulations at the moment in the Community.</p>
-            </div>
-            </div>
-            </li>
-            <li>
-                <div class="card">
-                    <div class="card__details">
-                        <h2><a href=https://publications.parliament.uk/pa/cm200607/cmselect/cmintdev/356/356i.pdf>Fair Trade and Development</a> </h2> <ul class="list--inline">
-            <li><span class="hint theme--grey-4 ">Commons publication from session: 2006-07</span></li>
-            <li><span class="hint theme--grey-4 ">pdf</span></li>
-            <li><span class="url">https://publications.parliament.uk/pa/cm200607/cmselect/cmintdev/...</span></li>
-            </ul>
-            <p>Fair Trade and Development Seventh Report of Session 2006–07 Volume I ... previous banana price wars have impacted negatively on workers’ rights, pay and</p>
-            </div>
-            </div>
-            </li>
-            <li>
-                <div class="card">
-                    <div class="card__details">
-                        <h2><a href=https://publications.parliament.uk/pa/cm199394/cmhansrd/1994-02-15/Writtens-4.html>House of Commons Hansard Debates for 15 Feb 1994</a> </h2> <ul class="list--inline">
-            <li><span class="hint theme--grey-4 ">Commons publication from session: 1993-94</span></li>
-            <li><span class="url">https://publications.parliament.uk/pa/cm199394/cmhansrd/1994-02-15/...</span></li>
-            </ul>
-            <p>Funds for development of the banana industry in African, Column 685. Caribbean and Pacific countries have already been approved in the EC budget for 1994, to ...</p>
-            </div>
-            </div>
-            </li>
-            <li>
-                <div class="card">
-                    <div class="card__details">
-                        <h2><a href=https://www.parliament.uk/documents/Lords%20Banqueting/Autumn_Winter_2018_Small_Plates_and_Verrines.pdf>SALES & EVENTS - parliament.uk</a> </h2> <ul class="list--inline">
-            <li><span class="hint theme--grey-4 ">pdf</span></li>
-            <li><span class="url">https://www.parliament.uk/documents/Lords Banqueting/Autumn_Winter...</span></li>
-            </ul>
-            <p>toffee and banana trifle, golden caramel and dried banana crumb Lemon meringue tart lemon curd, vanilla tart, vanilla glazed lemon curd</p>
-            </div>
-            </div>
-            </li>
-            <li>
-                <div class="card">
-                    <div class="card__details">
-                        <h2><a href=https://publications.parliament.uk/pa/cm199293/cmhansrd/1993-03-17/Debate-8.html>House of Commons Hansard Debates for 17 Mar 1993</a> </h2> <ul class="list--inline">
-            <li><span class="hint theme--grey-4 ">Commons publication from session: 1992-93</span></li>
-            <li><span class="url">https://publications.parliament.uk/pa/cm199293/cmhansrd/1993-03-17/...</span></li>
-            </ul>
-            <p>Column 376 "Demand is coming back and the affordability message is coming through. Last week was our best week for sales since 1990." I hope that they might also ...</p>
-            </div>
-            </div>
-            </li>
-            </ol>
+                                <h2><a href='/groups/7gnSwbLO'>Cabinet Office</a></h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="card__details">
+                                <h2><a href='/groups/yiuTaSI4'>Department for Business, Energy and Industrial Strategy</a></h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="card__details">
+                                <h2><a href='/groups/ZU3IXBtP'>Department for Digital, Culture, Media and Sport</a></h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="card__details">
+                                <h2><a href='/groups/7dSvuueH'>Department for Education</a></h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="card__details">
+                                <h2><a href='/groups/5LQ5Ar74'>Department for Environment, Food and Rural Affairs</a></h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="card__details">
+                                <h2><a href='/groups/KSMOf7aM'>Department for Exiting the European Union</a></h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="card__details">
+                                <h2><a href='/groups/g8hByIik'>Department for International Development</a></h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="card__details">
+                                <h2><a href='/groups/ni8aOEk3'>Department for International Trade</a></h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="card__details">
+                                <h2><a href='/groups/XouN12Ow'>Department for Transport</a></h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="card__details">
+                                <h2><a href='/groups/XbTBTDMo'>Department for Work and Pensions</a></h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="card__details">
+                                <h2><a href='/groups/fpWTqVKh'>Department of Health and Social Care</a></h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="card__details">
+                                <h2><a href='/groups/UIV7W27r'>Foreign and Commonwealth Office</a></h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="card__details">
+                                <h2><a href='/groups/79sn5e3n'>HM Revenue and Customs</a></h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="card__details">
+                                <h2><a href='/groups/HYfypSOE'>HM Treasury</a></h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="card__details">
+                                <h2><a href='/groups/NDZSYjeE'>Home Office</a></h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="card__details">
+                                <h2><a href='/groups/eup4DwE5'>Local Government Boundary Commission for England</a></h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="card__details">
+                                <h2><a href='/groups/DkHdH4kZ'>Ministry of Defence</a></h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="card__details">
+                                <h2><a href='/groups/fKqMNz79'>Ministry of Housing, Communities and Local Government</a></h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="card__details">
+                                <h2><a href='/groups/BRTNQywN'>Ministry of Justice</a></h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="card__details">
+                                <h2><a href='/groups/JVJB3tuB'>Privy Council Office</a></h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="card__details">
+                                <h2><a href='/groups/nFL8Pq3e'>Scotland Office</a></h2>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="card">
+                            <div class="card__details">
+                                <h2><a href='/groups/kv2Qqfn9'>Wales Office</a></h2>
+                            </div>
+                        </div>
+                    </li>
+                </ol>
             </div>
         </section>
-        <nav aria-label="Pagination" class="navigation--number" data-active-tile="5">
-            <div class="container"><a class="navigation-control" href="/search?count=10&q=banana&start_index=61">Previous</a>
-                <ol>
-                    <li data-number="4"><a href="/search?count=10&q=banana&start_index=31"><span>Page </span><span class="count">4</span><span>of 75</span></a></li>
-                    <li data-number="5"><a href="/search?count=10&q=banana&start_index=41"><span>Page </span><span class="count">5</span><span>of 75</span></a></li>
-                    <li data-number="6"><a href="/search?count=10&q=banana&start_index=51"><span>Page </span><span class="count">6</span><span>of 75</span></a></li>
-                    <li data-number="7"><a href="/search?count=10&q=banana&start_index=61"><span>Page </span><span class="count">7</span><span>of 75</span></a></li>
-                    <li class="active" data-number="8"><span><span>Page </span><span class="count">8</span><span>of 75</span></span></li>
-                    <li data-number="9"><a href="/search?count=10&q=banana&start_index=81"><span>Page </span><span class="count">9</span><span>of 75</span></a></li>
-                    <li data-number="10"><a href="/search?count=10&q=banana&start_index=91"><span>Page </span><span class="count">10</span><span>of 75</span></a></li>
-                    <li data-number="11"><a href="/search?count=10&q=banana&start_index=101"><span>Page </span><span class="count">11</span><span>of 75</span></a></li>
-                </ol><a class="navigation-control" href="/search?count=10&q=banana&start_index=81">Next</a>
-            </div>
-        </nav>
     </main>
     <footer>
         <div class="container">
@@ -265,7 +316,6 @@
     </footer>
     <script src="main.js"></script>
     <script src="pingdom.js"></script>
-    <script src="uk_parliament_search.js"></script>
 </body>
 
 </html>

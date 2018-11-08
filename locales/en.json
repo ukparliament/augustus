@@ -134,5 +134,13 @@
       "actualised-date": "Business item date"
     },
     "houses": "Houses"
+  },
+  "articles": {
+		"index": {
+			"title": "Article index title - UK Parliament"
+		},
+		"show": {
+			"title": "Article show title - UK Parliament"
+		}
   }
 }
