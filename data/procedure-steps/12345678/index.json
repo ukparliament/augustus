@@ -209,15 +209,34 @@
       "data": {
         "components": [
           {
-            "name": "paragraph",
-            "data": [
-              {
-                "content": "procedure-steps.subsidiary-resources.work-packages",
-                "data": {
-                  "link": "/procedure-steps/12345678/work-packages"
+            "name": "list__generic",
+            "data": {
+              "type": "ol",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "list",
+                    "variant": "block"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "procedure-steps.subsidiary-resources.work-packages",
+                        "size": 2,
+                        "link": "/procedure-steps/e9G2vHbc/work-packages"
+                      }
+                    }
+                  }
                 }
-              }
-            ]
+              ]
+            }
           }
         ]
       }
