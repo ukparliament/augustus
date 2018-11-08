@@ -243,6 +243,23 @@
                         "link": "/procedure-steps/12345678"
                       }
                     },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "procedure-steps.houses"
+                            },
+                            "description": [
+                              {
+                                "content": "House of Commons"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    },
                     "paragraph": {
                       "name": "paragraph",
                       "data": [
@@ -288,6 +305,23 @@
                         "content": "Motion (prayer) to stop the instrument being law tabled",
                         "size": 2,
                         "link": "/procedure-steps/12345678"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "procedure-steps.houses"
+                            },
+                            "description": [
+                              {
+                                "content": "House of Commons and House of Lords"
+                              }
+                            ]
+                          }
+                        ]
                       }
                     }
                   }
