@@ -127,7 +127,7 @@
     "procedure-step": "<a href= '{{-link}}'>Procedure Step</a>",
     "subsidiary-resources": {
       "work-packages": "<a href= '{{-link}}'>Work Packages</a>",
-      "actualised-date": "Actualised date"
+      "actualised-date": "Business item date"
     },
     "houses": "Houses"
   }
