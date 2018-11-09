@@ -4,7 +4,7 @@
   },
   "meta": {
     "title": "Civil Enforcement of Traffic Contraventions (Consequential Amendments) (England) Regulations 2018 - UK Parliament",
-    "request-id": "|KREVXLEvDlTwng==.",
+    "request-id": "|6vFEPEJvu/1Mhw==.",
     "data-alternates": [{
       "type": "application/n-triples",
       "href": "http://localhost:3030/api/v1/statutory_instrument_by_id.nt?statutory_instrument_id=12345678"
@@ -172,7 +172,7 @@
               "content": "laid-thing.laying-body"
             },
             "description": [{
-              "content": "Department for Transport"
+              "content": "\u003ca href=\"/groups/XouN12Ow\"\u003eDepartment for Transport\u003c/a\u003e"
             }]
           }]
         }

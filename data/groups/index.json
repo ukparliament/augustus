@@ -4,7 +4,7 @@
   },
   "meta": {
     "title": "Groups - UK Parliament",
-    "request-id": "|2Z/8SJqqvzfyPw==.",
+    "request-id": "|6mIQG1JxXOPiRw==.",
     "data-alternates": [{
       "type": "application/n-triples",
       "href": "http://localhost:3030/api/v1/group_index.nt"
@@ -158,106 +158,9 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "Able Marine Energy Park Development Consent Order 2014",
-                  "size": 2,
-                  "link": "/groups/12345678"
+                  "content": "\u003ca href=\"/laying-bodies\"\u003eLaying bodies\u003c/a\u003e",
+                  "size": 2
                 }
-              },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "16 June 2014 to 30 October 2014"
-                }]
-              }
-            }
-          }, {
-            "name": "card__generic",
-            "data": {
-              "heading": {
-                "name": "heading",
-                "data": {
-                  "content": "Accommodation Steering Group",
-                  "size": 2,
-                  "link": "/groups/12345678"
-                }
-              },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "13 November 2002"
-                }]
-              }
-            }
-          }, {
-            "name": "card__generic",
-            "data": {
-              "heading": {
-                "name": "heading",
-                "data": {
-                  "content": "Accomodation \u0026 Works",
-                  "size": 2,
-                  "link": "/groups/12345678"
-                }
-              },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "1 January 1900 to 6 May 2010"
-                }]
-              }
-            }
-          }, {
-            "name": "card__generic",
-            "data": {
-              "heading": {
-                "name": "heading",
-                "data": {
-                  "content": "Administration and Works Committee (Lords)",
-                  "size": 2,
-                  "link": "/groups/12345678"
-                }
-              },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "17 December 1998 to 31 August 2016"
-                }]
-              }
-            }
-          }, {
-            "name": "card__generic",
-            "data": {
-              "heading": {
-                "name": "heading",
-                "data": {
-                  "content": "Administration Committee",
-                  "size": 2,
-                  "link": "/groups/12345678"
-                }
-              },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "31 October 1991"
-                }]
-              }
-            }
-          }, {
-            "name": "card__generic",
-            "data": {
-              "heading": {
-                "name": "heading",
-                "data": {
-                  "content": "Yorkshire and the Humber Regional Select Committee",
-                  "size": 2,
-                  "link": "/groups/12345678"
-                }
-              },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [{
-                  "content": "3 March 2009 to 6 May 2010"
-                }]
               }
             }
           }]

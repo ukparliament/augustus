@@ -21,7 +21,8 @@
 			"page": "Page "
     },
     "time-html": "<time datetime='{{-datetime-value}}'>{{-date}}</time>",
-    "time-html-to": "<time datetime='{{-datetime-format}}'>{{-date-default}}</time> to <time datetime='{{-datetime-format-second}}'>{{-date-default-second}}</time>"
+    "time-html-to": "<time datetime='{{-datetime-format}}'>{{-date-default}}</time> to <time datetime='{{-datetime-format-second}}'>{{-date-default-second}}</time>",
+    "time-html-to-present": "<time datetime='{{-datetime-format}}'>{{-date-default}}</time> to present"
 	},
 	"home": {
     "title": "beta.parliament.uk",
@@ -33,33 +34,33 @@
     "mps-and-lords": {
       "heading": "MPs and Lords",
       "mps": {
-        "heading": "MPs",
+        "heading": "<a href='{{-link}}'>MPs</a>",
         "find": "Find all members of the House of Commons."
       },
       "lords": {
-        "heading": "Lords",
+        "heading": "<a href='{{-link}}'>Lords</a>",
         "find": "View all members of the House of Lords."
       },
       "constituencies": {
-        "heading": "Constituencies",
+        "heading": "<a href='{{-link}}'>Constituencies</a>",
         "find": "Find MPs by the area they represent."
       },
       "parties-and-groups": {
-        "heading": "Parties and groups",
+        "heading": "<a href='{{-link}}'>Parties and groups</a>",
         "find": "Find MPs and Lords by their party or group."
       }
     },
     "parliament-activity": {
       "heading": "Activity in Parliament",
       "statutory-instruments": {
-        "heading": "Statutory instruments",
+        "heading": "<a href='{{-link}}'>Statutory instruments</a>",
         "find": "Find all statutory instruments and follow their progress."
       }
     },
     "guides": {
       "heading": "Guides",
       "guide-to-procedure": {
-        "heading": "MPs Guide to Procedure",
+        "heading": "<a href='{{-link}}'>MPs Guide to Procedure</a>",
         "find": "Guidance on House of Commons procedure for MPs and their staff."
       }
     }
@@ -121,14 +122,14 @@
       "type": "Type: {{-type}}"
     },
 		"subsidiary-resources": {
-			"layings": "<a href= '{{-link}}'>Layings</a>",
+			"layings": "<a href= '{{-link}}'>Laid papers</a>",
 			"layings-title": "Laid papers"
 		}
   },
   "procedure-steps": {
     "procedure-step": "<a href= '{{-link}}'>Procedure step</a>",
     "subsidiary-resources": {
-      "work-packages": "<a href= '{{-link}}'>Work packages</a>",
+      "work-packages": "<a href= '{{-link}}'>Procedural activity</a>",
       "actualised-date": "Business item date"
     },
     "houses": "Houses"
