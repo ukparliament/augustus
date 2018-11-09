@@ -122,7 +122,7 @@
     },
 		"subsidiary-resources": {
 			"layings": "<a href= '{{-link}}'>Layings</a>",
-			"layings-title": "Layings"
+			"layings-title": "Laid papers"
 		}
   },
   "procedure-steps": {
