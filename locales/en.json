@@ -124,9 +124,9 @@
 		}
   },
   "procedure-steps": {
-    "procedure-step": "<a href= '{{-link}}'>Procedure Step</a>",
+    "procedure-step": "<a href= '{{-link}}'>Procedure step</a>",
     "subsidiary-resources": {
-      "work-packages": "<a href= '{{-link}}'>Work Packages</a>",
+      "work-packages": "<a href= '{{-link}}'>Work packages</a>",
       "actualised-date": "Business item date"
     },
     "houses": "Houses"
