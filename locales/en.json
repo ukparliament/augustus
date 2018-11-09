@@ -20,7 +20,7 @@
 			"next": "Next",
 			"page": "Page "
     },
-    "time-html": "<time datetime='{{-datetime-format}}'>{{-date-default}}</time>",
+    "time-html": "<time datetime='{{-datetime-value}}'>{{-date}}</time>",
     "time-html-to": "<time datetime='{{-datetime-format}}'>{{-date-default}}</time> to <time datetime='{{-datetime-format-second}}'>{{-date-default-second}}</time>"
 	},
 	"home": {
@@ -70,6 +70,7 @@
     "procedure": "Procedure",
     "laying": "Laying",
     "laying-body": "Laying body",
+    "laying-bodies": "Laying bodies",
     "laying-person": "Laying person",
     "web-link": "Web link",
     "objects": "Objects"
