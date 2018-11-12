@@ -4,640 +4,469 @@
   },
   "meta": {
     "title": "banana - Search - UK Parliament",
-    "request-id": "|G4K2N8ExN07N7Q==.1234abcd_",
-    "disable-format-detection": true,
+    "request-id": "|B9YvuxEiNR/C/g==.",
     "open-graph": {
       "title": "banana - Search - UK Parliament",
-      "original-url": "http://localhost:5400/search?q=banana",
+      "original-url": "https://localhost/search?count=10\u0026q=banana\u0026start_index=71",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",
       "image-height": "630",
       "twitter-card": "summary_large_image"
-    }
+    },
+    "opensearch-description-url": "https://localhost/search/opensearch",
+    "disable-format-detection": true
   },
-  "header-components": [
-    {
-      "name": "link",
-      "data": {
-        "link": "#content",
-        "display": {
-          "name": "partials__display",
-          "data": [
-            {
-              "component": "skip-to-content"
-            }
-          ]
-        },
-        "selector": "skiplink",
-        "content": "shared.header.skip-to-content"
-      }
-    },
-    {
-      "name": "status__banner",
-      "data": {
-        "display": {
-          "name": "partials__display",
-          "data": [
-            {
-              "component": "status",
-              "variant": "banner"
-            },
-            {
-              "component": "theme",
-              "variant": "caution"
-            },
-            {
-              "component": "cookie"
-            }
-          ]
-        },
-        "selector": "cookie",
-        "components": [
-          {
-            "name": "paragraph",
-            "data": [
-              {
-                "content": "shared.header.cookie-banner-text",
-                "data": {
-                  "link": "/meta/cookie-policy"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "status__banner",
-      "data": {
-        "display": {
-          "name": "partials__display",
-          "data": [
-            {
-              "component": "status",
-              "variant": "banner"
-            }
-          ]
-        },
-        "components": [
-          {
-            "name": "paragraph",
-            "data": [
-              {
-                "content": "shared.header.beta-status"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "name": "header",
-      "data": {
-        "components": [
-          {
-            "name": "link",
-            "data": {
-              "link": "/",
-              "display": {
-                "name": "partials__display",
-                "data": [
-                  {
-                    "component": "uk_parliament"
-                  }
-                ]
-              },
-              "label": "shared.header.label",
-              "components": [
-                {
-                  "name": "icon__uk-parliament",
-                  "data": "shared.header.label"
-                }
-              ]
-            }
-          }
-        ]
-      }
+  "header-components": [{
+    "name": "link",
+    "data": {
+      "link": "#content",
+      "display": {
+        "name": "partials__display",
+        "data": [{
+          "component": "skip-to-content"
+        }]
+      },
+      "selector": "skiplink",
+      "content": "shared.header.skip-to-content"
     }
-  ],
-  "main-components": [
-    {
-      "name": "section__primary",
-      "data": {
-        "components": [
-          {
-            "name": "heading1",
-            "data": {
-              "heading": {
-                "content": "search.results-heading"
-              },
-              "context": {
-                "content": "banana",
-                "hidden": true
-              }
-            }
+  }, {
+    "name": "status__banner",
+    "data": {
+      "display": {
+        "name": "partials__display",
+        "data": [{
+          "component": "status",
+          "variant": "banner"
+        }, {
+          "component": "theme",
+          "variant": "caution"
+        }, {
+          "component": "cookie"
+        }]
+      },
+      "selector": "cookie",
+      "components": [{
+        "name": "paragraph",
+        "data": [{
+          "content": "shared.header.cookie-banner-text",
+          "data": {
+            "link": "/meta/cookie-policy"
+          }
+        }]
+      }]
+    }
+  }, {
+    "name": "status__banner",
+    "data": {
+      "display": {
+        "name": "partials__display",
+        "data": [{
+          "component": "status",
+          "variant": "banner"
+        }]
+      },
+      "components": [{
+        "name": "paragraph",
+        "data": [{
+          "content": "shared.header.beta-status"
+        }]
+      }]
+    }
+  }, {
+    "name": "header",
+    "data": {
+      "components": [{
+        "name": "link",
+        "data": {
+          "link": "/",
+          "display": {
+            "name": "partials__display",
+            "data": [{
+              "component": "uk_parliament"
+            }]
           },
-          {
-            "name": "form__search",
-            "data": {
-              "value": "banana",
-              "label": "search.label"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "name": "section__section",
-      "data": {
-        "content-flag": true,
-        "components": [
-          {
-            "name": "heading",
-            "data": {
-              "translation": {
-                "key": "search.count",
-                "data": {
-                  "count": "850"
-                }
-              },
-              "size": 2
-            }
+          "label": "shared.header.label",
+          "components": [{
+            "name": "icon__uk-parliament",
+            "data": "shared.header.label"
+          }]
+        }
+      }]
+    }
+  }],
+  "main-components": [{
+    "name": "section__primary",
+    "data": {
+      "components": [{
+        "name": "heading1",
+        "data": {
+          "heading": {
+            "content": "search.results-heading"
           },
-          {
-            "name": "list__generic",
-            "data": {
-              "type": "ol",
-              "display": {
-                "name": "partials__display",
-                "data": [
-                  {
-                    "component": "list",
-                    "variant": "block"
-                  }
-                ]
-              },
-              "components": [
-                {
-                  "name": "card__search__search-result",
-                  "data": {
-                    "heading-text": "EU: Trade Agreement on Banana Imports - Hansard",
-                    "url": "https://hansard.parliament.uk/Lords/2012-02-07/debates/12020792000204/EUTradeAgreementOnBananaImports",
-                    "hints": [
-                      {
-                        "name": "partials__hint",
-                        "data": {
-                          "display": {
-                            "data": [
-                              {
-                                "component": "theme",
-                                "variant": "grey-4",
-                                "content": "Hansard"
-                              }
-                            ]
-                          }
-                        }
-                      }
-                    ],
-                    "short-url": "https://hansard.parliament.uk/.../EUTradeAgreementOnBananaImports",
-                    "paragraph-content": "To ask Her Majesty’s Government what is their assessment of the effects of the European Union trade agreement on banana imports and its impact on African, Caribbean ..."
-                  }
-                },
-                {
-                  "name": "card__search__search-result",
-                  "data": {
-                    "heading-text": "Bananas (Hansard, 4 June 1992) - api.parliament.uk",
-                    "url": "https://api.parliament.uk/historic-hansard/commons/1992/jun/04/bananas",
-                    "hints": [
-                      {
-                        "name": "partials__hint",
-                        "data": {
-                          "display": {
-                            "data": [
-                              {
-                                "component": "theme",
-                                "variant": "grey-4",
-                                "content": "Hansard"
-                              }
-                            ]
-                          }
-                        }
-                      }
-                    ],
-                    "short-url": "https://api.parliament.uk/historic-hansard/commons/1992/jun/04/bananas",
-                    "paragraph-content": "§Mr. Curry. The Commission has published a working paper on banana imports aiming to fulfil all the Community's international obligations. §"
-                  }
-                },
-                {
-                  "name": "card__search__search-result",
-                  "data": {
-                    "heading-text": "BANANA TRADE, JAMAICA (SHIPS) (Hansard, 5 November 1946)",
-                    "url": "https://api.parliament.uk/historic-hansard/commons/1946/nov/05/banana-trade-jamaica-ships",
-                    "hints": [
-                      {
-                        "name": "partials__hint",
-                        "data": {
-                          "display": {
-                            "data": [
-                              {
-                                "component": "theme",
-                                "variant": "grey-4",
-                                "content": "Hansard"
-                              }
-                            ]
-                          }
-                        }
-                      },
-                      {
-                        "name": "partials__hint",
-                        "data": {
-                          "display": {
-                            "data": [
-                              {
-                                "component": "theme",
-                                "variant": "grey-4",
-                                "content": "Commons publication from session: 1997-98"
-                              }
-                            ]
-                          }
-                        }
-                      }
-                    ],
-                    "short-url": "https://api.parliament.uk/.../1946/nov/05/banana-trade-jamaica-ships",
-                    "paragraph-content": "§Mr. Rees-Williams (Croydon, South) I beg to draw the attention of the House to the case of four motor vessels, \"Empire Wharfe,\" \"Empire Aide,\" \"Empire Mowddach ..."
-                  }
-                },
-                {
-                  "name": "card__search__search-result",
-                  "data": {
-                    "heading-text": "House of Commons - International Development - Minutes of ...",
-                    "url": "https://publications.parliament.uk/pa/cm199798/cmselect/cmintdev/...",
-                    "short-url": "https://publications.parliament.uk/pa/cm199798/cmselect/cmintdev/...",
-                    "paragraph-content": "Examination of witnesses (Questions 374 - 399) TUESDAY 3 ... If you understand the structure of our banana industries you will know that they are made up ..."
-                  }
-                },
-                {
-                  "name": "card__search__search-result",
-                  "data": {
-                    "heading-text": "Caribbean Banana Growers (Hansard, 14 January 2005)",
-                    "url": "https://api.parliament.uk/historic-hansard/lords/2005/jan/14/caribbean-banana-growers",
-                    "hints": [
-                      {
-                        "name": "partials__hint",
-                        "data": {
-                          "display": {
-                            "data": [
-                              {
-                                "component": "theme",
-                                "variant": "grey-4",
-                                "content": "Hansard"
-                              }
-                            ]
-                          }
-                        }
-                      },
-                      {
-                        "name": "partials__hint",
-                        "data": {
-                          "display": {
-                            "data": [
-                              {
-                                "component": "theme",
-                                "variant": "grey-4",
-                                "content": "Commons publication from session: 1997-98"
-                              }
-                            ]
-                          }
-                        }
-                      }
-                    ],
-                    "short-url": "https://api.parliament.uk/.../2005/jan/14/caribbean-banana-growers",
-                    "paragraph-content": "§Lord Newby. rose to ask Her Majesty's Government what action they plan to take to safeguard the interests of Caribbean banana growers. The noble Lord said: My Lords ..."
-                  }
-                },
-                {
-                  "name": "card__search__search-result",
-                  "data": {
-                    "heading-text": "Cameroon Bananas (Hansard, 24 March 1947)",
-                    "url": "https://api.parliament.uk/historic-hansard/commons/1947/mar/24/cameroon-bananas",
-                    "paragraph-content": "§Mr. Strachey. I am proposing to buy the whole of the exportable banana crop from the Cameroons but the final terms of the purchase have not yet been settled."
-                  }
-                },
-                {
-                  "name": "card__search__search-result",
-                  "data": {
-                    "heading-text": "Trade dispute between the EU and the US over bananas",
-                    "url": "http://researchbriefings.files.parliament.uk/documents/RP99-28/RP99-28.pdf",
-                    "hints": [
-                      {
-                        "name": "partials__hint",
-                        "data": {
-                          "display": {
-                            "data": [
-                              {
-                                "component": "theme",
-                                "variant": "grey-4",
-                                "content": "pdf"
-                              }
-                            ]
-                          }
-                        }
-                      },
-                      {
-                        "name": "partials__hint",
-                        "data": {
-                          "display": {
-                            "data": [
-                              {
-                                "component": "theme",
-                                "variant": "grey-4",
-                                "content": "Hansard"
-                              }
-                            ]
-                          }
-                        }
-                      },
-                      {
-                        "name": "partials__hint",
-                        "data": {
-                          "display": {
-                            "data": [
-                              {
-                                "component": "theme",
-                                "variant": "grey-4",
-                                "content": "description"
-                              }
-                            ]
-                          }
-                        }
-                      },
-                      {
-                        "name": "partials__hint",
-                        "data": {
-                          "display": {
-                            "data": [
-                              {
-                                "component": "theme",
-                                "variant": "grey-4",
-                                "content": "assets"
-                              }
-                            ]
-                          }
-                        }
-                      },
-                      {
-                        "name": "partials__hint",
-                        "data": {
-                          "display": {
-                            "data": [
-                              {
-                                "component": "theme",
-                                "variant": "grey-4",
-                                "content": "record"
-                              }
-                            ]
-                          }
-                        }
-                      },
-                      {
-                        "name": "partials__hint",
-                        "data": {
-                          "display": {
-                            "data": [
-                              {
-                                "component": "theme",
-                                "variant": "grey-4",
-                                "content": "script"
-                              }
-                            ]
-                          }
-                        }
-                      }
-                    ],
-                    "short-url": "researchbriefings.files.parliament.uk/documents/RP99-28/RP99-28.pdf",
-                    "paragraph-content": "Summary of main points • The EU banana regime is an attempt to combine obligations to former colonies with the Single European Market. • The regime has been the ..."
-                  }
-                },
-                {
-                  "name": "card__search__search-result",
-                  "data": {
-                    "heading-text": "Lords Hansard text for 28 Jan 1999 (190128-03)",
-                    "url": "https://publications.parliament.uk/pa/ld199899/ldhansrd/vo990128/text/90128-03.htm",
-                    "hints": [
-                      {
-                        "name": "partials__hint",
-                        "data": {
-                          "display": {
-                            "data": [
-                              {
-                                "component": "theme",
-                                "variant": "grey-4",
-                                "content": "Lords publication from session: 1998-99"
-                              }
-                            ]
-                          }
-                        }
-                      },
-                      {
-                        "name": "partials__hint",
-                        "data": {
-                          "display": {
-                            "data": [
-                              {
-                                "component": "theme",
-                                "variant": "grey-4",
-                                "content": "Commons publication from session: 1997-98"
-                              }
-                            ]
-                          }
-                        }
-                      }
-                    ],
-                    "short-url": "https://publications.parliament.uk/pa/ld199899/ldhansrd/vo990128/...",
-                    "paragraph-content": "Indeed, it would have a terrible impact on some Caribbean islands, with disastrous effects on their populations. If the banana trade collapses, ..."
-                  }
-                },
-                {
-                  "name": "card__search__search-result",
-                  "data": {
-                    "heading-text": "IMPORT DUTIES (LIME OIL AND BANANAS) (Hansard, 30 April 1956)",
-                    "url": "https://api.parliament.uk/historic-hansard/commons/1956/apr/30/import-duties-lime-oil-and-bananas",
-                    "hints": [
-                      {
-                        "name": "partials__hint",
-                        "data": {
-                          "display": {
-                            "data": [
-                              {
-                                "component": "theme",
-                                "variant": "grey-4",
-                                "content": "Hansard"
-                              }
-                            ]
-                          }
-                        }
-                      }
-                    ],
-                    "short-url": "https://api.parliament.uk/.../30/import-duties-lime-oil-and-bananas",
-                    "paragraph-content": "160 The banana industry is important socially and economically in the West Indies."
-                  }
-                },
-                {
-                  "name": "card__search__search-result",
-                  "data": {
-                    "heading-text": "Harassment: 'Police Information Notices' or 'Early ...",
-                    "url": "http://researchbriefings.files.parliament.uk/documents/SN06411/SN06411.pdf",
-                    "hints": [
-                      {
-                        "name": "partials__hint",
-                        "data": {
-                          "display": {
-                            "data": [
-                              {
-                                "component": "theme",
-                                "variant": "grey-4",
-                                "content": "pdf"
-                              }
-                            ]
-                          }
-                        }
-                      }
-                    ],
-                    "short-url": "researchbriefings.files.parliament.uk/documents/SN06411/SN06411.pdf",
-                    "paragraph-content": "BRIEFING PAPER Number 06411, 29 June 2018 Harassment: \"Police Information Notices\" or \"Early Harassment Notices\" in England and Wales By Pat Strickland"
-                  }
-                }
-              ]
-            }
+          "context": {
+            "content": "banana",
+            "hidden": true
           }
-        ]
-      }
-    },
-    {
-      "name": "section__section",
-      "data": {
-        "components": [
-          {
-            "name": "navigation__number__number",
-            "data": {
-              "active-tile": "1",
-              "next-url": "/search?count=10&q=hello&start_index=11",
-              "components": [
-                {
-                  "name": "navigation__number__card",
-                  "data": {
-                    "active": true,
-                    "url": "/search?count=10&q=hello&start_index=21",
-                    "number": "1",
-                    "total-count": " of 77"
-                  }
-                },
-                {
-                  "name": "navigation__number__card",
-                  "data": {
-                    "url": "/search?count=10&q=hello&start_index=21",
-                    "number": "2",
-                    "total-count": "of 77"
-                  }
-                },
-                {
-                  "name": "navigation__number__card",
-                  "data": {
-                    "url": "/search?count=10&q=hello&start_index=21",
-                    "number": "3",
-                    "total-count": "of 77"
-                  }
-                },
-                {
-                  "name": "navigation__number__card",
-                  "data": {
-                    "url": "/search?count=10&q=hello&start_index=21",
-                    "number": "4",
-                    "total-count": "of 77"
-                  }
-                },
-                {
-                  "name": "navigation__number__card",
-                  "data": {
-                    "url": "/search?count=10&q=hello&start_index=21",
-                    "number": "5",
-                    "total-count": "of 77"
-                  }
-                },
-                {
-                  "name": "navigation__number__card",
-                  "data": {
-                    "url": "/search?count=10&q=hello&start_index=21",
-                    "number": "6",
-                    "total-count": "of 77"
-                  }
-                },
-                {
-                  "name": "navigation__number__card",
-                  "data": {
-                    "url": "/search?count=10&q=hello&start_index=21",
-                    "number": "7",
-                    "total-count": "of 77"
-                  }
-                },
-                {
-                  "name": "navigation__number__card",
-                  "data": {
-                    "url": "/search?count=10&q=hello&start_index=21",
-                    "number": "8",
-                    "total-count": "of 77"
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      }
+        }
+      }, {
+        "name": "form__search",
+        "data": {
+          "value": "banana",
+          "label": "search.label",
+          "components": [{
+            "name": "icon__search",
+            "data": "search.search-icon"
+          }]
+        }
+      }]
     }
-  ],
-  "footer-components": [
-    {
-      "name": "footer",
-      "data": {
-        "uk-parliament": "shared.footer.uk-parliament",
-        "components": [
-          {
-            "name": "list__generic",
+  }, {
+    "name": "section__section",
+    "data": {
+      "content-flag": true,
+      "components": [{
+        "name": "heading",
+        "data": {
+          "content": "search.count",
+          "data": {
+            "count": 748
+          },
+          "size": 2
+        }
+      }, {
+        "name": "list__generic",
+        "data": {
+          "type": "ol",
+          "display": {
+            "name": "partials__display",
+            "data": [{
+              "component": "list",
+              "variant": "block"
+            }]
+          },
+          "components": [{
+            "name": "card__search__search-result",
             "data": {
-              "type": "ul",
-              "display": {
-                "name": "partials__display",
-                "data": [
-                  {
-                    "component": "list"
+              "heading-text": "SOUTH BANK EXHIBITION (CATERING PRICES) (Hansard, 9 May 1951)",
+              "url": "https://api.parliament.uk/historic-hansard/commons/1951/may/09/south-bank-exhibition-catering-prices",
+              "hints": [{
+                "name": "partials__hint",
+                "data": {
+                  "display": {
+                    "name": "partials__display",
+                    "data": [{
+                      "component": "theme",
+                      "variant": "grey-4",
+                      "content": "Hansard"
+                    }]
                   }
-                ]
-              },
-              "contents": [
-                {
-                  "content": "shared.footer.current-website"
-                },
-                {
-                  "content": "shared.footer.cookie-policy",
-                  "data": {
-                    "link": "/meta/cookie-policy"
-                  }
-                },
-                {
-                  "content": "shared.footer.data-protection-privacy"
                 }
-              ]
+              }],
+              "short-url": "https://api.parliament.uk/historic-hansard/commons/1951/may/09/...",
+              "paragraph-content": "Is my right hon. Friend aware that on Friday I was asked 8d. for a very small banana?"
             }
-          }
-        ]
-      }
+          }, {
+            "name": "card__search__search-result",
+            "data": {
+              "heading-text": "House of Commons Hansard Written Answers for 24 Oct 2000 ...",
+              "url": "https://publications.parliament.uk/pa/cm199900/cmhansrd/vo001024/text/01024w01.htm",
+              "hints": [{
+                "name": "partials__hint",
+                "data": {
+                  "display": {
+                    "name": "partials__display",
+                    "data": [{
+                      "component": "theme",
+                      "variant": "grey-4",
+                      "content": "Commons publication from session: 1999-00"
+                    }]
+                  }
+                }
+              }],
+              "short-url": "https://publications.parliament.uk/pa/cm199900/cmhansrd/vo001024/...",
+              "paragraph-content": "Mr. Bercow: To ask the Secretary of State for Trade and Industry what is his policy on the provision of temporary aid to UK businesses affected by the EU-USA banana ..."
+            }
+          }, {
+            "name": "card__search__search-result",
+            "data": {
+              "heading-text": "AFRICA (RIVER CONGO)—ACTION OF PORTUGAL. (Hansard, 7 May 1883)",
+              "url": "https://api.parliament.uk/historic-hansard/commons/1883/may/07/africa-river-congo-action-of-portugal",
+              "hints": [{
+                "name": "partials__hint",
+                "data": {
+                  "display": {
+                    "name": "partials__display",
+                    "data": [{
+                      "component": "theme",
+                      "variant": "grey-4",
+                      "content": "Hansard"
+                    }]
+                  }
+                }
+              }],
+              "short-url": "https://api.parliament.uk/historic-hansard/commons/1883/may/07/...",
+              "paragraph-content": "africa (river congo)—action of portugal. (hansard, 7 may 1883)"
+            }
+          }, {
+            "name": "card__search__search-result",
+            "data": {
+              "heading-text": "House of Commons Standing Committee F (pt 7)",
+              "url": "https://publications.parliament.uk/pa/cm200001/cmstand/f/st010206/am/10206s07.htm",
+              "hints": [{
+                "name": "partials__hint",
+                "data": {
+                  "display": {
+                    "name": "partials__display",
+                    "data": [{
+                      "component": "theme",
+                      "variant": "grey-4",
+                      "content": "Commons publication from session: 2000-01"
+                    }]
+                  }
+                }
+              }],
+              "short-url": "https://publications.parliament.uk/pa/cm200001/cmstand/f/st010206/...",
+              "paragraph-content": "An outpost of a Banana Republic that has spent its meagre budget too soon? Not a bit of it. This is how policing is in an Inner London police station in the year 2001."
+            }
+          }, {
+            "name": "card__search__search-result",
+            "data": {
+              "heading-text": "Sitting of 7 March 1951 (Hansard) - api.parliament.uk",
+              "url": "https://api.parliament.uk/historic-hansard/sittings/1951/mar/07",
+              "hints": [{
+                "name": "partials__hint",
+                "data": {
+                  "display": {
+                    "name": "partials__display",
+                    "data": [{
+                      "component": "theme",
+                      "variant": "grey-4",
+                      "content": "Hansard"
+                    }]
+                  }
+                }
+              }],
+              "short-url": "https://api.parliament.uk/historic-hansard/sittings/1951/mar/07",
+              "paragraph-content": "Next sitting day March 8, 1951 Previous sitting day March 6, 1951. Sitting of 7 March 1951"
+            }
+          }, {
+            "name": "card__search__search-result",
+            "data": {
+              "heading-text": "CARIBBEAN (MINISTER'S VISIT) (Hansard, 22 February 1971)",
+              "url": "https://api.parliament.uk/historic-hansard/commons/1971/feb/22/caribbean-ministers-visit",
+              "hints": [{
+                "name": "partials__hint",
+                "data": {
+                  "display": {
+                    "name": "partials__display",
+                    "data": [{
+                      "component": "theme",
+                      "variant": "grey-4",
+                      "content": "Hansard"
+                    }]
+                  }
+                }
+              }],
+              "short-url": "https://api.parliament.uk/historic-hansard/commons/1971/feb/22/...",
+              "paragraph-content": "Each country in the Community has made special arrangements for bananas because there are no banana regulations at the moment in the Community."
+            }
+          }, {
+            "name": "card__search__search-result",
+            "data": {
+              "heading-text": "Fair Trade and Development",
+              "url": "https://publications.parliament.uk/pa/cm200607/cmselect/cmintdev/356/356i.pdf",
+              "hints": [{
+                "name": "partials__hint",
+                "data": {
+                  "display": {
+                    "name": "partials__display",
+                    "data": [{
+                      "component": "theme",
+                      "variant": "grey-4",
+                      "content": "Commons publication from session: 2006-07"
+                    }]
+                  }
+                }
+              }, {
+                "name": "partials__hint",
+                "data": {
+                  "display": {
+                    "name": "partials__display",
+                    "data": [{
+                      "component": "theme",
+                      "variant": "grey-4",
+                      "content": "pdf"
+                    }]
+                  }
+                }
+              }],
+              "short-url": "https://publications.parliament.uk/pa/cm200607/cmselect/cmintdev/...",
+              "paragraph-content": "Fair Trade and Development Seventh Report of Session 2006–07 Volume I ... previous banana price wars have impacted negatively on workers’ rights, pay and"
+            }
+          }, {
+            "name": "card__search__search-result",
+            "data": {
+              "heading-text": "House of Commons Hansard Debates for 15 Feb 1994",
+              "url": "https://publications.parliament.uk/pa/cm199394/cmhansrd/1994-02-15/Writtens-4.html",
+              "hints": [{
+                "name": "partials__hint",
+                "data": {
+                  "display": {
+                    "name": "partials__display",
+                    "data": [{
+                      "component": "theme",
+                      "variant": "grey-4",
+                      "content": "Commons publication from session: 1993-94"
+                    }]
+                  }
+                }
+              }],
+              "short-url": "https://publications.parliament.uk/pa/cm199394/cmhansrd/1994-02-15/...",
+              "paragraph-content": "Funds for development of the banana industry in African, Column 685. Caribbean and Pacific countries have already been approved in the EC budget for 1994, to ..."
+            }
+          }, {
+            "name": "card__search__search-result",
+            "data": {
+              "heading-text": "SALES \u0026 EVENTS - parliament.uk",
+              "url": "https://www.parliament.uk/documents/Lords%20Banqueting/Autumn_Winter_2018_Small_Plates_and_Verrines.pdf",
+              "hints": [{
+                "name": "partials__hint",
+                "data": {
+                  "display": {
+                    "name": "partials__display",
+                    "data": [{
+                      "component": "theme",
+                      "variant": "grey-4",
+                      "content": "pdf"
+                    }]
+                  }
+                }
+              }],
+              "short-url": "https://www.parliament.uk/documents/Lords Banqueting/Autumn_Winter...",
+              "paragraph-content": "toffee and banana trifle, golden caramel and dried banana crumb Lemon meringue tart lemon curd, vanilla tart, vanilla glazed lemon curd"
+            }
+          }, {
+            "name": "card__search__search-result",
+            "data": {
+              "heading-text": "House of Commons Hansard Debates for 17 Mar 1993",
+              "url": "https://publications.parliament.uk/pa/cm199293/cmhansrd/1993-03-17/Debate-8.html",
+              "hints": [{
+                "name": "partials__hint",
+                "data": {
+                  "display": {
+                    "name": "partials__display",
+                    "data": [{
+                      "component": "theme",
+                      "variant": "grey-4",
+                      "content": "Commons publication from session: 1992-93"
+                    }]
+                  }
+                }
+              }],
+              "short-url": "https://publications.parliament.uk/pa/cm199293/cmhansrd/1993-03-17/...",
+              "paragraph-content": "Column 376 \"Demand is coming back and the affordability message is coming through. Last week was our best week for sales since 1990.\" I hope that they might also ..."
+            }
+          }]
+        }
+      }]
     }
-  ],
+  }, {
+    "name": "navigation__number__number",
+    "data": {
+      "active-tile": 5,
+      "previous-url": "/search?count=10\u0026q=banana\u0026start_index=61",
+      "next-url": "/search?count=10\u0026q=banana\u0026start_index=81",
+      "components": [{
+        "name": "navigation__number__card",
+        "data": {
+          "url": "/search?count=10\u0026q=banana\u0026start_index=31",
+          "number": 4,
+          "total-count": "of 75"
+        }
+      }, {
+        "name": "navigation__number__card",
+        "data": {
+          "url": "/search?count=10\u0026q=banana\u0026start_index=41",
+          "number": 5,
+          "total-count": "of 75"
+        }
+      }, {
+        "name": "navigation__number__card",
+        "data": {
+          "url": "/search?count=10\u0026q=banana\u0026start_index=51",
+          "number": 6,
+          "total-count": "of 75"
+        }
+      }, {
+        "name": "navigation__number__card",
+        "data": {
+          "url": "/search?count=10\u0026q=banana\u0026start_index=61",
+          "number": 7,
+          "total-count": "of 75"
+        }
+      }, {
+        "name": "navigation__number__card",
+        "data": {
+          "url": "/search?count=10\u0026q=banana\u0026start_index=71",
+          "number": 8,
+          "total-count": "of 75",
+          "active": true
+        }
+      }, {
+        "name": "navigation__number__card",
+        "data": {
+          "url": "/search?count=10\u0026q=banana\u0026start_index=81",
+          "number": 9,
+          "total-count": "of 75"
+        }
+      }, {
+        "name": "navigation__number__card",
+        "data": {
+          "url": "/search?count=10\u0026q=banana\u0026start_index=91",
+          "number": 10,
+          "total-count": "of 75"
+        }
+      }, {
+        "name": "navigation__number__card",
+        "data": {
+          "url": "/search?count=10\u0026q=banana\u0026start_index=101",
+          "number": 11,
+          "total-count": "of 75"
+        }
+      }]
+    }
+  }],
+  "footer-components": [{
+    "name": "footer",
+    "data": {
+      "uk-parliament": "shared.footer.uk-parliament",
+      "components": [{
+        "name": "list__generic",
+        "data": {
+          "type": "ul",
+          "display": {
+            "name": "partials__display",
+            "data": [{
+              "component": "list"
+            }]
+          },
+          "contents": [{
+            "content": "shared.footer.current-website"
+          }, {
+            "content": "shared.footer.cookie-policy",
+            "data": {
+              "link": "/meta/cookie-policy"
+            }
+          }, {
+            "content": "shared.footer.data-protection-privacy"
+          }]
+        }
+      }]
+    }
+  }],
   "foot": {
-    "components": [
-      {
-        "name": "foot__search-result-tracking"
-      }
-    ]
+    "components": [{
+      "name": "foot__search-result-tracking"
+    }]
   }
 }

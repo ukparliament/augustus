@@ -54,20 +54,19 @@
     <title>Considered by the Joint Committee on Statutory Instruments (JCSI) - UK Parliament</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta name="applicationinsights-request-id" content="|uBzCthjCjStexA==.">
+    <meta name="applicationinsights-request-id" content="|opV14uvZES2t4A==.">
     <link href="main.css" rel="stylesheet">
     <link href="https://static.parliament.uk/assets-public/favicon.ico" rel="shortcut icon" type="image/x-icon">
     <link href="https://beta.parliament.uk/search/opensearch" rel="search" title="UK Parliament" type="application/opensearchdescription+xml">
     <script src="appInsights.js"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-15845045-29"></script>
     <script src="googleAnalytics.js"></script>
-    <link href="https://api.parliament.uk/query/procedure_step_by_id.nt?procedure_step_id=12345678" rel="alternate" type="application/n-triples">
-    <link href="https://api.parliament.uk/query/procedure_step_by_id.ttl?procedure_step_id=12345678" rel="alternate" type="text/turtle">
-    <link href="https://api.parliament.uk/query/procedure_step_by_id.tsv?procedure_step_id=12345678" rel="alternate" type="text/tab-separated-values">
-    <link href="https://api.parliament.uk/query/procedure_step_by_id.csv?procedure_step_id=12345678" rel="alternate" type="text/csv">
-    <link href="https://api.parliament.uk/query/procedure_step_by_id.rj?procedure_step_id=12345678" rel="alternate" type="application/json+rdf">
-    <link href="https://api.parliament.uk/query/procedure_step_by_id.json?procedure_step_id=12345678" rel="alternate" type="application/json+ld">
-    <link href="https://api.parliament.uk/query/procedure_step_by_id.xml?procedure_step_id=12345678" rel="alternate" type="application/rdf+xml">
+    <link href="http://localhost:3030/api/v1/procedure_step_by_id.nt?procedure_step_id=12345678" rel="alternate" type="application/n-triples">
+    <link href="http://localhost:3030/api/v1/procedure_step_by_id.ttl?procedure_step_id=12345678" rel="alternate" type="text/turtle">
+    <link href="http://localhost:3030/api/v1/procedure_step_by_id.tsv?procedure_step_id=12345678" rel="alternate" type="text/tab-separated-values">
+    <link href="http://localhost:3030/api/v1/procedure_step_by_id.csv?procedure_step_id=12345678" rel="alternate" type="text/csv">
+    <link href="http://localhost:3030/api/v1/procedure_step_by_id.rj?procedure_step_id=12345678" rel="alternate" type="application/json+rdf">
+    <link href="http://localhost:3030/api/v1/procedure_step_by_id.json?procedure_step_id=12345678" rel="alternate" type="application/json+ld">
+    <link href="http://localhost:3030/api/v1/procedure_step_by_id.xml?procedure_step_id=12345678" rel="alternate" type="application/rdf+xml">
     <meta content="Considered by the Joint Committee on Statutory Instruments (JCSI) - UK Parliament" property="og:title">
     <meta content="website" property="og:type">
     <meta content="https://localhost/procedure-steps/12345678" property="og:url">
@@ -149,7 +148,15 @@
         </div>
         <section>
             <div class="container">
-                <p><a href='/procedure-steps/12345678/work-packages'>Work packages</a></p>
+                <ol class="list--block ">
+                    <li>
+                        <div class="card">
+                            <div class="card__details">
+                                <h2><a href='/procedure-steps/12345678/work-packages'>Procedural activity</a></h2>
+                            </div>
+                        </div>
+                    </li>
+                </ol>
             </div>
         </section>
     </main>
