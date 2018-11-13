@@ -162,9 +162,9 @@
               "content": "proposed-negative-statutory-instruments.show.preceding-title"
             },
             "description": [{
-              "content": "\u003ca href=\"/statutory-instruments/C1234567\"\u003eStatutory Instrument 1\u003c/a\u003e"
+              "content": "\u003ca href=\"/statutory-instruments/1234567\"\u003eStatutory Instrument 1\u003c/a\u003e"
             }, {
-              "content": "\u003ca href=\"/statutory-instruments/D1234567\"\u003eStatutory Instrument 2\u003c/a\u003e"
+              "content": "\u003ca href=\"/statutory-instruments/1234567\"\u003eStatutory Instrument 2\u003c/a\u003e"
             }]
           }, {
             "term": {
