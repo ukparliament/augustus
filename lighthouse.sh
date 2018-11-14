@@ -17,44 +17,7 @@ html_start="<html><head><title>Lighthouse tests</title><link rel='stylesheet' hr
 html_content=""
 html_end="</ul></body></html>"
 
-# Array of all paths to audit
-paths=(
-  "/"
-  "/search"
-  "/search?q=banana"
-  "/search?count=10&q=banana&start_index=11"
-  "/search/zero_results"
-  "/statutory-instruments"
-  "/statutory-instruments/12345678"
-  "/proposed-negative-statutory-instruments"
-  "/proposed-negative-statutory-instruments/12345678"
-  "/groups"
-  "/groups/12345678"
-  "/groups/12345678/made-available/availability-types/layings"
-)
-
-names=(
-  "Homepage"
-  "Search: landing"
-  "Search: results"
-  "Search: results (nth page)"
-  "Search: zero results"
-  "Statutory instruments: index page"
-  "Statutory instruments: show page"
-  "Proposed Negative Statutory Instruments: index page"
-  "Proposed Negative Statutory Instruments: show page"
-  "Groups: index page"
-  "Groups: show page page"
-  "Group Layings: index page"
-)
-
 echo "Running Lighthouse tests:"
-
-# Check that we have the same number of names and paths
-if [[ ${#paths[@]} != ${#names[@]} ]];then
-  echo "ERROR: Please ensure there is a 'name' for each 'path' provided."
-  exit 1
-fi
 
 # Echo out pass rates for clarity
 echo "========================"
@@ -74,15 +37,19 @@ mkdir -p $artifacts_directory/$tmp_directory
 # Run multiple Lighthouse audit and threshold for the CI to pass
 lighthouse_exit_status=0
 lighthouse_test_number=0
-for path in ${paths[@]}; do
-  echo
-  echo "Testing: $application_host$path"
-  ($lighthouse_ci $application_host$path --accessibility=$accessibility_pass_rate --best-practice=$best_practice_pass_rate --performance=$performance_pass_rate --pwa=$pwa_pass_rate  --seo=$seo_pass_rate --report=$artifacts_directory/$tmp_directory)
+
+for filePath in $(find ./data -name '*.json'); do
+  filePathString=$(find $filePath | sed 's/^.\/data//' | sed 's/\/index.json$//' | sed 's/.json$//')
+  filePathName=$(find $filePath | sed 's/^.\/data//' | sed 's/.json$//')
+  fileTitle=$(cut -d'"' -f4 <<< $(cat $filePath | grep -m 1 "\"title\""))
+
+  echo "Testing: $application_host$filePathString"
+  ($lighthouse_ci $application_host$filePathString --accessibility=$accessibility_pass_rate --best-practice=$best_practice_pass_rate --performance=$performance_pass_rate --pwa=$pwa_pass_rate  --seo=$seo_pass_rate --report=$artifacts_directory/$tmp_directory)
   lighthouse_test_status=$?
 
   echo "Exited with: $lighthouse_test_status"
 
-  html_content+="<li><a href='$lighthouse_test_number/report.html'>${names[$lighthouse_test_number]}</a>"
+  html_content+="<li><a href='$lighthouse_test_number/report.html'>${filePathName}</a>"
 
   if [[ $lighthouse_test_status != 0 ]];then
     lighthouse_exit_status=$lighthouse_test_status
