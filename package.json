@@ -1,6 +1,6 @@
 {
   "name": "augustus",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "A proposed front-end prototype for beta.parliament.uk",
   "main": "app.js",
   "scripts": {
@@ -45,7 +45,7 @@
     "foreman": "^3.0.1",
     "i18next": "^11.10.2",
     "morgan": "^1.9.0",
-    "pugin-components": "^0.8.4",
+    "pugin-components": "^0.8.7",
     "shunter": "^4.12.0",
     "winston": "~2.3.0"
   }

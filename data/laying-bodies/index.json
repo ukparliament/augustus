@@ -204,9 +204,8 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "Cabinet Office",
-                        "size": 2,
-                        "link": "/groups/7gnSwbLO"
+                        "content": "<a href='/groups/7gnSwbLO'>Cabinet Office</a>",
+                        "size": 2
                       }
                     }
                   }
@@ -217,9 +216,8 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "Department for Business, Energy and Industrial Strategy",
-                        "size": 2,
-                        "link": "/groups/yiuTaSI4"
+                        "content": "<a href='/groups/yiuTaSI4'>Department for Business, Energy and Industrial Strategy</a>",
+                        "size": 2
                       }
                     }
                   }
@@ -230,9 +228,8 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "Department for Digital, Culture, Media and Sport",
-                        "size": 2,
-                        "link": "/groups/ZU3IXBtP"
+                        "content": "<a href='/groups/ZU3IXBtP'>Department for Digital, Culture, Media and Sport</a>",
+                        "size": 2
                       }
                     }
                   }
@@ -243,9 +240,8 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "Department for Education",
-                        "size": 2,
-                        "link": "/groups/7dSvuueH"
+                        "content": "<a href='/groups/7dSvuueH'>Department for Education</a>",
+                        "size": 2
                       }
                     }
                   }
@@ -256,9 +252,8 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "Department for Environment, Food and Rural Affairs",
-                        "size": 2,
-                        "link": "/groups/5LQ5Ar74"
+                        "content": "<a href='/groups/5LQ5Ar74'>Department for Environment, Food and Rural Affairs</a>",
+                        "size": 2
                       }
                     }
                   }
@@ -269,9 +264,8 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "Department for Exiting the European Union ",
-                        "size": 2,
-                        "link": "/groups/KSMOf7aM"
+                        "content": "<a href='/groups/KSMOf7aM'>Department for Exiting the European Union</a>",
+                        "size": 2
                       }
                     }
                   }
@@ -282,9 +276,8 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "Department for International Development",
-                        "size": 2,
-                        "link": "/groups/g8hByIik"
+                        "content": "<a href='/groups/g8hByIik'>Department for International Development</a>",
+                        "size": 2
                       }
                     }
                   }
@@ -295,9 +288,8 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "Department for International Trade",
-                        "size": 2,
-                        "link": "/groups/ni8aOEk3"
+                        "content": "<a href='/groups/ni8aOEk3'>Department for International Trade</a>",
+                        "size": 2
                       }
                     }
                   }
@@ -308,9 +300,8 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "Department for Transport",
-                        "size": 2,
-                        "link": "/groups/XouN12Ow"
+                        "content": "<a href='/groups/XouN12Ow'>Department for Transport</a>",
+                        "size": 2
                       }
                     }
                   }
@@ -321,9 +312,8 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "Department for Work and Pensions",
-                        "size": 2,
-                        "link": "/groups/XbTBTDMo"
+                        "content": "<a href='/groups/XbTBTDMo'>Department for Work and Pensions</a>",
+                        "size": 2
                       }
                     }
                   }
@@ -334,9 +324,8 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "Department of Health and Social Care",
-                        "size": 2,
-                        "link": "/groups/fpWTqVKh"
+                        "content": "<a href='/groups/fpWTqVKh'>Department of Health and Social Care</a>",
+                        "size": 2
                       }
                     }
                   }
@@ -347,9 +336,8 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "Foreign and Commonwealth Office",
-                        "size": 2,
-                        "link": "/groups/UIV7W27r"
+                        "content": "<a href='/groups/UIV7W27r'>Foreign and Commonwealth Office</a>",
+                        "size": 2
                       }
                     }
                   }
@@ -360,9 +348,8 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "HM Revenue and Customs",
-                        "size": 2,
-                        "link": "/groups/79sn5e3n"
+                        "content": "<a href='/groups/79sn5e3n'>HM Revenue and Customs</a>",
+                        "size": 2
                       }
                     }
                   }
@@ -373,9 +360,8 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "HM Treasury",
-                        "size": 2,
-                        "link": "/groups/HYfypSOE"
+                        "content": "<a href='/groups/HYfypSOE'>HM Treasury</a>",
+                        "size": 2
                       }
                     }
                   }
@@ -386,9 +372,8 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "Home Office",
-                        "size": 2,
-                        "link": "/groups/NDZSYjeE"
+                        "content": "<a href='/groups/NDZSYjeE'>Home Office</a>",
+                        "size": 2
                       }
                     }
                   }
@@ -399,9 +384,8 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "Local Government Boundary Commission for England",
-                        "size": 2,
-                        "link": "/groups/eup4DwE5"
+                        "content": "<a href='/groups/eup4DwE5'>Local Government Boundary Commission for England</a>",
+                        "size": 2
                       }
                     }
                   }
@@ -412,9 +396,8 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "Ministry of Defence",
-                        "size": 2,
-                        "link": "/groups/DkHdH4kZ"
+                        "content": "<a href='/groups/DkHdH4kZ'>Ministry of Defence</a>",
+                        "size": 2
                       }
                     }
                   }
@@ -425,9 +408,8 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "Ministry of Housing, Communities and Local Government",
-                        "size": 2,
-                        "link": "/groups/fKqMNz79"
+                        "content": "<a href='/groups/fKqMNz79'>Ministry of Housing, Communities and Local Government</a>",
+                        "size": 2
                       }
                     }
                   }
@@ -438,9 +420,8 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "Ministry of Justice",
-                        "size": 2,
-                        "link": "/groups/BRTNQywN"
+                        "content": "<a href='/groups/BRTNQywN'>Ministry of Justice</a>",
+                        "size": 2
                       }
                     }
                   }
@@ -451,9 +432,8 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "Privy Council Office",
-                        "size": 2,
-                        "link": "/groups/JVJB3tuB"
+                        "content": "<a href='/groups/JVJB3tuB'>Privy Council Office</a>",
+                        "size": 2
                       }
                     }
                   }
@@ -464,9 +444,8 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "Scotland Office",
-                        "size": 2,
-                        "link": "/groups/nFL8Pq3e"
+                        "content": "<a href='/groups/nFL8Pq3e'>Scotland Office</a>",
+                        "size": 2
                       }
                     }
                   }
@@ -477,9 +456,8 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "Wales Office",
-                        "size": 2,
-                        "link": "/groups/kv2Qqfn9"
+                        "content": "<a href='/groups/kv2Qqfn9'>Wales Office</a>",
+                        "size": 2
                       }
                     }
                   }
@@ -497,6 +475,13 @@
       "data": {
         "uk-parliament": "shared.footer.uk-parliament",
         "components": [
+          {
+            "name": "heading",
+            "data": {
+              "size": 2,
+              "content": "UK Parliament"
+            }
+          },
           {
             "name": "list__generic",
             "data": {

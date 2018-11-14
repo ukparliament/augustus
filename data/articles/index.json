@@ -3,17 +3,38 @@
     "template": "layout"
   },
   "meta": {
-    "title": "Procedural activity by paper type - UK Parliament",
-    "request-id": "|HCo2kIxAA5cpAw==.",
+    "title": "articles.index.title",
+    "request-id": "|w/wi9pJ/ZnU+AA==.",
+    "data-alternates": [{
+      "type": "application/n-triples",
+      "href": "http://localhost:3030/api/v1/statutory_instrument_index.nt"
+    }, {
+      "type": "text/turtle",
+      "href": "http://localhost:3030/api/v1/statutory_instrument_index.ttl"
+    }, {
+      "type": "text/tab-separated-values",
+      "href": "http://localhost:3030/api/v1/statutory_instrument_index.tsv"
+    }, {
+      "type": "text/csv",
+      "href": "http://localhost:3030/api/v1/statutory_instrument_index.csv"
+    }, {
+      "type": "application/json+rdf",
+      "href": "http://localhost:3030/api/v1/statutory_instrument_index.rj"
+    }, {
+      "type": "application/json+ld",
+      "href": "http://localhost:3030/api/v1/statutory_instrument_index.json"
+    }, {
+      "type": "application/rdf+xml",
+      "href": "http://localhost:3030/api/v1/statutory_instrument_index.xml"
+    }],
     "open-graph": {
-      "title": "Procedural activity by paper type - UK Parliament",
-      "original-url": "https://localhost/work-packages/paper-types",
+      "title": "statutory-instruments.index.title",
+      "original-url": "http://localhost:5401/statutory-instruments",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",
       "image-height": "630",
       "twitter-card": "summary_large_image"
-    },
-    "opensearch-description-url": "https://localhost/search/opensearch"
+    }
   },
   "header-components": [{
     "name": "link",
@@ -90,17 +111,6 @@
             "data": "shared.header.label"
           }]
         }
-      }, {
-        "name": "form__search",
-        "data": {
-          "global": true,
-          "label": "search.label",
-          "components": [{
-            "name": "icon__search",
-            "data": "search.search-icon"
-          }],
-          "search-action": "/search"
-        }
       }]
     }
   }],
@@ -111,48 +121,8 @@
         "name": "heading1",
         "data": {
           "heading": {
-            "content": "Procedural activity by paper type"
+            "content": "Articles heading"
           }
-        }
-      }]
-    }
-  }, {
-    "name": "section__section",
-    "data": {
-      "components": [{
-        "name": "list__generic",
-        "data": {
-          "type": "ol",
-          "display": {
-            "name": "partials__display",
-            "data": [{
-              "component": "list",
-              "variant": "block"
-            }]
-          },
-          "components": [{
-            "name": "card__generic",
-            "data": {
-              "heading": {
-                "name": "heading",
-                "data": {
-                  "content": "\u003ca href=\"/work-packages/paper-types/proposed-negative-statutory-instruments\"\u003eProposed negative statutory instruments\u003c/a\u003e",
-                  "size": 2
-                }
-              }
-            }
-          }, {
-            "name": "card__generic",
-            "data": {
-              "heading": {
-                "name": "heading",
-                "data": {
-                  "content": "\u003ca href=\"/work-packages/paper-types/statutory-instruments\"\u003eStatutory instruments\u003c/a\u003e",
-                  "size": 2
-                }
-              }
-            }
-          }]
         }
       }]
     }
