@@ -28,7 +28,7 @@
     "eslint": "^5.9.0",
     "js-beautify": "^1.8.8",
     "jsdoc": "^3.5.5",
-    "lighthouse-ci": "^1.2.1",
+    "lighthouse-ci": "^1.2.4",
     "mkdirp": "^0.5.1",
     "mocha": "^5.2.0",
     "mock-require": "^3.0.2",

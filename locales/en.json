@@ -22,8 +22,8 @@
 			"page": "Page "
     },
     "time-html": "<time datetime='{{-datetime-value}}'>{{-date}}</time>",
-    "time-html-to": "<time datetime='{{-datetime-format}}'>{{-date-default}}</time> to <time datetime='{{-datetime-format-second}}'>{{-date-default-second}}</time>",
-    "time-html-to-present": "<time datetime='{{-datetime-format}}'>{{-date-default}}</time> to present"
+    "time-html-to": "<time datetime='{{-datetime-value}}'>{{-date}}</time> to <time datetime='{{-datetime-value-second}}'>{{-date-second}}</time>",
+    "time-html-to-present": "<time datetime='{{-datetime-value}}'>{{-date}}</time> to present"
 	},
 	"home": {
     "title": "beta.parliament.uk",
