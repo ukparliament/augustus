@@ -142,5 +142,10 @@
 		"show": {
 			"title": "Article show title - UK Parliament"
 		}
+  },
+  "houses": {
+    "subsidiary-resources": {
+      "laid-papers": "<a href= '{{-link}}'>Laid papers</a>"
+    }
   }
 }
