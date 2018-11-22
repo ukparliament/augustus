@@ -42,6 +42,12 @@ function generateProxyTargets (thorneyHost, legacyHost) {
       port: thorneyPort
     },
 
+    // Match requests to /statutory-instruments
+    '/^\\/statutory-instruments/': {
+      host: thorneyHost,
+      port: thorneyPort
+    },
+
     // Match requests to /search
     '/^\\/search/': {
       host: thorneyHost,
