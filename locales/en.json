@@ -90,7 +90,7 @@
       "title": "Statutory instruments"
     },
     "show": {
-      "subheading": "<a href='/statutory-instruments'>Statutory Instruments</a>",
+      "subheading": "<a href='{{-link}}'>Statutory Instruments</a>",
       "coming-into-force-date": "Coming into force date",
       "coming-into-force-note": "Coming into force note",
       "made-date": "Made date",
@@ -104,7 +104,7 @@
       "title": "Proposed negative statutory instruments"
     },
     "show": {
-      "subheading": "<a href='/proposed-negative-statutory-instruments'>Proposed Negative Statutory Instruments</a>",
+      "subheading": "<a href='{{-link}}'>Proposed Negative Statutory Instruments</a>",
       "preceding-title": "Followed by"
     }
   },

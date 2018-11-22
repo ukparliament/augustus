@@ -133,7 +133,10 @@
         "name": "heading1",
         "data": {
           "subheading": {
-            "content": "proposed-negative-statutory-instruments.show.subheading"
+            "content": "proposed-negative-statutory-instruments.show.subheading",
+            "data": {
+              "link":"/proposed-negative-statutory-instruments"
+            }
           },
           "heading": {
             "content": "Airports (Groundhandling) (Amendment) (EU Exit) Regulations 2018"
