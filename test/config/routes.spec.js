@@ -68,6 +68,10 @@ describe('routes', () => {
         host: 'thorney.web1devci.org',
         port: 3000
       },
+      '/^\\/committee-prototype/': {
+        host: 'thorney.web1devci.org',
+        port: 3000
+      },
       '/^\\/groups/': {
         host: 'thorney.web1devci.org',
         port: 3000
@@ -119,6 +123,10 @@ describe('routes', () => {
     },
     'augustus.pdswebops.org': {
       '/^\\/?(\\?json=true)?$/': {
+        host: 'thorney.pdswebops.org',
+        port: 3000
+      },
+      '/^\\/committee-prototype/': {
         host: 'thorney.pdswebops.org',
         port: 3000
       },

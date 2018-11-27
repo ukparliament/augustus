@@ -17,13 +17,13 @@ module.exports = {
       port: 5401
     }
   },
-  'beta.parliament.uk':     generateProxyTargets('thorney.web1live.org', 'varnish.web1live.org'),
-  'devci.parliament.uk':    generateProxyTargets('thorney.web1devci.org', 'varnish.web1devci.org'),
-  'augustus.pdswebops.org': generateProxyTargets('thorney.pdswebops.org', 'varnish.pdswebops.org')
+  'beta.parliament.uk':     generateProxyTargets('thorney.web1live.org', 'varnish.web1live.org', false),
+  'devci.parliament.uk':    generateProxyTargets('thorney.web1devci.org', 'varnish.web1devci.org', true),
+  'augustus.pdswebops.org': generateProxyTargets('thorney.pdswebops.org', 'varnish.pdswebops.org', true)
 };
 
-function generateProxyTargets (thorneyHost, legacyHost) {
-  return {
+function generateProxyTargets (thorneyHost, legacyHost, includePrototypes) {
+  let routes = {
     // Match requests to / for the home page and allow an optional json=true parameter
     '/^\\/?(\\?json=true)?$/': {
       host: thorneyHost,
@@ -102,4 +102,13 @@ function generateProxyTargets (thorneyHost, legacyHost) {
       port: legacyPort
     }
   };
+
+  if(includePrototypes) {
+    routes['/^\\/committee-prototype/'] = {
+      host: thorneyHost,
+      port: thorneyPort
+    };
+  }
+
+  return routes;
 }
