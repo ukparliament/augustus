@@ -1,4 +1,4 @@
-const testHelper = require('../../../helpers/test-helper');
+const testHelper = require(process.cwd() + '/test/helpers/test-helper');
 
 describe('Search result specific appInsights script dust component', function() {
   testHelper.setupBefore()

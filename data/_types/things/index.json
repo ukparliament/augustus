@@ -3,10 +3,10 @@
     "template": "layout"
   },
   "meta": {
-    "title": "App root - UK Parliament",
+    "title": "Things - Types - UK Parliament",
     "request-id": "|Pk5Jq3rkRal4MA==.",
     "open-graph": {
-      "title": "Homepage - UK Parliament",
+      "title": "Things - Types - UK Parliament",
       "original-url": "https://localhost/",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",
@@ -71,17 +71,9 @@
             "name": "heading1",
             "data": {
               "heading": {
-                "content": "Augustus"
+                "content": "Things"
               }
             }
-          },
-          {
-            "name": "paragraph",
-            "data": [
-              {
-                "content": "This is a Shunter based application to showcase prototypes, types and website pages."
-              }
-            ]
           }
         ]
       }
@@ -104,58 +96,25 @@
         },
         "components": [
           {
-            "name": "list__generic",
+            "name": "status__highlight",
             "data": {
-              "type": "ol",
               "display": {
                 "name": "partials__display",
                 "data": [
                   {
-                    "component": "list",
-                    "variant": "block"
-                  },
-                  {
-                    "component": "list",
-                    "variant": "3"
+                    "component": "status",
+                    "variant": "highlight"
                   }
                 ]
               },
               "components": [
                 {
-                  "name": "card__generic",
-                  "data": {
-                    "heading": {
-                      "name": "heading",
-                      "data": {
-                        "content": "<a href=\"/_prototypes\">Prototypes</a>",
-                        "size": 2
-                      }
+                  "name": "paragraph",
+                  "data": [
+                    {
+                      "content": "There are currently no views."
                     }
-                  }
-                },
-                {
-                  "name": "card__generic",
-                  "data": {
-                    "heading": {
-                      "name": "heading",
-                      "data": {
-                        "content": "<a href=\"_types\">Types</a>",
-                        "size": 2
-                      }
-                    }
-                  }
-                },
-                {
-                  "name": "card__generic",
-                  "data": {
-                    "heading": {
-                      "name": "heading",
-                      "data": {
-                        "content": "<a href=\"/_website\">Website</a>",
-                        "size": 2
-                      }
-                    }
-                  }
+                  ]
                 }
               ]
             }
