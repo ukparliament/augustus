@@ -147,5 +147,12 @@
     "subsidiary-resources": {
       "laid-papers": "<a href= '{{-link}}'>Laid papers</a>"
     }
+  },
+  "procedures": {
+    "procedures": "<a href= '{{-link}}'>Procedures</a>",
+    "subsidiary-resources": {
+      "work-packages": "<a href= '{{-link}}'>Procedural activity</a>"
+    },
+    "about": "Find out more about the <a href='https://www.parliament.uk/about/how/laws/secondary-legislation/'>{{-procedure}} procedure</a>."
   }
 }
