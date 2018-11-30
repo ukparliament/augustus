@@ -3,10 +3,10 @@
     "template": "layout"
   },
   "meta": {
-    "title": "App root - UK Parliament",
+    "title": "Types - UK Parliament",
     "request-id": "|Pk5Jq3rkRal4MA==.",
     "open-graph": {
-      "title": "Homepage - UK Parliament",
+      "title": "Types - UK Parliament",
       "original-url": "https://localhost/",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",
@@ -71,17 +71,9 @@
             "name": "heading1",
             "data": {
               "heading": {
-                "content": "Augustus"
+                "content": "Types"
               }
             }
-          },
-          {
-            "name": "paragraph",
-            "data": [
-              {
-                "content": "This is a Shunter based application to showcase prototypes, types and website pages."
-              }
-            ]
           }
         ]
       }
@@ -127,7 +119,7 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "<a href=\"/_prototypes\">Prototypes</a>",
+                        "content": "<a href=\"/_types/lists\">Lists</a>",
                         "size": 2
                       }
                     }
@@ -139,7 +131,7 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "<a href=\"_types\">Types</a>",
+                        "content": "<a href=\"/_types/things\">Things</a>",
                         "size": 2
                       }
                     }
@@ -151,7 +143,7 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "<a href=\"/_website\">Website</a>",
+                        "content": "<a href=\"/_types/utilities\">Utilities</a>",
                         "size": 2
                       }
                     }

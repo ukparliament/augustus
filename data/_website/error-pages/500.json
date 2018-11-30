@@ -1,0 +1,8 @@
+{
+  "layout": {
+    "template": "layout-error-500"
+  },
+  "meta": {
+    "title": "Error 500 - UK Parliament"
+  }
+}

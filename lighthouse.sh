@@ -13,9 +13,9 @@ application_host=http://localhost:5400
 artifacts_directory=artifacts
 tmp_directory=tmp
 
-html_start="<html><head><title>Lighthouse tests</title><link rel='stylesheet' href='https://static.parliament.uk/pugin/stylesheets/main.css'/></head><body><h1>Lighthouse tests <small>Build: ${TRAVIS_BUILD_NUMBER:-non-ci}</small></h1><ul>"
+html_start="<html><head><title>Lighthouse tests</title><link rel='stylesheet' href='https://static.parliament.uk/pugin/stylesheets/main.css'/></head><body><main><section><div class='container'><h1>Lighthouse tests <small>Build: ${TRAVIS_BUILD_NUMBER:-non-ci}</small></h1><ol>"
 html_content=""
-html_end="</ul></body></html>"
+html_end="</ol></div></section></main></body></html>"
 
 echo "Running Lighthouse tests:"
 
@@ -49,7 +49,7 @@ for filePath in $(find ./data -name '*.json'); do
 
   echo "Exited with: $lighthouse_test_status"
 
-  html_content+="<li><a href='$lighthouse_test_number/report.html'>${filePathName}</a>"
+  html_content+="<li><a href='$lighthouse_test_number/report.html'>${fileTitle}</a>"
 
   if [[ $lighthouse_test_status != 0 ]];then
     lighthouse_exit_status=$lighthouse_test_status
