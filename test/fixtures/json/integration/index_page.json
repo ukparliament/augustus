@@ -10,15 +10,14 @@
       "name": "link",
       "data": {
         "link": "#content",
-        "display":
-          {
-            "name": "partials__display",
-            "data": [
-              {
-                "component": "skip-to-content"
-              }
-            ]
-          },
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "skip-to-content"
+            }
+          ]
+        },
         "selector": "skiplink",
         "content": "shared.header.skip-to-content"
       }
@@ -202,16 +201,18 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                          "content": ["home.mps-and-lords.mps.heading"],
-                          "size": 3,
-                          "link": "/mps"
+                        "content": [
+                          "home.mps-and-lords.mps.heading"
+                        ],
+                        "size": 3,
+                        "link": "/mps"
                       }
                     },
                     "paragraph": {
                       "name": "paragraph",
                       "data": [
                         {
-                          "content":"home.mps-and-lords.mps.find"
+                          "content": "home.mps-and-lords.mps.find"
                         }
                       ]
                     }
@@ -223,16 +224,18 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                          "content": ["home.mps-and-lords.lords.heading"],
-                          "size": 3,
-                          "link": "/houses/WkUWUBMx/members/current/a-z/a"
+                        "content": [
+                          "home.mps-and-lords.lords.heading"
+                        ],
+                        "size": 3,
+                        "link": "/houses/WkUWUBMx/members/current/a-z/a"
                       }
                     },
                     "paragraph": {
                       "name": "paragraph",
                       "data": [
                         {
-                          "content":"home.mps-and-lords.lords.find"
+                          "content": "home.mps-and-lords.lords.find"
                         }
                       ]
                     }
@@ -244,16 +247,18 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                          "content": ["home.mps-and-lords.constituencies.heading"],
-                          "size": 3,
-                          "link": "/find-your-constituency"
+                        "content": [
+                          "home.mps-and-lords.constituencies.heading"
+                        ],
+                        "size": 3,
+                        "link": "/find-your-constituency"
                       }
                     },
                     "paragraph": {
                       "name": "paragraph",
                       "data": [
                         {
-                          "content":"home.mps-and-lords.constituencies.find"
+                          "content": "home.mps-and-lords.constituencies.find"
                         }
                       ]
                     }
@@ -265,16 +270,18 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                          "content": ["home.mps-and-lords.parties-and-groups.heading"],
-                          "size": 3,
-                          "link": "/houses/1AFu55Hs/parties/current"
+                        "content": [
+                          "home.mps-and-lords.parties-and-groups.heading"
+                        ],
+                        "size": 3,
+                        "link": "/houses/1AFu55Hs/parties/current"
                       }
                     },
                     "paragraph": {
                       "name": "paragraph",
                       "data": [
                         {
-                          "content":"home.mps-and-lords.parties-and-groups.find"
+                          "content": "home.mps-and-lords.parties-and-groups.find"
                         }
                       ]
                     }
@@ -316,16 +323,18 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                          "content": ["home.parliament-activity.statutory-instruments.heading"],
-                          "size": 3,
-                          "link": "/statutory-instruments"
+                        "content": [
+                          "home.parliament-activity.statutory-instruments.heading"
+                        ],
+                        "size": 3,
+                        "link": "/statutory-instruments"
                       }
                     },
                     "paragraph": {
                       "name": "paragraph",
                       "data": [
                         {
-                          "content":"home.parliament-activity.statutory-instruments.find"
+                          "content": "home.parliament-activity.statutory-instruments.find"
                         }
                       ]
                     }
@@ -367,16 +376,18 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                          "content": ["home.guides.guide-to-procedure.heading"],
-                          "size": 3,
-                          "link": "/collections/6i8XQAfD"
+                        "content": [
+                          "home.guides.guide-to-procedure.heading"
+                        ],
+                        "size": 3,
+                        "link": "/collections/6i8XQAfD"
                       }
                     },
                     "paragraph": {
                       "name": "paragraph",
                       "data": [
                         {
-                          "content":"home.guides.guide-to-procedure.find"
+                          "content": "home.guides.guide-to-procedure.find"
                         }
                       ]
                     }
