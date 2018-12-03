@@ -1,36 +1,36 @@
 {
-	"shared": {
-		"meta": {
-			"title": "UK Parliament"
-		},
+  "shared": {
+    "meta": {
+      "title": "UK Parliament"
+    },
     "no-results": "There are no results",
-		"header": {
-			"skip-to-content": "Skip to main content",
-			"cookie-banner-text": "Parliament.uk uses cookies to make the site simpler. <a href='{{-link}}'>Find out more about cookies</a>",
-			"beta-status": "These pages are being tested. <a href='http://www.smartsurvey.co.uk/s/ukparliament-beta-website-feedback/'>Give feedback</a> to help improve them. Go to <a href='http://www.parliament.uk'>current website</a>",
-			"label": "UK Parliament"
-		},
-		"footer": {
-			"uk-parliament": "UK Parliament",
-			"current-website": "<a href='http://www.parliament.uk'>Current Parliament.uk website</a>",
-			"cookie-policy": "<a href='{{-link}}'>Cookie Policy</a>",
-			"data-protection-privacy": "<a href='https://www.parliament.uk/site-information/data-protection/data-protection-and-privacy-policy/'>Data protection and privacy policy</a>"
-		},
-		"number-navigation": {
-			"previous": "Previous",
-			"next": "Next",
-			"page": "Page "
+    "header": {
+      "skip-to-content": "Skip to main content",
+      "cookie-banner-text": "Parliament.uk uses cookies to make the site simpler. <a href='{{-link}}'>Find out more about cookies</a>",
+      "beta-status": "These pages are being tested. <a href='http://www.smartsurvey.co.uk/s/ukparliament-beta-website-feedback/'>Give feedback</a> to help improve them. Go to <a href='http://www.parliament.uk'>current website</a>",
+      "label": "UK Parliament"
+    },
+    "footer": {
+      "uk-parliament": "UK Parliament",
+      "current-website": "<a href='http://www.parliament.uk'>Current Parliament.uk website</a>",
+      "cookie-policy": "<a href='{{-link}}'>Cookie Policy</a>",
+      "data-protection-privacy": "<a href='https://www.parliament.uk/site-information/data-protection/data-protection-and-privacy-policy/'>Data protection and privacy policy</a>"
+    },
+    "number-navigation": {
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page "
     },
     "time-html": "<time datetime='{{-datetime-value}}'>{{-date}}</time>",
     "time-html-to": "<time datetime='{{-datetime-value}}'>{{-date}}</time> to <time datetime='{{-datetime-value-second}}'>{{-date-second}}</time>",
     "time-html-to-present": "<time datetime='{{-datetime-value}}'>{{-date}}</time> to present"
-	},
-	"home": {
+  },
+  "home": {
     "title": "beta.parliament.uk",
     "hero": {
       "heading": "UK Parliament beta website",
       "building-new-website": "We're building a new website for Parliament. Pages with a beta label are being tested and improved. They may not work for everyone.",
-		  "follow-beta-progress": "Follow <a href='https://pds.blog.parliament.uk/category/parliament-uk/'>beta progress on our blog</a>."
+      "follow-beta-progress": "Follow <a href='https://pds.blog.parliament.uk/category/parliament-uk/'>beta progress on our blog</a>."
     },
     "mps-and-lords": {
       "heading": "MPs and Lords",
@@ -65,7 +65,7 @@
         "find": "Guidance on House of Commons procedure for MPs and their staff."
       }
     }
-	},
+  },
   "laid-thing": {
     "laid-date": "Laying date",
     "procedural-activity": "Procedural activity",
@@ -109,7 +109,7 @@
     }
   },
   "groups": {
-		"groups": "<a href= '{{-link}}'>Groups</a>",
+    "groups": "<a href= '{{-link}}'>Groups</a>",
     "index": {
       "title": "Current and former groups"
     },
@@ -122,10 +122,10 @@
       "date": "Laid Date: {{-date}}",
       "type": "Type: {{-type}}"
     },
-		"subsidiary-resources": {
-			"layings": "<a href= '{{-link}}'>Laid papers</a>",
-			"layings-title": "Laid papers"
-		}
+    "subsidiary-resources": {
+      "layings": "<a href= '{{-link}}'>Laid papers</a>",
+      "layings-title": "Laid papers"
+    }
   },
   "procedure-steps": {
     "procedure-step": "<a href= '{{-link}}'>Procedure step</a>",
@@ -136,12 +136,12 @@
     "houses": "Houses"
   },
   "articles": {
-		"index": {
-			"title": "Article index title - UK Parliament"
-		},
-		"show": {
-			"title": "Article show title - UK Parliament"
-		}
+    "index": {
+      "title": "Article index title - UK Parliament"
+    },
+    "show": {
+      "title": "Article show title - UK Parliament"
+    }
   },
   "houses": {
     "subsidiary-resources": {
