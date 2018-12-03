@@ -173,10 +173,7 @@
             "name": "heading1",
             "data": {
               "subheading": {
-                "content": "statutory-instruments.show.subheading",
-                "data": {
-                  "link": "/statutory-instruments"
-                }
+                "content": "<a href=\"/_website/statutory-instruments\">Statutory Instruments</a>"
               },
               "heading": {
                 "content": "Civil Enforcement of Traffic Contraventions (Consequential Amendments) (England) Regulations 2018"

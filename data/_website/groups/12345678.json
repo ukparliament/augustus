@@ -173,10 +173,7 @@
             "name": "heading1",
             "data": {
               "subheading": {
-                "content": "groups.subheading",
-                "data": {
-                  "link": "/groups"
-                }
+                "content": "<a href=\"/_website/groups\">Groups</a>"
               },
               "heading": {
                 "content": "Department for Education"
@@ -210,10 +207,7 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "groups.subsidiary-resources.laid-papers",
-                        "data": {
-                          "link": "/groups/12345678/made-available/availability-types/laid-papers"
-                        },
+                        "content": "<a href= \"/_website/groups/12345678/made-available/availability-types/layings\">Laid papers</a>",
                         "size": 2
                       }
                     }

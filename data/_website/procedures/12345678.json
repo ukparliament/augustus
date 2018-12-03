@@ -173,10 +173,7 @@
             "name": "heading1",
             "data": {
               "subheading": {
-                "content": "procedures.subheading",
-                "data": {
-                  "link": "/procedures"
-                }
+                "content": "<a href=\"/_website/procedures\">Procedures</a>"
               },
               "heading": {
                 "content": "Draft affirmative"
@@ -221,10 +218,7 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "procedures.subsidiary-resources.work-packages",
-                        "data": {
-                          "link": "/procedures/H5YJQsK2/work-packages"
-                        },
+                        "content": "<a href= '/_website/procedures/H5YJQsK2/work-packages'>Procedural activity</a>",
                         "size": 2
                       }
                     }

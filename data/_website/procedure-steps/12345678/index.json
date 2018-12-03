@@ -173,10 +173,7 @@
             "name": "heading1",
             "data": {
               "subheading": {
-                "content": "procedure-steps.subheading",
-                "data": {
-                  "link": "/procedure-steps"
-                }
+                "content": "<a href=\"/_website/procedure-steps\">Procedure step</a>"
               },
               "heading": {
                 "content": "Considered by the Joint Committee on Statutory Instruments (JCSI)"
@@ -228,10 +225,7 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "procedure-steps.subsidiary-resources.work-packages",
-                        "data": {
-                          "link": "/procedure-steps/12345678/work-packages"
-                        },
+                        "content": "<a href= '/_website/procedure-steps/12345678/work-packages'>Procedural activity</a>",
                         "size": 2
                       }
                     }
