@@ -1,58 +1,58 @@
 {
-  "layout": {
-    "template": "layout"
+  "layout":{
+    "template":"layout"
   },
-  "meta": {
-    "title": "Prototypes - UK Parliament",
-    "request-id": "|Pk5Jq3rkRal4MA==.",
-    "open-graph": {
-      "title": "Prototypes - UK Parliament",
-      "original-url": "https://localhost/",
-      "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
-      "image-width": "1200",
-      "image-height": "630",
-      "twitter-card": "summary_large_image"
+  "meta":{
+    "title":"Prototypes - UK Parliament",
+    "request-id":"|Pk5Jq3rkRal4MA==.",
+    "open-graph":{
+      "title":"Prototypes - UK Parliament",
+      "original-url":"https://localhost/",
+      "image-url":"https://static.parliament.uk/assets-public/opengraph-oblong.png",
+      "image-width":"1200",
+      "image-height":"630",
+      "twitter-card":"summary_large_image"
     },
-    "opensearch-description-url": "https://localhost/search/opensearch"
+    "opensearch-description-url":"https://localhost/search/opensearch"
   },
-  "header-components": [
+  "header-components":[
     {
-      "name": "link",
-      "data": {
-        "link": "#content",
-        "display": {
-          "name": "partials__display",
-          "data": [
+      "name":"link",
+      "data":{
+        "link":"#content",
+        "display":{
+          "name":"partials__display",
+          "data":[
             {
-              "component": "skip-to-content"
+              "component":"skip-to-content"
             }
           ]
         },
-        "selector": "skiplink",
-        "content": "shared.header.skip-to-content"
+        "selector":"skiplink",
+        "content":"shared.header.skip-to-content"
       }
     },
     {
-      "name": "header",
-      "data": {
-        "components": [
+      "name":"header",
+      "data":{
+        "components":[
           {
-            "name": "link",
-            "data": {
-              "link": "/",
-              "display": {
-                "name": "partials__display",
-                "data": [
+            "name":"link",
+            "data":{
+              "link":"/",
+              "display":{
+                "name":"partials__display",
+                "data":[
                   {
-                    "component": "uk_parliament"
+                    "component":"uk_parliament"
                   }
                 ]
               },
-              "label": "shared.header.label",
-              "components": [
+              "label":"shared.header.label",
+              "components":[
                 {
-                  "name": "icon__uk-parliament",
-                  "data": "shared.header.label"
+                  "name":"icon__uk-parliament",
+                  "data":"shared.header.label"
                 }
               ]
             }
@@ -61,17 +61,17 @@
       }
     }
   ],
-  "main-components": [
+  "main-components":[
     {
-      "name": "section__primary",
-      "data": {
-        "content-flag": true,
-        "components": [
+      "name":"section__primary",
+      "data":{
+        "content-flag":true,
+        "components":[
           {
-            "name": "heading1",
-            "data": {
-              "heading": {
-                "content": "Prototypes"
+            "name":"heading1",
+            "data":{
+              "heading":{
+                "content":"Prototypes"
               }
             }
           }
@@ -79,66 +79,52 @@
       }
     },
     {
-      "name": "section__section",
-      "data": {
-        "display": {
-          "name": "partials__display",
-          "data": [
-            {
-              "component": "section",
-              "variant": "major"
-            },
-            {
-              "component": "section",
-              "variant": "wide"
-            }
-          ]
+      "name":"section__section",
+      "data":{
+        "display":{
+          "name":"partials__display"
         },
-        "components": [
+        "components":[
           {
-            "name": "status__highlight",
-            "data": {
-              "display": {
-                "name": "partials__display",
-                "data": [
-                  {
-                    "component": "status",
-                    "variant": "highlight"
-                  }
-                ]
-              },
-              "components": [
+            "name":"list__generic",
+            "data":{
+              "type":"ul",
+              "contents":[
                 {
-                  "name": "paragraph",
-                  "data": [
-                    {
-                      "content": "There are currently no views."
-                    }
-                  ]
+                  "content":"<a href=\"/_prototypes/collections/\">[List] Collection list</a>"
+                },
+                {
+                  "content":"<a href=\"/_prototypes/collections/guide-to-procedure\">[Collection] Guide to procedure</a>"
+                },
+                {
+                  "content":"<a href=\"/_prototypes/collections/privilege-and-interests\">[Collection] Privilege and Interests</a>"
+                },
+                {
+                  "content":"<a href=\"/_prototypes/collections/freedom-of-speech\">[Article] Freedom of speech</a>"
                 }
               ]
             }
           },
           {
-            "name": "heading",
-            "data": {
-              "content": "Notes:",
-              "size": 2
+            "name":"heading",
+            "data":{
+              "content":"Notes:",
+              "size":2
             }
           },
           {
-            "name": "list__generic",
-            "data": {
-              "type": "ul",
-              "contents": [
+            "name":"list__generic",
+            "data":{
+              "type":"ul",
+              "contents":[
                 {
-                  "content": "These are static html files"
+                  "content":"These are static html files"
                 },
                 {
-                  "content": "Links will either not be working or go to the correct location"
+                  "content":"Links will either not be working or go to the correct location"
                 },
                 {
-                  "content": "Styles for desktop view are not complete"
+                  "content":"Styles for desktop view are not complete"
                 }
               ]
             }
@@ -147,17 +133,17 @@
       }
     }
   ],
-  "footer-components": [
+  "footer-components":[
     {
-      "name": "footer",
-      "data": {
-        "uk-parliament": "shared.footer.uk-parliament",
-        "components": [
+      "name":"footer",
+      "data":{
+        "uk-parliament":"shared.footer.uk-parliament",
+        "components":[
           {
-            "name": "heading",
-            "data": {
-              "size": 2,
-              "content": "UK Parliament"
+            "name":"heading",
+            "data":{
+              "size":2,
+              "content":"UK Parliament"
             }
           }
         ]
