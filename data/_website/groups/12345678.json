@@ -173,7 +173,7 @@
             "name": "heading1",
             "data": {
               "subheading": {
-                "content": "groups.groups",
+                "content": "groups.subheading",
                 "data": {
                   "link": "/groups"
                 }
@@ -210,9 +210,9 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "groups.subsidiary-resources.layings",
+                        "content": "groups.subsidiary-resources.laid-papers",
                         "data": {
-                          "link": "/groups/12345678/made-available/availability-types/layings"
+                          "link": "/groups/12345678/made-available/availability-types/laid-papers"
                         },
                         "size": 2
                       }

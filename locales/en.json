@@ -70,12 +70,8 @@
     "laid-date": "Laying date",
     "procedural-activity": "Procedural activity",
     "procedure": "Procedure",
-    "laying": "Laying",
     "laying-body": "Laying body",
-    "laying-bodies": "Laying bodies",
-    "laying-person": "Laying person",
-    "web-link": "Web link",
-    "objects": "Objects"
+    "web-link": "Web link"
   },
   "search": {
     "search-heading": "Search",
@@ -86,49 +82,31 @@
     "no-results": "There are no results for your search"
   },
   "statutory-instruments": {
-    "index": {
-      "title": "Statutory instruments"
-    },
     "show": {
       "subheading": "<a href='{{-link}}'>Statutory Instruments</a>",
       "coming-into-force-date": "Coming into force date",
       "coming-into-force-note": "Coming into force note",
       "made-date": "Made date",
       "further-details": "Further details",
-      "following-title": "Preceded by",
-      "literals": "Literals"
-    }
+      "following-title": "Preceded by"
+    },
+    "type": "Statutory instrument"
   },
   "proposed-negative-statutory-instruments": {
-    "index": {
-      "title": "Proposed negative statutory instruments"
-    },
     "show": {
       "subheading": "<a href='{{-link}}'>Proposed Negative Statutory Instruments</a>",
       "preceding-title": "Followed by"
-    }
+    },
+    "type": "Proposed negative statutory instrument"
   },
   "groups": {
-    "groups": "<a href= '{{-link}}'>Groups</a>",
-    "index": {
-      "title": "Current and former groups"
-    },
-    "current": {
-      "title": "Current groups",
-      "literals": "Literals",
-      "objects": "Objects"
-    },
-    "layings": {
-      "date": "Laid Date: {{-date}}",
-      "type": "Type: {{-type}}"
-    },
-    "subsidiary-resources": {
-      "layings": "<a href= '{{-link}}'>Laid papers</a>",
-      "layings-title": "Laid papers"
-    }
+		"subheading": "<a href= '{{-link}}'>Groups</a>",
+		"subsidiary-resources": {
+			"laid-papers": "<a href= '{{-link}}'>Laid papers</a>"
+		}
   },
   "procedure-steps": {
-    "procedure-step": "<a href= '{{-link}}'>Procedure step</a>",
+    "subheading": "<a href= '{{-link}}'>Procedure step</a>",
     "subsidiary-resources": {
       "work-packages": "<a href= '{{-link}}'>Procedural activity</a>",
       "actualised-date": "Business item date"
@@ -149,7 +127,7 @@
     }
   },
   "procedures": {
-    "procedures": "<a href= '{{-link}}'>Procedures</a>",
+    "subheading": "<a href= '{{-link}}'>Procedures</a>",
     "subsidiary-resources": {
       "work-packages": "<a href= '{{-link}}'>Procedural activity</a>"
     },
