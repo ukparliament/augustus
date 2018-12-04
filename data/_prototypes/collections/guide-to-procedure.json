@@ -167,7 +167,7 @@
           {
             "name":"heading",
             "data":{
-              "content":"In this collection",
+              "content":"Articles",
               "size":2
             }
           },
@@ -195,9 +195,49 @@
                     "small":{
                       "name":"partials__small",
                       "data":{
-                        "content":"Collection"
+                        "content":"Guidance"
                       }
                     },
+                    "heading":{
+                      "name":"heading",
+                      "data":{
+                        "content":"\u003ca href=\"#\"\u003eOverview\u003c/a\u003e",
+                        "size":2
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name":"heading",
+            "data":{
+              "content":"Sub-collections",
+              "size":2
+            }
+          },
+          {
+            "name":"list__generic",
+            "data":{
+              "type":"ol",
+              "display":{
+                "name":"partials__display",
+                "data":[
+                  {
+                    "component":"list",
+                    "variant":"block"
+                  },
+                  {
+                    "component":"list",
+                    "variant":"3"
+                  }
+                ]
+              },
+              "components":[
+                {
+                  "name":"card__generic",
+                  "data":{
                     "heading":{
                       "name":"heading",
                       "data":{
@@ -218,12 +258,6 @@
                 {
                   "name":"card__generic",
                   "data":{
-                    "small":{
-                      "name":"partials__small",
-                      "data":{
-                        "content":"Collection"
-                      }
-                    },
                     "heading":{
                       "name":"heading",
                       "data":{
@@ -244,12 +278,6 @@
                 {
                   "name":"card__generic",
                   "data":{
-                    "small":{
-                      "name":"partials__small",
-                      "data":{
-                        "content":"Collection"
-                      }
-                    },
                     "heading":{
                       "name":"heading",
                       "data":{
@@ -270,12 +298,6 @@
                 {
                   "name":"card__generic",
                   "data":{
-                    "small":{
-                      "name":"partials__small",
-                      "data":{
-                        "content":"Collection"
-                      }
-                    },
                     "heading":{
                       "name":"heading",
                       "data":{
@@ -296,12 +318,6 @@
                 {
                   "name":"card__generic",
                   "data":{
-                    "small":{
-                      "name":"partials__small",
-                      "data":{
-                        "content":"Collection"
-                      }
-                    },
                     "heading":{
                       "name":"heading",
                       "data":{
@@ -322,12 +338,6 @@
                 {
                   "name":"card__generic",
                   "data":{
-                    "small":{
-                      "name":"partials__small",
-                      "data":{
-                        "content":"Collection"
-                      }
-                    },
                     "heading":{
                       "name":"heading",
                       "data":{
@@ -348,12 +358,6 @@
                 {
                   "name":"card__generic",
                   "data":{
-                    "small":{
-                      "name":"partials__small",
-                      "data":{
-                        "content":"Collection"
-                      }
-                    },
                     "heading":{
                       "name":"heading",
                       "data":{
@@ -374,12 +378,6 @@
                 {
                   "name":"card__generic",
                   "data":{
-                    "small":{
-                      "name":"partials__small",
-                      "data":{
-                        "content":"Collection"
-                      }
-                    },
                     "heading":{
                       "name":"heading",
                       "data":{
@@ -400,12 +398,6 @@
                 {
                   "name":"card__generic",
                   "data":{
-                    "small":{
-                      "name":"partials__small",
-                      "data":{
-                        "content":"Collection"
-                      }
-                    },
                     "heading":{
                       "name":"heading",
                       "data":{
@@ -426,12 +418,6 @@
                 {
                   "name":"card__generic",
                   "data":{
-                    "small":{
-                      "name":"partials__small",
-                      "data":{
-                        "content":"Collection"
-                      }
-                    },
                     "heading":{
                       "name":"heading",
                       "data":{
@@ -452,12 +438,6 @@
                 {
                   "name":"card__generic",
                   "data":{
-                    "small":{
-                      "name":"partials__small",
-                      "data":{
-                        "content":"Collection"
-                      }
-                    },
                     "heading":{
                       "name":"heading",
                       "data":{
@@ -478,12 +458,6 @@
                 {
                   "name":"card__generic",
                   "data":{
-                    "small":{
-                      "name":"partials__small",
-                      "data":{
-                        "content":"Collection"
-                      }
-                    },
                     "heading":{
                       "name":"heading",
                       "data":{

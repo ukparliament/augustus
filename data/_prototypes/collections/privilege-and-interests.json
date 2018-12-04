@@ -185,7 +185,7 @@
           {
             "name":"heading",
             "data":{
-              "content":"In this collection",
+              "content":"Articles",
               "size":2
             }
           },
@@ -213,7 +213,7 @@
                     "small":{
                       "name":"partials__small",
                       "data":{
-                        "content":"Article"
+                        "content":"Guidance"
                       }
                     },
                     "heading":{
@@ -231,7 +231,7 @@
                     "small":{
                       "name":"partials__small",
                       "data":{
-                        "content":"Article"
+                        "content":"Guidance"
                       }
                     },
                     "heading":{
@@ -249,7 +249,7 @@
                     "small":{
                       "name":"partials__small",
                       "data":{
-                        "content":"Article"
+                        "content":"How to"
                       }
                     },
                     "heading":{
@@ -267,7 +267,7 @@
                     "small":{
                       "name":"partials__small",
                       "data":{
-                        "content":"Article"
+                        "content":"Guidance"
                       }
                     },
                     "heading":{
@@ -285,7 +285,7 @@
                     "small":{
                       "name":"partials__small",
                       "data":{
-                        "content":"Article"
+                        "content":"How to"
                       }
                     },
                     "heading":{
@@ -303,7 +303,7 @@
                     "small":{
                       "name":"partials__small",
                       "data":{
-                        "content":"Article"
+                        "content":"Guidance"
                       }
                     },
                     "heading":{
