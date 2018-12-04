@@ -67,7 +67,11 @@
     }
   },
   "laid-thing": {
-    "laid-date": "Laying date",
+    "laid-papers": "Laid papers",
+    "laid-paper": "Laid paper",
+    "laid-paper-type": "Laid paper type",
+    "laid-date": "Laid date",
+    "house-laid-date": "{{house}} laying date",
     "procedural-activity": "Procedural activity",
     "procedure": "Procedure",
     "laying-body": "Laying body",
