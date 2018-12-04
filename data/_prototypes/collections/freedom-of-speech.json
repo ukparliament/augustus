@@ -132,7 +132,7 @@
           "name":"heading1",
           "data":{
             "subheading":{
-              "content":"<a href=\"#\">Article</a>"
+              "content":"<a href=\"#\">Guidance</a>"
             },
             "heading":{
               "content":"Freedom of speech"
@@ -144,6 +144,26 @@
           "data":{
             "meta":true,
             "items":[
+              {
+                "term":{
+                  "content":"Publisher"
+                },
+                "description":[
+                  {
+                    "content":"<a href=\"#\">MPs guide to procedure</a>"
+                  }
+                ]
+              },
+              {
+                "term":{
+                  "content":"Date published"
+                },
+                "description":[
+                  {
+                    "content": "<time datetime=\"2018-09-18\">18 September 2018</time>"
+                  }
+                ]
+              },
               {
                 "term":{
                   "content":"Found in"
