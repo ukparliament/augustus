@@ -136,5 +136,8 @@
       "work-packages": "<a href= '{{-link}}'>Procedural activity</a>"
     },
     "about": "Find out more about the <a href='https://www.parliament.uk/about/how/laws/secondary-legislation/'>{{-procedure}} procedure</a>."
+  },
+  "committees": {
+    "committee": "<a href= '{{-link}}'>Committee</a>"
   }
 }

@@ -1,0 +1,907 @@
+{
+  "layout": {
+    "template": "layout"
+  },
+  "meta": {
+    "title": "Current committee members - Joint Committee on Human Rights - UK Parliament",
+    "request-id": "|KN2mJToH06OAWg==.",
+    "data-alternates": [
+      {
+        "type": "application/n-triples",
+        "href": "http://localhost:3030/api/v1/group_by_id.nt?group_id=12345678"
+      },
+      {
+        "type": "text/turtle",
+        "href": "http://localhost:3030/api/v1/group_by_id.ttl?group_id=12345678"
+      },
+      {
+        "type": "text/tab-separated-values",
+        "href": "http://localhost:3030/api/v1/group_by_id.tsv?group_id=12345678"
+      },
+      {
+        "type": "text/csv",
+        "href": "http://localhost:3030/api/v1/group_by_id.csv?group_id=12345678"
+      },
+      {
+        "type": "application/json+rdf",
+        "href": "http://localhost:3030/api/v1/group_by_id.rj?group_id=12345678"
+      },
+      {
+        "type": "application/json+ld",
+        "href": "http://localhost:3030/api/v1/group_by_id.json?group_id=12345678"
+      },
+      {
+        "type": "application/rdf+xml",
+        "href": "http://localhost:3030/api/v1/group_by_id.xml?group_id=12345678"
+      }
+    ],
+    "open-graph": {
+      "title": "Current committee members - Joint Committee on Human Rights - UK Parliament",
+      "original-url": "https://localhost/committees/12345678",
+      "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
+      "image-width": "1200",
+      "image-height": "630",
+      "twitter-card": "summary_large_image"
+    },
+    "opensearch-description-url": "https://localhost/search/opensearch"
+  },
+  "header-components": [
+    {
+      "name": "link",
+      "data": {
+        "link": "#content",
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "skip-to-content"
+            }
+          ]
+        },
+        "selector": "skiplink",
+        "content": "shared.header.skip-to-content"
+      }
+    },
+    {
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "status",
+              "variant": "banner"
+            },
+            {
+              "component": "theme",
+              "variant": "caution"
+            },
+            {
+              "component": "cookie"
+            }
+          ]
+        },
+        "selector": "cookie",
+        "components": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.cookie-banner-text",
+                "data": {
+                  "link": "/meta/cookie-policy"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "status",
+              "variant": "banner"
+            }
+          ]
+        },
+        "components": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.beta-status"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "header",
+      "data": {
+        "components": [
+          {
+            "name": "link",
+            "data": {
+              "link": "/",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "uk_parliament"
+                  }
+                ]
+              },
+              "label": "shared.header.label",
+              "components": [
+                {
+                  "name": "icon__uk-parliament",
+                  "data": "shared.header.label"
+                }
+              ]
+            }
+          },
+          {
+            "name": "form__search",
+            "data": {
+              "global": true,
+              "label": "search.label",
+              "components": [
+                {
+                  "name": "icon__search",
+                  "data": "search.search-icon"
+                }
+              ],
+              "search-action": "/search"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "main-components": [
+    {
+      "name": "section__primary",
+      "data": {
+        "components": [
+          {
+            "name": "heading1",
+            "data": {
+              "heading": {
+                "content": "Current members"
+              }
+            }
+          },
+          {
+            "name": "list__description",
+            "data": {
+              "meta": true,
+              "items": [
+                {
+                  "term": {
+                    "content": "Committee"
+                  },
+                  "description": [
+                    {
+                      "content": "\u003ca href=\"/_prototypes/committees/12345678\"\u003eJoint Committee on Human Rights\u003c/a\u003e"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "section__section",
+      "data": {
+        "components": [
+          {
+            "name": "list__generic",
+            "data": {
+              "type": "ol",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "list",
+                    "variant": "block"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "figure": {
+                      "name": "partials__figure",
+                      "data": {
+                        "display": {
+                          "name": "partials__display",
+                          "data": [
+                            {
+                              "component": "avatar",
+                              "variant": "round"
+                            }
+                          ]
+                        },
+                        "link": "#",
+                        "aria-hidden": true,
+                        "tab-index": true,
+                        "alt-text": "Harriet Harman",
+                        "source": "https://api.parliament.uk/photo/ZY0Mx1bp.jpeg?crop=CU_1:1&width=186&quality=80"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "\u003ca href=\"\"\u003eMs Harriet Harman\u003c/a\u003e",
+                        "size": 2
+                      }
+                    },
+                    "list-generic": {
+                      "name": "list__generic",
+                      "data": {
+                        "type": "ol",
+                        "display": {
+                          "name": "partials__display",
+                          "data": [
+                            {
+                              "component": "list"
+                            }
+                          ]
+                        },
+                        "contents": [
+                          {
+                            "content": "Committee chair"
+                          },
+                          {
+                            "content": "Labour MP for Camberwell and Peckham"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "figure": {
+                      "name": "partials__figure",
+                      "data": {
+                        "display": {
+                          "name": "partials__display",
+                          "data": [
+                            {
+                              "component": "avatar",
+                              "variant": "round"
+                            }
+                          ]
+                        },
+                        "link": "#",
+                        "aria-hidden": true,
+                        "tab-index": true,
+                        "alt-text": "Fiona Bruce",
+                        "source": "https://api.parliament.uk/photo/rOFP6feZ.jpeg?crop=CU_1:1&width=186&quality=80"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "\u003ca href=\"\"\u003eFiona Bruce\u003c/a\u003e",
+                        "size": 2
+                      }
+                    },
+                    "list-generic": {
+                      "name": "list__generic",
+                      "data": {
+                        "type": "ol",
+                        "display": {
+                          "name": "partials__display",
+                          "data": [
+                            {
+                              "component": "list"
+                            }
+                          ]
+                        },
+                        "contents": [
+                          {
+                            "content": "Committee member"
+                          },
+                          {
+                            "content": "Conservative MP for Congleton"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "figure": {
+                      "name": "partials__figure",
+                      "data": {
+                        "display": {
+                          "name": "partials__display",
+                          "data": [
+                            {
+                              "component": "avatar",
+                              "variant": "round"
+                            }
+                          ]
+                        },
+                        "link": "#",
+                        "aria-hidden": true,
+                        "tab-index": true,
+                        "alt-text": "Ms Karen Buck",
+                        "source": "https://api.parliament.uk/photo/c4aDmpMV.jpeg?crop=CU_1:1&width=186&quality=80"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "\u003ca href=\"\"\u003eMs Karen Buck\u003c/a\u003e",
+                        "size": 2
+                      }
+                    },
+                    "list-generic": {
+                      "name": "list__generic",
+                      "data": {
+                        "type": "ol",
+                        "display": {
+                          "name": "partials__display",
+                          "data": [
+                            {
+                              "component": "list"
+                            }
+                          ]
+                        },
+                        "contents": [
+                          {
+                            "content": "Committee member"
+                          },
+                          {
+                            "content": "Labour MP for Westminster North"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "figure": {
+                      "name": "partials__figure",
+                      "data": {
+                        "display": {
+                          "name": "partials__display",
+                          "data": [
+                            {
+                              "component": "avatar",
+                              "variant": "round"
+                            }
+                          ]
+                        },
+                        "link": "#",
+                        "aria-hidden": true,
+                        "tab-index": true,
+                        "alt-text": "Alex Burghart",
+                        "source": "https://api.parliament.uk/photo/mtMsc1vM.jpeg?crop=CU_1:1&width=186&quality=80"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "\u003ca href=\"\"\u003eAlex Burghart\u003c/a\u003e",
+                        "size": 2
+                      }
+                    },
+                    "list-generic": {
+                      "name": "list__generic",
+                      "data": {
+                        "type": "ol",
+                        "display": {
+                          "name": "partials__display",
+                          "data": [
+                            {
+                              "component": "list"
+                            }
+                          ]
+                        },
+                        "contents": [
+                          {
+                            "content": "Committee member"
+                          },
+                          {
+                            "content": "Conservative MP for Brentwood and Ongar"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "figure": {
+                      "name": "partials__figure",
+                      "data": {
+                        "display": {
+                          "name": "partials__display",
+                          "data": [
+                            {
+                              "component": "avatar",
+                              "variant": "round"
+                            }
+                          ]
+                        },
+                        "link": "#",
+                        "aria-hidden": true,
+                        "tab-index": true,
+                        "alt-text": "",
+                        "source": "https://static.parliament.uk/pugin/1.11.6/images/placeholder_members_image.png"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "\u003ca href=\"\"\u003eJoanna Cherry\u003c/a\u003e",
+                        "size": 2
+                      }
+                    },
+                    "list-generic": {
+                      "name": "list__generic",
+                      "data": {
+                        "type": "ol",
+                        "display": {
+                          "name": "partials__display",
+                          "data": [
+                            {
+                              "component": "list"
+                            }
+                          ]
+                        },
+                        "contents": [
+                          {
+                            "content": "Committee member"
+                          },
+                          {
+                            "content": "Scottish National Party MP for Edinburgh South West"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "figure": {
+                      "name": "partials__figure",
+                      "data": {
+                        "display": {
+                          "name": "partials__display",
+                          "data": [
+                            {
+                              "component": "avatar",
+                              "variant": "round"
+                            }
+                          ]
+                        },
+                        "link": "#",
+                        "aria-hidden": true,
+                        "tab-index": true,
+                        "alt-text": "",
+                        "source": "https://static.parliament.uk/pugin/1.11.6/images/placeholder_members_image.png"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "\u003ca href=\"\"\u003eBaroness Hamwee\u003c/a\u003e",
+                        "size": 2
+                      }
+                    },
+                    "list-generic": {
+                      "name": "list__generic",
+                      "data": {
+                        "type": "ol",
+                        "display": {
+                          "name": "partials__display",
+                          "data": [
+                            {
+                              "component": "list"
+                            }
+                          ]
+                        },
+                        "contents": [
+                          {
+                            "content": "Committee member"
+                          },
+                          {
+                            "content": "Liberal Democrat member of the House of Lords"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "figure": {
+                      "name": "partials__figure",
+                      "data": {
+                        "display": {
+                          "name": "partials__display",
+                          "data": [
+                            {
+                              "component": "avatar",
+                              "variant": "round"
+                            }
+                          ]
+                        },
+                        "link": "#",
+                        "aria-hidden": true,
+                        "tab-index": true,
+                        "alt-text": "Baroness Lawrence of Clarendon",
+                        "source": "https://api.parliament.uk/photo/wl53EfQg.jpeg?crop=CU_1:1&width=186&quality=80"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "\u003ca href=\"\"\u003eBaroness Lawrence of Clarendon\u003c/a\u003e",
+                        "size": 2
+                      }
+                    },
+                    "list-generic": {
+                      "name": "list__generic",
+                      "data": {
+                        "type": "ol",
+                        "display": {
+                          "name": "partials__display",
+                          "data": [
+                            {
+                            "component": "list"
+                            }
+                          ]
+                        },
+                        "contents": [
+                          {
+                            "content": "Committee member"
+                          },
+                          {
+                            "content": "Labour member of the House of Lords"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "figure": {
+                      "name": "partials__figure",
+                      "data": {
+                        "display": {
+                          "name": "partials__display",
+                          "data": [
+                            {
+                              "component": "avatar",
+                              "variant": "round"
+                            }
+                          ]
+                        },
+                        "link": "#",
+                        "aria-hidden": true,
+                        "tab-index": true,
+                        "alt-text": "",
+                        "source": "https://static.parliament.uk/pugin/1.11.6/images/placeholder_members_image.png"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "\u003ca href=\"\"\u003eJeremy Lefroy\u003c/a\u003e",
+                        "size": 2
+                      }
+                    },
+                    "list-generic": {
+                      "name": "list__generic",
+                      "data": {
+                        "type": "ol",
+                        "display": {
+                          "name": "partials__display",
+                          "data": [
+                            {
+                              "component": "list"
+                            }
+                          ]
+                        },
+                        "contents": [
+                          {
+                            "content": "Committee member"
+                          },
+                          {
+                            "content": "Conservative MP for Stafford"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "figure": {
+                      "name": "partials__figure",
+                      "data": {
+                        "display": {
+                          "name": "partials__display",
+                          "data": [
+                            {
+                              "component": "avatar",
+                              "variant": "round"
+                            }
+                          ]
+                        },
+                        "link": "#",
+                        "aria-hidden": true,
+                        "tab-index": true,
+                        "alt-text": "Baroness Nicholson of Winterbourne",
+                        "source": "https://api.parliament.uk/photo/CJ3M2cN8.jpeg?crop=CU_1:1&width=186&quality=80"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "\u003ca href=\"\"\u003eBaroness Nicholson of Winterbourne\u003c/a\u003e",
+                        "size": 2
+                      }
+                    },
+                    "list-generic": {
+                      "name": "list__generic",
+                      "data": {
+                        "type": "ol",
+                        "display": {
+                          "name": "partials__display",
+                          "data": [
+                            {
+                              "component": "list"
+                            }
+                          ]
+                        },
+                        "contents": [
+                          {
+                            "content": "Committee member"
+                          },
+                          {
+                            "content": "Conservative member of the House of Lords"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "figure": {
+                      "name": "partials__figure",
+                      "data": {
+                        "display": {
+                          "name": "partials__display",
+                          "data": [
+                            {
+                              "component": "avatar",
+                              "variant": "round"
+                            }
+                          ]
+                        },
+                        "link": "#",
+                        "aria-hidden": true,
+                        "tab-index": true,
+                        "alt-text": "Baroness Prosser",
+                        "source": "https://api.parliament.uk/photo/o13Itf7X.jpeg?crop=CU_1:1&width=186&quality=80"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "\u003ca href=\"\"\u003eBaroness Prosser\u003c/a\u003e",
+                        "size": 2
+                      }
+                    },
+                    "list-generic": {
+                      "name": "list__generic",
+                      "data": {
+                        "type": "ol",
+                        "display": {
+                          "name": "partials__display",
+                          "data": [
+                            {
+                              "component": "list"
+                            }
+                          ]
+                        },
+                        "contents": [
+                          {
+                            "content": "Committee member"
+                          },
+                          {
+                            "content": "Labour member of the House of Lords"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "figure": {
+                      "name": "partials__figure",
+                      "data": {
+                        "display": {
+                          "name": "partials__display",
+                          "data": [
+                            {
+                              "component": "avatar",
+                              "variant": "round"
+                            }
+                          ]
+                        },
+                        "link": "#",
+                        "aria-hidden": true,
+                        "tab-index": true,
+                        "alt-text": "Lord Trimble",
+                        "source": "https://api.parliament.uk/photo/VaCjR6Tp.jpeg?crop=CU_1:1&width=186&quality=80"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "\u003ca href=\"\"\u003eLord Trimble\u003c/a\u003e",
+                        "size": 2
+                      }
+                    },
+                    "list-generic": {
+                      "name": "list__generic",
+                      "data": {
+                        "type": "ol",
+                        "display": {
+                          "name": "partials__display",
+                          "data": [
+                            {
+                              "component": "list"
+                            }
+                          ]
+                        },
+                        "contents": [
+                          {
+                            "content": "Committee member"
+                          },
+                          {
+                            "content": "Conservative member of the House of Lords"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "figure": {
+                      "name": "partials__figure",
+                      "data": {
+                        "display": {
+                          "name": "partials__display",
+                          "data": [
+                            {
+                              "component": "avatar",
+                              "variant": "round"
+                            }
+                          ]
+                        },
+                        "link": "#",
+                        "aria-hidden": true,
+                        "tab-index": true,
+                        "alt-text": "Lord Woolf",
+                        "source": "https://api.parliament.uk/photo/tAwBKCur.jpeg?crop=CU_1:1&width=186&quality=80"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "\u003ca href=\"\"\u003eLord Woolf\u003c/a\u003e",
+                        "size": 2
+                      }
+                    },
+                    "list-generic": {
+                      "name": "list__generic",
+                      "data": {
+                        "type": "ol",
+                        "display": {
+                          "name": "partials__display",
+                          "data": [
+                            {
+                              "component": "list"
+                            }
+                          ]
+                        },
+                        "contents": [
+                          {
+                            "content": "Committee member"
+                          },
+                          {
+                            "content": "Crossbench member of the House of Lords"
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "footer-components": [
+    {
+      "name": "footer",
+      "data": {
+        "uk-parliament": "shared.footer.uk-parliament",
+        "components": [
+          {
+            "name": "heading",
+            "data": {
+              "size": 2,
+              "content": "UK Parliament"
+            }
+          },
+          {
+            "name": "list__generic",
+            "data": {
+              "type": "ul",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "list"
+                  }
+                ]
+              },
+              "contents": [
+                {
+                  "content": "shared.footer.current-website"
+                },
+                {
+                  "content": "shared.footer.cookie-policy",
+                  "data": {
+                    "link": "/meta/cookie-policy"
+                  }
+                },
+                {
+                  "content": "shared.footer.data-protection-privacy"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
