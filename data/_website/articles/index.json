@@ -3,7 +3,7 @@
     "template": "layout"
   },
   "meta": {
-    "title": "Index - Articles - UK Parliament",
+    "title": "articles.index.title",
     "request-id": "|w/wi9pJ/ZnU+AA==.",
     "data-alternates": [
       {
@@ -36,7 +36,7 @@
       }
     ],
     "open-graph": {
-      "title": "statutory-instruments.index.title",
+      "title": "Articles - UK Parliament",
       "original-url": "http://localhost:5401/statutory-instruments",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",

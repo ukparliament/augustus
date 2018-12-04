@@ -3,7 +3,7 @@
     "template": "layout"
   },
   "meta": {
-    "title": "Show - Statutory instruments - UK Parliament",
+    "title": "Title for statutory instrument - UK Parliament",
     "request-id": "|6vFEPEJvu/1Mhw==.",
     "data-alternates": [
       {
@@ -36,7 +36,7 @@
       }
     ],
     "open-graph": {
-      "title": "Civil Enforcement of Traffic Contraventions (Consequential Amendments) (England) Regulations 2018 - UK Parliament",
+      "title": "Title for statutory instrument - UK Parliament",
       "original-url": "https://localhost/statutory-instruments/12345678",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",

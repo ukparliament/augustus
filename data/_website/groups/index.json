@@ -3,7 +3,7 @@
     "template": "layout"
   },
   "meta": {
-    "title": "Index - Groups - UK Parliament",
+    "title": "groups.index.title",
     "request-id": "|6mIQG1JxXOPiRw==.",
     "data-alternates": [
       {
@@ -204,7 +204,7 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "<a href=\"/laying-bodies\">Laying bodies</a>",
+                        "content": "<a href=\"/_website/laying-bodies\">Laying bodies</a>",
                         "size": 2
                       }
                     }

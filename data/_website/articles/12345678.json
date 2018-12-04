@@ -3,7 +3,7 @@
     "template": "layout"
   },
   "meta": {
-    "title": "Article - UK Parliament",
+    "title": "Title for article - UK Parliament",
     "request-id": "|KREVXLEvDlTwng==.",
     "data-alternates": [
       {
@@ -36,7 +36,7 @@
       }
     ],
     "open-graph": {
-      "title": "articles.index.title",
+      "title": "Title for article - UK Parliament",
       "original-url": "https://localhost/articles/12345678",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",

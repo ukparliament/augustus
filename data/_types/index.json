@@ -3,7 +3,7 @@
     "template": "layout"
   },
   "meta": {
-    "title": "Types - UK Parliament",
+    "title": "types.title",
     "request-id": "|Pk5Jq3rkRal4MA==.",
     "open-graph": {
       "title": "Types - UK Parliament",
@@ -71,7 +71,7 @@
             "name": "heading1",
             "data": {
               "heading": {
-                "content": "Types"
+                "content": "types.heading"
               }
             }
           }
@@ -119,7 +119,10 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "<a href=\"/_types/lists\">Lists</a>",
+                        "content": "types.lists.link",
+                        "data": {
+                          "link": "/_types/lists"
+                        },
                         "size": 2
                       }
                     }
@@ -131,7 +134,10 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "<a href=\"/_types/things\">Things</a>",
+                        "content": "types.things.link",
+                        "data": {
+                          "link": "/_types/things"
+                        },
                         "size": 2
                       }
                     }
@@ -143,7 +149,10 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "<a href=\"/_types/utilities\">Utilities</a>",
+                        "content": "types.utilities.link",
+                        "data": {
+                          "link": "/_types/utilities"
+                        },
                         "size": 2
                       }
                     }
@@ -155,7 +164,7 @@
           {
             "name": "heading",
             "data": {
-              "content": "Notes:",
+              "content": "shared.notes.heading",
               "size": 2
             }
           },
@@ -165,13 +174,13 @@
               "type": "ul",
               "contents": [
                 {
-                  "content": "These are static html files"
+                  "content": "shared.notes.note-1"
                 },
                 {
-                  "content": "Links will either not be working or go to the correct location"
+                  "content": "shared.notes.note-2"
                 },
                 {
-                  "content": "Styles for desktop view are not complete"
+                  "content": "shared.notes.note-3"
                 }
               ]
             }
@@ -191,6 +200,34 @@
             "data": {
               "size": 2,
               "content": "UK Parliament"
+            }
+          },
+          {
+            "name": "list__generic",
+            "data": {
+              "type": "ul",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "list"
+                  }
+                ]
+              },
+              "contents": [
+                {
+                  "content": "shared.footer.current-website"
+                },
+                {
+                  "content": "shared.footer.cookie-policy",
+                  "data": {
+                    "link": "/meta/cookie-policy"
+                  }
+                },
+                {
+                  "content": "shared.footer.data-protection-privacy"
+                }
+              ]
             }
           }
         ]
