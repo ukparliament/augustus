@@ -311,35 +311,32 @@
               },
               "items": [
                 {
-                  "term":
-                    {
-                      "content" : "Email"
-                    },
+                  "term": {
+                    "content": "Email"
+                  },
                   "description": [
                     {
-                      "content" : "\u003ca mailto=\"\"\u003ejchr@parliament.uk\u003c/a\u003e"
+                      "content": "\u003ca mailto=\"\"\u003ejchr@parliament.uk\u003c/a\u003e"
                     }
                   ]
                 },
                 {
-                  "term":
-                    {
-                      "content" : "Phone"
-                    },
+                  "term": {
+                    "content": "Phone"
+                  },
                   "description": [
                     {
-                      "content" : "\u003ca href=\"\"\u003e020 7219 2467\u003c/a\u003e"
+                      "content": "\u003ca href=\"\"\u003e020 7219 2467\u003c/a\u003e"
                     }
                   ]
                 },
                 {
-                  "term":
-                    {
-                      "content" : "Address"
-                    },
+                  "term": {
+                    "content": "Address"
+                  },
                   "description": [
                     {
-                      "content" : "Joint Committee on Human Rights, Houses of Parliament, London, SW1A 0AA"
+                      "content": "Joint Committee on Human Rights, Houses of Parliament, London, SW1A 0AA"
                     }
                   ]
                 }

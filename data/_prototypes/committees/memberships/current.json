@@ -571,7 +571,7 @@
                           "name": "partials__display",
                           "data": [
                             {
-                            "component": "list"
+                              "component": "list"
                             }
                           ]
                         },

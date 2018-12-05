@@ -98,6 +98,9 @@ test: # Build the docker image in development mode, using a test PARLIAMENT_BASE
 	NODE_ENV=development SPAWN_WRAP_SHIM_ROOT=/app/ make build
 	docker run --rm $(IMAGE):latest npm test
 
+json: # Run task to beautify *.json files
+	./jsbeautify.sh
+
 push: # Push the Docker images we have build to the configured Docker repository (Run in GoCD to push the image to AWS)
 	docker push $(IMAGE):$(VERSION)
 	docker push $(IMAGE):latest

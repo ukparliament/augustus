@@ -1,0 +1,9 @@
+{
+  "beautify.language": {
+    "js": ["js","json"]
+  },
+  "end_with_newline": true,
+  "indent_level": 0,
+  "indent_size": 2,
+  "keep_array_indentation": true
+}
