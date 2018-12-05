@@ -55,16 +55,16 @@ The application should now be available at [http://localhost:5400][local].
 ## Using components
 [Augustus][augustus] uses [Pugin][pugin] as its components library which uses the [Dust][dust] templating language. However, you can use your own [Dust][dust] components by placing them in the `view` directory in the project's root. You can refer to the [Shunter templating documentation][shunter-templating-docs] for more information on how to do this.
 
-## Starting Augustus and Shunter serve in a Docker Image   
-If you wish to run Augustus with shunter serve in a docker image in a development environment, use the following commands:  
+## Starting Augustus and Shunter serve in a Docker Image
+If you wish to run Augustus with shunter serve in a docker image in a development environment, use the following commands:
 
-To build the Docker image  
+To build the Docker image
 
 ```bash
 docker-compose build --no-cache
 ```
 
-To run Augustus and Shunter serve  
+To run Augustus and Shunter serve
 ```bash
 docker-compose up
 ```
@@ -73,7 +73,7 @@ The application will then be available from http://localhost/.
 ## Testing
 The test suite can be run using `npm test`.
 
-[Shunter][shunter] comes with test helpers that allow us to test that given some JSON, we render some expected HTML.  The `testHelper` uses `ShunterHelper` to setup and teardown our tests.  
+[Shunter][shunter] comes with test helpers that allow us to test that given some JSON, we render some expected HTML.  The `testHelper` uses `ShunterHelper` to setup and teardown our tests.
 
 `createFixture` is a helper which will generate HTML fixtures to be used in testing.  For example, to generate an HTML fixture for an integration test:
 ```bash
@@ -108,20 +108,27 @@ Passing in data to the translation with double moustaches sanitises input. If yo
 The following translation:
 ```json
 "cookie-policy": "<a href='{{link}}'>Cookie Policy</a>"
-```  
-Will be rendered incorrectly as:  
+```
+Will be rendered incorrectly as:
 ```html
 <a href='*&meta*&cookie'>Cookie Policy</a>
-```  
+```
 
 ### Prefixing the variable name with a hyphen
 The following translation:
 ```json
 "cookie-policy": "<a href='{{-link}}'>Cookie Policy</a>"
 ```
-Will be rendered correctly as:  
+Will be rendered correctly as:
 ```html
 <a href='/meta/cookie'>Cookie Policy</a>
+```
+
+## Beautify
+Beautify `*.json` files by running:
+
+```bash
+make json
 ```
 
 ## Contributing
