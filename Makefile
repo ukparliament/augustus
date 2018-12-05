@@ -101,6 +101,9 @@ test: # Build the docker image in development mode, using a test PARLIAMENT_BASE
 json: # Run task to beautify *.json files
 	./jsbeautify.sh
 
+lighthouse: # Run audit against app web pages
+	./lighthouse.sh
+
 push: # Push the Docker images we have build to the configured Docker repository (Run in GoCD to push the image to AWS)
 	docker push $(IMAGE):$(VERSION)
 	docker push $(IMAGE):latest
