@@ -101,6 +101,15 @@
                 },
                 {
                   "content":"<a href=\"/_prototypes/collections/freedom-of-speech\">[Article] Freedom of speech</a>"
+                },
+                {
+                  "content":"<a href=\"/_prototypes/committees\">[List] Committees</a>"
+                },
+                {
+                  "content":"<a href=\"/_prototypes/committees/12345678\">[Thing] Committee</a>"
+                },
+                {
+                  "content":"<a href=\"/_prototypes/committees/memberships/current\">[List] Committee membership</a>"
                 }
               ]
             }
