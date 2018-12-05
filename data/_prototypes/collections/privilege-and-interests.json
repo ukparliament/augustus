@@ -1,55 +1,55 @@
 {
-  "layout":{
-    "template":"layout"
+  "layout": {
+    "template": "layout"
   },
-  "meta":{
-    "title":"Privileges and interests"
+  "meta": {
+    "title": "Privileges and interests"
   },
-  "header-components":[
+  "header-components": [
     {
-      "name":"link",
-      "data":{
-        "link":"#content",
-        "display":{
-          "name":"partials__display",
-          "data":[
+      "name": "link",
+      "data": {
+        "link": "#content",
+        "display": {
+          "name": "partials__display",
+          "data": [
             {
-              "component":"skip-to-content"
+              "component": "skip-to-content"
             }
           ]
         },
-        "selector":"skiplink",
-        "content":"shared.header.skip-to-content"
+        "selector": "skiplink",
+        "content": "shared.header.skip-to-content"
       }
     },
     {
-      "name":"status__banner",
-      "data":{
-        "display":{
-          "name":"partials__display",
-          "data":[
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
             {
-              "component":"status",
-              "variant":"banner"
+              "component": "status",
+              "variant": "banner"
             },
             {
-              "component":"theme",
-              "variant":"caution"
+              "component": "theme",
+              "variant": "caution"
             },
             {
-              "component":"cookie"
+              "component": "cookie"
             }
           ]
         },
-        "selector":"cookie",
-        "components":[
+        "selector": "cookie",
+        "components": [
           {
-            "name":"paragraph",
-            "data":[
+            "name": "paragraph",
+            "data": [
               {
-                "content":"shared.header.cookie-banner-text",
-                "data":{
-                  "link":"/meta/cookie-policy"
+                "content": "shared.header.cookie-banner-text",
+                "data": {
+                  "link": "/meta/cookie-policy"
                 }
               }
             ]
@@ -58,23 +58,23 @@
       }
     },
     {
-      "name":"status__banner",
-      "data":{
-        "display":{
-          "name":"partials__display",
-          "data":[
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
             {
-              "component":"status",
-              "variant":"banner"
+              "component": "status",
+              "variant": "banner"
             }
           ]
         },
-        "components":[
+        "components": [
           {
-            "name":"paragraph",
-            "data":[
+            "name": "paragraph",
+            "data": [
               {
-                "content":"shared.header.beta-status"
+                "content": "shared.header.beta-status"
               }
             ]
           }
@@ -82,84 +82,84 @@
       }
     },
     {
-      "name":"header",
-      "data":{
-        "components":[
+      "name": "header",
+      "data": {
+        "components": [
           {
-            "name":"link",
-            "data":{
-              "link":"/",
-              "display":{
-                "name":"partials__display",
-                "data":[
+            "name": "link",
+            "data": {
+              "link": "/",
+              "display": {
+                "name": "partials__display",
+                "data": [
                   {
-                    "component":"uk_parliament"
+                    "component": "uk_parliament"
                   }
                 ]
               },
-              "label":"shared.header.label",
-              "components":[
+              "label": "shared.header.label",
+              "components": [
                 {
-                  "name":"icon__uk-parliament",
-                  "data":"shared.header.label"
+                  "name": "icon__uk-parliament",
+                  "data": "shared.header.label"
                 }
               ]
             }
           },
           {
-            "name":"form__search",
-            "data":{
-              "global":true,
-              "label":"search.label",
-              "components":[
+            "name": "form__search",
+            "data": {
+              "global": true,
+              "label": "search.label",
+              "components": [
                 {
-                  "name":"icon__search",
-                  "data":"search.search-icon"
+                  "name": "icon__search",
+                  "data": "search.search-icon"
                 }
               ],
-              "search-action":"/search"
+              "search-action": "/search"
             }
           }
         ]
       }
     }
   ],
-  "main-components":[
+  "main-components": [
     {
-      "name":"section__primary",
-      "data":{
-        "components":[
+      "name": "section__primary",
+      "data": {
+        "components": [
           {
-            "name":"heading1",
-            "data":{
-              "subheading":{
-                "content":"<a href=\"../collections\">Collection</a>"
+            "name": "heading1",
+            "data": {
+              "subheading": {
+                "content": "<a href=\"../collections\">Collection</a>"
               },
-              "heading":{
-                "content":"Privilege and interests"
+              "heading": {
+                "content": "Privilege and interests"
               }
             }
           },
           {
-            "name":"paragraph",
-            "data":[
+            "name": "paragraph",
+            "data": [
               {
-                "content":"Freedom of speech, raising a matter of privilege, Code of Conduct, declaring and registering interests."
+                "content": "Freedom of speech, raising a matter of privilege, Code of Conduct, declaring and registering interests."
               }
             ]
           },
           {
-            "name":"list__description",
-            "data":{
-              "meta":true,
-              "items":[
+            "name": "list__description",
+            "data": {
+              "meta": true,
+              "items": [
                 {
-                  "term":{
-                    "content":"Found in"
+                  "term": {
+                    "content": "Found in"
                   },
-                  "description":[
+                  "description": [
                     {
-                      "content":"\u003ca href=\"guide-to-procedure\"\u003eMPs guide to procedure\u003c/a\u003e"
+                      "content": "\u003ca href=\"guide-to-procedure\"\u003eMPs guide to procedure\u003c/a\u003e"
                     }
                   ]
                 }
@@ -170,147 +170,147 @@
       }
     },
     {
-      "name":"section__section",
-      "data":{
-        "display":{
-          "name":"partials__display",
-          "data":[
+      "name": "section__section",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
             {
-              "component":"section",
-              "variant":"wide"
+              "component": "section",
+              "variant": "wide"
             }
           ]
         },
-        "components":[
+        "components": [
           {
-            "name":"heading",
-            "data":{
-              "content":"Articles",
-              "size":2
+            "name": "heading",
+            "data": {
+              "content": "In this collection",
+              "size": 2
             }
           },
           {
-            "name":"list__generic",
-            "data":{
-              "type":"ol",
-              "display":{
-                "name":"partials__display",
-                "data":[
+            "name": "list__generic",
+            "data": {
+              "type": "ol",
+              "display": {
+                "name": "partials__display",
+                "data": [
                   {
-                    "component":"list",
-                    "variant":"block"
+                    "component": "list",
+                    "variant": "block"
                   },
                   {
-                    "component":"list",
-                    "variant":"3"
+                    "component": "list",
+                    "variant": "3"
                   }
                 ]
               },
-              "components":[
+              "components": [
                 {
-                  "name":"card__generic",
-                  "data":{
-                    "small":{
-                      "name":"partials__small",
-                      "data":{
-                        "content":"Guidance"
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Article"
                       }
                     },
-                    "heading":{
-                      "name":"heading",
-                      "data":{
-                        "content":"\u003ca href=\"freedom-of-speech\"\u003eFreedom of speech\u003c/a\u003e",
-                        "size":2
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "\u003ca href=\"freedom-of-speech\"\u003eFreedom of speech\u003c/a\u003e",
+                        "size": 2
                       }
                     }
                   }
                 },
                 {
-                  "name":"card__generic",
-                  "data":{
-                    "small":{
-                      "name":"partials__small",
-                      "data":{
-                        "content":"Guidance"
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Article"
                       }
                     },
-                    "heading":{
-                      "name":"heading",
-                      "data":{
-                        "content":"\u003ca href=\"#\"\u003eBreach of privilege or contempt\u003c/a\u003e",
-                        "size":2
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "\u003ca href=\"#\"\u003eBreach of privilege or contempt\u003c/a\u003e",
+                        "size": 2
                       }
                     }
                   }
                 },
                 {
-                  "name":"card__generic",
-                  "data":{
-                    "small":{
-                      "name":"partials__small",
-                      "data":{
-                        "content":"How to"
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Article"
                       }
                     },
-                    "heading":{
-                      "name":"heading",
-                      "data":{
-                        "content":"\u003ca href=\"#\"\u003eRaising a matter of privilege\u003c/a\u003e",
-                        "size":2
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "\u003ca href=\"#\"\u003eRaising a matter of privilege\u003c/a\u003e",
+                        "size": 2
                       }
                     }
                   }
                 },
                 {
-                  "name":"card__generic",
-                  "data":{
-                    "small":{
-                      "name":"partials__small",
-                      "data":{
-                        "content":"Guidance"
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Article"
                       }
                     },
-                    "heading":{
-                      "name":"heading",
-                      "data":{
-                        "content":"\u003ca href=\"#\"\u003eCode of Conduct\u003c/a\u003e",
-                        "size":2
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "\u003ca href=\"#\"\u003eCode of Conduct\u003c/a\u003e",
+                        "size": 2
                       }
                     }
                   }
                 },
                 {
-                  "name":"card__generic",
-                  "data":{
-                    "small":{
-                      "name":"partials__small",
-                      "data":{
-                        "content":"How to"
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Article"
                       }
                     },
-                    "heading":{
-                      "name":"heading",
-                      "data":{
-                        "content":"\u003ca href=\"#\"\u003eDeclaring and registering interests\u003c/a\u003e",
-                        "size":2
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "\u003ca href=\"#\"\u003eDeclaring and registering interests\u003c/a\u003e",
+                        "size": 2
                       }
                     }
                   }
                 },
                 {
-                  "name":"card__generic",
-                  "data":{
-                    "small":{
-                      "name":"partials__small",
-                      "data":{
-                        "content":"Guidance"
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Article"
                       }
                     },
-                    "heading":{
-                      "name":"heading",
-                      "data":{
-                        "content":"\u003ca href=\"#\"\u003ePaid advocacy\u003c/a\u003e",
-                        "size":2
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "\u003ca href=\"#\"\u003ePaid advocacy\u003c/a\u003e",
+                        "size": 2
                       }
                     }
                   }
@@ -322,43 +322,43 @@
       }
     }
   ],
-  "footer-components":[
+  "footer-components": [
     {
-      "name":"footer",
-      "data":{
-        "uk-parliament":"shared.footer.uk-parliament",
-        "components":[
+      "name": "footer",
+      "data": {
+        "uk-parliament": "shared.footer.uk-parliament",
+        "components": [
           {
-            "name":"heading",
-            "data":{
-              "size":2,
-              "content":"UK Parliament"
+            "name": "heading",
+            "data": {
+              "size": 2,
+              "content": "UK Parliament"
             }
           },
           {
-            "name":"list__generic",
-            "data":{
-              "type":"ul",
-              "display":{
-                "name":"partials__display",
-                "data":[
+            "name": "list__generic",
+            "data": {
+              "type": "ul",
+              "display": {
+                "name": "partials__display",
+                "data": [
                   {
-                    "component":"list"
+                    "component": "list"
                   }
                 ]
               },
-              "contents":[
+              "contents": [
                 {
-                  "content":"shared.footer.current-website"
+                  "content": "shared.footer.current-website"
                 },
                 {
-                  "content":"shared.footer.cookie-policy",
-                  "data":{
-                    "link":"/meta/cookie-policy"
+                  "content": "shared.footer.cookie-policy",
+                  "data": {
+                    "link": "/meta/cookie-policy"
                   }
                 },
                 {
-                  "content":"shared.footer.data-protection-privacy"
+                  "content": "shared.footer.data-protection-privacy"
                 }
               ]
             }
