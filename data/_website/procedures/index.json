@@ -3,7 +3,7 @@
     "template": "layout"
   },
   "meta": {
-    "title": "Index - Procedures - UK Parliament",
+    "title": "procedures.index.title",
     "request-id": "|bcgBUSvROxtHXw==.",
     "data-alternates": [
       {
@@ -174,7 +174,7 @@
             "name": "heading1",
             "data": {
               "heading": {
-                "content": "Procedures"
+                "content": "procedures.index.heading"
               }
             }
           }

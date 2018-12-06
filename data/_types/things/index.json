@@ -3,10 +3,10 @@
     "template": "layout"
   },
   "meta": {
-    "title": "Things - Types - UK Parliament",
+    "title": "types.things.title",
     "request-id": "|Pk5Jq3rkRal4MA==.",
     "open-graph": {
-      "title": "Things - Types - UK Parliament",
+      "title": "Things - UK Parliament",
       "original-url": "https://localhost/",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",
@@ -71,7 +71,7 @@
             "name": "heading1",
             "data": {
               "heading": {
-                "content": "Things"
+                "content": "types.things.heading"
               }
             }
           }
@@ -112,7 +112,7 @@
                   "name": "paragraph",
                   "data": [
                     {
-                      "content": "There are currently no views."
+                      "content": "types.no-views"
                     }
                   ]
                 }
@@ -122,7 +122,7 @@
           {
             "name": "heading",
             "data": {
-              "content": "Notes:",
+              "content": "shared.notes.heading",
               "size": 2
             }
           },
@@ -132,13 +132,13 @@
               "type": "ul",
               "contents": [
                 {
-                  "content": "These are static html files"
+                  "content": "shared.notes.note-1"
                 },
                 {
-                  "content": "Links will either not be working or go to the correct location"
+                  "content": "shared.notes.note-2"
                 },
                 {
-                  "content": "Styles for desktop view are not complete"
+                  "content": "shared.notes.note-3"
                 }
               ]
             }
@@ -158,6 +158,34 @@
             "data": {
               "size": 2,
               "content": "UK Parliament"
+            }
+          },
+          {
+            "name": "list__generic",
+            "data": {
+              "type": "ul",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "list"
+                  }
+                ]
+              },
+              "contents": [
+                {
+                  "content": "shared.footer.current-website"
+                },
+                {
+                  "content": "shared.footer.cookie-policy",
+                  "data": {
+                    "link": "/meta/cookie-policy"
+                  }
+                },
+                {
+                  "content": "shared.footer.data-protection-privacy"
+                }
+              ]
             }
           }
         ]

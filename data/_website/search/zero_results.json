@@ -3,10 +3,10 @@
     "template": "layout"
   },
   "meta": {
-    "title": "Zero results - Search - UK Parliament",
+    "title": "Title of searched query - UK Parliament",
     "request-id": "|xX/k9ohRl+eskg==.",
     "open-graph": {
-      "title": "tyidtykcghkcfgk - Search - UK Parliament",
+      "title": "Title of searched query - UK Parliament",
       "original-url": "https://localhost/search?q=tyidtykcghkcfgk",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",

@@ -3,7 +3,7 @@
     "template": "layout"
   },
   "meta": {
-    "title": "Index - laid papers - made available - UK Parliament",
+    "title": "Title for layings in group - UK Parliament",
     "request-id": "|8/GMs686CjdBVw==.",
     "data-alternates": [
       {
@@ -36,7 +36,7 @@
       }
     ],
     "open-graph": {
-      "title": "Home Office - laid papers - UK Parliament",
+      "title": "Title for layings in group - UK Parliament",
       "original-url": "https://localhost/groups/12345678/made-available/availability-types/layings",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",
@@ -173,7 +173,7 @@
             "name": "heading1",
             "data": {
               "subheading": {
-                "content": "<a href=\"/groups/12345678\">Home Office</a>"
+                "content": "<a href=\"/_website/groups/12345678\">Home Office</a>"
               },
               "heading": {
                 "content": "Home Office - laid papers"

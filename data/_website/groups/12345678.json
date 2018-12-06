@@ -3,7 +3,7 @@
     "template": "layout"
   },
   "meta": {
-    "title": "Show - Group - UK Parliament",
+    "title": "Title for group - UK Parliament",
     "request-id": "|KN2mJToH06OAWg==.",
     "data-alternates": [
       {
@@ -36,7 +36,7 @@
       }
     ],
     "open-graph": {
-      "title": "Department for Education - UK Parliament",
+      "title": "Title for group - UK Parliament",
       "original-url": "https://localhost/groups/12345678",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",
@@ -175,7 +175,7 @@
               "subheading": {
                 "content": "groups.subheading",
                 "data": {
-                  "link": "/groups"
+                  "link": "/_website/groups"
                 }
               },
               "heading": {
@@ -212,7 +212,7 @@
                       "data": {
                         "content": "groups.subsidiary-resources.laid-papers",
                         "data": {
-                          "link": "/groups/12345678/made-available/availability-types/laid-papers"
+                          "link": "/_website/groups/12345678/made-available/availability-types/layings"
                         },
                         "size": 2
                       }

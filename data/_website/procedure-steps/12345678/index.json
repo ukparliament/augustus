@@ -3,7 +3,7 @@
     "template": "layout"
   },
   "meta": {
-    "title": "Show - Procedure steps - UK Parliament",
+    "title": "Title for procedure steps - UK Parliament",
     "request-id": "|opV14uvZES2t4A==.",
     "data-alternates": [
       {
@@ -36,7 +36,7 @@
       }
     ],
     "open-graph": {
-      "title": "Considered by the Joint Committee on Statutory Instruments (JCSI) - UK Parliament",
+      "title": "Title for procedure steps - UK Parliament",
       "original-url": "https://localhost/procedure-steps/12345678",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",
@@ -175,7 +175,7 @@
               "subheading": {
                 "content": "procedure-steps.subheading",
                 "data": {
-                  "link": "/procedure-steps"
+                  "link": "/_website/procedure-steps"
                 }
               },
               "heading": {
@@ -230,7 +230,7 @@
                       "data": {
                         "content": "procedure-steps.subsidiary-resources.work-packages",
                         "data": {
-                          "link": "/procedure-steps/12345678/work-packages"
+                          "link": "/_website/procedure-steps/12345678/work-packages"
                         },
                         "size": 2
                       }

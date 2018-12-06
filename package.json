@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/ukparliament/augustus.git"
   },
-  "author": "Allan Wazacz",
+  "author": "UK Parliament",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ukparliament/augustus/issues"
@@ -43,7 +43,7 @@
     "foreman": "^3.0.1",
     "i18next": "^11.10.2",
     "morgan": "^1.9.0",
-    "pugin-components": "^0.8.9",
+    "pugin-components": "^0.8.11",
     "shunter": "^4.12.0",
     "winston": "~2.3.0"
   }

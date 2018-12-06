@@ -3,7 +3,7 @@
     "template": "layout"
   },
   "meta": {
-    "title": "Index - Made available by availability types - Groups - UK Parliament",
+    "title": "Title for availability types in group - UK Parliament",
     "request-id": "|AawGkOW6L8NfKw==.",
     "data-alternates": [
       {
@@ -36,7 +36,7 @@
       }
     ],
     "open-graph": {
-      "title": "Department for Education - made available by availability types - UK Parliament",
+      "title": "Title for availability types in group - UK Parliament",
       "original-url": "https://localhost/groups/12345678/made-available/availability-types",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",
@@ -173,7 +173,7 @@
             "name": "heading1",
             "data": {
               "subheading": {
-                "content": "<a href=\"/groups/12345678\">Department for Education</a>"
+                "content": "<a href=\"/_website/groups/12345678\">Department for Education</a>"
               },
               "heading": {
                 "content": "Department for Education - made available by availability types"
@@ -209,7 +209,7 @@
                       "data": {
                         "content": "groups.subsidiary-resources.laid-papers",
                         "data": {
-                          "link": "/groups/12345678/made-available/availability-types/laid-papers"
+                          "link": "/_website/groups/12345678/made-available/availability-types/layings"
                         },
                         "size": 2
                       }

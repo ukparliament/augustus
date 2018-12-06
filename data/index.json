@@ -3,7 +3,7 @@
     "template": "layout"
   },
   "meta": {
-    "title": "App root - UK Parliament",
+    "title": "root.title",
     "request-id": "|Pk5Jq3rkRal4MA==.",
     "open-graph": {
       "title": "Homepage - UK Parliament",
@@ -71,7 +71,7 @@
             "name": "heading1",
             "data": {
               "heading": {
-                "content": "Augustus"
+                "content": "root.heading"
               }
             }
           },
@@ -79,7 +79,7 @@
             "name": "paragraph",
             "data": [
               {
-                "content": "This is a Shunter based application to showcase prototypes, types and website pages."
+                "content": "root.summary"
               }
             ]
           }
@@ -127,7 +127,10 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "<a href=\"/_prototypes\">Prototypes</a>",
+                        "content": "root.prototypes",
+                        "data": {
+                          "link": "/_prototypes"
+                        },
                         "size": 2
                       }
                     }
@@ -139,7 +142,10 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "<a href=\"_types\">Types</a>",
+                        "content": "root.types",
+                        "data": {
+                          "link": "/_types"
+                        },
                         "size": 2
                       }
                     }
@@ -151,7 +157,10 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "<a href=\"/_website\">Website</a>",
+                        "content": "root.website",
+                        "data": {
+                          "link": "/_website"
+                        },
                         "size": 2
                       }
                     }
@@ -163,7 +172,7 @@
           {
             "name": "heading",
             "data": {
-              "content": "Notes:",
+              "content": "shared.notes.heading",
               "size": 2
             }
           },
@@ -173,13 +182,13 @@
               "type": "ul",
               "contents": [
                 {
-                  "content": "These are static html files"
+                  "content": "shared.notes.note-1"
                 },
                 {
-                  "content": "Links will either not be working or go to the correct location"
+                  "content": "shared.notes.note-2"
                 },
                 {
-                  "content": "Styles for desktop view are not complete"
+                  "content": "shared.notes.note-3"
                 }
               ]
             }
@@ -199,6 +208,34 @@
             "data": {
               "size": 2,
               "content": "UK Parliament"
+            }
+          },
+          {
+            "name": "list__generic",
+            "data": {
+              "type": "ul",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "list"
+                  }
+                ]
+              },
+              "contents": [
+                {
+                  "content": "shared.footer.current-website"
+                },
+                {
+                  "content": "shared.footer.cookie-policy",
+                  "data": {
+                    "link": "/meta/cookie-policy"
+                  }
+                },
+                {
+                  "content": "shared.footer.data-protection-privacy"
+                }
+              ]
             }
           }
         ]

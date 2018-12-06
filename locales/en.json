@@ -23,10 +23,44 @@
     },
     "time-html": "<time datetime='{{-datetime-value}}'>{{-date}}</time>",
     "time-html-to": "<time datetime='{{-datetime-value}}'>{{-date}}</time> to <time datetime='{{-datetime-value-second}}'>{{-date-second}}</time>",
-    "time-html-to-present": "<time datetime='{{-datetime-value}}'>{{-date}}</time> to present"
+    "time-html-to-present": "<time datetime='{{-datetime-value}}'>{{-date}}</time> to present",
+    "notes": {
+      "heading": "Notes:",
+      "note-1": "These are static html files",
+      "note-2": "Links will either not be working or will not go to the correct location",
+      "note-3": "Styles are work in progress"
+    }
+  },
+  "root": {
+    "title": "Augustus - UK Parliament",
+    "heading": "Augustus",
+    "summary": "This is a Shunter based application to showcase prototypes, types and website pages.",
+    "prototypes": "<a href='{{-link}}'>Prototypes</a>",
+    "types": "<a href='{{-link}}'>Types</a>",
+    "website": "<a href='{{-link}}'>Website</a>"
+  },
+  "types": {
+    "title": "Types - UK Parliament",
+    "heading": "Types",
+    "no-views": "There are currently no views",
+    "lists": {
+      "title": "Lists - UK Parliament",
+      "heading": "Lists",
+      "link": "<a href=\"{{-link}}\">Lists</a>"
+    },
+    "things": {
+      "title": "Things - UK Parliament",
+      "heading": "Things",
+      "link": "<a href=\"{{-link}}\">Things</a>"
+    },
+    "utilities": {
+      "title": "Utilities - UK Parliament",
+      "heading": "Utilities",
+      "link": "<a href=\"{{-link}}\">Utilities</a>"
+    }
   },
   "home": {
-    "title": "beta.parliament.uk",
+    "title": "Homepage - UK Parliament",
     "hero": {
       "heading": "UK Parliament beta website",
       "building-new-website": "We're building a new website for Parliament. Pages with a beta label are being tested and improved. They may not work for everyone.",
@@ -77,7 +111,15 @@
     "laying-body": "Laying body",
     "web-link": "Web link"
   },
+  "layig-bodies": {
+    "index": {
+      "title": "Laying bodies - UK Parliament"
+    }
+  },
   "search": {
+    "index": {
+      "title": "Search - UK Parliament"
+    },
     "search-heading": "Search",
     "label": "Enter a keyword",
     "search-icon": "Search icon",
@@ -86,6 +128,9 @@
     "no-results": "There are no results for your search"
   },
   "statutory-instruments": {
+    "index": {
+      "title": "Statutory instruments - UK Parliament"
+    },
     "show": {
       "subheading": "<a href='{{-link}}'>Statutory Instruments</a>",
       "coming-into-force-date": "Coming into force date",
@@ -97,6 +142,9 @@
     "type": "Statutory instrument"
   },
   "proposed-negative-statutory-instruments": {
+    "index": {
+      "title": "Proposed negative statutory instruments - UK Parliament"
+    },
     "show": {
       "subheading": "<a href='{{-link}}'>Proposed Negative Statutory Instruments</a>",
       "preceding-title": "Followed by"
@@ -104,12 +152,18 @@
     "type": "Proposed negative statutory instrument"
   },
   "groups": {
+    "index": {
+      "title": "Groups - UK Parliament"
+    },
 		"subheading": "<a href= '{{-link}}'>Groups</a>",
 		"subsidiary-resources": {
 			"laid-papers": "<a href= '{{-link}}'>Laid papers</a>"
 		}
   },
   "procedure-steps": {
+    "index": {
+      "title": "Procedure steps - UK Parliament"
+    },
     "subheading": "<a href= '{{-link}}'>Procedure step</a>",
     "subsidiary-resources": {
       "work-packages": "<a href= '{{-link}}'>Procedural activity</a>",
@@ -119,10 +173,7 @@
   },
   "articles": {
     "index": {
-      "title": "Article index title - UK Parliament"
-    },
-    "show": {
-      "title": "Article show title - UK Parliament"
+      "title": "Articles - UK Parliament"
     }
   },
   "houses": {
@@ -131,11 +182,17 @@
     }
   },
   "procedures": {
-    "subheading": "<a href= '{{-link}}'>Procedures</a>",
-    "subsidiary-resources": {
-      "work-packages": "<a href= '{{-link}}'>Procedural activity</a>"
+    "index": {
+      "title": "Procedures - UK Parliament",
+      "heading": "Procedures"
     },
-    "about": "Find out more about the <a href='https://www.parliament.uk/about/how/laws/secondary-legislation/'>{{-procedure}} procedure</a>."
+    "show": {
+      "subheading": "<a href= '{{-link}}'>Procedures</a>",
+      "subsidiary-resources": {
+        "work-packages": "<a href= '{{-link}}'>Procedural activity</a>"
+      },
+      "about": "Find out more about the <a href='https://www.parliament.uk/about/how/laws/secondary-legislation/'>{{-procedure}} procedure</a>."
+    }
   },
   "committees": {
     "committee": "<a href= '{{-link}}'>Committee</a>"

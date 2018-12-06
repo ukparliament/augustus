@@ -3,7 +3,7 @@
     "template": "layout"
   },
   "meta": {
-    "title": "Show - Procedures - UK Parliament",
+    "title": "Title for procedures - UK Parliament",
     "request-id": "|8TAC9eVeCH3Qkw==.",
     "data-alternates": [
       {
@@ -36,7 +36,7 @@
       }
     ],
     "open-graph": {
-      "title": "Draft affirmative - UK Parliament",
+      "title": "Title for procedures - UK Parliament",
       "original-url": "https://localhost/procedures/H5YJQsK2",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",
@@ -173,7 +173,7 @@
             "name": "heading1",
             "data": {
               "subheading": {
-                "content": "procedures.subheading",
+                "content": "procedures.show.subheading",
                 "data": {
                   "link": "/procedures"
                 }
@@ -187,7 +187,7 @@
             "name": "paragraph",
             "data": [
               {
-                "content": "procedures.about",
+                "content": "procedures.show.about",
                 "data": {
                   "procedure": "draft affirmative"
                 }
@@ -221,7 +221,7 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "procedures.subsidiary-resources.work-packages",
+                        "content": "procedures.show.subsidiary-resources.work-packages",
                         "data": {
                           "link": "/procedures/H5YJQsK2/work-packages"
                         },
