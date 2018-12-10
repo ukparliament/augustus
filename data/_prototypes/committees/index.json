@@ -243,44 +243,41 @@
     {
       "name": "footer",
       "data": {
-        "uk-parliament": "shared.footer.uk-parliament",
-        "components": [
-          {
-            "name": "heading",
-            "data": {
-              "size": 2,
-              "content": "UK Parliament"
-            }
-          },
-          {
-            "name": "list__generic",
-            "data": {
-              "type": "ul",
-              "display": {
-                "name": "partials__display",
-                "data": [
-                  {
-                    "component": "list"
-                  }
-                ]
-              },
-              "contents": [
+        "heading": {
+          "name": "heading",
+          "data": {
+            "size": 2,
+            "content": "shared.footer.uk-parliament"
+          }
+        },
+        "list-generic": {
+          "name": "list__generic",
+          "data": {
+            "type": "ul",
+            "display": {
+              "name": "partials__display",
+              "data": [
                 {
-                  "content": "shared.footer.current-website"
-                },
-                {
-                  "content": "shared.footer.cookie-policy",
-                  "data": {
-                    "link": "/meta/cookie-policy"
-                  }
-                },
-                {
-                  "content": "shared.footer.data-protection-privacy"
+                  "component": "list"
                 }
               ]
-            }
+            },
+            "contents": [
+              {
+                "content": "shared.footer.current-website"
+              },
+              {
+                "content": "shared.footer.cookie-policy",
+                "data": {
+                  "link": "/meta/cookie-policy"
+                }
+              },
+              {
+                "content": "shared.footer.data-protection-privacy"
+              }
+            ]
           }
-        ]
+        }
       }
     }
   ]
