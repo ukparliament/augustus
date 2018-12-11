@@ -117,7 +117,7 @@
                   "data": "search.search-icon"
                 }
               ],
-              "search-action": "/search"
+              "search-action": "/_website/search"
             }
           }
         ]
