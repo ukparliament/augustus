@@ -3,11 +3,41 @@
     "template": "layout"
   },
   "meta": {
-    "title": "root.title",
-    "request-id": "|Pk5Jq3rkRal4MA==.",
+    "title": "procedures.index.title",
+    "request-id": "|bcgBUSvROxtHXw==.",
+    "data-alternates": [
+      {
+        "type": "application/n-triples",
+        "href": "https://api.parliament.uk/query/staging/procedure_index.nt"
+      },
+      {
+        "type": "text/turtle",
+        "href": "https://api.parliament.uk/query/staging/procedure_index.ttl"
+      },
+      {
+        "type": "text/tab-separated-values",
+        "href": "https://api.parliament.uk/query/staging/procedure_index.tsv"
+      },
+      {
+        "type": "text/csv",
+        "href": "https://api.parliament.uk/query/staging/procedure_index.csv"
+      },
+      {
+        "type": "application/json+rdf",
+        "href": "https://api.parliament.uk/query/staging/procedure_index.rj"
+      },
+      {
+        "type": "application/json+ld",
+        "href": "https://api.parliament.uk/query/staging/procedure_index.json"
+      },
+      {
+        "type": "application/rdf+xml",
+        "href": "https://api.parliament.uk/query/staging/procedure_index.xml"
+      }
+    ],
     "open-graph": {
-      "title": "Homepage - UK Parliament",
-      "original-url": "https://localhost/",
+      "title": "Procedures - UK Parliament",
+      "original-url": "https://localhost/procedures",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",
       "image-height": "630",
@@ -30,6 +60,65 @@
         },
         "selector": "skiplink",
         "content": "shared.header.skip-to-content"
+      }
+    },
+    {
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "status",
+              "variant": "banner"
+            },
+            {
+              "component": "theme",
+              "variant": "caution"
+            },
+            {
+              "component": "cookie"
+            }
+          ]
+        },
+        "selector": "cookie",
+        "components": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.cookie-banner-text",
+                "data": {
+                  "link": "/meta/cookie-policy"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "status",
+              "variant": "banner"
+            }
+          ]
+        },
+        "components": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.beta-status"
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -56,6 +145,20 @@
                 }
               ]
             }
+          },
+          {
+            "name": "form__search",
+            "data": {
+              "global": true,
+              "label": "search.label",
+              "components": [
+                {
+                  "name": "icon__search",
+                  "data": "search.search-icon"
+                }
+              ],
+              "search-action": "/website/search"
+            }
           }
         ]
       }
@@ -71,17 +174,9 @@
             "name": "heading1",
             "data": {
               "heading": {
-                "content": "root.heading"
+                "content": "procedures.index.heading"
               }
             }
-          },
-          {
-            "name": "paragraph",
-            "data": [
-              {
-                "content": "root.summary"
-              }
-            ]
           }
         ]
       }
@@ -89,19 +184,6 @@
     {
       "name": "section__section",
       "data": {
-        "display": {
-          "name": "partials__display",
-          "data": [
-            {
-              "component": "section",
-              "variant": "major"
-            },
-            {
-              "component": "section",
-              "variant": "wide"
-            }
-          ]
-        },
         "components": [
           {
             "name": "list__generic",
@@ -113,10 +195,6 @@
                   {
                     "component": "list",
                     "variant": "block"
-                  },
-                  {
-                    "component": "list",
-                    "variant": "3"
                   }
                 ]
               },
@@ -127,10 +205,7 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "root.prototypes",
-                        "data": {
-                          "link": "/prototypes"
-                        },
+                        "content": "<a href=\"/procedures/H5YJQsK2\">Draft affirmative</a>",
                         "size": 2
                       }
                     }
@@ -142,10 +217,7 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "root.types",
-                        "data": {
-                          "link": "/types"
-                        },
+                        "content": "<a href=\"/procedures/gTgidljI\">Draft negative</a>",
                         "size": 2
                       }
                     }
@@ -157,38 +229,35 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "root.website",
-                        "data": {
-                          "link": "/website"
-                        },
+                        "content": "<a href=\"/procedures/iWugpxMn\">Made affirmative</a>",
                         "size": 2
                       }
                     }
                   }
-                }
-              ]
-            }
-          },
-          {
-            "name": "heading",
-            "data": {
-              "content": "shared.notes.heading",
-              "size": 2
-            }
-          },
-          {
-            "name": "list__generic",
-            "data": {
-              "type": "ul",
-              "contents": [
-                {
-                  "content": "shared.notes.note-1"
                 },
                 {
-                  "content": "shared.notes.note-2"
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/procedures/5S6p4YsP\">Made negative</a>",
+                        "size": 2
+                      }
+                    }
+                  }
                 },
                 {
-                  "content": "shared.notes.note-3"
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/procedures/iCdMN1MW\">Proposed negative statutory instrument</a>",
+                        "size": 2
+                      }
+                    }
+                  }
                 }
               ]
             }

@@ -1,0 +1,1110 @@
+{
+  "layout": {
+    "template": "layout"
+  },
+  "meta": {
+    "title": "Current procedural activity - UK Parliament",
+    "request-id": "|XTEMNcz9a+7Z/g==.",
+    "data-alternates": [
+      {
+        "type": "application/n-triples",
+        "href": "http://localhost:3030/api/v1/work_package_current.nt"
+      },
+      {
+        "type": "text/turtle",
+        "href": "http://localhost:3030/api/v1/work_package_current.ttl"
+      },
+      {
+        "type": "text/tab-separated-values",
+        "href": "http://localhost:3030/api/v1/work_package_current.tsv"
+      },
+      {
+        "type": "text/csv",
+        "href": "http://localhost:3030/api/v1/work_package_current.csv"
+      },
+      {
+        "type": "application/json+rdf",
+        "href": "http://localhost:3030/api/v1/work_package_current.rj"
+      },
+      {
+        "type": "application/json+ld",
+        "href": "http://localhost:3030/api/v1/work_package_current.json"
+      },
+      {
+        "type": "application/rdf+xml",
+        "href": "http://localhost:3030/api/v1/work_package_current.xml"
+      }
+    ],
+    "open-graph": {
+      "title": "Current procedural activity - UK Parliament",
+      "original-url": "https://localhost/work-packages/current",
+      "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
+      "image-width": "1200",
+      "image-height": "630",
+      "twitter-card": "summary_large_image"
+    },
+    "opensearch-description-url": "https://localhost/search/opensearch"
+  },
+  "header-components": [
+    {
+      "name": "link",
+      "data": {
+        "link": "#content",
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "skip-to-content"
+            }
+          ]
+        },
+        "selector": "skiplink",
+        "content": "shared.header.skip-to-content"
+      }
+    },
+    {
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "status",
+              "variant": "banner"
+            },
+            {
+              "component": "theme",
+              "variant": "caution"
+            },
+            {
+              "component": "cookie"
+            }
+          ]
+        },
+        "selector": "cookie",
+        "components": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.cookie-banner-text",
+                "data": {
+                  "link": "/meta/cookie-policy"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "status",
+              "variant": "banner"
+            }
+          ]
+        },
+        "components": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.beta-status"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "header",
+      "data": {
+        "components": [
+          {
+            "name": "link",
+            "data": {
+              "link": "/",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "uk_parliament"
+                  }
+                ]
+              },
+              "label": "shared.header.label",
+              "components": [
+                {
+                  "name": "icon__uk-parliament",
+                  "data": "shared.header.label"
+                }
+              ]
+            }
+          },
+          {
+            "name": "form__search",
+            "data": {
+              "global": true,
+              "label": "search.label",
+              "components": [
+                {
+                  "name": "icon__search",
+                  "data": "search.search-icon"
+                }
+              ],
+              "search-action": "/website/search"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "main-components": [
+    {
+      "name": "section__primary",
+      "data": {
+        "components": [
+          {
+            "name": "heading1",
+            "data": {
+              "heading": {
+                "content": "Current procedural activity"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "section__section",
+      "data": {
+        "components": [
+          {
+            "name": "list__generic",
+            "data": {
+              "type": "ol",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "list",
+                    "variant": "block"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/7IkaiQ77\">Bank of England (Amendment) (EU Exit) Regulations</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Proposed negative statutory instrument"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "shared.time-html",
+                                "data": {
+                                  "datetime-value": "2018-11-06",
+                                  "date": "6 November 2018"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/3iHEhPJE\">National Health Service (General Medical Services Contracts) (Prescription of Drugs etc.) (Amendment) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Made negative"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "shared.time-html",
+                                "data": {
+                                  "datetime-value": "2018-11-06",
+                                  "date": "6 November 2018"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/FyzgXS2e\">Payment Accounts (Amendment) (EU Exit) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Draft affirmative"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "shared.time-html",
+                                "data": {
+                                  "datetime-value": "2018-11-06",
+                                  "date": "6 November 2018"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/UnojGvtt\">Statutory Auditors and Third Country Auditors (Amendment) (EU Exit) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Draft affirmative"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "shared.time-html",
+                                "data": {
+                                  "datetime-value": "2018-11-06",
+                                  "date": "6 November 2018"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/4lqbkcyG\">Trade Repositories (Amendment and Transitional Provision) (EU Exit) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Draft affirmative"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "shared.time-html",
+                                "data": {
+                                  "datetime-value": "2018-11-06",
+                                  "date": "6 November 2018"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/k7cGg2ER\">Anti-social Behaviour, Crime and Policing Act 2014 (Amendment) Order 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Draft affirmative"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "shared.time-html",
+                                "data": {
+                                  "datetime-value": "2018-11-05",
+                                  "date": "5 November 2018"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/aKpbDNwd\">Child Tax Credit (Amendment) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Made negative"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "shared.time-html",
+                                "data": {
+                                  "datetime-value": "2018-11-05",
+                                  "date": "5 November 2018"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/bCxOxdDP\">Companies, Limited Liability Partnerships and Partnerships (Amendment etc) (EU Exit) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Proposed negative statutory instrument"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "shared.time-html",
+                                "data": {
+                                  "datetime-value": "2018-11-05",
+                                  "date": "5 November 2018"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/tJ8jzsm7\">Non-Contentious Probate (Amendment) Rules 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Made negative"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "shared.time-html",
+                                "data": {
+                                  "datetime-value": "2018-11-05",
+                                  "date": "5 November 2018"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/Oj1sWgBg\">Non-Contentious Probate (Fees) Order 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Draft affirmative"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "shared.time-html",
+                                "data": {
+                                  "datetime-value": "2018-11-05",
+                                  "date": "5 November 2018"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/t8olnItE\">Plant Health (England) (Amendment) (No. 5) Order 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Made negative"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "shared.time-html",
+                                "data": {
+                                  "datetime-value": "2018-11-05",
+                                  "date": "5 November 2018"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/2TdIkxzN\">Social Security (Scotland) Act 2018 (Best Start Grants) (Consequential Modifications and Saving) Order 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Made negative"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "shared.time-html",
+                                "data": {
+                                  "datetime-value": "2018-11-05",
+                                  "date": "5 November 2018"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/QnZ1LvrD\">Universal Credit (Managed Migration) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Draft affirmative"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "shared.time-html",
+                                "data": {
+                                  "datetime-value": "2018-11-05",
+                                  "date": "5 November 2018"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/uhYLJmxn\">Universal Credit and Jobseeker&#39;s Allowance (Miscellaneous Amendments) Regulations (Northern Ireland) 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Made negative"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "shared.time-html",
+                                "data": {
+                                  "datetime-value": "2018-11-05",
+                                  "date": "5 November 2018"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/gZwAx3LG\">Universal Credit and Jobseeker’s Allowance (Miscellaneous Amendments) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Made negative"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "shared.time-html",
+                                "data": {
+                                  "datetime-value": "2018-11-05",
+                                  "date": "5 November 2018"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/mTglfPz4\">Local Government (Boundary Changes) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Made negative"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "shared.time-html",
+                                "data": {
+                                  "datetime-value": "2018-11-02",
+                                  "date": "2 November 2018"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/Fz9FAH9L\">Childcare (Miscellaneous Amendments) (EU Exit) (England) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Made negative"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "shared.time-html",
+                                "data": {
+                                  "datetime-value": "2018-11-01",
+                                  "date": "1 November 2018"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/6WEfkmrk\">Civil Jurisdiction and Judgments (Hague Convention on Choice of Court Agreements 2005) (EU Exit) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Made negative"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "shared.time-html",
+                                "data": {
+                                  "datetime-value": "2018-11-01",
+                                  "date": "1 November 2018"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/JDQwgmXN\">Coroners Allowances, Fees and Expenses (Amendment) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Made negative"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "shared.time-html",
+                                "data": {
+                                  "datetime-value": "2018-11-01",
+                                  "date": "1 November 2018"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/Ylex1zth\">Fertilisers and Ammonium Nitrate Material (Amendment) (EU Exit) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Proposed negative statutory instrument"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "laid-thing.laid-date"
+                            },
+                            "description": [
+                              {
+                                "content": "shared.time-html",
+                                "data": {
+                                  "datetime-value": "2018-11-01",
+                                  "date": "1 November 2018"
+                                }
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "footer-components": [
+    {
+      "name": "footer",
+      "data": {
+        "heading": {
+          "name": "heading",
+          "data": {
+            "size": 2,
+            "content": "shared.footer.uk-parliament"
+          }
+        },
+        "list-generic": {
+          "name": "list__generic",
+          "data": {
+            "type": "ul",
+            "display": {
+              "name": "partials__display",
+              "data": [
+                {
+                  "component": "list"
+                }
+              ]
+            },
+            "contents": [
+              {
+                "content": "shared.footer.current-website"
+              },
+              {
+                "content": "shared.footer.cookie-policy",
+                "data": {
+                  "link": "/meta/cookie-policy"
+                }
+              },
+              {
+                "content": "shared.footer.data-protection-privacy"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

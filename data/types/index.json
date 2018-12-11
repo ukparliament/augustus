@@ -3,10 +3,10 @@
     "template": "layout"
   },
   "meta": {
-    "title": "root.title",
+    "title": "types.title",
     "request-id": "|Pk5Jq3rkRal4MA==.",
     "open-graph": {
-      "title": "Homepage - UK Parliament",
+      "title": "Types - UK Parliament",
       "original-url": "https://localhost/",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",
@@ -71,17 +71,9 @@
             "name": "heading1",
             "data": {
               "heading": {
-                "content": "root.heading"
+                "content": "types.heading"
               }
             }
-          },
-          {
-            "name": "paragraph",
-            "data": [
-              {
-                "content": "root.summary"
-              }
-            ]
           }
         ]
       }
@@ -127,9 +119,9 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "root.prototypes",
+                        "content": "types.lists.link",
                         "data": {
-                          "link": "/prototypes"
+                          "link": "/types/lists"
                         },
                         "size": 2
                       }
@@ -142,9 +134,9 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "root.types",
+                        "content": "types.things.link",
                         "data": {
-                          "link": "/types"
+                          "link": "/types/things"
                         },
                         "size": 2
                       }
@@ -157,9 +149,9 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "root.website",
+                        "content": "types.utilities.link",
                         "data": {
-                          "link": "/website"
+                          "link": "/types/utilities"
                         },
                         "size": 2
                       }

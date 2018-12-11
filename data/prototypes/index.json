@@ -3,10 +3,10 @@
     "template": "layout"
   },
   "meta": {
-    "title": "root.title",
+    "title": "Prototypes - UK Parliament",
     "request-id": "|Pk5Jq3rkRal4MA==.",
     "open-graph": {
-      "title": "Homepage - UK Parliament",
+      "title": "Prototypes - UK Parliament",
       "original-url": "https://localhost/",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",
@@ -71,17 +71,9 @@
             "name": "heading1",
             "data": {
               "heading": {
-                "content": "root.heading"
+                "content": "Prototypes"
               }
             }
-          },
-          {
-            "name": "paragraph",
-            "data": [
-              {
-                "content": "root.summary"
-              }
-            ]
           }
         ]
       }
@@ -90,81 +82,37 @@
       "name": "section__section",
       "data": {
         "display": {
-          "name": "partials__display",
-          "data": [
-            {
-              "component": "section",
-              "variant": "major"
-            },
-            {
-              "component": "section",
-              "variant": "wide"
-            }
-          ]
+          "name": "partials__display"
         },
         "components": [
           {
             "name": "list__generic",
             "data": {
-              "type": "ol",
-              "display": {
-                "name": "partials__display",
-                "data": [
-                  {
-                    "component": "list",
-                    "variant": "block"
-                  },
-                  {
-                    "component": "list",
-                    "variant": "3"
-                  }
-                ]
-              },
-              "components": [
+              "type": "ul",
+              "contents": [
                 {
-                  "name": "card__generic",
-                  "data": {
-                    "heading": {
-                      "name": "heading",
-                      "data": {
-                        "content": "root.prototypes",
-                        "data": {
-                          "link": "/prototypes"
-                        },
-                        "size": 2
-                      }
-                    }
-                  }
+                  "content": "<a href=\"/prototypes/collections/\">[List] Collection list</a>"
                 },
                 {
-                  "name": "card__generic",
-                  "data": {
-                    "heading": {
-                      "name": "heading",
-                      "data": {
-                        "content": "root.types",
-                        "data": {
-                          "link": "/types"
-                        },
-                        "size": 2
-                      }
-                    }
-                  }
+                  "content": "<a href=\"/prototypes/collections/guide-to-procedure\">[Collection] Guide to procedure</a>"
                 },
                 {
-                  "name": "card__generic",
-                  "data": {
-                    "heading": {
-                      "name": "heading",
-                      "data": {
-                        "content": "root.website",
-                        "data": {
-                          "link": "/website"
-                        },
-                        "size": 2
-                      }
-                    }
-                  }
+                  "content": "<a href=\"/prototypes/collections/privilege-and-interests\">[Collection] Privilege and Interests</a>"
+                },
+                {
+                  "content": "<a href=\"/prototypes/collections/freedom-of-speech\">[Article] Freedom of speech</a>"
+                },
+                {
+                  "content": "<a href=\"/prototypes/committees/index\">[List] Committees</a>"
+                },
+                {
+                  "content": "<a href=\"/prototypes/committees/12345678\">[Thing] Committee</a>"
+                },
+                {
+                  "content": "<a href=\"/prototypes/committees/memberships/current\">[List] Current committee membership</a>"
+                },
+                {
+                  "content": "<a href=\"/prototypes/master\">[List, Thing] Master Template</a>"
                 }
               ]
             }

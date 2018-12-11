@@ -1,0 +1,853 @@
+{
+  "layout": {
+    "template": "layout"
+  },
+  "meta": {
+    "title": "Title for work packages in procedure steps - UK Parliament",
+    "request-id": "|+dkm0SB/FZY5Bw==.",
+    "data-alternates": [
+      {
+        "type": "application/n-triples",
+        "href": "http://localhost:3030/api/v1/procedure_step_work_packages.nt?procedure_step_id=12345678"
+      },
+      {
+        "type": "text/turtle",
+        "href": "http://localhost:3030/api/v1/procedure_step_work_packages.ttl?procedure_step_id=12345678"
+      },
+      {
+        "type": "text/tab-separated-values",
+        "href": "http://localhost:3030/api/v1/procedure_step_work_packages.tsv?procedure_step_id=12345678"
+      },
+      {
+        "type": "text/csv",
+        "href": "http://localhost:3030/api/v1/procedure_step_work_packages.csv?procedure_step_id=12345678"
+      },
+      {
+        "type": "application/json+rdf",
+        "href": "http://localhost:3030/api/v1/procedure_step_work_packages.rj?procedure_step_id=12345678"
+      },
+      {
+        "type": "application/json+ld",
+        "href": "http://localhost:3030/api/v1/procedure_step_work_packages.json?procedure_step_id=12345678"
+      },
+      {
+        "type": "application/rdf+xml",
+        "href": "http://localhost:3030/api/v1/procedure_step_work_packages.xml?procedure_step_id=12345678"
+      }
+    ],
+    "open-graph": {
+      "title": "Title for work packages in procedure steps - UK Parliament",
+      "original-url": "https://localhost/procedure-steps/12345678/work-packages",
+      "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
+      "image-width": "1200",
+      "image-height": "630",
+      "twitter-card": "summary_large_image"
+    },
+    "opensearch-description-url": "https://localhost/search/opensearch"
+  },
+  "header-components": [
+    {
+      "name": "link",
+      "data": {
+        "link": "#content",
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "skip-to-content"
+            }
+          ]
+        },
+        "selector": "skiplink",
+        "content": "shared.header.skip-to-content"
+      }
+    },
+    {
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "status",
+              "variant": "banner"
+            },
+            {
+              "component": "theme",
+              "variant": "caution"
+            },
+            {
+              "component": "cookie"
+            }
+          ]
+        },
+        "selector": "cookie",
+        "components": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.cookie-banner-text",
+                "data": {
+                  "link": "/meta/cookie-policy"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "status",
+              "variant": "banner"
+            }
+          ]
+        },
+        "components": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.beta-status"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "header",
+      "data": {
+        "components": [
+          {
+            "name": "link",
+            "data": {
+              "link": "/",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "uk_parliament"
+                  }
+                ]
+              },
+              "label": "shared.header.label",
+              "components": [
+                {
+                  "name": "icon__uk-parliament",
+                  "data": "shared.header.label"
+                }
+              ]
+            }
+          },
+          {
+            "name": "form__search",
+            "data": {
+              "global": true,
+              "label": "search.label",
+              "components": [
+                {
+                  "name": "icon__search",
+                  "data": "search.search-icon"
+                }
+              ],
+              "search-action": "/website/search"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "main-components": [
+    {
+      "name": "section__primary",
+      "data": {
+        "components": [
+          {
+            "name": "heading1",
+            "data": {
+              "subheading": {
+                "content": "<a href=\"/website/procedure-steps/12345678\">Considered by the Joint Committee on Statutory Instruments (JCSI)</a>"
+              },
+              "heading": {
+                "content": "Considered by the Joint Committee on Statutory Instruments (JCSI) - procedural activity"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "section__section",
+      "data": {
+        "components": [
+          {
+            "name": "list__generic",
+            "data": {
+              "type": "ol",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "list",
+                    "variant": "block"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/UsdZhECl\">Ionising Radiation (Basic Safety Standards) (Miscellaneous Provisions) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Made negative"
+                              }
+                            ]
+                          },
+                          null
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/PsB0pq0l\">Scotland Act 2016 and Wales Act 2017 (Onshore Petroleum) (Consequential Amendments) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Draft affirmative"
+                              }
+                            ]
+                          },
+                          null
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/uBG5MdZZ\">Civil Procedure (Amendment No. 2) Rules 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Made negative"
+                              }
+                            ]
+                          },
+                          null
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/eCsYdAM3\">Client Money Protection Schemes for Property Agents (Requirement to Belong to a Scheme etc) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Draft affirmative"
+                              }
+                            ]
+                          },
+                          null
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/tVWVmTCL\">Client Money Protection Schemes for Property Agents (Approval and Designation of Schemes) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Draft affirmative"
+                              }
+                            ]
+                          },
+                          null
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/BBNF0hzl\">Local Land Charges Fees (England) Rules 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Made negative"
+                              }
+                            ]
+                          },
+                          null
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/c8P8nJgq\">Offshore Environmental Civil Sanctions Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Draft affirmative"
+                              }
+                            ]
+                          },
+                          null
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/XDilT5Ce\">Local Government Pension Scheme (Amendment) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Made negative"
+                              }
+                            ]
+                          },
+                          null
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/zlDxL3xS\">Restriction on the Preparation of Adoption Reports (Amendment) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Draft affirmative"
+                              }
+                            ]
+                          },
+                          null
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/5wUN28za\">Public Service Vehicles (Registration of Local Services) (Amendment) (England) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Made negative"
+                              }
+                            ]
+                          },
+                          null
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/y5Pki10i\">Higher Education (Basic Amount and Higher Amount) (England) (Amendment) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Made negative"
+                              }
+                            ]
+                          },
+                          null
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/W7YZ1i4T\">Breaching of Limits on Ticket Sales Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Draft affirmative"
+                              }
+                            ]
+                          },
+                          null
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/bONPJ56c\">Electronic Presentment of Instruments (Evidence of Payment and Compensation for Loss) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Draft affirmative"
+                              }
+                            ]
+                          },
+                          null
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/WmlTLQiJ\">Education (Student Support) (Amendment) (No. 3) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Made negative"
+                              }
+                            ]
+                          },
+                          null
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/40Yq0PnR\">School Information (England) (Amendment) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Made negative"
+                              }
+                            ]
+                          },
+                          null
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/DRTwwjtS\">Poisons Act 1972 (Explosives Precursors) (Amendment) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Made negative"
+                              }
+                            ]
+                          },
+                          null
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/k5jw9Nhv\">Offshore Combustion Installations (Pollution Prevention and Control) (Amendment) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Draft affirmative"
+                              }
+                            ]
+                          },
+                          null
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/ku4HUUqp\">Cash Ratio Deposits (Value Bands and Ratios) Order 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Draft affirmative"
+                              }
+                            ]
+                          },
+                          null
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/EdGVZDEz\">Universal Credit (Persons Required to Provide Information, Miscellaneous Amendments and Saving and Transitional Provision) Regulations (Northern Ireland) 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Made negative"
+                              }
+                            ]
+                          },
+                          null
+                        ]
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/work-packages/KGrfWbku\">Public Service Vehicles (Registration of Local Services) (Franchising Schemes Transitional Provisions and Amendments) (England) Regulations 2018</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "laid-thing.procedure"
+                            },
+                            "description": [
+                              {
+                                "content": "Made negative"
+                              }
+                            ]
+                          },
+                          null
+                        ]
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "footer-components": [
+    {
+      "name": "footer",
+      "data": {
+        "heading": {
+          "name": "heading",
+          "data": {
+            "size": 2,
+            "content": "shared.footer.uk-parliament"
+          }
+        },
+        "list-generic": {
+          "name": "list__generic",
+          "data": {
+            "type": "ul",
+            "display": {
+              "name": "partials__display",
+              "data": [
+                {
+                  "component": "list"
+                }
+              ]
+            },
+            "contents": [
+              {
+                "content": "shared.footer.current-website"
+              },
+              {
+                "content": "shared.footer.cookie-policy",
+                "data": {
+                  "link": "/meta/cookie-policy"
+                }
+              },
+              {
+                "content": "shared.footer.data-protection-privacy"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -3,11 +3,41 @@
     "template": "layout"
   },
   "meta": {
-    "title": "root.title",
-    "request-id": "|Pk5Jq3rkRal4MA==.",
+    "title": "Title for procedures - UK Parliament",
+    "request-id": "|8TAC9eVeCH3Qkw==.",
+    "data-alternates": [
+      {
+        "type": "application/n-triples",
+        "href": "https://api.parliament.uk/query/staging/procedure_by_id.nt?procedure_id=H5YJQsK2"
+      },
+      {
+        "type": "text/turtle",
+        "href": "https://api.parliament.uk/query/staging/procedure_by_id.ttl?procedure_id=H5YJQsK2"
+      },
+      {
+        "type": "text/tab-separated-values",
+        "href": "https://api.parliament.uk/query/staging/procedure_by_id.tsv?procedure_id=H5YJQsK2"
+      },
+      {
+        "type": "text/csv",
+        "href": "https://api.parliament.uk/query/staging/procedure_by_id.csv?procedure_id=H5YJQsK2"
+      },
+      {
+        "type": "application/json+rdf",
+        "href": "https://api.parliament.uk/query/staging/procedure_by_id.rj?procedure_id=H5YJQsK2"
+      },
+      {
+        "type": "application/json+ld",
+        "href": "https://api.parliament.uk/query/staging/procedure_by_id.json?procedure_id=H5YJQsK2"
+      },
+      {
+        "type": "application/rdf+xml",
+        "href": "https://api.parliament.uk/query/staging/procedure_by_id.xml?procedure_id=H5YJQsK2"
+      }
+    ],
     "open-graph": {
-      "title": "Homepage - UK Parliament",
-      "original-url": "https://localhost/",
+      "title": "Title for procedures - UK Parliament",
+      "original-url": "https://localhost/procedures/H5YJQsK2",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",
       "image-height": "630",
@@ -30,6 +60,65 @@
         },
         "selector": "skiplink",
         "content": "shared.header.skip-to-content"
+      }
+    },
+    {
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "status",
+              "variant": "banner"
+            },
+            {
+              "component": "theme",
+              "variant": "caution"
+            },
+            {
+              "component": "cookie"
+            }
+          ]
+        },
+        "selector": "cookie",
+        "components": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.cookie-banner-text",
+                "data": {
+                  "link": "/meta/cookie-policy"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "status",
+              "variant": "banner"
+            }
+          ]
+        },
+        "components": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.beta-status"
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -56,6 +145,20 @@
                 }
               ]
             }
+          },
+          {
+            "name": "form__search",
+            "data": {
+              "global": true,
+              "label": "search.label",
+              "components": [
+                {
+                  "name": "icon__search",
+                  "data": "search.search-icon"
+                }
+              ],
+              "search-action": "/website/search"
+            }
           }
         ]
       }
@@ -65,13 +168,18 @@
     {
       "name": "section__primary",
       "data": {
-        "content-flag": true,
         "components": [
           {
             "name": "heading1",
             "data": {
+              "subheading": {
+                "content": "procedures.show.subheading",
+                "data": {
+                  "link": "/procedures"
+                }
+              },
               "heading": {
-                "content": "root.heading"
+                "content": "Draft affirmative"
               }
             }
           },
@@ -79,7 +187,10 @@
             "name": "paragraph",
             "data": [
               {
-                "content": "root.summary"
+                "content": "procedures.show.about",
+                "data": {
+                  "procedure": "draft affirmative"
+                }
               }
             ]
           }
@@ -89,19 +200,6 @@
     {
       "name": "section__section",
       "data": {
-        "display": {
-          "name": "partials__display",
-          "data": [
-            {
-              "component": "section",
-              "variant": "major"
-            },
-            {
-              "component": "section",
-              "variant": "wide"
-            }
-          ]
-        },
         "components": [
           {
             "name": "list__generic",
@@ -113,10 +211,6 @@
                   {
                     "component": "list",
                     "variant": "block"
-                  },
-                  {
-                    "component": "list",
-                    "variant": "3"
                   }
                 ]
               },
@@ -127,68 +221,14 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "root.prototypes",
+                        "content": "procedures.show.subsidiary-resources.work-packages",
                         "data": {
-                          "link": "/prototypes"
+                          "link": "/procedures/H5YJQsK2/work-packages"
                         },
                         "size": 2
                       }
                     }
                   }
-                },
-                {
-                  "name": "card__generic",
-                  "data": {
-                    "heading": {
-                      "name": "heading",
-                      "data": {
-                        "content": "root.types",
-                        "data": {
-                          "link": "/types"
-                        },
-                        "size": 2
-                      }
-                    }
-                  }
-                },
-                {
-                  "name": "card__generic",
-                  "data": {
-                    "heading": {
-                      "name": "heading",
-                      "data": {
-                        "content": "root.website",
-                        "data": {
-                          "link": "/website"
-                        },
-                        "size": 2
-                      }
-                    }
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "name": "heading",
-            "data": {
-              "content": "shared.notes.heading",
-              "size": 2
-            }
-          },
-          {
-            "name": "list__generic",
-            "data": {
-              "type": "ul",
-              "contents": [
-                {
-                  "content": "shared.notes.note-1"
-                },
-                {
-                  "content": "shared.notes.note-2"
-                },
-                {
-                  "content": "shared.notes.note-3"
                 }
               ]
             }
