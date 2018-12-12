@@ -1,6 +1,7 @@
 const expect = require('chai').expect;
 const routes = require('../../config/routes');
 const shunterConfig = require('../../config/shunter');
+const { errorPagesConfig } = require('../../config/error-pages');
 
 describe('shunter config', () => {
   it('has the correct config', () => {
@@ -13,13 +14,7 @@ describe('shunter config', () => {
       routes: routes,
       jsonViewParameter: 'json',
       modules: ['moduleName'],
-      errorPages: {
-        errorLayouts: {
-          500: 'layout-error-500',
-          502: 'layout-error-502',
-          default: 'layout-error-404'
-        }
-      }
+      errorPages: errorPagesConfig(['404', '500', '502'])
     };
 
     expect(object).to.deep.equal(expectation);
