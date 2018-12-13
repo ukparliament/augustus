@@ -66,6 +66,12 @@ function generateProxyTargets (thorneyHost, legacyHost, includePrototypes) {
       port: thorneyPort
     },
 
+    // Match requests to /laid-papers
+    '/^\\/laid-papers/': {
+      host: thorneyHost,
+      port: thorneyPort
+    },
+
     // Match requests to /procedures
     '/^\\/procedures/': {
       host: thorneyHost,

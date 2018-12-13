@@ -34,6 +34,10 @@ describe('routes', () => {
         host: 'thorney.web1live.org',
         port: 3000
       },
+      '/^\\/laid-papers/': {
+        host: 'thorney.web1live.org',
+        port: 3000
+      },
       '/^\\/procedures/': {
         host: 'thorney.web1live.org',
         port: 3000
@@ -92,6 +96,10 @@ describe('routes', () => {
         host: 'thorney.web1devci.org',
         port: 3000
       },
+      '/^\\/laid-papers/': {
+        host: 'thorney.web1devci.org',
+        port: 3000
+      },
       '/^\\/procedures/': {
         host: 'thorney.web1devci.org',
         port: 3000
@@ -147,6 +155,10 @@ describe('routes', () => {
         port: 3000
       },
       '/^\\/laying-bodies/': {
+        host: 'thorney.pdswebops.org',
+        port: 3000
+      },
+      '/^\\/laid-papers/': {
         host: 'thorney.pdswebops.org',
         port: 3000
       },
