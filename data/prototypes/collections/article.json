@@ -1,0 +1,515 @@
+{
+  "layout": {
+    "template": "layout"
+  },
+  "meta": {
+    "title": "Article example - UK Parliament"
+  },
+  "header-components": [
+    {
+      "name": "link",
+      "data": {
+        "link": "#content",
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "skip-to-content"
+            }
+          ]
+        },
+        "selector": "skiplink",
+        "content": "shared.header.skip-to-content"
+      }
+    },
+    {
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "status",
+              "variant": "banner"
+            },
+            {
+              "component": "theme",
+              "variant": "caution"
+            },
+            {
+              "component": "cookie"
+            }
+          ]
+        },
+        "selector": "cookie",
+        "components": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.cookie-banner-text",
+                "data": {
+                  "link": "/meta/cookie-policy"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "status",
+              "variant": "banner"
+            }
+          ]
+        },
+        "components": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.beta-status"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "header",
+      "data": {
+        "components": [
+          {
+            "name": "link",
+            "data": {
+              "link": "/",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "uk_parliament"
+                  }
+                ]
+              },
+              "label": "shared.header.label",
+              "components": [
+                {
+                  "name": "icon__uk-parliament",
+                  "data": "shared.header.label"
+                }
+              ]
+            }
+          },
+          {
+            "name": "form__search",
+            "data": {
+              "global": true,
+              "label": "search.label",
+              "components": [
+                {
+                  "name": "icon__search",
+                  "data": "search.search-icon"
+                }
+              ],
+              "search-action": "/website/search"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "main-components": [
+    {
+      "name": "article",
+      "data": {
+        "heading": {
+          "name": "heading1",
+          "data": {
+            "subheading": {
+              "content": "<a href=\"#\">Article</a>"
+            },
+            "heading": {
+              "content": "Article example"
+            }
+          }
+        },
+        "paragraph": {
+          "name": "paragraph",
+          "data": [
+            {
+              "content": "A example of an article displaying the root type, heading, summary (this paragraph), meta data with currently known attributes, the article content, a list of all other sibling articles and/or collections and a utility list (print and download)."
+            },
+            {
+              "content": "The list below are all currently known attributes and will vary dependant on the article type. (How to, Guidance, News.. etc)."
+            }
+          ]
+        },
+        "list__description": {
+          "name": "list__description",
+          "data": {
+            "meta": true,
+            "items": [
+              {
+                "term": {
+                  "content": "Author"
+                },
+                "description": [
+                  {
+                    "content": "First name Last name"
+                  }
+                ]
+              },
+              {
+                "term": {
+                  "content": "Publisher"
+                },
+                "description": [
+                  {
+                    "content": "<a href=\"#\">team</a>, <a href=\"#\">department</a>, <a href=\"#\">house</a>, <a href=\"#\">committee</a>, <a href=\"#\">sub-brand</a>"
+                  }
+                ]
+              },
+              {
+                "term": {
+                  "content": "Date published"
+                },
+                "description": [
+                  {
+                    "content": "<time datetime=\"YYYY-MM-DD\">Date Month Year</time>"
+                  }
+                ]
+              },
+              {
+                "term": {
+                  "content": "Found in"
+                },
+                "description": [
+                  {
+                    "content": "<a href=\"collection\">Collection one</a>, <a href=\"collection\">Collection two</a>"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "main": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "You can’t be sued (for example, for defamation) or prosecuted for anything you say in the Chamber, Westminster Hall or a committee of the House. This allows you to speak up on behalf of constituents, express an opinion, or condemn corruption, malpractice or even criminal activity without fear of legal action, as long as you do so in proceedings of the House. This protection extends to written proceedings: for example, written and oral questions, motions, early day motions, and amendments tabled to bills and motions."
+              },
+              {
+                "content": "Anyone giving evidence to a committee of the House also has this protection, which is a safeguard for witnesses and also ensures that select committees are not obstructed in their inquiries by threats of legal action, or any other kind of threat against witnesses."
+              },
+              {
+                "content": "A similar protection applies to any document published by order of the House, or under its authority. This includes select committee reports and written evidence, certain reports made under statutory authority and reports published in reply to a ‘motion for an unopposed return’."
+              },
+              {
+                "content": "The protection extends to Hansard (the Official Report), but if you circulate an extract from Hansard (for example, a speech) on its own, the protection may be more limited. The protection for published documents is provided by the Parliamentary Papers Act 1840."
+              },
+              {
+                "content": "Privilege doesn’t necessarily apply to the repetition outside Parliament of things said in proceedings."
+              }
+            ]
+          },
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "The main Opposition parties get a chance to hold debates on their motions on Opposition days."
+              }
+            ]
+          }
+        ],
+        "aside": {
+          "name": "aside",
+          "data": [
+            {
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "More in: <a href=\"collection\">Collection one</a>",
+                  "size": 2
+                }
+              },
+              "list__generic": {
+                "name": "list__generic",
+                "data": {
+                  "type": "ol",
+                  "display": {
+                    "name": "partials__display",
+                    "data": [
+                      {
+                        "component": "list",
+                        "variant": "block"
+                      },
+                      {
+                        "component": "list",
+                        "variant": "2"
+                      }
+                    ]
+                  },
+                  "components": [
+                    {
+                      "name": "card__generic",
+                      "data": {
+                        "small": {
+                          "name": "partials__small",
+                          "data": {
+                            "content": "Article"
+                          }
+                        },
+                        "heading": {
+                          "name": "heading",
+                          "data": {
+                            "content": "<a href=\"#\">Article one</a>",
+                            "size": 2
+                          }
+                        },
+                        "paragraph": {
+                          "name": "paragraph",
+                          "data": [
+                            {
+                              "content": "Summary from article one"
+                            }
+                          ]
+                        }
+                      }
+                    }, {
+                      "name": "card__generic",
+                      "data": {
+                        "small": {
+                          "name": "partials__small",
+                          "data": {
+                            "content": "Article"
+                          }
+                        },
+                        "heading": {
+                          "name": "heading",
+                          "data": {
+                            "content": "<a href=\"#\">Article two</a>",
+                            "size": 2
+                          }
+                        },
+                        "paragraph": {
+                          "name": "paragraph",
+                          "data": [
+                            {
+                              "content": "Summary from article two"
+                            }
+                          ]
+                        }
+                      }
+                    }, {
+                      "name": "card__generic",
+                      "data": {
+                        "small": {
+                          "name": "partials__small",
+                          "data": {
+                            "content": "Collection"
+                          }
+                        },
+                        "heading": {
+                          "name": "heading",
+                          "data": {
+                            "content": "<a href=\"#\">Sub-collection one</a>",
+                            "size": 2
+                          }
+                        },
+                        "paragraph": {
+                          "name": "paragraph",
+                          "data": [
+                            {
+                              "content": "Summary from sub-collection one"
+                            }
+                          ]
+                        }
+                      }
+                    }, {
+                      "name": "card__generic",
+                      "data": {
+                        "small": {
+                          "name": "partials__small",
+                          "data": {
+                            "content": "Collection"
+                          }
+                        },
+                        "heading": {
+                          "name": "heading",
+                          "data": {
+                            "content": "<a href=\"#\">Sub-collection two</a>",
+                            "size": 2
+                          }
+                        },
+                        "paragraph": {
+                          "name": "paragraph",
+                          "data": [
+                            {
+                              "content": "Summary from sub-collection two"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "heading": {
+                "name": "heading",
+                "data": {
+                  "content": "More in: <a href=\"collection\">Collection two</a>",
+                  "size": 2
+                }
+              },
+              "list__generic": {
+                "name": "list__generic",
+                "data": {
+                  "type": "ol",
+                  "display": {
+                    "name": "partials__display",
+                    "data": [
+                      {
+                        "component": "list",
+                        "variant": "block"
+                      },
+                      {
+                        "component": "list",
+                        "variant": "2"
+                      }
+                    ]
+                  },
+                  "components": [
+                    {
+                      "name": "card__generic",
+                      "data": {
+                        "small": {
+                          "name": "partials__small",
+                          "data": {
+                            "content": "Collection"
+                          }
+                        },
+                        "heading": {
+                          "name": "heading",
+                          "data": {
+                            "content": "<a href=\"#\">Sub-collection one</a>",
+                            "size": 2
+                          }
+                        },
+                        "paragraph": {
+                          "name": "paragraph",
+                          "data": [
+                            {
+                              "content": "Summary from sub-collection one"
+                            }
+                          ]
+                        }
+                      }
+                    }, {
+                      "name": "card__generic",
+                      "data": {
+                        "small": {
+                          "name": "partials__small",
+                          "data": {
+                            "content": "Collection"
+                          }
+                        },
+                        "heading": {
+                          "name": "heading",
+                          "data": {
+                            "content": "<a href=\"#\">Sub-collection two</a>",
+                            "size": 2
+                          }
+                        },
+                        "paragraph": {
+                          "name": "paragraph",
+                          "data": [
+                            {
+                              "content": "Summary from sub-collection two"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "list__generic": {
+          "name": "list__generic",
+          "data": {
+            "type": "ul",
+            "display": {
+              "name": "partials__display",
+              "data": [
+                {
+                  "component": "utilities"
+                }
+              ]
+            },
+            "contents": [
+              {
+                "content": "<a href=\"#\">Print page</a>"
+              },
+              {
+                "content": "<a href=\"#\">Download as PDF</a>"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "footer-components": [
+    {
+      "name": "footer",
+      "data": {
+        "heading": {
+          "name": "heading",
+          "data": {
+            "size": 2,
+            "content": "shared.footer.uk-parliament"
+          }
+        },
+        "list-generic": {
+          "name": "list__generic",
+          "data": {
+            "type": "ul",
+            "display": {
+              "name": "partials__display",
+              "data": [
+                {
+                  "component": "list"
+                }
+              ]
+            },
+            "contents": [
+              {
+                "content": "shared.footer.current-website"
+              },
+              {
+                "content": "shared.footer.cookie-policy",
+                "data": {
+                  "link": "/meta/cookie-policy"
+                }
+              },
+              {
+                "content": "shared.footer.data-protection-privacy"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
