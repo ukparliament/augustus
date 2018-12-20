@@ -155,10 +155,10 @@
     "index": {
       "title": "Groups - UK Parliament"
     },
-		"subheading": "<a href= '{{-link}}'>Groups</a>",
-		"subsidiary-resources": {
-			"laid-papers": "<a href= '{{-link}}'>Laid papers</a>"
-		}
+    "subheading": "<a href= '{{-link}}'>Group</a>",
+    "subsidiary-resources": {
+      "laid-papers": "<a href= '{{-link}}'>Laid papers</a>"
+    }
   },
   "procedure-steps": {
     "index": {
@@ -193,8 +193,5 @@
       },
       "about": "Find out more about the <a href='https://www.parliament.uk/about/how/laws/secondary-legislation/'>{{-procedure}} procedure</a>."
     }
-  },
-  "committees": {
-    "committee": "<a href= '{{-link}}'>Committee</a>"
   }
 }

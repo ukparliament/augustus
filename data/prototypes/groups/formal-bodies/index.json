@@ -3,7 +3,7 @@
     "template": "layout"
   },
   "meta": {
-    "title": "Joint Committee on Human Rights - UK Parliament",
+    "title": "Formal bodies - UK Parliament",
     "request-id": "|KN2mJToH06OAWg==.",
     "data-alternates": [
       {
@@ -36,7 +36,7 @@
       }
     ],
     "open-graph": {
-      "title": "Joint Committee on Human Rights - UK Parliament",
+      "title": "Formal bodies - UK Parliament",
       "original-url": "https://localhost/committees/12345678",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",
@@ -172,17 +172,8 @@
           {
             "name": "heading1",
             "data": {
-              "subheading": {
-                "content": "committees.committee",
-                "data": {
-                  "link": "/prototypes/committees"
-                }
-              },
               "heading": {
-                "content": "Joint Committee on Human Rights"
-              },
-              "context": {
-                "content": "Joint (Commons and Lords) select committee"
+                "content": "Formal bodies"
               }
             }
           }
@@ -193,26 +184,6 @@
       "name": "section__section",
       "data": {
         "components": [
-          {
-            "name": "heading",
-            "data": {
-              "content": "About the committee",
-              "size": 2
-            }
-          },
-          {
-            "name": "paragraph",
-            "data": {
-              "content": "We examine human rights issues in the UK and check government bills are compatible with human rights."
-            }
-          },
-          {
-            "name": "heading",
-            "data": {
-              "content": "Committee members",
-              "size": 2
-            }
-          },
           {
             "name": "list__generic",
             "data": {
@@ -230,115 +201,120 @@
                 {
                   "name": "card__generic",
                   "data": {
-                    "figure": {
-                      "name": "partials__figure",
-                      "data": {
-                        "display": {
-                          "name": "partials__display",
-                          "data": [
-                            {
-                              "component": "avatar",
-                              "variant": "round"
-                            }
-                          ]
-                        },
-                        "link": "#",
-                        "aria-hidden": true,
-                        "tab-index": true,
-                        "alt-text": "Harriet Harman",
-                        "source": "https://api.parliament.uk/photo/ZY0Mx1bp.jpeg?crop=CU_1:1&width=186&quality=80"
-                      }
-                    },
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "\u003ca href=\"\"\u003eMs Harriet Harman\u003c/a\u003e",
+                        "content": "<a href=\"/prototypes/groups/00000001\">Joint Committee on Human Rights</a>",
                         "size": 2
                       }
                     },
-                    "list-generic": {
-                      "name": "list__generic",
+                    "list-description": {
+                      "name": "list__description",
                       "data": {
-                        "type": "ol",
-                        "display": {
-                          "name": "partials__display",
-                          "data": [
-                            {
-                              "component": "list"
-                            }
-                          ]
-                        },
-                        "contents": [
+                        "items": [
                           {
-                            "content": "Committee chair"
+                            "term": {
+                              "content": "Type"
+                            },
+                            "description": [
+                              {
+                                "content": "<a href=\"/prototypes/groups/parliamentary-committee/index\">Parliamentary committee</a>"
+                              }
+                            ]
                           },
                           {
-                            "content": "Labour MP for Camberwell and Peckham"
+                            "term": {
+                              "content": "Sub-type"
+                            },
+                            "description": [
+                              {
+                                "content": "<a href=\"/prototypes/groups/parliamentary-committee/select-committee/index\">Select committee</a>"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "Houses"
+                            },
+                            "description": [
+                              {
+                                "content": "House of Commons and House of Lords"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "Date"
+                            },
+                            "description": [
+                              {
+                                "content": "19 July 2017 to present"
+                              }
+                            ]
                           }
                         ]
                       }
                     }
                   }
-                }
-              ]
-            }
-          },
-          {
-            "name": "link",
-            "data": {
-              "link": "/prototypes/committees/memberships/current",
-              "content": "View all [count] committee members"
-            }
-          },
-          {
-            "name": "heading",
-            "data": {
-              "content": "Contact us",
-              "size": 2
-            }
-          },
-          {
-            "name": "list__description",
-            "data": {
-              "display": {
-                "name": "partials__display",
-                "data": [
-                  {
-                    "component": "list",
-                    "variant": "block"
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"/prototypes/groups/00000002\">Home Affairs Committee</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
+                          {
+                            "term": {
+                              "content": "Type"
+                            },
+                            "description": [
+                              {
+                                "content": "<a href=\"/prototypes/groups/parliamentary-committee/index\">Parliamentary committee</a>"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "Sub-type"
+                            },
+                            "description": [
+                              {
+                                "content": "<a href=\"/prototypes/groups/parliamentary-committee/select-committee/index\">Select committee</a>"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "Houses"
+                            },
+                            "description": [
+                              {
+                                "content": "House of Commons"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "Date"
+                            },
+                            "description": [
+                              {
+                                "content": "19 July 2017 to present"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
                   }
-                ]
-              },
-              "items": [
-                {
-                  "term": {
-                    "content": "Email"
-                  },
-                  "description": [
-                    {
-                      "content": "\u003ca mailto=\"\"\u003ejchr@parliament.uk\u003c/a\u003e"
-                    }
-                  ]
-                },
-                {
-                  "term": {
-                    "content": "Phone"
-                  },
-                  "description": [
-                    {
-                      "content": "\u003ca href=\"\"\u003e020 7219 2467\u003c/a\u003e"
-                    }
-                  ]
-                },
-                {
-                  "term": {
-                    "content": "Address"
-                  },
-                  "description": [
-                    {
-                      "content": "Joint Committee on Human Rights, Houses of Parliament, London, SW1A 0AA"
-                    }
-                  ]
                 }
               ]
             }

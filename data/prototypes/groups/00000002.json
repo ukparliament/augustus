@@ -3,7 +3,7 @@
     "template": "layout"
   },
   "meta": {
-    "title": "Committees - UK Parliament",
+    "title": "Home Affairs Committee - UK Parliament",
     "request-id": "|KN2mJToH06OAWg==.",
     "data-alternates": [
       {
@@ -36,7 +36,7 @@
       }
     ],
     "open-graph": {
-      "title": "Committees - UK Parliament",
+      "title": "Joint Committee on Human Rights - UK Parliament",
       "original-url": "https://localhost/committees/12345678",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",
@@ -172,9 +172,81 @@
           {
             "name": "heading1",
             "data": {
+              "subheading": {
+                "content": "groups.subheading",
+                "data": {
+                  "link": "/prototypes/groups"
+                }
+              },
               "heading": {
-                "content": "Committees"
+                "content": "Home Affairs Committee"
               }
+            }
+          },
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "We examine the administration, expenditure and policy of the Home Office and its associated bodies."
+              }
+            ]
+          },
+          {
+            "name": "list__description",
+            "data": {
+              "meta": true,
+              "items": [
+                {
+                  "term": {
+                    "content": "Type"
+                  },
+                  "description": [
+                    {
+                      "content": "<a href=\"/prototypes/groups/parliamentary-committee/select-committee/index\">Parliamentary select committee</a>"
+                    }
+                  ]
+                },
+                {
+                  "term": {
+                    "content": "Houses"
+                  },
+                  "description": [
+                    {
+                      "content": "House of Commons"
+                    }
+                  ]
+                },
+                {
+                  "term": {
+                    "content": "Children"
+                  },
+                  "description": [
+                    {
+                      "content": "Home Affairs Sub-Committee"
+                    }
+                  ]
+                },
+                {
+                  "term": {
+                    "content": "Date"
+                  },
+                  "description": [
+                    {
+                      "content": "19 July 2017 to present"
+                    }
+                  ]
+                },
+                {
+                  "term": {
+                    "content": "Membership"
+                  },
+                  "description": [
+                    {
+                      "content": "<a href=\"/prototypes/groups/memberships/current\">[count] members</a>"
+                    }
+                  ]
+                }
+              ]
             }
           }
         ]
@@ -184,6 +256,13 @@
       "name": "section__section",
       "data": {
         "components": [
+          {
+            "name": "heading",
+            "data": {
+              "content": "Chair",
+              "size": 2
+            }
+          },
           {
             "name": "list__generic",
             "data": {
@@ -201,36 +280,123 @@
                 {
                   "name": "card__generic",
                   "data": {
-                    "heading": {
-                      "name": "heading",
+                    "figure": {
+                      "name": "partials__figure",
                       "data": {
-                        "content": "\u003ca href=\"/prototypes/committees/12345678\"\u003eJoint Committee on Human Rights\u003c/a\u003e",
-                        "size": 2
-                      }
-                    },
-                    "list-generic": {
-                      "name": "list__generic",
-                      "data": {
-                        "type": "ol",
                         "display": {
                           "name": "partials__display",
                           "data": [
                             {
-                              "component": "list"
+                              "component": "avatar",
+                              "variant": "round"
                             }
                           ]
                         },
-                        "contents": [
+                        "link": "#",
+                        "aria-hidden": true,
+                        "tab-index": true,
+                        "alt-text": "Yvette Cooper",
+                        "source": "https://api.parliament.uk/photo/bxxIPrkn.jpeg?crop=CU_1:1&width=186&quality=80"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"#\">Yvette Cooper</a>",
+                        "size": 2
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
                           {
-                            "content": "Joint (Commons and Lords) select committee"
+                            "term": {
+                              "content": "Incumbency"
+                            },
+                            "description": [
+                              {
+                                "content": "Member of the House of Commons"
+                              }
+                            ]
                           },
                           {
-                            "content": "19 July 2017 to present"
+                            "term": {
+                              "content": "Party"
+                            },
+                            "description": [
+                              {
+                                "content": "<a href=\"#\">Labour</a>"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "Constituency"
+                            },
+                            "description": [
+                              {
+                                "content": "<a href=\"#\">Normanton, Pontefract and Castleford</a>"
+                              }
+                            ]
                           }
                         ]
                       }
                     }
                   }
+                }
+              ]
+            }
+          },
+          {
+            "name": "heading",
+            "data": {
+              "content": "Contact us",
+              "size": 2
+            }
+          },
+          {
+            "name": "list__description",
+            "data": {
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "list",
+                    "variant": "block"
+                  }
+                ]
+              },
+              "items": [
+                {
+                  "term": {
+                    "content": "Email"
+                  },
+                  "description": [
+                    {
+                      "content": "\u003ca mailto=\"\"\u003ehomeaffcom@parliament.uk\u003c/a\u003e"
+                    }
+                  ]
+                },
+                {
+                  "term": {
+                    "content": "Phone"
+                  },
+                  "description": [
+                    {
+                      "content": "\u003ca href=\"\"\u003e020 7219 6856\u003c/a\u003e"
+                    }
+                  ]
+                },
+                {
+                  "term": {
+                    "content": "Address"
+                  },
+                  "description": [
+                    {
+                      "content": "Home Affairs Committee, Houses of Parliament, London, SW1A 0AA"
+                    }
+                  ]
                 }
               ]
             }
