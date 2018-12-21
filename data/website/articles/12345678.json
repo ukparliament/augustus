@@ -172,13 +172,10 @@
           "name": "heading1",
           "data": {
             "subheading": {
-              "content": "<a href=\"#\">Article Type [Article, News, Guidance]</a>"
+              "content": "<a href=\"#\">Article</a> <a href=\"#\">News</a> <a href=\"#\">Guidance</a>"
             },
             "heading": {
               "content": "Article header"
-            },
-            "context": {
-              "content": "Context"
             }
           }
         },
@@ -200,11 +197,21 @@
             "items": [
               {
                 "term": {
-                  "content": "Publisher/s"
+                  "content": "Author"
                 },
                 "description": [
                   {
-                    "content": "<a href=\"#\">Name of publisher</a>, <a href=\"#\">Name of second publisher</a>"
+                    "content": "<a href=\"#\">Author name</a>"
+                  }
+                ]
+              },
+              {
+                "term": {
+                  "content": "Publishers"
+                },
+                "description": [
+                  {
+                    "content": "<a href=\"#\">team</a>, <a href=\"#\">department</a>, <a href=\"#\">house</a>, <a href=\"#\">committee</a>, <a href=\"#\">sub-brand</a>"
                   }
                 ]
               },
@@ -224,7 +231,7 @@
                 },
                 "description": [
                   {
-                    "content": "<a href=\"#\">Collection 1</a>, <a href=\"#\">Collection 2</a>"
+                    "content": "<a href=\"#\">Collection one</a>, <a href=\"#\">Collection two</a>"
                   }
                 ]
               }
@@ -234,9 +241,6 @@
         "lead__image": {
           "name": "partials__figure",
           "data": {
-            "display": {
-              "name": "partials__display"
-            },
             "link": "#",
             "source-media": "(min-width: 480px)",
             "source-srcset": "https://api-parliament-uk.azure-api.net/photo/0qLRSwb3.jpeg?crop=CU_5:2&width=732&quality=80, https://api-parliament-uk.azure-api.net/photo/0qLRSwb3.jpeg?crop=CU_5:2&width=1464&quality=80 2x",
@@ -248,76 +252,14 @@
             }
           }
         },
-        "main": [
-          {
-            "name": "paragraph",
-            "data": [
-              {
-                "content": "You can speak in debates in the Chamber and Westminster Hall. You should be aware of the Rules of behaviour and courtesies in the House, issued by the Speaker, before you do so."
-              },
-              {
-                "content": "The House reaches its decisions or highlights its opinions by debating motions. MPs argue for or against a specific motion and then reach a decision, with or without the need for a vote. Motions are listed on the Order Paper, along with the names of the MPs who support them."
-              },
-              {
-                "content": "A general motion is neutrally worded. It usually begins, “That this House has considered”. It lets the House discuss an issue without giving an opinion or taking action on it. You can’t amend this kind of motion."
-              },
-              {
-                "content": "A substantive motion calls on the House to take action or express an opinion. You can amend a substantive motion."
-              },
-              {
-                "content": "Although most motions that are debated are tabled by the Government, there are opportunities for backbenchers to hold debates too:"
-              }
-            ]
-          },
-          {
-            "name": "list__generic",
-            "data": {
-              "type": "ol",
-              "contents": [
-                {
-                  "content": "adjournment debates"
-                },
-                {
-                  "content": "Westminster Hall debates"
-                },
-                {
-                  "content": "Backbench Business Committee debates"
-                },
-                {
-                  "content": "emergency debates"
-                }
-              ]
+        "section__main": {
+          "name": "section__main",
+          "data": [
+            {
+              "content": "articles.show.content-body"
             }
-          },
-          {
-            "name": "list__generic",
-            "data": {
-              "type": "ul",
-              "contents": [
-                {
-                  "content": "adjournment debates"
-                },
-                {
-                  "content": "Westminster Hall debates"
-                },
-                {
-                  "content": "Backbench Business Committee debates"
-                },
-                {
-                  "content": "emergency debates"
-                }
-              ]
-            }
-          },
-          {
-            "name": "paragraph",
-            "data": [
-              {
-                "content": "The main Opposition parties get a chance to hold debates on their motions on Opposition days."
-              }
-            ]
-          }
-        ],
+          ]
+        },
         "aside": {
           "name": "aside",
           "data": [
@@ -325,31 +267,93 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "<a href=\"#\">Collection one</a>",
+                  "content": "More in: <a href=\"#\">Collection one</a>",
                   "size": 2
                 }
-              },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [
-                  {
-                    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-                  }
-                ]
               },
               "list__generic": {
                 "name": "list__generic",
                 "data": {
                   "type": "ol",
-                  "contents": [
+                  "display": {
+                    "name": "partials__display",
+                    "data": [{
+                      "component": "list",
+                      "variant": 2
+                    }]
+                  },
+                  "components": [
                     {
-                      "content": "<a href=\"#\">Article one</a>"
+                      "name": "card__generic",
+                      "data": {
+                        "small": {
+                          "name": "partials__small",
+                          "data": {
+                            "content": "Article"
+                          }
+                        },
+                        "heading": {
+                          "name": "heading",
+                          "data": {
+                              "content": "<a href=\"#\">Article one</a>",
+                              "size": 2
+                          }
+                        }
+                      }
                     },
                     {
-                      "content": "Article two"
+                      "name": "card__generic",
+                      "data": {
+                        "small": {
+                          "name": "partials__small",
+                          "data": {
+                            "content": "Article"
+                          }
+                        },
+                        "heading": {
+                          "name": "heading",
+                          "data": {
+                              "content": "<a href=\"#\">Article two</a>",
+                              "size": 2
+                          }
+                        }
+                      }
                     },
                     {
-                      "content": "<a href=\"#\">Article three</a>"
+                      "name": "card__generic",
+                      "data": {
+                        "small": {
+                          "name": "partials__small",
+                          "data": {
+                            "content": "Collection"
+                          }
+                        },
+                        "heading": {
+                          "name": "heading",
+                          "data": {
+                              "content": "<a href=\"#\">Collection one</a>",
+                              "size": 2
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "name": "card__generic",
+                      "data": {
+                        "small": {
+                          "name": "partials__small",
+                          "data": {
+                            "content": "Collection"
+                          }
+                        },
+                        "heading": {
+                          "name": "heading",
+                          "data": {
+                              "content": "<a href=\"#\">Collection two</a>",
+                              "size": 2
+                          }
+                        }
+                      }
                     }
                   ]
                 }
@@ -359,31 +363,57 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "<a href=\"#\">Collection two</a>",
+                  "content": "More in: <a href=\"#\">Collection two</a>",
                   "size": 2
                 }
-              },
-              "paragraph": {
-                "name": "paragraph",
-                "data": [
-                  {
-                    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
-                  }
-                ]
               },
               "list__generic": {
                 "name": "list__generic",
                 "data": {
                   "type": "ol",
-                  "contents": [
+                  "display": {
+                    "name": "partials__display",
+                    "data": [{
+                      "component": "list",
+                      "variant": 2
+                    }]
+                  },
+                  "components": [
                     {
-                      "content": "<a href=\"#\">Article one</a>"
+                      "name": "card__generic",
+                      "data": {
+                        "small": {
+                          "name": "partials__small",
+                          "data": {
+                            "content": "Article"
+                          }
+                        },
+                        "heading": {
+                          "name": "heading",
+                          "data": {
+                              "content": "<a href=\"#\">Article one</a>",
+                              "size": 2
+                          }
+                        }
+                      }
                     },
                     {
-                      "content": "<a href=\"#\">Article two</a>"
-                    },
-                    {
-                      "content": "Article three"
+                      "name": "card__generic",
+                      "data": {
+                        "small": {
+                          "name": "partials__small",
+                          "data": {
+                            "content": "Collection"
+                          }
+                        },
+                        "heading": {
+                          "name": "heading",
+                          "data": {
+                              "content": "<a href=\"#\">Collection one</a>",
+                              "size": 2
+                          }
+                        }
+                      }
                     }
                   ]
                 }
