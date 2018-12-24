@@ -140,40 +140,97 @@
     <main>
         <article id="content">
             <header>
-                <div class="container"><small><a href="#">Article Type [Article, News, Guidance]</a></small>
-                    <h1><span>Article header</span><span class="context">Context</span></h1>
+                <div class="container"><small><a href="#">Article</a> <a href="#">News</a> <a href="#">Guidance</a></small>
+                    <h1><span>Article header</span></h1>
                     <p>Summary is a brief overview of what the content is about.</p>
                     <p>If you want to find out what what's happening on a particular day in the Chamber the best way is to look at the Order Paper, which is the daily agenda.</p>
-                    <dl class="meta"><dt>Publisher/s</dt>
-                        <dd><a href="#">Name of publisher</a>, <a href="#">Name of second publisher</a></dd><dt>Date published</dt>
+                    <dl class="meta"><dt>Author</dt>
+                        <dd><a href="#">Author name</a></dd><dt>Publishers</dt>
+                        <dd><a href="#">team</a>, <a href="#">department</a>, <a href="#">house</a>, <a href="#">committee</a>, <a href="#">sub-brand</a></dd><dt>Date published</dt>
                         <dd><time datetime="2018-09-18">18 September 2018</time></dd><dt>Found in</dt>
-                        <dd><a href="#">Collection 1</a>, <a href="#">Collection 2</a></dd>
+                        <dd><a href="#">Collection one</a>, <a href="#">Collection two</a></dd>
                     </dl>
                 </div>
             </header>
-            <figure class=" "><a href="#">
+            <figure><a href="#">
                     <picture>
                         <source media="(min-width: 480px)" srcset="https://api-parliament-uk.azure-api.net/photo/0qLRSwb3.jpeg?crop=CU_5:2&amp;width=732&amp;quality=80, https://api-parliament-uk.azure-api.net/photo/0qLRSwb3.jpeg?crop=CU_5:2&amp;width=1464&amp;quality=80 2x">
                         <source srcset="https://api-parliament-uk.azure-api.net/photo/0qLRSwb3.jpeg?crop=MCU_3:2&amp;width=444&amp;quality=80, https://api-parliament-uk.azure-api.net/photo/0qLRSwb3.jpeg?crop=MCU_3:2&amp;width=888&amp;quality=80 2x"><img alt="Margot James" src="https://api-parliament-uk.azure-api.net/photo/0qLRSwb3.jpeg?width=732&amp;quality=80"></picture>
                 </a>
                 <figcaption>Lead image (optional) <a href="#">example link to resource</a></figcaption>
             </figure>
+            <div role="main">
+                <div class="container">
+                    <p>You can speak in debates in the Chamber and Westminster Hall. You should be aware of the Rules of behaviour and courtesies in the House, issued by the Speaker, before you do so.</p>
+                    <p>The House reaches its decisions or highlights its opinions by debating motions. MPs argue for or against a specific motion and then reach a decision, with or without the need for a vote. Motions are listed on the Order Paper, along with the names of the MPs who support them.</p>
+                    <p>A general motion is neutrally worded. It usually begins, “That this House has considered”. It lets the House discuss an issue without giving an opinion or taking action on it. You can’t amend this kind of motion.</p>
+                    <p>A substantive motion calls on the House to take action or express an opinion. You can amend a substantive motion.</p>
+                    <p>Although most motions that are debated are tabled by the Government, there are opportunities for backbenchers to hold debates too:</p>
+                    <ol>
+                        <li>adjournment debates</li>
+                        <li>Westminster Hall debates</li>
+                        <li>Backbench Business Committee debates</li>
+                        <li>emergency debates</li>
+                    </ol>
+                    <ul>
+                        <li>adjournment debates</li>
+                        <li>Westminster Hall debates</li>
+                        <li>Backbench Business Committee debates</li>
+                        <li>emergency debates</li>
+                    </ul>
+                    <p>The main Opposition parties get a chance to hold debates on their motions on Opposition days.</p>
+                </div>
+            </div>
             <footer>
                 <div class="container">
                     <aside>
-                        <h2><a href="#">Collection one</a></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <ol>
-                            <li><a href="#">Article one</a></li>
-                            <li>Article two</li>
-                            <li><a href="#">Article three</a></li>
+                        <h2>More in: <a href="#">Collection one</a></h2>
+                        <ol class="list--2 ">
+                            <li>
+                                <div class="card">
+                                    <div class="card__details"><small>Article</small>
+                                        <h2><a href="#">Article one</a></h2>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="card__details"><small>Article</small>
+                                        <h2><a href="#">Article two</a></h2>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="card__details"><small>Collection</small>
+                                        <h2><a href="#">Collection one</a></h2>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="card__details"><small>Collection</small>
+                                        <h2><a href="#">Collection two</a></h2>
+                                    </div>
+                                </div>
+                            </li>
                         </ol>
-                        <h2><a href="#">Collection two</a></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        <ol>
-                            <li><a href="#">Article one</a></li>
-                            <li><a href="#">Article two</a></li>
-                            <li>Article three</li>
+                        <h2>More in: <a href="#">Collection two</a></h2>
+                        <ol class="list--2 ">
+                            <li>
+                                <div class="card">
+                                    <div class="card__details"><small>Article</small>
+                                        <h2><a href="#">Article one</a></h2>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <div class="card__details"><small>Collection</small>
+                                        <h2><a href="#">Collection one</a></h2>
+                                    </div>
+                                </div>
+                            </li>
                         </ol>
                     </aside>
                     <ul class="utilities ">
