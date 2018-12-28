@@ -142,6 +142,7 @@
             "name": "form__search",
             "data": {
               "value": "tyidtykcghkcfgk",
+              "hide-label": true,
               "label": "search.label",
               "components": [
                 {

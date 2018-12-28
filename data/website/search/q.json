@@ -142,6 +142,7 @@
             "name": "form__search",
             "data": {
               "value": "banana",
+              "hide-label": true,
               "label": "search.label",
               "components": [
                 {

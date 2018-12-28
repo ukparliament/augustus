@@ -137,6 +137,7 @@
           {
             "name": "form__search",
             "data": {
+              "hide-label": true,
               "label": "search.label",
               "components": [
                 {
