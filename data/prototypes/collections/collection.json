@@ -1,0 +1,434 @@
+{
+  "layout": {
+    "template": "layout"
+  },
+  "meta": {
+    "title": "Collection example - UK Parliament"
+  },
+  "header-components": [
+    {
+      "name": "link",
+      "data": {
+        "link": "#content",
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "skip-to-content"
+            }
+          ]
+        },
+        "selector": "skiplink",
+        "content": "shared.header.skip-to-content"
+      }
+    },
+    {
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "status",
+              "variant": "banner"
+            },
+            {
+              "component": "theme",
+              "variant": "caution"
+            },
+            {
+              "component": "cookie"
+            }
+          ]
+        },
+        "selector": "cookie",
+        "components": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.cookie-banner-text",
+                "data": {
+                  "link": "/meta/cookie-policy"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "status__banner",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "status",
+              "variant": "banner"
+            }
+          ]
+        },
+        "components": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "shared.header.beta-status"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "header",
+      "data": {
+        "components": [
+          {
+            "name": "link",
+            "data": {
+              "link": "/",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "uk_parliament"
+                  }
+                ]
+              },
+              "label": "shared.header.label",
+              "components": [
+                {
+                  "name": "icon__uk-parliament",
+                  "data": "shared.header.label"
+                }
+              ]
+            }
+          },
+          {
+            "name": "form__search",
+            "data": {
+              "global": true,
+              "label": "search.label",
+              "components": [
+                {
+                  "name": "icon__search",
+                  "data": "search.search-icon"
+                }
+              ],
+              "search-action": "/website/search"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "main-components": [
+    {
+      "name": "section__primary",
+      "data": {
+        "components": [
+          {
+            "name": "heading1",
+            "data": {
+              "subheading": {
+                "content": "<a href=\"../collections\">Collection</a>"
+              },
+              "heading": {
+                "content": "Collection name"
+              }
+            }
+          },
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "A example of a collection displaying the root type, heading, summary (this paragraph), meta data with currently known attributes and a list of all child articles and/or sub-collections."
+              }
+            ]
+          },
+          {
+            "name": "list__description",
+            "data": {
+              "meta": true,
+              "items": [
+                {
+                  "term": {
+                    "content": "Publisher"
+                  },
+                  "description": {
+                    "content": "<a href=\"#\">team</a>, <a href=\"#\">department</a>, <a href=\"#\">house</a>, <a href=\"#\">committee</a>, <a href=\"#\">sub-brand</a>"
+                  }
+                },
+                {
+                  "term": {
+                    "content": "Found in"
+                  },
+                  "description": {
+                    "content": "<a href=\"#\">Collection one</a>, <a href=\"#\">Collection two</a>"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "section__section",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "section",
+              "variant": "wide"
+            }
+          ]
+        },
+        "components": [
+          {
+            "name": "list__generic",
+            "data": {
+              "type": "ol",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "list",
+                    "variant": "block"
+                  },
+                  {
+                    "component": "list",
+                    "variant": "3"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Article"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"#\">Article one</a>",
+                        "size": 2
+                      }
+                    },
+                    "paragraph": {
+                      "name": "paragraph",
+                      "data": [
+                        {
+                          "content": "Summary from article one"
+                        }
+                      ]
+                    }
+                  }
+                }, {
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Article"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"#\">Article two</a>",
+                        "size": 2
+                      }
+                    },
+                    "paragraph": {
+                      "name": "paragraph",
+                      "data": [
+                        {
+                          "content": "Summary from article two"
+                        }
+                      ]
+                    }
+                  }
+                }, {
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Article"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"#\">Article three</a>",
+                        "size": 2
+                      }
+                    },
+                    "paragraph": {
+                      "name": "paragraph",
+                      "data": [
+                        {
+                          "content": "Summary from article three"
+                        }
+                      ]
+                    }
+                  }
+                }, {
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Collection"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"#\">Sub-collection one</a>",
+                        "size": 2
+                      }
+                    },
+                    "paragraph": {
+                      "name": "paragraph",
+                      "data": [
+                        {
+                          "content": "Summary from sub-collection one"
+                        }
+                      ]
+                    }
+                  }
+                }, {
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Collection"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"#\">Sub-collection two</a>",
+                        "size": 2
+                      }
+                    },
+                    "paragraph": {
+                      "name": "paragraph",
+                      "data": [
+                        {
+                          "content": "Summary from sub-collection two"
+                        }
+                      ]
+                    }
+                  }
+                }, {
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Collection"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"#\">Sub-collection three</a>",
+                        "size": 2
+                      }
+                    },
+                    "paragraph": {
+                      "name": "paragraph",
+                      "data": [
+                        {
+                          "content": "Summary from sub-collection three"
+                        }
+                      ]
+                    }
+                  }
+                }, {
+                  "name": "card__generic",
+                  "data": {
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Collection"
+                      }
+                    },
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "<a href=\"#\">Sub-collection four</a>",
+                        "size": 2
+                      }
+                    },
+                    "paragraph": {
+                      "name": "paragraph",
+                      "data": [
+                        {
+                          "content": "Summary from sub-collection four"
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "footer-components": [
+    {
+      "name": "footer",
+      "data": {
+        "heading": {
+          "name": "heading",
+          "data": {
+            "size": 2,
+            "content": "shared.footer.uk-parliament"
+          }
+        },
+        "list-generic": {
+          "name": "list__generic",
+          "data": {
+            "type": "ul",
+            "display": {
+              "name": "partials__display",
+              "data": [
+                {
+                  "component": "list"
+                }
+              ]
+            },
+            "contents": [
+              {
+                "content": "shared.footer.current-website"
+              },
+              {
+                "content": "shared.footer.cookie-policy",
+                "data": {
+                  "link": "/meta/cookie-policy"
+                }
+              },
+              {
+                "content": "shared.footer.data-protection-privacy"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

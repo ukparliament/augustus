@@ -3,47 +3,7 @@
     "template": "layout"
   },
   "meta": {
-    "title": "Title for article - UK Parliament",
-    "request-id": "|KREVXLEvDlTwng==.",
-    "data-alternates": [
-      {
-        "type": "application/n-triples",
-        "href": "http://localhost:3030/api/v1/articles_by_id.nt?articles_id=12345678"
-      },
-      {
-        "type": "text/turtle",
-        "href": "http://localhost:3030/api/v1/articles_by_id.ttl?articles_id=12345678"
-      },
-      {
-        "type": "text/tab-separated-values",
-        "href": "http://localhost:3030/api/v1/articles_by_id.tsv?articles_id=12345678"
-      },
-      {
-        "type": "text/csv",
-        "href": "http://localhost:3030/api/v1/articles_by_id.csv?articles_id=12345678"
-      },
-      {
-        "type": "application/json+rdf",
-        "href": "http://localhost:3030/api/v1/articles_by_id.rj?articles_id=12345678"
-      },
-      {
-        "type": "application/json+ld",
-        "href": "http://localhost:3030/api/v1/articles_by_id.json?articles_id=12345678"
-      },
-      {
-        "type": "application/rdf+xml",
-        "href": "http://localhost:3030/api/v1/articles_by_id.xml?articles_id=12345678"
-      }
-    ],
-    "open-graph": {
-      "title": "Title for article - UK Parliament",
-      "original-url": "https://localhost/articles/12345678",
-      "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
-      "image-width": "1200",
-      "image-height": "630",
-      "twitter-card": "summary_large_image"
-    },
-    "opensearch-description-url": "https://localhost/search/opensearch"
+    "title": "Article example - UK Parliament"
   },
   "header-components": [
     {
@@ -172,10 +132,10 @@
           "name": "heading1",
           "data": {
             "subheading": {
-              "content": "<a href=\"#\">Article</a> <a href=\"#\">News</a> <a href=\"#\">Guidance</a>"
+              "content": "<a href=\"#\">Article</a>"
             },
             "heading": {
-              "content": "Article header"
+              "content": "Article example"
             }
           }
         },
@@ -183,10 +143,10 @@
           "name": "paragraph",
           "data": [
             {
-              "content": "Summary is a brief overview of what the content is about."
+              "content": "A example of an article displaying the root type, heading, summary (this paragraph), meta data with currently known attributes, the article content, a list of all other sibling articles and/or collections and a utility list (print and download)."
             },
             {
-              "content": "If you want to find out what what's happening on a particular day in the Chamber the best way is to look at the Order Paper, which is the daily agenda."
+              "content": "The list below are all currently known attributes and will vary dependant on the article type. (How to, Guidance, News.. etc)."
             }
           ]
         },
@@ -201,13 +161,13 @@
                 },
                 "description": [
                   {
-                    "content": "<a href=\"#\">Author name</a>"
+                    "content": "First name Last name"
                   }
                 ]
               },
               {
                 "term": {
-                  "content": "Publishers"
+                  "content": "Publisher"
                 },
                 "description": [
                   {
@@ -221,7 +181,7 @@
                 },
                 "description": [
                   {
-                    "content": "<time datetime=\"2018-09-18\">18 September 2018</time>"
+                    "content": "<time datetime=\"YYYY-MM-DD\">Date Month Year</time>"
                   }
                 ]
               },
@@ -231,35 +191,43 @@
                 },
                 "description": [
                   {
-                    "content": "<a href=\"#\">Collection one</a>, <a href=\"#\">Collection two</a>"
+                    "content": "<a href=\"collection\">Collection one</a>, <a href=\"collection\">Collection two</a>"
                   }
                 ]
               }
             ]
           }
         },
-        "lead__image": {
-          "name": "partials__figure",
-          "data": {
-            "link": "#",
-            "source-media": "(min-width: 480px)",
-            "source-srcset": "https://api-parliament-uk.azure-api.net/photo/0qLRSwb3.jpeg?crop=CU_5:2&width=732&quality=80, https://api-parliament-uk.azure-api.net/photo/0qLRSwb3.jpeg?crop=CU_5:2&width=1464&quality=80 2x",
-            "source-srcset-2": "https://api-parliament-uk.azure-api.net/photo/0qLRSwb3.jpeg?crop=MCU_3:2&width=444&quality=80, https://api-parliament-uk.azure-api.net/photo/0qLRSwb3.jpeg?crop=MCU_3:2&width=888&quality=80 2x",
-            "alt-text": "Margot James",
-            "source": "https://api-parliament-uk.azure-api.net/photo/0qLRSwb3.jpeg?width=732&quality=80",
-            "figcaption": {
-              "content": "Lead image (optional) <a href=\"#\">example link to resource</a>"
-            }
+        "main": [
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "You can’t be sued (for example, for defamation) or prosecuted for anything you say in the Chamber, Westminster Hall or a committee of the House. This allows you to speak up on behalf of constituents, express an opinion, or condemn corruption, malpractice or even criminal activity without fear of legal action, as long as you do so in proceedings of the House. This protection extends to written proceedings: for example, written and oral questions, motions, early day motions, and amendments tabled to bills and motions."
+              },
+              {
+                "content": "Anyone giving evidence to a committee of the House also has this protection, which is a safeguard for witnesses and also ensures that select committees are not obstructed in their inquiries by threats of legal action, or any other kind of threat against witnesses."
+              },
+              {
+                "content": "A similar protection applies to any document published by order of the House, or under its authority. This includes select committee reports and written evidence, certain reports made under statutory authority and reports published in reply to a ‘motion for an unopposed return’."
+              },
+              {
+                "content": "The protection extends to Hansard (the Official Report), but if you circulate an extract from Hansard (for example, a speech) on its own, the protection may be more limited. The protection for published documents is provided by the Parliamentary Papers Act 1840."
+              },
+              {
+                "content": "Privilege doesn’t necessarily apply to the repetition outside Parliament of things said in proceedings."
+              }
+            ]
+          },
+          {
+            "name": "paragraph",
+            "data": [
+              {
+                "content": "The main Opposition parties get a chance to hold debates on their motions on Opposition days."
+              }
+            ]
           }
-        },
-        "section__main": {
-          "name": "section__main",
-          "data": [
-            {
-              "content": "articles.show.content-body"
-            }
-          ]
-        },
+        ],
         "aside": {
           "name": "aside",
           "data": [
@@ -267,7 +235,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "More in: <a href=\"#\">Collection one</a>",
+                  "content": "More in: <a href=\"collection\">Collection one</a>",
                   "size": 2
                 }
               },
@@ -277,10 +245,16 @@
                   "type": "ol",
                   "display": {
                     "name": "partials__display",
-                    "data": [{
-                      "component": "list",
-                      "variant": 2
-                    }]
+                    "data": [
+                      {
+                        "component": "list",
+                        "variant": "block"
+                      },
+                      {
+                        "component": "list",
+                        "variant": "2"
+                      }
+                    ]
                   },
                   "components": [
                     {
@@ -295,13 +269,20 @@
                         "heading": {
                           "name": "heading",
                           "data": {
-                              "content": "<a href=\"#\">Article one</a>",
-                              "size": 2
+                            "content": "<a href=\"#\">Article one</a>",
+                            "size": 2
                           }
+                        },
+                        "paragraph": {
+                          "name": "paragraph",
+                          "data": [
+                            {
+                              "content": "Summary from article one"
+                            }
+                          ]
                         }
                       }
-                    },
-                    {
+                    }, {
                       "name": "card__generic",
                       "data": {
                         "small": {
@@ -313,13 +294,20 @@
                         "heading": {
                           "name": "heading",
                           "data": {
-                              "content": "<a href=\"#\">Article two</a>",
-                              "size": 2
+                            "content": "<a href=\"#\">Article two</a>",
+                            "size": 2
                           }
+                        },
+                        "paragraph": {
+                          "name": "paragraph",
+                          "data": [
+                            {
+                              "content": "Summary from article two"
+                            }
+                          ]
                         }
                       }
-                    },
-                    {
+                    }, {
                       "name": "card__generic",
                       "data": {
                         "small": {
@@ -331,13 +319,20 @@
                         "heading": {
                           "name": "heading",
                           "data": {
-                              "content": "<a href=\"#\">Collection one</a>",
-                              "size": 2
+                            "content": "<a href=\"#\">Sub-collection one</a>",
+                            "size": 2
                           }
+                        },
+                        "paragraph": {
+                          "name": "paragraph",
+                          "data": [
+                            {
+                              "content": "Summary from sub-collection one"
+                            }
+                          ]
                         }
                       }
-                    },
-                    {
+                    }, {
                       "name": "card__generic",
                       "data": {
                         "small": {
@@ -349,9 +344,17 @@
                         "heading": {
                           "name": "heading",
                           "data": {
-                              "content": "<a href=\"#\">Collection two</a>",
-                              "size": 2
+                            "content": "<a href=\"#\">Sub-collection two</a>",
+                            "size": 2
                           }
+                        },
+                        "paragraph": {
+                          "name": "paragraph",
+                          "data": [
+                            {
+                              "content": "Summary from sub-collection two"
+                            }
+                          ]
                         }
                       }
                     }
@@ -363,7 +366,7 @@
               "heading": {
                 "name": "heading",
                 "data": {
-                  "content": "More in: <a href=\"#\">Collection two</a>",
+                  "content": "More in: <a href=\"collection\">Collection two</a>",
                   "size": 2
                 }
               },
@@ -373,30 +376,18 @@
                   "type": "ol",
                   "display": {
                     "name": "partials__display",
-                    "data": [{
-                      "component": "list",
-                      "variant": 2
-                    }]
+                    "data": [
+                      {
+                        "component": "list",
+                        "variant": "block"
+                      },
+                      {
+                        "component": "list",
+                        "variant": "2"
+                      }
+                    ]
                   },
                   "components": [
-                    {
-                      "name": "card__generic",
-                      "data": {
-                        "small": {
-                          "name": "partials__small",
-                          "data": {
-                            "content": "Article"
-                          }
-                        },
-                        "heading": {
-                          "name": "heading",
-                          "data": {
-                              "content": "<a href=\"#\">Article one</a>",
-                              "size": 2
-                          }
-                        }
-                      }
-                    },
                     {
                       "name": "card__generic",
                       "data": {
@@ -409,9 +400,42 @@
                         "heading": {
                           "name": "heading",
                           "data": {
-                              "content": "<a href=\"#\">Collection one</a>",
-                              "size": 2
+                            "content": "<a href=\"#\">Sub-collection one</a>",
+                            "size": 2
                           }
+                        },
+                        "paragraph": {
+                          "name": "paragraph",
+                          "data": [
+                            {
+                              "content": "Summary from sub-collection one"
+                            }
+                          ]
+                        }
+                      }
+                    }, {
+                      "name": "card__generic",
+                      "data": {
+                        "small": {
+                          "name": "partials__small",
+                          "data": {
+                            "content": "Collection"
+                          }
+                        },
+                        "heading": {
+                          "name": "heading",
+                          "data": {
+                            "content": "<a href=\"#\">Sub-collection two</a>",
+                            "size": 2
+                          }
+                        },
+                        "paragraph": {
+                          "name": "paragraph",
+                          "data": [
+                            {
+                              "content": "Summary from sub-collection two"
+                            }
+                          ]
                         }
                       }
                     }
