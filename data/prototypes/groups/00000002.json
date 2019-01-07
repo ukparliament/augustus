@@ -36,7 +36,7 @@
       }
     ],
     "open-graph": {
-      "title": "Joint Committee on Human Rights - UK Parliament",
+      "title": "Home Affairs Committee - UK Parliament",
       "original-url": "https://localhost/committees/12345678",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",
@@ -222,7 +222,7 @@
                   },
                   "description": [
                     {
-                      "content": "Home Affairs Sub-Committee"
+                      "content": "<a href=\"#\">Home Affairs Sub-Committee</a>"
                     }
                   ]
                 },
@@ -242,7 +242,7 @@
                   },
                   "description": [
                     {
-                      "content": "<a href=\"/prototypes/groups/memberships/current\">[count] members</a>"
+                      "content": "<a href=\"#\">[count] members</a>"
                     }
                   ]
                 }

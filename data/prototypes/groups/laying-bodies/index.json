@@ -204,7 +204,7 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "<a href='/groups/7gnSwbLO'>Cabinet Office</a>",
+                        "content": "<a href=\"#\">Cabinet Office</a>",
                         "size": 2
                       }
                     }
@@ -216,7 +216,7 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "<a href='/groups/yiuTaSI4'>Department for Business, Energy and Industrial Strategy</a>",
+                        "content": "<a href=\"#\">Department for Business, Energy and Industrial Strategy</a>",
                         "size": 2
                       }
                     }
@@ -228,7 +228,7 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "<a href='/groups/ZU3IXBtP'>Department for Digital, Culture, Media and Sport</a>",
+                        "content": "<a href=\"#\">Department for Digital, Culture, Media and Sport</a>",
                         "size": 2
                       }
                     }
@@ -240,7 +240,7 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "<a href='/groups/7dSvuueH'>Department for Education</a>",
+                        "content": "<a href=\"#\">Department for Education</a>",
                         "size": 2
                       }
                     }

@@ -218,7 +218,7 @@
                             },
                             "description": [
                               {
-                                "content": "A definition for the group."
+                                "content": "A definition for All Party Parliamentary Groups."
                               }
                             ]
                           }
@@ -247,7 +247,7 @@
                             },
                             "description": [
                               {
-                                "content": "A definition for the group."
+                                "content": "A definition for answering bodies."
                               }
                             ]
                           }
@@ -276,7 +276,7 @@
                             },
                             "description": [
                               {
-                                "content": "A definition for the group."
+                                "content": "A definition for formal bodies."
                               }
                             ]
                           }
@@ -334,7 +334,7 @@
                             },
                             "description": [
                               {
-                                "content": "A definition for the group."
+                                "content": "A definition for a house."
                               }
                             ]
                           }
@@ -392,7 +392,7 @@
                             },
                             "description": [
                               {
-                                "content": "A definition for the group."
+                                "content": "A definition for laying bodies."
                               }
                             ]
                           }
@@ -450,7 +450,7 @@
                             },
                             "description": [
                               {
-                                "content": "A definition for the group."
+                                "content": "A definition for non-parliamentary organisations."
                               }
                             ]
                           }
@@ -508,7 +508,7 @@
                             },
                             "description": [
                               {
-                                "content": "A definition for the group."
+                                "content": "A definition for a party."
                               }
                             ]
                           }
