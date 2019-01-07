@@ -3,7 +3,7 @@
     "template": "layout"
   },
   "meta": {
-    "title": "Current committee members - Joint Committee on Human Rights - UK Parliament",
+    "title": "Current membership - Joint Committee on Human Rights - UK Parliament",
     "request-id": "|KN2mJToH06OAWg==.",
     "data-alternates": [
       {
@@ -36,7 +36,7 @@
       }
     ],
     "open-graph": {
-      "title": "Current committee members - Joint Committee on Human Rights - UK Parliament",
+      "title": "Current members - Joint Committee on Human Rights - UK Parliament",
       "original-url": "https://localhost/committees/12345678",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",
@@ -173,7 +173,10 @@
             "name": "heading1",
             "data": {
               "heading": {
-                "content": "Current members"
+                "content": "Current membership"
+              },
+              "context": {
+                "content": "Joint Committee on Human Rights"
               }
             }
           },
@@ -184,11 +187,11 @@
               "items": [
                 {
                   "term": {
-                    "content": "Committee"
+                    "content": "Group"
                   },
                   "description": [
                     {
-                      "content": "\u003ca href=\"/prototypes/committees/12345678\"\u003eJoint Committee on Human Rights\u003c/a\u003e"
+                      "content": "<a href=\"/prototypes/groups/00000001\">Joint Committee on Human Rights</a>"
                     }
                   ]
                 }
@@ -238,31 +241,62 @@
                         "source": "https://api.parliament.uk/photo/ZY0Mx1bp.jpeg?crop=CU_1:1&width=186&quality=80"
                       }
                     },
+                    "small": {
+                      "name": "partials__small",
+                      "data": {
+                        "content": "Person"
+                      }
+                    },
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "\u003ca href=\"\"\u003eMs Harriet Harman\u003c/a\u003e",
+                        "content": "<a href=\"#\">Ms Harriet Harman</a>",
                         "size": 2
                       }
                     },
-                    "list-generic": {
-                      "name": "list__generic",
+                    "list-description": {
+                      "name": "list__description",
                       "data": {
-                        "type": "ol",
-                        "display": {
-                          "name": "partials__display",
-                          "data": [
-                            {
-                              "component": "list"
-                            }
-                          ]
-                        },
-                        "contents": [
+                        "items": [
                           {
-                            "content": "Committee chair"
+                            "term": {
+                              "content": "Position"
+                            },
+                            "description": [
+                              {
+                                "content": "Chair"
+                              }
+                            ]
                           },
                           {
-                            "content": "Labour MP for Camberwell and Peckham"
+                            "term": {
+                              "content": "Incumbency"
+                            },
+                            "description": [
+                              {
+                                "content": "Member of the House of Commons"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "Party"
+                            },
+                            "description": [
+                              {
+                                "content": "<a href=\"#\">Labour</a>"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "Constituency"
+                            },
+                            "description": [
+                              {
+                                "content": "<a href=\"#\">Camberwell and Peckham</a>"
+                              }
+                            ]
                           }
                         ]
                       }
@@ -294,28 +328,49 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "\u003ca href=\"\"\u003eFiona Bruce\u003c/a\u003e",
+                        "content": "<a href=\"#\">Fiona Bruce</a>",
                         "size": 2
                       }
                     },
-                    "list-generic": {
-                      "name": "list__generic",
+                    "small": {
+                      "name": "partials__small",
                       "data": {
-                        "type": "ol",
-                        "display": {
-                          "name": "partials__display",
-                          "data": [
-                            {
-                              "component": "list"
-                            }
-                          ]
-                        },
-                        "contents": [
+                        "content": "Person"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
                           {
-                            "content": "Committee member"
+                            "term": {
+                              "content": "Incumbency"
+                            },
+                            "description": [
+                              {
+                                "content": "Member of the House of Commons"
+                              }
+                            ]
                           },
                           {
-                            "content": "Conservative MP for Congleton"
+                            "term": {
+                              "content": "Party"
+                            },
+                            "description": [
+                              {
+                                "content": "<a href=\"#\">Conservative</a>"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "Constituency"
+                            },
+                            "description": [
+                              {
+                                "content": "<a href=\"#\">Congleton</a>"
+                              }
+                            ]
                           }
                         ]
                       }
@@ -347,28 +402,49 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "\u003ca href=\"\"\u003eMs Karen Buck\u003c/a\u003e",
+                        "content": "<a href=\"#\">Ms Karen Buck</a>",
                         "size": 2
                       }
                     },
-                    "list-generic": {
-                      "name": "list__generic",
+                    "small": {
+                      "name": "partials__small",
                       "data": {
-                        "type": "ol",
-                        "display": {
-                          "name": "partials__display",
-                          "data": [
-                            {
-                              "component": "list"
-                            }
-                          ]
-                        },
-                        "contents": [
+                        "content": "Person"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
                           {
-                            "content": "Committee member"
+                            "term": {
+                              "content": "Incumbency"
+                            },
+                            "description": [
+                              {
+                                "content": "Member of the House of Commons"
+                              }
+                            ]
                           },
                           {
-                            "content": "Labour MP for Westminster North"
+                            "term": {
+                              "content": "Party"
+                            },
+                            "description": [
+                              {
+                                "content": "<a href=\"#\">Labour</a>"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "Constituency"
+                            },
+                            "description": [
+                              {
+                                "content": "<a href=\"#\">Westminster North</a>"
+                              }
+                            ]
                           }
                         ]
                       }
@@ -400,28 +476,49 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "\u003ca href=\"\"\u003eAlex Burghart\u003c/a\u003e",
+                        "content": "<a href=\"#\">Alex Burghart</a>",
                         "size": 2
                       }
                     },
-                    "list-generic": {
-                      "name": "list__generic",
+                    "small": {
+                      "name": "partials__small",
                       "data": {
-                        "type": "ol",
-                        "display": {
-                          "name": "partials__display",
-                          "data": [
-                            {
-                              "component": "list"
-                            }
-                          ]
-                        },
-                        "contents": [
+                        "content": "Person"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
                           {
-                            "content": "Committee member"
+                            "term": {
+                              "content": "Incumbency"
+                            },
+                            "description": [
+                              {
+                                "content": "Member of the House of Commons"
+                              }
+                            ]
                           },
                           {
-                            "content": "Conservative MP for Brentwood and Ongar"
+                            "term": {
+                              "content": "Party"
+                            },
+                            "description": [
+                              {
+                                "content": "<a href=\"#\">Conservative</a>"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "Constituency"
+                            },
+                            "description": [
+                              {
+                                "content": "<a href=\"#\">Brentwood and Ongar</a>"
+                              }
+                            ]
                           }
                         ]
                       }
@@ -453,28 +550,49 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "\u003ca href=\"\"\u003eJoanna Cherry\u003c/a\u003e",
+                        "content": "<a href=\"#\">Joanna Cherry</a>",
                         "size": 2
                       }
                     },
-                    "list-generic": {
-                      "name": "list__generic",
+                    "small": {
+                      "name": "partials__small",
                       "data": {
-                        "type": "ol",
-                        "display": {
-                          "name": "partials__display",
-                          "data": [
-                            {
-                              "component": "list"
-                            }
-                          ]
-                        },
-                        "contents": [
+                        "content": "Person"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
                           {
-                            "content": "Committee member"
+                            "term": {
+                              "content": "Incumbency"
+                            },
+                            "description": [
+                              {
+                                "content": "Member of the House of Commons"
+                              }
+                            ]
                           },
                           {
-                            "content": "Scottish National Party MP for Edinburgh South West"
+                            "term": {
+                              "content": "Party"
+                            },
+                            "description": [
+                              {
+                                "content": "<a href=\"#\">Scottish National Party</a>"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "Constituency"
+                            },
+                            "description": [
+                              {
+                                "content": "<a href=\"#\">Edinburgh South West</a>"
+                              }
+                            ]
                           }
                         ]
                       }
@@ -506,28 +624,39 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "\u003ca href=\"\"\u003eBaroness Hamwee\u003c/a\u003e",
+                        "content": "<a href=\"#\">Baroness Hamwee</a>",
                         "size": 2
                       }
                     },
-                    "list-generic": {
-                      "name": "list__generic",
+                    "small": {
+                      "name": "partials__small",
                       "data": {
-                        "type": "ol",
-                        "display": {
-                          "name": "partials__display",
-                          "data": [
-                            {
-                              "component": "list"
-                            }
-                          ]
-                        },
-                        "contents": [
+                        "content": "Person"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
                           {
-                            "content": "Committee member"
+                            "term": {
+                              "content": "Incumbency"
+                            },
+                            "description": [
+                              {
+                                "content": "Member of the House of Lords"
+                              }
+                            ]
                           },
                           {
-                            "content": "Liberal Democrat member of the House of Lords"
+                            "term": {
+                              "content": "Party"
+                            },
+                            "description": [
+                              {
+                                "content": "<a href=\"#\">Liberal Democrat</a>"
+                              }
+                            ]
                           }
                         ]
                       }
@@ -559,28 +688,39 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "\u003ca href=\"\"\u003eBaroness Lawrence of Clarendon\u003c/a\u003e",
+                        "content": "<a href=\"#\">Baroness Lawrence of Clarendon</a>",
                         "size": 2
                       }
                     },
-                    "list-generic": {
-                      "name": "list__generic",
+                    "small": {
+                      "name": "partials__small",
                       "data": {
-                        "type": "ol",
-                        "display": {
-                          "name": "partials__display",
-                          "data": [
-                            {
-                              "component": "list"
-                            }
-                          ]
-                        },
-                        "contents": [
+                        "content": "Person"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
                           {
-                            "content": "Committee member"
+                            "term": {
+                              "content": "Incumbency"
+                            },
+                            "description": [
+                              {
+                                "content": "Member of the House of Lords"
+                              }
+                            ]
                           },
                           {
-                            "content": "Labour member of the House of Lords"
+                            "term": {
+                              "content": "Party"
+                            },
+                            "description": [
+                              {
+                                "content": "<a href=\"#\">Labour</a>"
+                              }
+                            ]
                           }
                         ]
                       }
@@ -612,28 +752,49 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "\u003ca href=\"\"\u003eJeremy Lefroy\u003c/a\u003e",
+                        "content": "<a href=\"#\">Jeremy Lefroy</a>",
                         "size": 2
                       }
                     },
-                    "list-generic": {
-                      "name": "list__generic",
+                    "small": {
+                      "name": "partials__small",
                       "data": {
-                        "type": "ol",
-                        "display": {
-                          "name": "partials__display",
-                          "data": [
-                            {
-                              "component": "list"
-                            }
-                          ]
-                        },
-                        "contents": [
+                        "content": "Person"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
                           {
-                            "content": "Committee member"
+                            "term": {
+                              "content": "Incumbency"
+                            },
+                            "description": [
+                              {
+                                "content": "Member of the House of Commons"
+                              }
+                            ]
                           },
                           {
-                            "content": "Conservative MP for Stafford"
+                            "term": {
+                              "content": "Party"
+                            },
+                            "description": [
+                              {
+                                "content": "<a href=\"#\">Conservative</a>"
+                              }
+                            ]
+                          },
+                          {
+                            "term": {
+                              "content": "Constituency"
+                            },
+                            "description": [
+                              {
+                                "content": "<a href=\"#\">Stafford</a>"
+                              }
+                            ]
                           }
                         ]
                       }
@@ -665,28 +826,39 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "\u003ca href=\"\"\u003eBaroness Nicholson of Winterbourne\u003c/a\u003e",
+                        "content": "<a href=\"#\">Baroness Nicholson of Winterbourne</a>",
                         "size": 2
                       }
                     },
-                    "list-generic": {
-                      "name": "list__generic",
+                    "small": {
+                      "name": "partials__small",
                       "data": {
-                        "type": "ol",
-                        "display": {
-                          "name": "partials__display",
-                          "data": [
-                            {
-                              "component": "list"
-                            }
-                          ]
-                        },
-                        "contents": [
+                        "content": "Person"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
                           {
-                            "content": "Committee member"
+                            "term": {
+                              "content": "Incumbency"
+                            },
+                            "description": [
+                              {
+                                "content": "Member of the House of Lords"
+                              }
+                            ]
                           },
                           {
-                            "content": "Conservative member of the House of Lords"
+                            "term": {
+                              "content": "Party"
+                            },
+                            "description": [
+                              {
+                                "content": "<a href=\"#\">Conservative</a>"
+                              }
+                            ]
                           }
                         ]
                       }
@@ -718,28 +890,39 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "\u003ca href=\"\"\u003eBaroness Prosser\u003c/a\u003e",
+                        "content": "<a href=\"#\">Baroness Prosser</a>",
                         "size": 2
                       }
                     },
-                    "list-generic": {
-                      "name": "list__generic",
+                    "small": {
+                      "name": "partials__small",
                       "data": {
-                        "type": "ol",
-                        "display": {
-                          "name": "partials__display",
-                          "data": [
-                            {
-                              "component": "list"
-                            }
-                          ]
-                        },
-                        "contents": [
+                        "content": "Person"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
                           {
-                            "content": "Committee member"
+                            "term": {
+                              "content": "Incumbency"
+                            },
+                            "description": [
+                              {
+                                "content": "Member of the House of Lords"
+                              }
+                            ]
                           },
                           {
-                            "content": "Labour member of the House of Lords"
+                            "term": {
+                              "content": "Party"
+                            },
+                            "description": [
+                              {
+                                "content": "<a href=\"#\">Labour</a>"
+                              }
+                            ]
                           }
                         ]
                       }
@@ -771,28 +954,39 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "\u003ca href=\"\"\u003eLord Trimble\u003c/a\u003e",
+                        "content": "<a href=\"#\">Lord Trimble</a>",
                         "size": 2
                       }
                     },
-                    "list-generic": {
-                      "name": "list__generic",
+                    "small": {
+                      "name": "partials__small",
                       "data": {
-                        "type": "ol",
-                        "display": {
-                          "name": "partials__display",
-                          "data": [
-                            {
-                              "component": "list"
-                            }
-                          ]
-                        },
-                        "contents": [
+                        "content": "Person"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
                           {
-                            "content": "Committee member"
+                            "term": {
+                              "content": "Incumbency"
+                            },
+                            "description": [
+                              {
+                                "content": "Member of the House of Lords"
+                              }
+                            ]
                           },
                           {
-                            "content": "Conservative member of the House of Lords"
+                            "term": {
+                              "content": "Party"
+                            },
+                            "description": [
+                              {
+                                "content": "<a href=\"#\">Conservative</a>"
+                              }
+                            ]
                           }
                         ]
                       }
@@ -824,28 +1018,39 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "\u003ca href=\"\"\u003eLord Woolf\u003c/a\u003e",
+                        "content": "<a href=\"#\">Lord Woolf</a>",
                         "size": 2
                       }
                     },
-                    "list-generic": {
-                      "name": "list__generic",
+                    "small": {
+                      "name": "partials__small",
                       "data": {
-                        "type": "ol",
-                        "display": {
-                          "name": "partials__display",
-                          "data": [
-                            {
-                              "component": "list"
-                            }
-                          ]
-                        },
-                        "contents": [
+                        "content": "Person"
+                      }
+                    },
+                    "list-description": {
+                      "name": "list__description",
+                      "data": {
+                        "items": [
                           {
-                            "content": "Committee member"
+                            "term": {
+                              "content": "Incumbency"
+                            },
+                            "description": [
+                              {
+                                "content": "Member of the House of Lords"
+                              }
+                            ]
                           },
                           {
-                            "content": "Crossbench member of the House of Lords"
+                            "term": {
+                              "content": "Party"
+                            },
+                            "description": [
+                              {
+                                "content": "<a href=\"#\">Crossbench</a>"
+                              }
+                            ]
                           }
                         ]
                       }

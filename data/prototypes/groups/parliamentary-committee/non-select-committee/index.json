@@ -3,7 +3,7 @@
     "template": "layout"
   },
   "meta": {
-    "title": "Committees - UK Parliament",
+    "title": "Parliamentary non-select committees - UK Parliament",
     "request-id": "|KN2mJToH06OAWg==.",
     "data-alternates": [
       {
@@ -36,7 +36,7 @@
       }
     ],
     "open-graph": {
-      "title": "Committees - UK Parliament",
+      "title": "Parliamentary select committees - UK Parliament",
       "original-url": "https://localhost/committees/12345678",
       "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
       "image-width": "1200",
@@ -173,7 +173,7 @@
             "name": "heading1",
             "data": {
               "heading": {
-                "content": "Committees"
+                "content": "Parliamentary non-select committees"
               }
             }
           }
@@ -204,28 +204,33 @@
                     "heading": {
                       "name": "heading",
                       "data": {
-                        "content": "\u003ca href=\"/prototypes/committees/12345678\"\u003eJoint Committee on Human Rights\u003c/a\u003e",
+                        "content": "<a href=\"/prototypes/groups/00000001\">Joint Committee on Human Rights</a>",
                         "size": 2
                       }
                     },
-                    "list-generic": {
-                      "name": "list__generic",
+                    "list-description": {
+                      "name": "list__description",
                       "data": {
-                        "type": "ol",
-                        "display": {
-                          "name": "partials__display",
-                          "data": [
-                            {
-                              "component": "list"
-                            }
-                          ]
-                        },
-                        "contents": [
+                        "items": [
                           {
-                            "content": "Joint (Commons and Lords) select committee"
+                            "term": {
+                              "content": "Houses"
+                            },
+                            "description": [
+                              {
+                                "content": "House of Commons and House of Lords"
+                              }
+                            ]
                           },
                           {
-                            "content": "19 July 2017 to present"
+                            "term": {
+                              "content": "Date"
+                            },
+                            "description": [
+                              {
+                                "content": "19 July 2017 to present"
+                              }
+                            ]
                           }
                         ]
                       }
