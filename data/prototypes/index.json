@@ -103,13 +103,16 @@
                   "content": "<a href=\"/prototypes/collections/freedom-of-speech\">[Article] Freedom of speech</a>"
                 },
                 {
-                  "content": "<a href=\"/prototypes/committees/index\">[List] Committees</a>"
+                  "content": "<a href=\"/prototypes/groups/index\">[List] Groups</a>"
                 },
                 {
-                  "content": "<a href=\"/prototypes/committees/12345678\">[Thing] Committee</a>"
+                  "content": "<a href=\"/prototypes/groups/00000001\">[Thing] Formal body</a>"
                 },
                 {
-                  "content": "<a href=\"/prototypes/committees/memberships/current\">[List] Current committee membership</a>"
+                  "content": "<a href=\"/prototypes/groups/formal-bodies\">[List] Formal bodies</a>"
+                },
+                {
+                  "content": "<a href=\"/prototypes/groups/memberships/current\">[List] Group membership</a>"
                 },
                 {
                   "content": "<a href=\"/prototypes/master\">[List, Thing] Master Template</a>"
