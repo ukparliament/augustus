@@ -1,0 +1,16 @@
+{
+  "layout": {
+    "template": "layout"
+  },
+  "meta": {
+    "title": "banana - Search - UK Parliament",
+    "request-id": "G4K2N8ExN07N7Q=="
+  },
+  "foot": {
+    "components": [
+      {
+        "name": "foot__search-result-tracking"
+      }
+    ]
+  }
+}

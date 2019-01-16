@@ -1,72 +1,201 @@
 {
-	"shared": {
-		"meta": {
-			"title": "UK Parliament"
-		},
-		"header": {
-			"skip-to-content": "Skip to main content",
-			"cookie-banner-text": "Parliament.uk uses cookies to make the site simpler. <a href='{{{link}}}'>Find out more about cookies</a>",
-			"beta-status": "These pages are being tested. <a href='http://www.smartsurvey.co.uk/s/ukparliament-beta-website-feedback/'>Give feedback</a> to help improve them. Go to <a href='http://www.parliament.uk'>current website</a>",
-			"label": "UK Parliament"
-		},
-		"footer": {
-			"uk-parliament": "UK Parliament",
-			"current-website": "<a href='http://www.parliament.uk'>Current Parliament.uk website</a>",
-			"cookie-policy": "<a href='{{{link}}}'>Cookie Policy</a>",
-			"data-protection-privacy": "<a href='https://www.parliament.uk/site-information/data-protection/data-protection-and-privacy-policy/'>Data protection and privacy policy</a>"
-		},
-		"number-navigation": {
-			"previous": "Previous",
-			"next": "Next",
-			"page": "Page "
-		}
-	},
-	"search": {
-		"search-heading": "Search",
-		"label": "Enter a keyword",
-		"search-icon": "Search icon",
-		"results-heading": "Search results for",
-		"count": "<span>About {{count}} results</span>",
-		"no-results": "There are no results for your search"
-	},
-	"home": {
+  "shared": {
+    "meta": {
+      "title": "UK Parliament"
+    },
+    "no-results": "There are no results",
+    "header": {
+      "skip-to-content": "Skip to main content",
+      "cookie-banner-text": "Parliament.uk uses cookies to make the site simpler. <a href='{{-link}}'>Find out more about cookies</a>",
+      "beta-status": "These pages are being tested. <a href='http://www.smartsurvey.co.uk/s/ukparliament-beta-website-feedback/'>Give feedback</a> to help improve them. Go to <a href='http://www.parliament.uk'>current website</a>",
+      "label": "UK Parliament"
+    },
+    "footer": {
+      "uk-parliament": "UK Parliament",
+      "current-website": "<a href='http://www.parliament.uk'>Current Parliament.uk website</a>",
+      "cookie-policy": "<a href='{{-link}}'>Cookie Policy</a>",
+      "data-protection-privacy": "<a href='https://www.parliament.uk/site-information/data-protection/data-protection-and-privacy-policy/'>Data protection and privacy policy</a>"
+    },
+    "number-navigation": {
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page "
+    },
+    "time-html": "<time datetime='{{-datetime-value}}'>{{-date}}</time>",
+    "time-html-to": "<time datetime='{{-datetime-value}}'>{{-date}}</time> to <time datetime='{{-datetime-value-second}}'>{{-date-second}}</time>",
+    "time-html-to-present": "<time datetime='{{-datetime-value}}'>{{-date}}</time> to present",
+    "notes": {
+      "heading": "Notes:",
+      "note-1": "These are static html files",
+      "note-2": "Links will either not be working or will not go to the correct location",
+      "note-3": "Styles are work in progress"
+    }
+  },
+  "root": {
+    "title": "Augustus - UK Parliament",
+    "heading": "Augustus",
+    "summary": "This is a Shunter based application to showcase prototypes, types and website pages.",
+    "prototypes": "<a href='{{-link}}'>Prototypes</a>",
+    "types": "<a href='{{-link}}'>Types</a>",
+    "website": "<a href='{{-link}}'>Website</a>"
+  },
+  "types": {
+    "title": "Types - UK Parliament",
+    "heading": "Types",
+    "no-views": "There are currently no views",
+    "lists": {
+      "title": "Lists - UK Parliament",
+      "heading": "Lists",
+      "link": "<a href=\"{{-link}}\">Lists</a>"
+    },
+    "things": {
+      "title": "Things - UK Parliament",
+      "heading": "Things",
+      "link": "<a href=\"{{-link}}\">Things</a>"
+    },
+    "utilities": {
+      "title": "Utilities - UK Parliament",
+      "heading": "Utilities",
+      "link": "<a href=\"{{-link}}\">Utilities</a>"
+    }
+  },
+  "home": {
+    "title": "Homepage - UK Parliament",
     "hero": {
       "heading": "UK Parliament beta website",
       "building-new-website": "We're building a new website for Parliament. Pages with a beta label are being tested and improved. They may not work for everyone.",
-		  "follow-beta-progress": "Follow <a href='https://pds.blog.parliament.uk/category/parliament-uk/'>beta progress on our blog</a>."
+      "follow-beta-progress": "Follow <a href='https://pds.blog.parliament.uk/category/parliament-uk/'>beta progress on our blog</a>."
     },
     "mps-and-lords": {
       "heading": "MPs and Lords",
       "mps": {
-        "heading": "MPs",
+        "heading": "<a href='{{-link}}'>MPs</a>",
         "find": "Find all members of the House of Commons."
       },
       "lords": {
-        "heading": "Lords",
+        "heading": "<a href='{{-link}}'>Lords</a>",
         "find": "View all members of the House of Lords."
       },
       "constituencies": {
-        "heading": "Constituencies",
+        "heading": "<a href='{{-link}}'>Constituencies</a>",
         "find": "Find MPs by the area they represent."
       },
       "parties-and-groups": {
-        "heading": "Parties and groups",
+        "heading": "<a href='{{-link}}'>Parties and groups</a>",
         "find": "Find MPs and Lords by their party or group."
       }
     },
     "parliament-activity": {
       "heading": "Activity in Parliament",
       "statutory-instruments": {
-        "heading": "Statutory instruments",
+        "heading": "<a href='{{-link}}'>Statutory instruments</a>",
         "find": "Find all statutory instruments and follow their progress."
       }
     },
     "guides": {
       "heading": "Guides",
       "guide-to-procedure": {
-        "heading": "MPs Guide to Procedure",
+        "heading": "<a href='{{-link}}'>MPs Guide to Procedure</a>",
         "find": "Guidance on House of Commons procedure for MPs and their staff."
       }
     }
-	}
+  },
+  "laid-thing": {
+    "laid-papers": "Laid papers",
+    "laid-paper": "Laid paper",
+    "laid-paper-type": "Laid paper type",
+    "laid-date": "Laid date",
+    "house-laid-date": "{{house}} laying date",
+    "procedural-activity": "Procedural activity",
+    "procedure": "Procedure",
+    "laying-body": "Laying body",
+    "web-link": "Web link"
+  },
+  "layig-bodies": {
+    "index": {
+      "title": "Laying bodies - UK Parliament"
+    }
+  },
+  "search": {
+    "index": {
+      "title": "Search - UK Parliament"
+    },
+    "search-heading": "Search",
+    "label": "Enter a keyword",
+    "search-icon": "Search icon",
+    "results-heading": "Search results for",
+    "count": "<span>About {{count}} results</span>",
+    "no-results": "There are no results for your search"
+  },
+  "statutory-instruments": {
+    "index": {
+      "title": "Statutory instruments - UK Parliament"
+    },
+    "show": {
+      "subheading": "<a href='{{-link}}'>Statutory Instruments</a>",
+      "coming-into-force-date": "Coming into force date",
+      "coming-into-force-note": "Coming into force note",
+      "made-date": "Made date",
+      "further-details": "Further details",
+      "following-title": "Preceded by"
+    },
+    "type": "Statutory instrument"
+  },
+  "proposed-negative-statutory-instruments": {
+    "index": {
+      "title": "Proposed negative statutory instruments - UK Parliament"
+    },
+    "show": {
+      "subheading": "<a href='{{-link}}'>Proposed Negative Statutory Instruments</a>",
+      "preceding-title": "Followed by"
+    },
+    "type": "Proposed negative statutory instrument"
+  },
+  "groups": {
+    "index": {
+      "title": "Groups - UK Parliament"
+    },
+    "subheading": "<a href= '{{-link}}'>Group</a>",
+    "subsidiary-resources": {
+      "laid-papers": "<a href= '{{-link}}'>Laid papers</a>"
+    }
+  },
+  "procedure-steps": {
+    "index": {
+      "title": "Procedure steps - UK Parliament"
+    },
+    "subheading": "<a href= '{{-link}}'>Procedure step</a>",
+    "subsidiary-resources": {
+      "work-packages": "<a href= '{{-link}}'>Procedural activity</a>",
+      "actualised-date": "Business item date"
+    },
+    "houses": "Houses"
+  },
+  "articles": {
+    "index": {
+      "title": "Articles - UK Parliament"
+
+    },
+    "show": {
+      "content-body": "<p>You can speak in debates in the Chamber and Westminster Hall. You should be aware of the Rules of behaviour and courtesies in the House, issued by the Speaker, before you do so.</p><p>The House reaches its decisions or highlights its opinions by debating motions. MPs argue for or against a specific motion and then reach a decision, with or without the need for a vote. Motions are listed on the Order Paper, along with the names of the MPs who support them.</p><p>A general motion is neutrally worded. It usually begins, “That this House has considered”. It lets the House discuss an issue without giving an opinion or taking action on it. You can’t amend this kind of motion.</p><p>A substantive motion calls on the House to take action or express an opinion. You can amend a substantive motion.</p><p>Although most motions that are debated are tabled by the Government, there are opportunities for backbenchers to hold debates too:</p><ol><li>adjournment debates</li><li>Westminster Hall debates</li><li>Backbench Business Committee debates</li><li>emergency debates</li></ol><ul><li>adjournment debates</li><li>Westminster Hall debates</li><li>Backbench Business Committee debates</li><li>emergency debates</li></ul><p>The main Opposition parties get a chance to hold debates on their motions on Opposition days.</p>"
+    }
+  },
+  "houses": {
+    "subsidiary-resources": {
+      "laid-papers": "<a href= '{{-link}}'>Laid papers</a>"
+    }
+  },
+  "procedures": {
+    "index": {
+      "title": "Procedures - UK Parliament",
+      "heading": "Procedures"
+    },
+    "show": {
+      "subheading": "<a href= '{{-link}}'>Procedures</a>",
+      "subsidiary-resources": {
+        "work-packages": "<a href= '{{-link}}'>Procedural activity</a>"
+      },
+      "about": "Find out more about the <a href='https://www.parliament.uk/about/how/laws/secondary-legislation/'>{{-procedure}} procedure</a>."
+    }
+  }
 }

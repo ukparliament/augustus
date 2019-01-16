@@ -65,7 +65,7 @@ HOST_PORT = 80
 
 GITHUB_API=https://api.github.com
 ORG=ukparliament
-REPO=thorney
+REPO=augustus
 LATEST_REL=$(GITHUB_API)/repos/$(ORG)/$(REPO)/releases
 REL_TAG=$(shell curl -s $(LATEST_REL) | jq -r '.[0].tag_name')
 
@@ -88,12 +88,21 @@ build: # Using the variables defined above, run `docker build`, tagging the imag
 run: # Run the Docker image we have created, mapping the HOST_PORT and CONTAINER_PORT
 	docker run --rm -p $(HOST_PORT):$(CONTAINER_PORT) $(IMAGE)
 
+develop:
+	env PORT=$(CONTAINER_PORT) ./node_modules/foreman/nf.js --procfile ProcfileForeman start
+
 serve:
 	npm run serve
 
 test: # Build the docker image in development mode, using a test PARLIAMENT_BASE_URL. Then run rake within a Docker container using our image.
 	NODE_ENV=development SPAWN_WRAP_SHIM_ROOT=/app/ make build
 	docker run --rm $(IMAGE):latest npm test
+
+json: # Run task to beautify *.json files
+	./jsbeautify.sh
+
+lighthouse: # Run audit against app web pages
+	./lighthouse.sh
 
 push: # Push the Docker images we have build to the configured Docker repository (Run in GoCD to push the image to AWS)
 	docker push $(IMAGE):$(VERSION)

@@ -2,12 +2,13 @@ const shunterTestHelper = require('shunter').testhelper();
 const fixtureHelper = require('./fixture-helper');
 const paths = require('./walk-helper');
 const expect = require('chai').expect;
-
+const fs = require('fs');
+const mkdirp = require('mkdirp');
 const b = require('js-beautify').html;
 
 module.exports = {
   /**
-  * This function sets up the paths before each test is ran.
+  * This function sets up the paths before each test is run.
   * It then tears down the set up for each test to ensure that the tests do not interfere with each other.
   */
   setupBefore: function(){
@@ -21,7 +22,7 @@ module.exports = {
   },
 
   /**
-  * This function gets the contents of the json and html fixture files, runs the json through the appropriate dute file and then checks the output against the expected html.
+  * This function gets the contents of the json and html fixture files, runs the json through the appropriate file and then checks the output against the expected html.
   * To do this it takes in the name of the fixture file, the name of the dust file to be rendered, the location of the fixtures and done as parameters.
   *
   * @param fileName [string] The fixture file name i.e. '404.json' would have filename '404'
@@ -38,6 +39,7 @@ module.exports = {
 
       if(integrationTest) {
         var newFixtureLocation = 'integration';
+
         if(fixtureLocation) {
           newFixtureLocation += `/${fixtureLocation}`;
         }
@@ -50,6 +52,34 @@ module.exports = {
       expect(b(expectedHTML)).to.equal(b(output));
 
       done();
+    });
+  },
+  /**
+  * This function creates and writes to an html file with the given fileName, layout template and fixtureLocation.
+  *
+  * @param fileName [string] The fixture file name i.e. '404.json' would have filename '404'.
+  * @param layout [string] Name of the layout template to render.
+  * @param fixtureLocation [string|null] The directory within our fixtures folder to look for our file i.e. 'test/fixtures/integration/html/error-pages/4xx/404.html' would have the fixtureLocation 'error-pages/4xx'
+  * @param integrationTest [boolean] Are we getting an integration test fixture? Used specifically to get JSON fixtures from the root data directory.
+  */
+  createFixture: function(fileName, layout, fixtureLocation, integrationTest) {
+    const jsonFixture  = fixtureHelper.getFixture(fileName, 'json', fixtureLocation, integrationTest);
+
+    shunterTestHelper.render(layout, jsonFixture, function(error, dom, output){
+      let htmlFixture = fixtureHelper.getHtmlFixturePath(fileName, fixtureLocation, integrationTest);
+
+      // Create the directory if it doesn't exist
+      if (!(fs.existsSync(htmlFixture))) {
+        let nonExistentPath = htmlFixture;
+
+        nonExistentPath = nonExistentPath.split('/');
+        nonExistentPath.pop();
+        nonExistentPath = nonExistentPath.join('/');
+
+        mkdirp.sync(nonExistentPath);
+      }
+
+      fs.writeFileSync(htmlFixture, b(output));
     });
   }
 };

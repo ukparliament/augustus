@@ -1,0 +1,2 @@
+{! appInsights search results click custom tracking !}
+<script src="{@assetPath src="uk_parliament_search.js"/}"></script>

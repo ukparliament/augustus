@@ -1,18 +1,20 @@
 {
   "name": "augustus",
-  "version": "0.1.0",
+  "version": "0.1.5",
   "description": "A proposed front-end prototype for beta.parliament.uk",
   "main": "app.js",
   "scripts": {
     "test": "NODE_ENV=test node ./node_modules/nyc/bin/nyc.js --reporter=lcov --reporter=html ./node_modules/mocha/bin/mocha --recursive test",
+    "testfocus": "NODE_ENV=test ./node_modules/mocha/bin/mocha --recursive",
     "start": "node app.js -s --compile-on-demand",
-    "serve": "./node_modules/.bin/shunter-serve -i -q"
+    "serve": "./node_modules/.bin/shunter-serve -i -q",
+    "heroku-postbuild": "./node_modules/.bin/shunter-build -r pugin-components"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ukparliament/augustus.git"
   },
-  "author": "Allan Wazacz",
+  "author": "UK Parliament",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ukparliament/augustus/issues"
@@ -20,27 +22,28 @@
   "homepage": "https://github.com/ukparliament/augustus#readme",
   "devDependencies": {
     "callsites": "^2.0.0",
-    "chai": "^4.1.2",
-    "codeclimate-test-reporter": "^0.5.0",
+    "chai": "^4.2.0",
     "coveralls": "^3.0.2",
-    "eslint": "^5.4.0",
-    "foreman": "^3.0.1",
-    "js-beautify": "^1.8.1",
-    "jsdoc": "^3.5.5",
+    "eslint": "^5.9.0",
+    "js-beautify": "^1.8.8",
+    "lighthouse-ci": "^1.2.4",
+    "mkdirp": "^0.5.1",
     "mocha": "^5.2.0",
     "mock-require": "^3.0.2",
     "nock": "^9.6.1",
-    "nyc": "^12.0.2",
+    "nyc": "^13.1.0",
     "proxyquire": "^2.1.0",
-    "sinon": "^6.1.5",
-    "sinon-chai": "^3.2.0",
+    "sinon": "^6.3.5",
+    "sinon-chai": "^3.3.0",
+    "timekeeper": "^2.1.2",
     "walk-sync": "^0.3.3"
   },
   "dependencies": {
-    "applicationinsights": "^1.0.4",
-    "i18n": "^0.8.3",
+    "applicationinsights": "^1.0.6",
+    "foreman": "^3.0.1",
+    "i18next": "^11.10.2",
     "morgan": "^1.9.0",
-    "pugin-components": "^0.6.7",
+    "pugin-components": "^0.9.6",
     "shunter": "^4.12.0",
     "winston": "~2.3.0"
   }

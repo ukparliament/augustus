@@ -1,5 +1,5 @@
 # Augustus
-[Augustus][augustus] is a proposed front-end prototype for [beta.parliament.uk][beta]. It's built on [Shunter][shunter], with our components library [Pugin][pugin].
+[Augustus][augustus] is a front-end application for [beta.parliament.uk][beta]. It's built on [Shunter][shunter], with our components library [Pugin][pugin].
 
 [![Build Status][shield-travis]][info-travis] [![Test Coverage][shield-coveralls]][info-coveralls] [![License][shield-license]][info-license]
 
@@ -13,7 +13,10 @@
 - [Running the application](#running-the-application)
 - [Using components](#using-components)
 - [Starting Augustus and Shunter serve in a Docker Image](#starting-augustus-and-shunter-serve-in-a-docker-image)
-- [i18n Note](#i18n-note)
+- [Running tests on single files or directories](#running-tests-on-single-files-or-directories)
+- [i18next Note](#i18next-note)
+  - [Double moustaches](#double-moustaches)
+  - [Prefixing the variable name with a hyphen](#prefixing-the-variable-name-with-a-hyphen)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -52,32 +55,80 @@ The application should now be available at [http://localhost:5400][local].
 ## Using components
 [Augustus][augustus] uses [Pugin][pugin] as its components library which uses the [Dust][dust] templating language. However, you can use your own [Dust][dust] components by placing them in the `view` directory in the project's root. You can refer to the [Shunter templating documentation][shunter-templating-docs] for more information on how to do this.
 
-## Starting Augustus and Shunter serve in a Docker Image   
-If you wish to run Augustus with shunter serve in a docker image in a development environment, use the following commands:  
+## Starting Augustus and Shunter serve in a Docker Image
+If you wish to run Augustus with shunter serve in a docker image in a development environment, use the following commands:
 
-To build the Docker image  
+To build the Docker image
 
 ```bash
 docker-compose build --no-cache
 ```
 
-To run Augustus and Shunter serve  
+To run Augustus and Shunter serve
 ```bash
 docker-compose up
 ```
 The application will then be available from http://localhost/.
 
-## i18n Note
-Please note, that while normally data would be passed into a string in a translation file using double moustaches which sanitises input, when passing in a URL or other form of content which you do not wish to be sanitised you must use triple moustaches or it will not be rendered correctly in the output. For example:
+## Testing
+The test suite can be run using `npm test`.
 
+[Shunter][shunter] comes with test helpers that allow us to test that given some JSON, we render some expected HTML.  The `testHelper` uses `ShunterHelper` to setup and teardown our tests.
+
+`createFixture` is a helper which will generate HTML fixtures to be used in testing.  For example, to generate an HTML fixture for an integration test:
+```bash
+testHelper.createFixture('index', 'layout', 'statutory-instruments', true)
 ```
-"cookie-policy": "<a href='{{{link}}}'>Cookie Policy</a>"
-```  
+This would generate an HTML fixture named index.html which would be located at test/fixtures/html/integration/statutory-instruments/.
+It would be generated from the JSON file index.json located at data/statutory-instruments/.
 
-Will be rendered correctly as:  
-
+For a unit test an example could be:
+```bash
+testHelper.createFixture('index', 'layout', 'statutory-instruments', false)
 ```
+This would generate an HTML fixture name index.html which would be located at test/fixtures/html/statutory-instruments/.  It would be generated from the JSON file index.json located at data/fixtures/json/statutory-instruments/.
+
+### Running tests on single files or directories
+The `npm run testfocus` command will let you specify a directory or file of tests to be run.
+
+For example, to run one test:
+```bash
+npm run testfocus test/integration/index_page.spec.js
+```
+
+Or to run a directory of tests:
+```bash
+npm run testfocus test/integration/
+```
+
+## i18next Note
+Passing in data to the translation with double moustaches sanitises input. If you wish to pass in a URL or other data that you do not wish to be sanitised, for it be rendered correctly you must prefix the variable name with a hyphen. For example:
+
+### Double moustaches
+The following translation:
+```json
+"cookie-policy": "<a href='{{link}}'>Cookie Policy</a>"
+```
+Will be rendered incorrectly as:
+```html
+<a href='*&meta*&cookie'>Cookie Policy</a>
+```
+
+### Prefixing the variable name with a hyphen
+The following translation:
+```json
+"cookie-policy": "<a href='{{-link}}'>Cookie Policy</a>"
+```
+Will be rendered correctly as:
+```html
 <a href='/meta/cookie'>Cookie Policy</a>
+```
+
+## Beautify
+Beautify `*.json` files by running:
+
+```bash
+make json
 ```
 
 ## Contributing

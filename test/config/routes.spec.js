@@ -10,7 +10,55 @@ describe('routes', () => {
       }
     },
     'beta.parliament.uk': {
+      '/^\\/?(\\?json=true)?$/': {
+        host: 'thorney.web1live.org',
+        port: 3000
+      },
+      '/^\\/groups/': {
+        host: 'thorney.web1live.org',
+        port: 3000
+      },
+      '/^\\/procedure-steps/': {
+        host: 'thorney.web1live.org',
+        port: 3000
+      },
+      '/^\\/proposed-negative-statutory-instruments/': {
+        host: 'thorney.web1live.org',
+        port: 3000
+      },
+      '/^\\/statutory-instruments/': {
+        host: 'thorney.web1live.org',
+        port: 3000
+      },
+      '/^\\/laying-bodies/': {
+        host: 'thorney.web1live.org',
+        port: 3000
+      },
+      '/^\\/laid-papers/': {
+        host: 'thorney.web1live.org',
+        port: 3000
+      },
+      '/^\\/procedures/': {
+        host: 'thorney.web1live.org',
+        port: 3000
+      },
+      '/^\\/work-packages/current/': {
+        host: 'thorney.web1live.org',
+        port: 3000
+      },
+      '/^\\/work-packages/paper-types/': {
+        host: 'thorney.web1live.org',
+        port: 3000
+      },
       '/^\\/search/': {
+        host: 'thorney.web1live.org',
+        port: 3000
+      },
+      '/^\\/statutory-instruments\\/[a-zA-z0-9]{8}\\/?$/': {
+        host: 'thorney.web1live.org',
+        port: 3000
+      },
+      '/^\\/houses\\/[a-zA-z0-9]{8}\\/made-available/': {
         host: 'thorney.web1live.org',
         port: 3000
       },
@@ -20,7 +68,59 @@ describe('routes', () => {
       }
     },
     'devci.parliament.uk': {
+      '/^\\/?(\\?json=true)?$/': {
+        host: 'thorney.web1devci.org',
+        port: 3000
+      },
+      '/^\\/committee-prototype/': {
+        host: 'thorney.web1devci.org',
+        port: 3000
+      },
+      '/^\\/groups/': {
+        host: 'thorney.web1devci.org',
+        port: 3000
+      },
+      '/^\\/procedure-steps/': {
+        host: 'thorney.web1devci.org',
+        port: 3000
+      },
+      '/^\\/proposed-negative-statutory-instruments/': {
+        host: 'thorney.web1devci.org',
+        port: 3000
+      },
+      '/^\\/statutory-instruments/': {
+        host: 'thorney.web1devci.org',
+        port: 3000
+      },
+      '/^\\/laying-bodies/': {
+        host: 'thorney.web1devci.org',
+        port: 3000
+      },
+      '/^\\/laid-papers/': {
+        host: 'thorney.web1devci.org',
+        port: 3000
+      },
+      '/^\\/procedures/': {
+        host: 'thorney.web1devci.org',
+        port: 3000
+      },
+      '/^\\/work-packages/current/': {
+        host: 'thorney.web1devci.org',
+        port: 3000
+      },
+      '/^\\/work-packages/paper-types/': {
+        host: 'thorney.web1devci.org',
+        port: 3000
+      },
       '/^\\/search/': {
+        host: 'thorney.web1devci.org',
+        port: 3000
+      },
+      '/^\\/statutory-instruments\\/[a-zA-z0-9]{8}\\/?$/': {
+        host: 'thorney.web1devci.org',
+        port: 3000
+      },
+      '/^\\/houses\\/[a-zA-z0-9]{8}\\/made-available/': {
         host: 'thorney.web1devci.org',
         port: 3000
       },
@@ -30,7 +130,59 @@ describe('routes', () => {
       }
     },
     'augustus.pdswebops.org': {
+      '/^\\/?(\\?json=true)?$/': {
+        host: 'thorney.pdswebops.org',
+        port: 3000
+      },
+      '/^\\/committee-prototype/': {
+        host: 'thorney.pdswebops.org',
+        port: 3000
+      },
+      '/^\\/groups/': {
+        host: 'thorney.pdswebops.org',
+        port: 3000
+      },
+      '/^\\/procedure-steps/': {
+        host: 'thorney.pdswebops.org',
+        port: 3000
+      },
+      '/^\\/proposed-negative-statutory-instruments/': {
+        host: 'thorney.pdswebops.org',
+        port: 3000
+      },
+      '/^\\/statutory-instruments/': {
+        host: 'thorney.pdswebops.org',
+        port: 3000
+      },
+      '/^\\/laying-bodies/': {
+        host: 'thorney.pdswebops.org',
+        port: 3000
+      },
+      '/^\\/laid-papers/': {
+        host: 'thorney.pdswebops.org',
+        port: 3000
+      },
+      '/^\\/procedures/': {
+        host: 'thorney.pdswebops.org',
+        port: 3000
+      },
+      '/^\\/work-packages/current/': {
+        host: 'thorney.pdswebops.org',
+        port: 3000
+      },
+      '/^\\/work-packages/paper-types/': {
+        host: 'thorney.pdswebops.org',
+        port: 3000
+      },
       '/^\\/search/': {
+        host: 'thorney.pdswebops.org',
+        port: 3000
+      },
+      '/^\\/statutory-instruments\\/[a-zA-z0-9]{8}\\/?$/': {
+        host: 'thorney.pdswebops.org',
+        port: 3000
+      },
+      '/^\\/houses\\/[a-zA-z0-9]{8}\\/made-available/': {
         host: 'thorney.pdswebops.org',
         port: 3000
       },

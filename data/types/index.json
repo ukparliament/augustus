@@ -1,0 +1,234 @@
+{
+  "layout": {
+    "template": "layout"
+  },
+  "meta": {
+    "title": "types.title",
+    "request-id": "|Pk5Jq3rkRal4MA==.",
+    "open-graph": {
+      "title": "Types - UK Parliament",
+      "original-url": "https://localhost/",
+      "image-url": "https://static.parliament.uk/assets-public/opengraph-oblong.png",
+      "image-width": "1200",
+      "image-height": "630",
+      "twitter-card": "summary_large_image"
+    },
+    "opensearch-description-url": "https://localhost/search/opensearch"
+  },
+  "header-components": [
+    {
+      "name": "link",
+      "data": {
+        "link": "#content",
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "skip-to-content"
+            }
+          ]
+        },
+        "selector": "skiplink",
+        "content": "shared.header.skip-to-content"
+      }
+    },
+    {
+      "name": "header",
+      "data": {
+        "components": [
+          {
+            "name": "link",
+            "data": {
+              "link": "/",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "uk_parliament"
+                  }
+                ]
+              },
+              "label": "shared.header.label",
+              "components": [
+                {
+                  "name": "icon__uk-parliament",
+                  "data": "shared.header.label"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "main-components": [
+    {
+      "name": "section__primary",
+      "data": {
+        "content-flag": true,
+        "components": [
+          {
+            "name": "heading1",
+            "data": {
+              "heading": {
+                "content": "types.heading"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "section__section",
+      "data": {
+        "display": {
+          "name": "partials__display",
+          "data": [
+            {
+              "component": "section",
+              "variant": "major"
+            },
+            {
+              "component": "section",
+              "variant": "wide"
+            }
+          ]
+        },
+        "components": [
+          {
+            "name": "list__generic",
+            "data": {
+              "type": "ol",
+              "display": {
+                "name": "partials__display",
+                "data": [
+                  {
+                    "component": "list",
+                    "variant": "block"
+                  },
+                  {
+                    "component": "list",
+                    "variant": "3"
+                  }
+                ]
+              },
+              "components": [
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "types.lists.link",
+                        "data": {
+                          "link": "/types/lists"
+                        },
+                        "size": 2
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "types.things.link",
+                        "data": {
+                          "link": "/types/things"
+                        },
+                        "size": 2
+                      }
+                    }
+                  }
+                },
+                {
+                  "name": "card__generic",
+                  "data": {
+                    "heading": {
+                      "name": "heading",
+                      "data": {
+                        "content": "types.utilities.link",
+                        "data": {
+                          "link": "/types/utilities"
+                        },
+                        "size": 2
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "name": "heading",
+            "data": {
+              "content": "shared.notes.heading",
+              "size": 2
+            }
+          },
+          {
+            "name": "list__generic",
+            "data": {
+              "type": "ul",
+              "contents": [
+                {
+                  "content": "shared.notes.note-1"
+                },
+                {
+                  "content": "shared.notes.note-2"
+                },
+                {
+                  "content": "shared.notes.note-3"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "footer-components": [
+    {
+      "name": "footer",
+      "data": {
+        "heading": {
+          "name": "heading",
+          "data": {
+            "size": 2,
+            "content": "shared.footer.uk-parliament"
+          }
+        },
+        "list-generic": {
+          "name": "list__generic",
+          "data": {
+            "type": "ul",
+            "display": {
+              "name": "partials__display",
+              "data": [
+                {
+                  "component": "list"
+                }
+              ]
+            },
+            "contents": [
+              {
+                "content": "shared.footer.current-website"
+              },
+              {
+                "content": "shared.footer.cookie-policy",
+                "data": {
+                  "link": "/meta/cookie-policy"
+                }
+              },
+              {
+                "content": "shared.footer.data-protection-privacy"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
