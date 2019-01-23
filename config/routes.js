@@ -90,14 +90,14 @@ function generateProxyTargets (thorneyHost, legacyHost, includePrototypes) {
       port: thorneyPort
     },
 
-    // Match requests to /statutory-instruments/<8_character_alphanumeric_id>
-    '/^\\/statutory-instruments\\/[a-zA-z0-9]{8}\\/?$/': {
+    // Match requests to /houses/<8_character_alphanumeric_id>/made-available/
+    '/^\\/houses\\/[a-zA-z0-9]{8}\\/made-available/': {
       host: thorneyHost,
       port: thorneyPort
     },
 
-    // Match requests to /houses/<8_character_alphanumeric_id>/made-available/
-    '/^\\/houses\\/[a-zA-z0-9]{8}\\/made-available/': {
+    // Match requests to /treaties
+    '/^\\/treaties/': {
       host: thorneyHost,
       port: thorneyPort
     },

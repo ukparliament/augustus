@@ -54,11 +54,11 @@ describe('routes', () => {
         host: 'thorney.web1live.org',
         port: 3000
       },
-      '/^\\/statutory-instruments\\/[a-zA-z0-9]{8}\\/?$/': {
+      '/^\\/houses\\/[a-zA-z0-9]{8}\\/made-available/': {
         host: 'thorney.web1live.org',
         port: 3000
       },
-      '/^\\/houses\\/[a-zA-z0-9]{8}\\/made-available/': {
+      '/^\\/treaties/': {
         host: 'thorney.web1live.org',
         port: 3000
       },
@@ -116,11 +116,11 @@ describe('routes', () => {
         host: 'thorney.web1devci.org',
         port: 3000
       },
-      '/^\\/statutory-instruments\\/[a-zA-z0-9]{8}\\/?$/': {
+      '/^\\/houses\\/[a-zA-z0-9]{8}\\/made-available/': {
         host: 'thorney.web1devci.org',
         port: 3000
       },
-      '/^\\/houses\\/[a-zA-z0-9]{8}\\/made-available/': {
+      '/^\\/treaties/': {
         host: 'thorney.web1devci.org',
         port: 3000
       },
@@ -178,11 +178,11 @@ describe('routes', () => {
         host: 'thorney.pdswebops.org',
         port: 3000
       },
-      '/^\\/statutory-instruments\\/[a-zA-z0-9]{8}\\/?$/': {
+      '/^\\/houses\\/[a-zA-z0-9]{8}\\/made-available/': {
         host: 'thorney.pdswebops.org',
         port: 3000
       },
-      '/^\\/houses\\/[a-zA-z0-9]{8}\\/made-available/': {
+      '/^\\/treaties/': {
         host: 'thorney.pdswebops.org',
         port: 3000
       },

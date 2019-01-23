@@ -197,5 +197,11 @@
       },
       "about": "Find out more about the <a href='https://www.parliament.uk/about/how/laws/secondary-legislation/'>{{-procedure}} procedure</a>."
     }
+  },
+  "treaties": {
+    "show": {
+      "subheading": "<a href='{{-link}}'>Treaties</a>"
+    },
+    "type": "Treaty"
   }
 }
