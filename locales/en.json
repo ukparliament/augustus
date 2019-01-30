@@ -129,7 +129,8 @@
   },
   "statutory-instruments": {
     "index": {
-      "title": "Statutory instruments - UK Parliament"
+      "title": "Statutory instruments - UK Parliament",
+      "status-message": "This page is a list of statutory instruments (SIs). If you’re looking for the SI homepage, it has moved to <a href='{{-link}}'>Find a statutory instrument</a>. Please update your bookmarks or favourites."
     },
     "show": {
       "subheading": "<a href='{{-link}}'>Statutory Instruments</a>",
