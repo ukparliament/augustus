@@ -1,6 +1,6 @@
 {
   "name": "augustus",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A proposed front-end prototype for beta.parliament.uk",
   "main": "app.js",
   "scripts": {
