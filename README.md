@@ -36,7 +36,7 @@ npm cache clean --force && npm test
 ```
 
 ## Running the application
-To run the application locally, open 2 terminal shells. In one run:
+To run the application locally using example data, open 2 terminal shells. In one run:
 
 ```bash
 npm cache clean --force && node app.js
@@ -48,7 +48,9 @@ In the other shell run:
 ```bash
 node_modules/.bin/shunter-serve
 ```
-To run the shunter serve.
+To run the shunter serve.  
+
+If you wish to use live data you will need to have a JSON feed coming into port 5401.
 
 The application should now be available at [http://localhost:5400][local].
 
