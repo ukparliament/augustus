@@ -90,6 +90,10 @@
       "statutory-instruments": {
         "heading": "<a href='{{-link}}'>Statutory instruments</a>",
         "find": "Find all statutory instruments and follow their progress."
+      },
+      "treaties": {
+        "heading": "<a href='{{-link}}'>Treaties</a>",
+        "find": "Find all treaties and follow their progress."
       }
     },
     "guides": {
