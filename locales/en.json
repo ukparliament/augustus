@@ -113,6 +113,7 @@
     "procedural-activity": "Procedural activity",
     "procedure": "Procedure",
     "laying-body": "Laying body",
+    "lead-government-organisation": "Lead government organisation",
     "web-link": "Web link"
   },
   "layig-bodies": {
@@ -130,6 +131,9 @@
     "results-heading": "Search results for",
     "count": "<span>About {{count}} results</span>",
     "no-results": "There are no results for your search"
+  },
+  "series-membership": {
+    "series-item-citation": "Series item citation"
   },
   "statutory-instruments": {
     "index": {
