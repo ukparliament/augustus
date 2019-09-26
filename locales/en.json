@@ -12,6 +12,7 @@
     },
     "footer": {
       "uk-parliament": "UK Parliament",
+      "accessibility-statement": "<a href='https://www.parliament.uk/site-information/accessibility'>Accessibility Statement</a>",
       "current-website": "<a href='http://www.parliament.uk'>Current Parliament.uk website</a>",
       "cookie-policy": "<a href='{{-link}}'>Cookie Policy</a>",
       "data-protection-privacy": "<a href='https://www.parliament.uk/site-information/data-protection/data-protection-and-privacy-policy/'>Data protection and privacy policy</a>"

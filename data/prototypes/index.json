@@ -173,6 +173,9 @@
             },
             "contents": [
               {
+                "content": "shared.footer.accessibility-statement"
+              },
+              {
                 "content": "shared.footer.current-website"
               },
               {
